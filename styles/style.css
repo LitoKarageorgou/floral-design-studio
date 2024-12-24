@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    background-color: whitesmoke;
+}
+
+.menu{
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+}
+
+.logo{
+    height:100%;
+    width: auto;
+    padding: 1em;
+}
+
+.logo img{
+    height:100%;
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    gap: 0.4em;
+    height:30%;
+    width: 10%;
+}
+
+.social img{
+    height: 100%;
+}
+
+/* Hero Section */
