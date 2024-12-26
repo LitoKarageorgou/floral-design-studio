@@ -9,3 +9,8 @@ Version 1.1.0 - 24-12-2024
 -Created the navbar.
 -Added menu, logo and social media icons to the navbar.
 -Linked favicon website in the footer.
+
+Version 1.1.1 - 26-12-2024
+-Fixed uncentered logo bug.
+-Refined header code.
+-Started hero section.
