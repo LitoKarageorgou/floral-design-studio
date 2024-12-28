@@ -1,69 +1,230 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: #333;
-}
-
-.container{
-    display: grid;
-    grid-template-rows: 0.1fr 1fr 0.2fr;
-    grid-template-columns: 1fr;
-    min-height: 100vh;
+.outer-container {
+  display: grid;
+  grid-template-rows: 0.1fr 2.7fr 0.2fr;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
 }
 
 /* Navbar */
-/* .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: whitesmoke;
-    position: relative;
-    font-size: 0.8em;
-    padding: 0 6em;
-} */
-
-.navbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    font-size: 0.8em;
+.navbar a {
+  text-decoration: none;
+  color: #333;
 }
 
-.menu{
-    display: flex;
-    justify-content: center;
-    gap: 2em;
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  font-size: 0.8em;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
-    /* position: absolute;
-    left: 50%;
-    transform: translateX(-50%); */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
 }
 
-.logo img{
-    padding: 2em 0;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
-.social{
-    display: flex;
-    justify-content: center;
-    gap: 0.7em;
+.logo img {
+  padding: 2em 0;
 }
 
-.social img{
-    height: 1.1rem;
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 0.7em;
 }
 
-/* Hero Sectio */
-.hero-section{
-    background: #333;
-    height: 100%;
+.social img {
+  height: 1.1rem;
+}
+
+/* Hero Section */
+main {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr 0.9fr 0.8fr 0.8fr 1fr;
+}
+
+.hero-section {
+  background: url("") #333 no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-section-text {
+  width: 30%;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+/* Website Introduction */
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  width: 40%;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+/* Portfolio Overview */
+.portfolio-overview-container{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.portfolio-overview-container h2 {
+  text-align: center;
+  padding-bottom: 1.9rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.portfolio-overview-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.portfolio-overview-img {
+  min-height: 500px;
+  min-width: 350px;
+  background: url("") #333;
+}
+
+.portfolio-overview-button{
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  color: #333;
+  border-bottom: 0.5px solid beige;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Services Overview */
+.services-overview-container{
+  padding: 1em 0;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.services-overview-image{
+  min-height: 550px;
+  min-width: 450px;
+  background-color: #333;
+}
+
+.services-overview-text{
+  width: 34%;
+  padding: 0 4rem;
+}
+
+.services-overview-text h2{
+  padding: 3rem 0;
+}
+
+.services-overview-button{
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  color: #333;
+  border-bottom: 0.5px solid beige;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* About Overview */
+.about-overview-container{
+  padding: 1em 0;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.about-overview-text{
+  width: 34%;
+  padding: 0 4rem;
+}
+
+.about-overview-text h2{
+  padding: 3rem 0;
+}
+
+.about-overview-button{
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  color: #333;
+  border-bottom: 0.5px solid beige;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-overview-image{
+  min-height: 550px;
+  min-width: 450px;
+  background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+  background: #333;
+  color: white;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
 }

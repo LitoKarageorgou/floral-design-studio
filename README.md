@@ -14,3 +14,11 @@ Version 1.1.1 - 26-12-2024
 -Fixed uncentered logo bug.
 -Refined header code.
 -Started hero section.
+
+Version 1.2.0 - 28-12-2024
+-Finished hero section.
+-Added site intro section.
+-Added portfolio intro section.
+-Added services overview section.
+-Added about us overrview section.
+-Started featured in section.
