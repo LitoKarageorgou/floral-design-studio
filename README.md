@@ -5,20 +5,20 @@ Version 1.0.0 - 23-12-2024
 - Set up the website title.
 
 Version 1.1.0 - 24-12-2024
--Added favicon.
--Created the navbar.
--Added menu, logo and social media icons to the navbar.
--Linked favicon website in the footer.
+- Added favicon.
+- Created the navbar.
+- Added menu, logo and social media icons to the navbar.
+- Linked favicon website in the footer.
 
 Version 1.1.1 - 26-12-2024
--Fixed uncentered logo bug.
--Refined header code.
--Started hero section.
+- Fixed uncentered logo bug.
+- Refined header code.
+- Started hero section.
 
 Version 1.2.0 - 28-12-2024
--Finished hero section.
--Added site intro section.
--Added portfolio intro section.
--Added services overview section.
--Added about us overrview section.
--Started featured in section.
+- Finished hero section.
+- Added site intro section.
+- Added portfolio intro section.
+- Added services overview section.
+- Added about us overrview section.
+- Started featured in section.
