@@ -8,7 +8,8 @@ Version 1.1.0 - 24-12-2024
 - Added favicon.
 - Created the navbar.
 - Added menu, logo and social media icons to the navbar.
-- Linked favicon website in the footer.
+- Add footer.
+- Linked favicon and social media icons websites in the footer.
 
 Version 1.1.1 - 26-12-2024
 - Fixed uncentered logo bug.
@@ -22,3 +23,10 @@ Version 1.2.0 - 28-12-2024
 - Added services overview section.
 - Added about us overrview section.
 - Started featured in section.
+
+Version 1.3.0 - 29-12-2024
+- Finished featured in section.
+- Add testimonials section.
+- Add newsletter section.
+- Finished footer.
+- Fixed container proportions bug.
