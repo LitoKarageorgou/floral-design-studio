@@ -8,7 +8,7 @@ Version 1.1.0 - 24-12-2024
 - Added favicon.
 - Created the navbar.
 - Added menu, logo and social media icons to the navbar.
-- Add footer.
+- Added footer.
 - Linked favicon and social media icons websites in the footer.
 
 Version 1.1.1 - 26-12-2024
@@ -19,14 +19,18 @@ Version 1.1.1 - 26-12-2024
 Version 1.2.0 - 28-12-2024
 - Finished hero section.
 - Added site intro section.
-- Added portfolio intro section.
+- Added portfolio overrview section.
 - Added services overview section.
 - Added about us overrview section.
 - Started featured in section.
 
 Version 1.3.0 - 29-12-2024
 - Finished featured in section.
-- Add testimonials section.
-- Add newsletter section.
-- Finished footer.
+- Added testimonials section.
+- Added newsletter section.
+- Continued footer.
 - Fixed container proportions bug.
+
+Version 1.3.1 - 30-12-2024
+- Finished footer.
+- Refined code.
