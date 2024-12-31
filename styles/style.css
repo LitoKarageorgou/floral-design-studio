@@ -29,40 +29,40 @@ ul{
   font-size: 0.8em;
 }
 
-.menu {
+.navbar_menu {
   display: flex;
   justify-content: center;
   gap: 2em;
 }
 
-.navbar-logo {
+.navbar_logo {
   display: flex;
   justify-content: center;
 }
 
-.navbar-logo img {
+.navbar_logo img {
   padding: 2em 0;
 }
 
-.navbar-social {
+.navbar_social {
   display: flex;
   justify-content: center;
   gap: 0.7em;
 }
 
-.navbar-social img {
+.navbar_social img {
   height: 1.1rem;
 }
 
 /* Main */
-main{
+.main{
   color: #414040;
   /* display: grid;
   grid-template-rows: auto auto auto auto auto auto auto auto; */
 } 
 
 /* Hero Section */
-.hero-section-container {
+.hero_section_container {
   background: url("") #414040 no-repeat center center/cover;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ main{
   height: 80vh;
 }
 
-.hero-section-text {
+.hero_section_text {
   width: 30%;
 }
 
@@ -82,15 +82,15 @@ h1 {
 }
 
 /* Website Introduction */
-.intro-container {
+.intro_container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6rem 0;
 }
 
-.intro-text {
-  width: 40%;
+.intro_text {
+  width: 45%;
   text-align: center;
   line-height: 2rem;
   font-size: 0.8rem;
@@ -98,13 +98,14 @@ h1 {
 }
 
 /* Portfolio Overview */
-.portfolio-overview-container {
+.portfolio_overview_container {
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
 }
-.portfolio-overview-container h2 {
+
+.portfolio_overview_container h2 {
   text-align: center;
   padding-bottom: 1.9rem;
   font-size: 2.5rem;
@@ -112,20 +113,20 @@ h1 {
   color: #414040;
 }
 
-.portfolio-overview-images {
+.portfolio_overview_images {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-.portfolio-overview-img {
+.portfolio_overview_img {
   min-height: 500px;
   min-width: 350px;
   background: url("") #414040;
 }
 
-.portfolio-overview-button {
+.portfolio_overview_button {
   display: inline-block;
   text-transform: uppercase;
   margin: 1.5rem 0;
@@ -137,7 +138,7 @@ h1 {
 }
 
 /* Services Overview */
-.services-overview-container {
+.services_overview_container {
   padding: 1em 0;
   margin: 4rem 0;
   display: flex;
@@ -145,22 +146,22 @@ h1 {
   align-items: center;
 }
 
-.services-overview-image {
+.services_overview_image {
   min-height: 550px;
   min-width: 450px;
   background: url("") #414040;
 }
 
-.services-overview-text {
+.services_overview_text {
   width: 34%;
   padding: 0 4rem;
 }
 
-.services-overview-text h2 {
+.services_overview_text h2 {
   padding: 3rem 0;
 }
 
-.services-overview-button {
+.services_overview_button {
   display: inline-block;
   text-transform: uppercase;
   margin: 1.5rem 0;
@@ -172,7 +173,7 @@ h1 {
 }
 
 /* About Overview */
-.about-overview-container {
+.about_overview_container {
   padding: 1em 0;
   margin: 4rem 0;
   display: flex;
@@ -180,16 +181,16 @@ h1 {
   align-items: center;
 }
 
-.about-overview-text {
+.about_overview_text {
   width: 34%;
   padding: 0 4rem;
 }
 
-.about-overview-text h2 {
+.about_overview_text h2 {
   padding: 3rem 0;
 }
 
-.about-overview-button {
+.about_overview_button {
   display: inline-block;
   text-transform: uppercase;
   margin: 1.5rem 0;
@@ -200,14 +201,14 @@ h1 {
   text-decoration: none;
 }
 
-.about-overview-image {
+.about_overview_image {
   min-height: 550px;
   min-width: 450px;
   background: url("") #414040;
 }
 
 /* Featured in */
-.featured-in-container {
+.featured_in_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,7 +218,7 @@ h1 {
   padding: 4rem 0;
 }
 
-.featured-in-container h2 {
+.featured_in_container h2 {
   margin-bottom: 2rem;
 }
 
@@ -229,7 +230,7 @@ h1 {
 }
 
 /* Testimonials */
-.testimonians-container {
+.testimonians_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,31 +238,30 @@ h1 {
   margin: 4rem 0;
 }
 
-.testimonials-inner-container {
+.testimonials_inner_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.testimonians-container h2 {
+.testimonians_container h2 {
   margin-bottom: 2rem;
 }
 
-.testimonials-wrap {
+.testimonials_wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 30%;
   background: #bebebe;
-
   text-align: center;
 }
 
-.testimonials-text h3 {
+.testimonials_text h3 {
   padding: 3rem;
 }
 
-.testimonials-text {
+.testimonials_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -270,12 +270,12 @@ h1 {
   padding: 3rem;
 }
 
-.testimonials-text p {
+.testimonials_text p {
   padding: 0 3rem 3rem 3rem;
 }
 
 /* Newsletter*/
-.newsletter-container {
+.newsletter_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -283,7 +283,7 @@ h1 {
   margin: 4rem 0;
 }
 
-.newsletter-wrap {
+.newsletter_wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -293,11 +293,11 @@ h1 {
   padding: 3rem;
 }
 
-.newsletter-wrap h2 {
+.newsletter_wrap h2 {
   padding-bottom: 2rem;
 }
 
-.newsletter-text {
+.newsletter_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,7 +306,7 @@ h1 {
   padding-bottom: 2rem;
 }
 
-.newsletter-subscribe-button {
+.newsletter_subscribe_button {
   display: flex;
   justify-content: center;
   align-items: center;
