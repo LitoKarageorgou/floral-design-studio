@@ -34,3 +34,10 @@ Version 1.3.0 - 29-12-2024
 Version 1.3.1 - 30-12-2024
 - Finished footer.
 - Refined code.
+
+Version 1.4.0 - 31-12-2024
+- Switched code to BEM methodology.
+- Added contact form to the homepage.
+- Created seperate sections for weddings and other events.
+- Edited testimonials section.
+- Refined code.
