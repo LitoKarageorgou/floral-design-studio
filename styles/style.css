@@ -9,6 +9,7 @@
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
 ul {
@@ -63,7 +64,7 @@ ul {
   padding-bottom: 10rem;
 }
 
-.main h2{
+.main h2 {
   font-size: 2.5rem;
 }
 
@@ -86,7 +87,6 @@ h1 {
   color: white;
   font-size: 3rem;
 }
-
 
 /* Website Introduction */
 .intro_container {
@@ -227,10 +227,12 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin: 2rem;
 }
 
 .featured_in_container h2 {
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .magazines {
@@ -247,7 +249,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background: url("") #414040;
-  height: 70vh;
+  height: 80vh;
 }
 
 .testimonials_inner_container {
@@ -268,7 +270,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  height:80%;
+  height: 80%;
   background: #bebebe;
   text-align: center;
 }
@@ -334,43 +336,17 @@ h1 {
   height: 100%;
   background: url("") #414040;
 }
-/* Newsletter*/
-/* .newsletter_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.newsletter_wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 30%;
-  background: #bebebe;
-  text-align: center;
-  padding: 3rem;
+.contact_form_button {
+  text-transform: uppercase;
+  padding: 1rem;
+  color: white;
+  background-color: #a2845e;
+  border: none;
+  cursor: pointer;
+  /* width: 20%;
+  margin: auto; */
 }
-
-.newsletter_wrap h2 {
-  padding-bottom: 2rem;
-}
-
-.newsletter_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
-}
-
-.newsletter_subscribe_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
-} */
 
 /* Footer */
 .footer {
@@ -384,57 +360,33 @@ h1 {
 .footer a {
   color: white;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
-.footer p {
-  font-size: 0.8rem;
+.footer h3 {
+  padding-bottom: 1.5rem;
 }
 
 .footer_wrap {
-  width: 70%;
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 10rem 3rem 10rem;
 }
 
 /* Row 1 */
 .footer_row_1 {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-}
-
-/* Navigation */
-.footer_nav {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer_nav-list {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 1.8rem;
-}
-
-.footer_nav-list a {
-  text-transform: uppercase;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 8rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Logo & Text */
-.footer_brand {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-
 .footer_brand_wrap {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .footer_logo img {
@@ -442,8 +394,8 @@ h1 {
 }
 
 .footer_text {
-  padding: 1.5rem;
-  text-align: center;
+  padding: 1.5rem 0;
+  text-align: left;
 }
 
 .footer_social {
@@ -458,23 +410,24 @@ h1 {
   filter: invert(1);
 }
 
-/* Contact */
-.footer_contact {
+/* Navigation */
+.footer_nav-list {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: start;
   align-items: start;
+  gap: .8rem;
 }
 
+/* .footer_nav-list a {
+  text-transform: uppercase;
+} */
+
+/* Contact */
 .footer_contact li {
   display: flex;
-  align-items: center;
   gap: 1.2rem;
-  padding: 1rem 0;
-  font-size: 0.8rem;
-}
-
-.footer_contact h3 {
-  padding-bottom: 0.9rem;
+  padding-bottom: 1rem;
 }
 
 .footer_contact p {
@@ -482,17 +435,36 @@ h1 {
   text-align: left;
 }
 
+/*Newsletter*/
+.footer_newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.footer_newsletter input[type="email"] {
+  padding: 0.3rem;
+  height: 1.8rem;
+  border: 0.1rem solid #a2845e;
+}
+
+.footer_newsletter_button {
+  padding: 0.3rem;
+  color: white;
+  background-color: #a2845e;
+  border: none;
+  cursor: pointer;
+  height: 1.8rem;
+}
+
 /* Row 2 */
 .footer_row_2 {
   border-top: 0.3px solid white;
-  margin-top: 1rem;
-  padding: 2rem 0;
+  padding-top: 1.5rem;
   display: flex;
   justify-content: space-between;
-}
-
-.footer_row_2 h4 {
-  display: inline;
+  align-items: center;
 }
 
 .footer_legal {
