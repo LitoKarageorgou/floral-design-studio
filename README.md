@@ -45,3 +45,9 @@ Version 1.4.0 - 31-12-2024
 Version 1.5.0 - 02-01-2025
 - Fixed contact form button.
 - Changed footer layout to match the contents.
+
+Version 1.6.0 - 03-01-2025
+- Changed credits placement in the footer.
+- Created html and css files for the about, services, portfolio and contact pages.
+- Linked all the pages to each other.
+- Added the navbar and the footer to all pages.
