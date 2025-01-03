@@ -41,3 +41,7 @@ Version 1.4.0 - 31-12-2024
 - Created seperate sections for weddings and other events.
 - Edited testimonials section.
 - Refined code.
+
+Version 1.5.0 - 02-01-2025
+- Fixed contact form button.
+- Changed footer layout to match the contents.
