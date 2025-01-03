@@ -197,7 +197,8 @@
             <input type="text" id="fullname" placeholder="Full name" name="name">
             <input type="email" name="email" id="email" placeholder="Email adress">
             <input type="tel" name="phone" id="phone" placeholder="Phone number">
-            <input type="date" name="date" placeholder="Date of the event">
+            <input type="text" id=date name="date" placeholder="Date of the event">
+            <!-- onfocus="(this.type='date')" onblur="(this.type='text') -->
             <input type="text" name="address" id="address" placeholder="Location of event">
             <textarea name="message" id="message" placeholder="Message"></textarea>
             <button type="submit" class="contact_form_button">Send message</a>
@@ -240,18 +241,10 @@
                 <a href="#">
                   <img src="images/tik-tok.png" alt="Tik Tok" />
                 </a>
-              </div>
-
-              <div class="footer_credits">
-                <p>
-                  <a target="_blank" href="https://icons8.com/icon/mHR6Am8NPK1s/flower">Flower</a>
-                  icon by
-                  <a target="_blank" href="https://icons8.com">Icons8</a> <br>
-                  <a href="https://www.flaticon.com/free-icons/social-media" title="social media icons">Social media icons created by Freepik - Flaticon</a>
-                </p>
-              </div>
+              </div>              
             </div>
           </div>
+
           <!-- Navigation -->
           <nav class="footer_nav">
             <h3>Quick Links</h3>
@@ -294,9 +287,15 @@
         <!-- Row 2 -->
         <div class="footer_row_2">
           <!-- Legal -->
-          <div>
-            <p> &copy; 2024 Lito Karageorgou </p>
-          </div>
+            <div class="footer_credits">
+              <p>
+                &copy; 2024 Lito Karageorgou |
+                <a target="_blank" href="https://icons8.com/icon/mHR6Am8NPK1s/flower">Flower</a>
+                icon by
+                <a target="_blank" href="https://icons8.com">Icons8</a> |
+                <a href="https://www.flaticon.com/free-icons/social-media" title="social media icons">Social media icons created by Freepik - Flaticon</a>
+              </p>
+            </div>
           <div class="footer_legal">
             <a href="#">Terms & Conditions</a>
             <a href="#">Privacy Policy</a>
