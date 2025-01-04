@@ -242,6 +242,10 @@ main h2, p{
   padding: 4rem 10rem 3rem 10rem;
 }
 
+.footer p{
+  color: white;
+}
+
 /* Row 1 */
 .footer_row_1 {
   display: grid;
