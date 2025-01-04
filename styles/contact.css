@@ -3,7 +3,15 @@
     margin: 0;
     box-sizing: border-box;
   }
-    
+  
+  .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  }
+
   ul {
     list-style: none;
   }
@@ -46,6 +54,114 @@
   .navbar_social img {
     height: 1.1rem;
   }
+
+  /* Main */
+  .main {
+    color: #414040;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  /* Hero Section */
+.hero_section_container {
+  background: url("") #414040 no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+}
+
+.hero_section_text {
+  width: 30%;
+}
+
+.hero_section_text h2{
+    color: white;
+    font-size: 3rem;
+}
+
+  /* Contact Form */
+.contact_form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.contact_form_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 32%;
+  background: #bebebe;
+  text-align: center;
+  padding: 3rem;
+}
+
+.contact_form_wrap h2 {
+  text-transform: capitalize;
+}
+
+.contact_form_text {
+  padding: 2rem;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact_form input,
+.contact_form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 0.5px solid white;
+  background-color: #bebebe;
+}
+
+.contact_form_img {
+  width: 15%;
+  height: 50%;
+  background: url("") #414040;
+}
+
+.contact_form_button {
+  text-transform: uppercase;
+  padding: 1rem;
+  color: white;
+  background-color: #a2845e;
+  border: none;
+  cursor: pointer;
+  /* width: 20%;
+  margin: auto; */
+}
+
+/* Contact Info */
+.contact_info_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_info_boxes{
+  display: flex;
+  gap: 3rem;
+  background-color: #bebebe;
+  width: 10rem;
+  height: 10rem;
+}
+
+.contact_info_box{
+  display: flex;
+  flex-direction: column;
+}
 
   /* Footer */
 .footer {
