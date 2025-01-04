@@ -54,3 +54,9 @@ Version 1.6.0 - 03-01-2025
 - Added hero section to contact page.
 - Added contact form to contact page.
 - Started contact info section of the contact page.
+
+Version 1.7.0 - 04-01-2025
+- Finished contact info section of the contact page.
+- Added map to contact page.
+- Added social media section to contact page.
+- Edited contact form.

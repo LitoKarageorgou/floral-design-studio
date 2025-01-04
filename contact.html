@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
+  <title>Contact | Floral Design Studio</title>
   <link rel="stylesheet" href="styles/contact.css" />
   <link rel="icon" href="images/icons8-flower-16.png" />
 </head>
@@ -66,7 +66,9 @@
             <input type="text" id=date name="date" placeholder="Date of the event">
             <!-- onfocus="(this.type='date')" onblur="(this.type='text') -->
             <input type="text" name="address" id="address" placeholder="Location of event">
-            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <!-- <input type="number" name="budget" id="budget" placeholder="Budget for the floral design"> -->
+            <input type="text" name="referral_source" id="referral_source" placeholder="How did you hear about us?">
+            <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
             <button type="submit" class="contact_form_button">Send message</a>
           </form>
         </div>
@@ -75,28 +77,53 @@
 
       <!-- Contact Info -->
       <div class="contact_info_container">
-        <h2>Contact Information</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum cum nostrum totam esse molestiae asperiores
-          perspiciatis similique neque aut animi.</p>
-        <div class="contact_info_boxes">
-          <div class="contact_info_box">
-            <img src="images/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Phone Number">
-            <h3>Phone Number</h3>
-            <p>+1(949)345-2574</p>
+        <div class="contact_info_wrap">
+          <div class="contact_info_text">
+            <h2>Contact Information</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum cum nostrum totam esse molestiae
+              perspiciatis similique neque aut animi.</p>
           </div>
 
-          <div class="contact_info_box">
-            <img src="images/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Email">
-            <h3>Email Address</h3>
-            <p>email@email.com</p>
-          </div>
+          <div class="contact_info_boxes">
+            <div class="contact_info_box">
+              <img src="images/call-brown.svg" alt="Phone Number">
+              <h3>Phone Number</h3>
+              <p>+1(949)345-2574</p>
+            </div>
 
-          <div class="contact_info_box">
-            <img src="images/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Address">
-            <h3>Address</h3>
-            <p>4 Privet Drive, Little Whinging, Surrey</p>
+            <div class="contact_info_box">
+              <img src="images/mail-brown.svg" alt="Email">
+              <h3>Email Address</h3>
+              <p>email@email.com</p>
+            </div>
+
+            <div class="contact_info_box">
+              <img src="images/location-brown.svg" alt="Address">
+              <h3>Address</h3>
+              <p>4 Privet Drive, Little Whinging, Surrey</p>
+            </div>
           </div>
         </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2473.291091976451!2d-0.41932822306631806!3d51.69111799726521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876402fabd5cc11%3A0xf1355f57a03a3cba!2s4%20Privet%20Drive!5e0!3m2!1sen!2sgr!4v1736001830112!5m2!1sen!2sgr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Social Media -->
+      <div class="social_media">
+        <h2>Follow us on Social Media</h2>
+        <div class="social_media_icons">
+          <img src="images/instagram.png" alt="Instagram">
+          <img src="images/little-facebook-logo.png" alt="Facebook">
+          <img src="images/pinterest.png" alt="Pinterest">
+          <img src="images/tik-tok.png" alt="Tik Tok">
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
@@ -154,8 +181,8 @@
               <h3>Contact</h3>
               <ul class="footer_contact-list">
                 <li>
-                  <img src="images/location_on_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Location"> 26859
-                  Brighton Lane, Lake Forest, CA 92630
+                  <img src="images/location_on_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Location"> 4 Privet
+                  Drive, Little Whinging, Surrey
                 </li>
                 <li><img src="images/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Phone Number">+1(949)
                   345-2574</li>
