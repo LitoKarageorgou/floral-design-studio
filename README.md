@@ -60,3 +60,10 @@ Version 1.7.0 - 04-01-2025
 - Added map to contact page.
 - Added social media section to contact page.
 - Edited contact form.
+
+Version 1.8.0 - 05-01-2025
+- Added hero section, portfolio section and newsletter section to portfolio page.
+- Added hero section, weddings section, events & galas section, private dinners section, pr events section and testimonials section to services page.
+- Updated homepage to simplify code.
+- Added hero section to about page.
+

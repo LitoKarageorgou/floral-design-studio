@@ -47,6 +47,34 @@
     height: 1.1rem;
   }
 
+  /* Main */
+.main {
+  color: #414040;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Hero Section */
+.hero_section_container {
+  background: url("") #414040 no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+}
+
+.hero_section_text {
+  width: 30%;
+}
+
+.hero_section_text h2 {
+  color: white;
+  font-size: 3rem;
+}
   /* Footer */
 .footer {
   background: #414040;
@@ -118,10 +146,6 @@
   gap: .8rem;
 }
 
-/* .footer_nav-list a {
-  text-transform: uppercase;
-} */
-
 /* Contact */
 .footer_contact li {
   display: flex;
@@ -148,7 +172,7 @@
   border: 0.1rem solid #a2845e;
 }
 
-.footer_newsletter_button {
+.footer_newsletter button {
   padding: 0.3rem;
   color: white;
   background-color: #a2845e;
