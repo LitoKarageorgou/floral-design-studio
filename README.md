@@ -2,11 +2,11 @@ Version 1.0.0 - 23-12-2024
 - Created initial project structure.
 - Added `index.html` and `style.css` files.
 - Linked HTML and CSS files.
-- Set up the website title.
+- Added website title.
 
 Version 1.1.0 - 24-12-2024
 - Added favicon.
-- Created the navbar.
+- Added navbar.
 - Added menu, logo and social media icons to the navbar.
 - Added footer.
 - Linked favicon and social media icons websites in the footer.
@@ -49,7 +49,7 @@ Version 1.5.0 - 02-01-2025
 Version 1.6.0 - 03-01-2025
 - Changed credits placement in the footer.
 - Created html and css files for the about, services, portfolio and contact pages.
-- Linked all the pages to each other.
+- Linked all pages to each other.
 - Added navbar and footer to all pages.
 - Added hero section to contact page.
 - Added contact form to contact page.
@@ -63,7 +63,7 @@ Version 1.7.0 - 04-01-2025
 
 Version 1.8.0 - 05-01-2025
 - Added hero section, portfolio section and newsletter section to portfolio page.
-- Added hero section, weddings section, events & galas section, private dinners section, pr events section and testimonials section to services page.
+- Added hero section, weddings section, events & galas section, private dinners section, PR events section and testimonials section to services page.
 - Updated homepage to simplify code.
 - Added hero section to about page.
 
