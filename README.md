@@ -67,3 +67,8 @@ Version 1.8.0 - 05-01-2025
 - Updated homepage to simplify code.
 - Added hero section to about page.
 
+Version 1.9.0 - 08-01-2025
+- Added story, values, designer, call to action, and social media sections to about page.
+- Added newsletter section to contact page.
+- Added social media section to portfolio page.
+

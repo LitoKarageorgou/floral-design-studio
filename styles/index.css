@@ -89,14 +89,9 @@ h1 {
 }
 
 /* Website Introduction */
-.intro_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .intro_text {
   width: 45%;
+  margin: auto;
   text-align: center;
   line-height: 2rem;
   font-size: 0.8rem;
@@ -113,7 +108,7 @@ h1 {
 
 .portfolio_overview_container h2 {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   text-transform: uppercase;
 }
 
@@ -125,8 +120,8 @@ h1 {
 }
 
 .portfolio_overview_img {
-  min-height: 33rem;
-  min-width: 22rem;
+  min-height: 34rem;
+  min-width: 23.5rem;
   background: url("") #414040;
 }
 
@@ -150,8 +145,8 @@ h1 {
 }
 
 .section_overview_img {
-  min-height: 550px;
-  min-width: 450px;
+  min-height: 40rem;
+  min-width: 32rem;
   background: url("") #414040;
 }
 

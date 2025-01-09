@@ -85,8 +85,8 @@
 }
 
 .section_img {
-  min-height: 550px;
-  min-width: 450px;
+  min-height: 40rem;
+  min-width: 32rem;
   background: url("") #414040;
 }
 
