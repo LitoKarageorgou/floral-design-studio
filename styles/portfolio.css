@@ -169,6 +169,28 @@ a {
   border: none;
   cursor: pointer;
 }
+
+/* Social Media */
+.social_media{
+  margin: auto;
+}
+
+.social_media h2{
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.social_media_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.social_media_icons img {
+  height: 2.2rem;
+  filter: invert(45%);
+}
   
 /* Footer */
 .footer {

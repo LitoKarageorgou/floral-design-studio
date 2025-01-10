@@ -72,3 +72,7 @@ Version 1.9.0 - 08-01-2025
 - Added newsletter section to contact page.
 - Added social media section to portfolio page.
 
+Version 1.9.1 - 09-01-2025
+- Edited featured in section in homepage.
+- Added social media section to services page.
+- Edited social media sections in all pages.

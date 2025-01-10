@@ -58,7 +58,7 @@
 
 /* Hero Section */
 .hero_section_container {
-  background: url("") #414040 no-repeat center center/cover;
+  background: url("/images/dummy-wallpaper2.jpg") #414040 no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,6 +169,8 @@
 
 .social_media h2{
   margin-bottom: 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .social_media_icons{
