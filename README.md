@@ -6,78 +6,70 @@ Version 1.0.0 - 23-12-2024
 
 Version 1.1.0 - 24-12-2024
 - Added favicon.
-- Added navbar.
-- Added menu, logo and social media icons to the navbar.
-- Added footer.
-- Linked favicon and social media icons websites in the footer.
+- Added Navbar with menu, logo, and social media icons.
+- Added Footer with links for the favicon and social media icons.
 
 Version 1.1.1 - 26-12-2024
 - Fixed uncentered logo bug.
-- Refined header code.
-- Started hero section of homepage.
+- Refined Header code.
+- Started Hero Section of Homepage.
 
 Version 1.2.0 - 28-12-2024
-- Finished hero section of homepage.
-- Added site intro section to homepage.
-- Added portfolio overview section to homepage.
-- Added services overview section to homepage.
-- Added about us overview section to homepage.
-- Started featured in section in homepage.
+- Finished Hero Section of Homepage.
+- Added multiple sections to Homepage: Website Intro, Portfolio Overview, Services Overview, and About Us Overview.
+- Started Featured In Section of Homepage.
 
 Version 1.3.0 - 29-12-2024
-- Finished featured in section of homepage.
-- Added testimonials section to homepage.
-- Added newsletter section to homepage.
-- Continued footer.
-- Fixed homepage container proportions bug.
+- Finished Featured In Section of Homepage.
+- Added Testimonials and Newsletter Sections to Homepage.
+- Continued Footer Development.
+- Fixed Homepage container proportions bug.
 
 Version 1.3.1 - 30-12-2024
-- Finished footer.
+- Finished Footer.
 - Refined code.
 
 Version 1.4.0 - 31-12-2024
-- Switched code to BEM methodology.
-- Added contact form to the homepage.
-- Created seperate sections for weddings and other events in homepage.
-- Edited testimonials section in homepage.
+- Refactored code to follow BEM methodology.
+- Added Contact Form to Homepage.
+- Divided Services into Weddings and Events on Homepage.
+- Edited Testimonials Section on Homepage.
 - Refined code.
 
-Version 1.5.0 - 02-01-2025
-- Fixed contact form button in homepage.
-- Changed footer layout to match the contents.
+Version 1.4.1 - 02-01-2025
+- Improved Contact Form button on Homepage.
+- Adjusted Footer layout to match content.
 
-Version 1.6.0 - 03-01-2025
-- Changed credits placement in the footer.
-- Created html and css files for the about, services, portfolio and contact pages.
+Version 1.5.0 - 03-01-2025
+- Added HTML and CSS files for the About, Services, Portfolio and Contact pages.
 - Linked all pages to each other.
-- Added navbar and footer to all pages.
-- Added hero section to contact page.
-- Added contact form to contact page.
-- Started contact info section of the contact page.
+- Incorporated shared elements (Navbar and Footer) into all pages.
+- Added Hero Section to Contact Page.
+- Added Contact Form to Contact Page.
+- Started Contact Info Section of Contact Page.
 
-Version 1.7.0 - 04-01-2025
-- Finished contact info section of the contact page.
-- Added map to contact page.
-- Added social media section to contact page.
-- Edited contact form.
+Version 1.5.1 - 04-01-2025
+- Finished Contact Info Section of Contact Page.
+- Added Map to Contact Page and Social Media Section to Contact Page.
+- Improved Contact Form.
 
-Version 1.8.0 - 05-01-2025
-- Added hero section, portfolio section and newsletter section to portfolio page.
-- Added hero section, weddings section, events & galas section, private dinners section, PR events section and testimonials section to services page.
-- Updated homepage to simplify code.
-- Added hero section to about page.
+Version 1.6.0 - 05-01-2025
+- Expanded content:
+    - Portfolio Page: Hero Section, Portfolio Section, Newsletter Section.
+    - Services Page: Hero Section, Weddings Section, Events & Galas Section, Private Dinners Section, PR Events Section, and Testimonials Section.
+    - About Page: Hero Section.
+- Simplified and optimized Homepage code.
 
-Version 1.9.0 - 08-01-2025
-- Added story, values, designer, call to action, and social media sections to about page.
-- Added newsletter section to contact page.
-- Added social media section to portfolio page.
+Version 1.7.0 - 08-01-2025
+- Added new sections to About Page: Story, Values, Designer, Call-to-Action, and Social Media.
+- Added Newsletter Section to Contact Page.
+- Added Social Media Section to Portfolio Page.
 
-Version 1.9.1 - 09-01-2025
-- Edited featured in section in homepage.
-- Added social media section to services page.
-- Edited social media sections in all pages.
+Version 1.7.1 - 09-01-2025
+- Improved Featured In Section of Homepage.
+- Improved Social Media Section and updated it across all pages.
 
-Version 1.9.2 - 10-01-2025
-- Edited testimonials section in homepage.
-- Fixed portfolio, services and about links in homepage.
-- Added heading in contact form in contact page.
+Version 1.7.2 - 10-01-2025
+- Improved Testimonials Section on Homepage.
+- Fixed Portfolio, Services, and About links on Homepage.
+- Added heading to Contact Form on Contact Page.
