@@ -106,10 +106,6 @@ main h2, p{
   padding: 3rem;
 }
 
-.contact_form_wrap h2 {
-  text-transform: capitalize;
-}
-
 .contact_form_text {
  text-align: left;
  padding: 1rem 0 2rem 0;

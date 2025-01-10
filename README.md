@@ -76,3 +76,8 @@ Version 1.9.1 - 09-01-2025
 - Edited featured in section in homepage.
 - Added social media section to services page.
 - Edited social media sections in all pages.
+
+Version 1.9.2 - 10-01-2025
+- Edited testimonials section in homepage.
+- Fixed portfolio, services and about links in homepage.
+- Added heading in contact form in contact page.
