@@ -70,6 +70,9 @@ Version 1.7.1 - 09-01-2025
 - Improved Social Media Section and updated it across all pages.
 
 Version 1.7.2 - 10-01-2025
-- Improved Testimonials Section on Homepage.
+- Redesigned Testimonials Section of Homepage.
 - Fixed Portfolio, Services, and About links on Homepage.
 - Added heading to Contact Form on Contact Page.
+
+Version 1.7.3 - 11-01-2025
+- Redesigned About Overview Section of Homepage.
