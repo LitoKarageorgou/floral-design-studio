@@ -10,11 +10,15 @@
   grid-template-columns: 1fr;
   min-height: 100vh;
   font-family: "Times New Roman", Times, serif, sans-serif;
-  background-color: #a79999;
+  /* background-color: #a79999; */
 }
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Navbar */
@@ -61,7 +65,7 @@ ul {
   color: #414040;
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 8rem;
   padding-bottom: 10rem;
 }
 
@@ -127,15 +131,17 @@ h1 {
   background: url("") #414040;
 }
 
-.portfolio_overview_button {
+.overview_button {
   display: inline-block;
   text-transform: uppercase;
   margin: 1.5rem 0;
   padding: 1rem 0;
   color: #414040;
-  border-bottom: 0.5px solid beige;
+  border-bottom: 0.5px solid #dcdad5;
   text-align: center;
   text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
 }
 
 /* Weddings & Events */
@@ -162,20 +168,9 @@ h1 {
   padding: 2rem 0;
 }
 
-.overview_button {
-  display: inline-block;
-  text-transform: uppercase;
-  margin: 1.5rem 0;
-  padding: 1rem 0;
-  color: #414040;
-  border-bottom: 0.5px solid beige;
-  text-align: center;
-  text-decoration: none;
-}
-
 /* About */
 .about_overview_container {
-  margin: 4rem 0;
+  margin-bottom: 4rem;
   height: 100vh;
 }
 
@@ -234,24 +229,31 @@ h1 {
   padding: 2rem 0;
   text-transform: uppercase;
   line-height: 1.1;
-  letter-spacing: 0.1rem; ;
+  letter-spacing: 0.1rem;
 }
 
 /* Featured in */
 .featured_in_container {
+  height: 60vh;
+}
+
+.featured_in_wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 2rem;
+  padding: 7rem;
   margin: 2rem 0;
+  background-color: #f6f4f3;
 }
 
 .featured_in_container h2 {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
+  padding: 0.9rem 0 1rem 0;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.5px solid #dcdad5;
 }
 
 .featured_in_magazines {
@@ -259,13 +261,12 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  background-color: #f6f4f3;
-  padding: 3rem;
+  /* width: 60%; */
+  padding: 0 3rem 3rem 3rem;
 }
 
 .featured_in_magazines img {
-  height: 7rem;
+  height: 8rem;
   width: 17rem;
   padding: 2rem;
 }
@@ -280,9 +281,12 @@ h1 {
 }
 
 .testimonials_container h2 {
-  margin-bottom: 3.5rem;
-  font-size: 1.2rem;
+  padding: 0.9rem 0 1rem 0;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.5px solid #dcdad5;
+  margin-bottom: 3.7rem;
 }
 
 .testimonials_wrap {
@@ -292,19 +296,47 @@ h1 {
   height: 100%;
 }
 
-.testimonials_img {
-  min-height: 35rem;
-  min-width: 27rem;
-  background: url("") #414040;
+.testimonials_text {
+  width: 31%;
+  text-align: left;
+  background-color: #f6f4f3;
+  padding: 5rem;
 }
 
-.testimonials_text {
-  width: 25%;
-  text-align: left;
+.testimonials_text h3 {
+  font-size: 2rem;
+  line-height: ;
 }
 
 .testimonials_text p {
-  padding: 0 5rem 3rem 0rem;
+  padding-top: 3rem;
+}
+
+.testimonials_images {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+  height: 100%;
+  width: 25%;
+}
+
+.testimonials_img1 {
+  height: 30rem;
+  width: 24rem;
+  background: url("") #414040;
+  position: absolute;
+  top: 6.5rem;
+  left: -3rem;
+}
+
+.testimonials_img2 {
+  height: 17rem;
+  width: 11rem;
+  background: url("") #5c5a5a;
+  position: absolute;
+  top: 13rem;
+  left: 18rem;
 }
 
 /* Call to Action */
@@ -329,138 +361,57 @@ h1 {
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
   padding: 1rem 0;
-  margin: 1rem 0;
-  color: #dddddd;
-  border-bottom: 0.5px solid beige;
+  margin: 1.1rem 0;
+  color: #414040;
+  padding: 1rem;
+  background-color: #bebab1;
   text-align: center;
   text-decoration: none;
 }
 
-/* Contact Form */
-/* .contact_form_container {
+/* Instagram Grid */
+.instagram_grid_wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
 }
 
-.contact_form_wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 34%;
-  background-color: #dddcdc;
-  text-align: center;
-  padding: 3rem;
-}
-
-.contact_form_wrap h2 {
-  text-transform: capitalize;
-}
-
-.contact_form_text {
- text-align: left;
- padding: 1rem 0 2rem 0;
- line-height: 1.6;
-}
-
-.contact_form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.contact_form input,
-.contact_form textarea {
-  padding: 0.8rem;
-  border: none;
-  border-bottom: 0.5px solid white;
-  background-color: #dddcdc;
-}
-
-.contact_form_img {
-  width: 15%;
-  height: 55%;
-  background: url("/images/premium_photo-2.avif") no-repeat center center/cover
-    #414040;
-}
-
-.contact_form_button {
-  text-transform: uppercase;
-  padding: 1rem;
-  color: white;
-  background-color: #a2845e;
-  border: none;
-  cursor: pointer;
+/* .instagram_grid_wrap h2 {
+  font-weight: 100;
+  padding: 2.5rem;
 } */
 
-/* Newsletter*/
-.newsletter_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.newsletter_wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 30%;
-  background: #f6f4f3;
-  text-align: center;
-  padding: 3rem;
-}
-
-.newsletter_wrap h2 {
-  padding-bottom: 2rem;
-}
-
-.newsletter_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
-}
-
-.newsletter_subscribe input[type="email"] {
-  padding: 0.3rem;
-  height: 1.8rem;
-  border: none;
-}
-.newsletter_subscribe button {
-  padding: 0.3rem;
-  height: 1.8rem;
-  color: white;
-  background-color: #a2845e;
-  border: none;
-  cursor: pointer;
-}
-
-/* Social Media */
-.social_media {
-  margin: auto;
-}
-
-.social_media h2 {
-  margin-bottom: 3rem;
-  font-size: 1rem;
+.instagram_grid_wrap a {
+  padding: 2.5rem;
+  color: #414040;
+  font-size: 0.9rem;
   text-transform: uppercase;
 }
-
-.social_media_icons {
+.instagram_grid_images {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* flex-wrap: wrap; */
   gap: 1rem;
+  /* width: 40%; */
 }
-.social_media_icons img {
-  height: 2.2rem;
-  filter: invert(45%);
+
+.instagram_grid_img {
+  width: 11rem;
+  height: 11rem;
+  background-color: #414040;
 }
+
+/* .instagram_grid_wrap p {
+  padding-top: 4rem;
+  width: 30%;
+  text-align: center;
+  line-height: 1.9;
+} */
+
+/* .instagram_grid_wrap a {
+  color: #414040;
+  padding: 2rem;
+} */
 
 /* Footer */
 .footer {

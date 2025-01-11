@@ -74,5 +74,6 @@ Version 1.7.2 - 10-01-2025
 - Fixed Portfolio, Services, and About links on Homepage.
 - Added heading to Contact Form on Contact Page.
 
-Version 1.7.3 - 11-01-2025
-- Redesigned About Overview Section of Homepage.
+Version 1.8.0 - 11-01-2025
+- Redesigned sections on Homepage: About, Featured In and Testimonials.
+- Replaced Newsletter and Social Media Sections with new Instagram Grid Section on Homepage. 
