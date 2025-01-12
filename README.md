@@ -77,3 +77,7 @@ Version 1.7.2 - 10-01-2025
 Version 1.8.0 - 11-01-2025
 - Redesigned sections on Homepage: About, Featured In and Testimonials.
 - Replaced Newsletter and Social Media Sections with new Instagram Grid Section on Homepage. 
+
+Version 1.8.1 - 11-01-2025
+- Edited Portfolio Section images on Homepage.
+- Deleted commented-out sections.

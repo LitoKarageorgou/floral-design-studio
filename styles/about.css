@@ -7,10 +7,13 @@
   ul {
     list-style: none;
   }
+
+  a{
+    text-decoration: none;
+  }
   
   /* Navbar */
   .navbar a {
-    text-decoration: none;
     color: #414040;
     text-transform: uppercase;
   }
@@ -58,7 +61,7 @@
 
 /* Hero Section */
 .hero_section_container {
-  background: url("/images/dummy-wallpaper2.jpg") #414040 no-repeat center center/cover;
+  background: url("") no-repeat center center/cover  #414040;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,37 +165,31 @@
   text-decoration: none;
 }
 
-/* Social Media */
-.social_media{
-  margin: auto;
-}
-
-.social_media h2{
-  margin-bottom: 3rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-.social_media_icons{
+/* Instagram Grid */
+.instagram_grid_wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-}
-.social_media_icons img {
-  height: 2.2rem;
-  filter: invert(45%);
 }
 
-/* Vision */
-/* .vision_wrap{
-  margin: 2rem 0;
-  width: 40%;
-  margin: auto;
+.instagram_grid_wrap a {
+  padding: 2.5rem;
+  color: #414040;
+  font-size: 0.9rem;
+  text-transform: uppercase;
   text-align: center;
-  line-height: 2rem;
-  font-size: 1.5rem;
-} */
+}
+.instagram_grid_images {
+  display: flex;
+  gap: 1rem;
+}
+
+.instagram_grid_img {
+  width: 11rem;
+  height: 11rem;
+  background-color: #414040;
+}
 
   /* Footer */
 .footer {
@@ -205,7 +202,6 @@
 
 .footer a {
   color: white;
-  text-decoration: none;
   font-size: 0.9rem;
 }
 

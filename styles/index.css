@@ -75,8 +75,7 @@ a {
 
 /* Hero Section */
 .hero_section_container {
-  background: url("/images/dummy-wallpaper3.jpg") #414040 no-repeat center
-    center/cover;
+  background: url("/images/dummy-wallpaper3.jpg") no-repeat center center/cover #414040;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,9 +124,21 @@ h1 {
   gap: 1rem;
 }
 
-.portfolio_overview_img {
-  min-height: 34rem;
-  min-width: 23.5rem;
+.portfolio_overview_img-1 {
+  height: 34rem;
+  width: 21.1rem;
+  background: url("") #414040;
+}
+
+.portfolio_overview_img-2 {
+  height: 34rem;
+  width: 25rem;
+  background: url("") no-repeat center center/cover #414040;
+}
+
+.portfolio_overview_img-3 {
+  height: 34rem;
+  width: 21.1rem;
   background: url("") #414040;
 }
 
@@ -234,7 +245,7 @@ h1 {
 
 /* Featured in */
 .featured_in_container {
-  height: 60vh;
+  height: 65vh;
 }
 
 .featured_in_wrap {
@@ -377,22 +388,16 @@ h1 {
   align-items: center;
 }
 
-/* .instagram_grid_wrap h2 {
-  font-weight: 100;
-  padding: 2.5rem;
-} */
-
 .instagram_grid_wrap a {
   padding: 2.5rem;
   color: #414040;
   font-size: 0.9rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .instagram_grid_images {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 1rem;
-  /* width: 40%; */
 }
 
 .instagram_grid_img {
@@ -400,18 +405,6 @@ h1 {
   height: 11rem;
   background-color: #414040;
 }
-
-/* .instagram_grid_wrap p {
-  padding-top: 4rem;
-  width: 30%;
-  text-align: center;
-  line-height: 1.9;
-} */
-
-/* .instagram_grid_wrap a {
-  color: #414040;
-  padding: 2rem;
-} */
 
 /* Footer */
 .footer {

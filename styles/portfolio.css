@@ -15,7 +15,6 @@ a {
 
 /* Navbar */
 .navbar a {
-  text-decoration: none;
   color: #414040;
   text-transform: uppercase;
 }
@@ -63,7 +62,7 @@ a {
 
 /* Hero Section */
 .hero_section_container {
-  background: url("") #414040 no-repeat center center/cover;
+  background: url("")  no-repeat center center/cover #414040;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,7 +202,6 @@ a {
 
 .footer a {
   color: white;
-  text-decoration: none;
   font-size: 0.9rem;
 }
 
