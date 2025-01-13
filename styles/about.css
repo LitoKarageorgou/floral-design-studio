@@ -3,6 +3,18 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  .container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    /* font-family: Lato, Roboto, serif; */
+    color: rgb(99, 98, 96);
+    /* font-size: 12px; */
+    /* letter-spacing: 2px; */
+    /* background-color: #a79999; */
+  }
     
   ul {
     list-style: none;
