@@ -1,75 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr;
-  min-height: 100vh;
-  /* font-family: Lato, Roboto, serif; */
-  color: rgb(99, 98, 96);
-  /* font-size: 12px; */
-  /* letter-spacing: 2px; */
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* Navbar */
-.navbar a {
-  text-decoration: none;
-  color: #414040;
-  text-transform: uppercase;
-}
-
-.navbar {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  font-size: 0.8em;
-}
-
-.navbar_menu {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-}
-
-.navbar_logo {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar_logo img {
-  padding: 2em 0;
-}
-
-.navbar_social {
-  display: flex;
-  justify-content: center;
-  gap: 0.7em;
-}
-
-.navbar_social img {
-  height: 1.1rem;
-}
-
 /* Main */
 .main {
-  color: rgb(99, 98, 96);
   background-color: #fbfaf7;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  padding-bottom: 5rem;
 }
 
 /* Hero Section */
@@ -249,19 +180,6 @@ a {
 
 .section_text h2 {
   padding: 2rem 0;
-}
-
-.contact_us_button {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
-  margin: 1.5rem 0;
-  padding: 1rem 0;
-  color: #414040;
-  border-bottom: 0.5px solid beige;
-  text-align: center;
-  text-decoration: none;
 }
 
 /* Call to Action */

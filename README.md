@@ -104,3 +104,6 @@ Version 1.9.0 - 13-01-2025
 - Added Process Section on Services Page.
 - Swapped Social Media Section with Instagram Grid Section on About and Services Pages.
 - Rewrote About Section on the Homepage using grid layout instead of absolute positioning for better responsiveness.
+
+Version 1.9.1 - 17-01-2025
+- Created `global.css` and moved all common styles to it.
