@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fbfaf7;
+  --secondary-color: #f1eeea;
+}
+
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -49,7 +54,6 @@ a {
 
 .navbar_menu {
   display: flex;
-  /* padding-left: 2.5rem; */
   justify-content: center;
   gap: 1.7rem;
 }
@@ -92,12 +96,12 @@ a {
   text-align: center;
   text-decoration: none;
   font-size: 0.8rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
 
 /* Footer */
 .footer {
-  background: #414040;
+  background-color: #414040;
   color: white;
   display: flex;
   justify-content: center;
@@ -121,7 +125,7 @@ a {
 /* Row 1 */
 .footer_row_1 {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 0.7fr 1fr 1fr;
   gap: 8rem;
   padding-bottom: 1.5rem;
 }
@@ -134,10 +138,6 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-}
-
-.footer_logo img {
-  color: white;
 }
 
 .footer_text {

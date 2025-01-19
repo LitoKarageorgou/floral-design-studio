@@ -107,3 +107,8 @@ Version 1.9.0 - 13-01-2025
 
 Version 1.9.1 - 17-01-2025
 - Created `global.css` and moved all common styles to it.
+
+Version 1.9.2 - 18-01-2025
+- Created `links.txt` and added links to GitHub and Netlify.
+- Redesigned Homepage so that all main sections have the same max-width for better UI/UX.
+- Deleted unnecessary images.
