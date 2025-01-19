@@ -7,16 +7,7 @@
 .hero_section_container {
   background: url("/images/dummy-wallpaper3.jpg") no-repeat center center/cover
     #414040;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   height: 80vh;
-}
-
-.hero_section_text {
-  width: 30%;
 }
 
 h1 {
@@ -27,11 +18,13 @@ h1 {
 
 /* Website Introduction */
 .intro_text {
-  width: 50%;
+  width: 45%;
   margin: auto;
   text-align: center;
   line-height: 2rem;
-  font-size: 0.8rem;
+  font-family: Lato, Roboto, serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
@@ -99,13 +92,13 @@ h1 {
   background: url("") #414040;
 }
 
-.services_overview_text{
+.services_overview_text {
   padding: 0 1rem;
-    width: 90%;
+  width: 90%;
 }
 
 .services_overview_text h2 {
-  padding: 2.2rem 0;
+  padding-bottom: 2.2rem;
   line-height: 1.2;
   font-weight: 200;
 }
@@ -115,7 +108,7 @@ h1 {
 }
 
 /* Weddings */
-.weddings_overview_text p{
+.weddings_overview_text p {
   padding-right: 2rem;
 }
 
@@ -128,7 +121,7 @@ h1 {
   text-align: right;
 }
 
-.events_overview_text p{
+.events_overview_text p {
   padding-left: 2rem;
 }
 
@@ -152,6 +145,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
   margin: auto;
 }
 
@@ -194,13 +188,17 @@ h1 {
 }
 
 .about_overview_text {
-  padding: 0 4rem 0 4rem;
+  width: 70%;
   line-height: 1.6;
 }
 
 /* Featured in */
 .featured_in_container {
   height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary-color);
 }
 
@@ -213,7 +211,6 @@ h1 {
   align-items: center;
   gap: 2rem;
   padding: 5rem 0;
-  
 }
 
 .featured_in_container h2 {
@@ -306,53 +303,15 @@ h1 {
   background: url("/images/dummy-wallpaper3.jpg") #dddcdc;
   color: #dddddd;
   height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
 }
 
-.call_to_action_wrap {
-  position: absolute;
-  left: 30%;
+.call_to_action_wrap h2 span{
+  font-style: italic;
 }
 
 .contact_us_button {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
-  padding: 1rem 0;
   margin: 1.1rem 0;
   color: #414040;
   padding: 1rem;
   background-color: #bebab1;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Instagram Grid */
-.instagram_grid_wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.instagram_grid_wrap a {
-  padding: 2.5rem;
-  color: #414040;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-.instagram_grid_images {
-  display: flex;
-  gap: 1rem;
-}
-
-.instagram_grid_img {
-  width: 11rem;
-  height: 11rem;
-  background-color: #414040;
 }

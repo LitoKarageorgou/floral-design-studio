@@ -15,8 +15,6 @@
   grid-template-columns: 1fr;
   min-height: 100vh;
   color: rgb(99, 98, 96);
-  font-family: "Times New Roman", Times, serif, sans-serif;
-  /* font-family: Lato, Roboto, serif; */
   /* background-color: #a79999; */
 }
 
@@ -34,10 +32,8 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   font-size: 0.8em;
-  /* font-family: Lato, Roboto, serif; */
-  /* font-size: 12px; */
+  font-family: Lato, Roboto, serif;
   letter-spacing: 2px;
-  font-family: "Times New Roman", Times, serif;
   padding: 0.7rem;
 }
 
@@ -55,7 +51,7 @@ a {
 .navbar_menu {
   display: flex;
   justify-content: center;
-  gap: 1.7rem;
+  gap: 1.5rem;
 }
 .navbar_logo {
   display: flex;
@@ -78,11 +74,31 @@ a {
 
 /* Main */
 .main {
-  color: #414040;
   display: flex;
   flex-direction: column;
   gap: 8rem;
   padding-bottom: 8rem;
+  /* font-family: "Times New Roman", Times, serif, sans-serif; */
+}
+
+/* Hero Section */
+.hero_section_container {
+  background: url("") no-repeat center center/cover #414040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+}
+
+.hero_section_text {
+  width: 30%;
+}
+
+.hero_section_text h2 {
+  color: white;
+  font-size: 3rem;
 }
 
 /* Button */
@@ -97,6 +113,60 @@ a {
   text-decoration: none;
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
+}
+
+/* Call to Action */
+.call_to_action {
+  background: url("") #dddcdc;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.call_to_action_wrap {
+  position: absolute;
+  left: 30%;
+}
+
+.contact_us_button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  color: #414040;
+  border-bottom: 0.5px solid beige;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Instagram Grid */
+.instagram_grid_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram_grid_wrap a {
+  padding: 2.5rem;
+  color: #414040;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.instagram_grid_images {
+  display: flex;
+  gap: 1rem;
+}
+
+.instagram_grid_img {
+  width: 11rem;
+  height: 11rem;
+  background-color: #414040;
 }
 
 /* Footer */

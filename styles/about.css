@@ -1,132 +1,75 @@
-/* Hero Section */
-.hero_section_container {
-  background: url("") no-repeat center center/cover #414040;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 60vh;
-}
-
-.hero_section_text {
-  width: 30%;
-}
-
-.hero_section_text h2 {
-  color: white;
-  font-size: 3rem;
-}
-
-/* Story */
+/* Story & Designer */
 .section_container {
-  margin: 4rem 0;
+  height: 80vh;
+}
+
+.section_wrap {
+  width: 60%;
+  height: 100%;
   display: flex;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .section_img {
-  min-height: 40rem;
-  min-width: 32rem;
+  height: 90%;
+  width: 46%;
   background: url("") #414040;
 }
 
 .section_text {
-  width: 30%;
-  padding: 0 4rem;
+  /* padding-right: 5rem; */
+  width: 35%;
+}
+
+.section_text h2 {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+  font-weight: 200;
 }
 
 .section_text p {
   line-height: 1.6;
 }
 
-.section_text h2 {
-  padding: 2rem 0;
-}
-
 /* Values */
 .values_container {
-  margin: 2rem 0;
+  height: 50vh;
 }
+
 .values_container h2 {
-  text-align: center;
-  margin-bottom: 2rem;
   text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+  font-size: 4rem;
 }
+
 .values_wrap {
   padding: 2rem;
   background-color: #dddcdc;
   width: 60%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
+
 .value {
-  padding: 1rem 2rem;
+  padding: 2rem 2.5rem;
 }
+
 .value h3 {
   padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .value p {
+  font-size: 0.8rem;
   line-height: 1.6;
-}
-
-.value_1,
-.value_2 {
-  border-right: 2px solid white;
-}
-
-/* Call to Action */
-.call_to_action {
-  background: url("") #dddcdc;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-
-.call_to_action_wrap {
-  position: absolute;
-  left: 30%;
-}
-
-.contact_us_button {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
   letter-spacing: 0.1rem;
-  padding: 1rem 0;
-  margin: 1rem 0;
-  color: #414040;
-  border-bottom: 0.5px solid beige;
-  text-align: center;
-  text-decoration: none;
 }
 
-/* Instagram Grid */
-.instagram_grid_wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.instagram_grid_wrap a {
-  padding: 2.5rem;
-  color: #414040;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-.instagram_grid_images {
-  display: flex;
-  gap: 1rem;
-}
-
-.instagram_grid_img {
-  width: 11rem;
-  height: 11rem;
-  background-color: #414040;
-}

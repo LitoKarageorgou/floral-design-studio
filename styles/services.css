@@ -3,37 +3,18 @@
   background-color: #fbfaf7;
 }
 
-/* Hero Section */
-.hero_section_container {
-  background: url("") no-repeat center center/cover #414040;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 60vh;
-}
-
-.hero_section_text {
-  width: 30%;
-}
-
-.hero_section_text h2 {
-  color: white;
-  font-size: 3rem;
-}
-
 /* Weddings */
-.weddings_container {
-  margin: 4rem 0;
+.weddings_wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  margin: auto;
 }
 
 .weddings_text {
-  width: 28%;
-  padding: 2.5rem 4rem;
+  width: 45%;
+  padding: 2.5rem 3.5rem;
   background-color: white;
 }
 
@@ -99,19 +80,20 @@
 }
 
 .process_steps_wrap{
+  width: 60%;
   display: flex;
   justify-content: center;
   gap: 5rem;
 }
 
 .process_steps_img {
-  height: 52rem;
-  width: 38rem;
+  height: 50rem;
+  width: 35rem;
   background: url("/images/final-images/img2.png") no-repeat center center/cover #414040;
 }
 
 .process_steps_text{
-  width: 19%;
+  width: 30%;
   padding-top: 3rem;
 }
 
@@ -126,7 +108,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 3rem;
 }
 
 .testimonials_wrap {
@@ -140,14 +121,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 37%;
-  height: 70%;
+  width: 35%;
   text-align: center;
-  padding: 3rem;
+  /* background-color: white; */
+  /* padding: 3rem; */
 }
 
 .testimonials_content h2 {
-  color: #414040;
   padding-bottom: 3rem;
 }
 
@@ -170,8 +150,9 @@
 }
 
 .section_text {
-  width: 34%;
-  padding: 0 4rem;
+  width: 30%;
+  padding: 2.5rem 4.5rem;
+  background-color: white;
 }
 
 .section_text p {
@@ -179,59 +160,49 @@
 }
 
 .section_text h2 {
+  font-size: 2.5rem;
+  font-weight: 200;
   padding: 2rem 0;
 }
 
-/* Call to Action */
-.call_to_action {
-  background: url("") no-repeat center center/cover #dddcdc;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-
-.call_to_action_wrap {
-  position: absolute;
-  left: 30%;
-}
-
-.contact_us_button {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
-  padding: 1rem 0;
-  margin: 1rem 0;
-  color: #414040;
-  border-bottom: 0.5px solid beige;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Instagram Grid */
-.instagram_grid_wrap {
+/* Our Clients */
+.featured_in_container {
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.instagram_grid_wrap a {
-  padding: 2.5rem;
-  color: #414040;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-.instagram_grid_images {
+.featured_in_wrap {
+  width: 60%;
+  margin: auto;
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.instagram_grid_img {
-  width: 11rem;
-  height: 11rem;
-  background-color: #414040;
+.featured_in_container h2 {
+  padding: 0.9rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.5px solid #dcdad5;
+}
+
+.featured_in_magazines {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem 3rem 3rem;
+}
+
+.featured_in_magazines img {
+  height: 8rem;
+  width: 17rem;
+  padding: 1.6rem;
 }

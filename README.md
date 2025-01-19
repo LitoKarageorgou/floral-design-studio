@@ -112,3 +112,7 @@ Version 1.9.2 - 18-01-2025
 - Created `links.txt` and added links to GitHub and Netlify.
 - Redesigned Homepage so that all main sections have the same max-width for better UI/UX.
 - Deleted unnecessary images.
+
+Version 1.9.2 - 18-01-2025
+- Redesigned the rest of the pages to have the same max-width.
+- Added Clients Section on Services Pages and made adjustments to the design.
