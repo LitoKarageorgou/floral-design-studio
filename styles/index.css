@@ -4,7 +4,7 @@
 }
 
 /* Hero Section */
-.hero_section_container {
+.hero__container {
   background: url("/images/dummy-wallpaper3.jpg") no-repeat center center/cover
     #414040;
   height: 80vh;
@@ -17,7 +17,7 @@ h1 {
 }
 
 /* Website Introduction */
-.intro_text {
+.intro__text {
   width: 45%;
   margin: auto;
   text-align: center;
@@ -29,7 +29,7 @@ h1 {
 }
 
 /* Portfolio Overview */
-.portfolio_overview_container {
+.portfolio__container {
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -37,13 +37,13 @@ h1 {
   height: 80vh;
 }
 
-.portfolio_overview_container h2 {
+.portfolio__container h2 {
   text-align: center;
   padding-bottom: 3rem;
   text-transform: uppercase;
 }
 
-.portfolio_temporary_wrap {
+.portfolio__wrap {
   width: 100%;
   height: 100%;
   display: flex;
@@ -51,7 +51,7 @@ h1 {
   align-items: center;
 }
 
-.portfolio_overview_images {
+.portfolio__images {
   width: 60%;
   height: 100%;
   display: grid;
@@ -59,24 +59,24 @@ h1 {
   gap: 1rem;
 }
 
-.portfolio_overview_img-1 {
+.portfolio__img--1 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio_overview_img-2 {
+.portfolio__img--2 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio_overview_img-3 {
+.portfolio__img--3 {
   background: url("") no-repeat center center/cover #414040;
 }
 
 /* Weddings & Events*/
-.services_overview_container {
+.services__container {
   height: 80vh;
 }
 
-.services_overview_wrap {
+.services__wrap {
   width: 60%;
   height: 100%;
   display: grid;
@@ -86,34 +86,34 @@ h1 {
   margin: auto;
 }
 
-.services_overview_img {
+.services__img {
   height: 88%;
   width: 88%;
   background: url("") #414040;
 }
 
-.services_overview_text {
+.services__text {
   padding: 0 1rem;
   width: 90%;
 }
 
-.services_overview_text h2 {
+.services__text h2 {
   padding-bottom: 2.2rem;
   line-height: 1.2;
   font-weight: 200;
 }
 
-.services_overview_text p {
+.services__text p {
   line-height: 1.6;
 }
 
 /* Weddings */
-.weddings_overview_text p {
+.services__text--weddings p {
   padding-right: 2rem;
 }
 
 /* Events */
-.events_overview_text_wrap {
+.events__text-wrap {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -121,11 +121,11 @@ h1 {
   text-align: right;
 }
 
-.events_overview_text p {
+.services__text--events p {
   padding-left: 2rem;
 }
 
-.events_overview_img_wrap {
+.events__img-wrap {
   height: 100%;
   width: 100%;
   display: flex;
@@ -134,11 +134,11 @@ h1 {
 }
 
 /* About */
-.about_overview_container {
+.about__container {
   min-height: 110vh;
 }
 
-.about_overview_wrap {
+.about__wrap {
   height: 100%;
   width: 60%;
   display: grid;
@@ -149,7 +149,7 @@ h1 {
   margin: auto;
 }
 
-.about_overview_images {
+.about__images {
   height: 100%;
   width: 100%;
   display: grid;
@@ -157,43 +157,42 @@ h1 {
   grid-template-rows: repeat(15, 1fr);
 }
 
-.about_overview_img1 {
+.about__img--1 {
   grid-column: 2 / span 9;
   grid-row: 1 / span 6;
   z-index: 1;
   background: url("") #414040;
 }
 
-.about_overview_img2 {
+.about__img--2 {
   grid-column: 8 / span 9;
   grid-row: 6 / span 6;
   z-index: 2;
   background: url("") #4e4d4d;
 }
 
-.about_overview_img3 {
+.about__img--3 {
   grid-column: 4 / span 6;
   grid-row: 11 / span 4;
   z-index: 3;
   background: url("") #5a5858;
 }
 
-.about_overview_text h2 {
+.about__text {
+  width: 70%;
+  line-height: 1.6;
+}
+
+.about__text h2 {
   padding: 2rem 0;
   text-transform: uppercase;
   line-height: 1.2;
   letter-spacing: 0.1rem;
   font-weight: 300;
-  font-size: 2.7rem;
-}
-
-.about_overview_text {
-  width: 70%;
-  line-height: 1.6;
 }
 
 /* Featured in */
-.featured_in_container {
+.featured__container {
   height: 65vh;
   display: flex;
   flex-direction: column;
@@ -202,7 +201,7 @@ h1 {
   background-color: var(--primary-color);
 }
 
-.featured_in_wrap {
+.featured__wrap {
   width: 60%;
   margin: auto;
   display: flex;
@@ -213,7 +212,7 @@ h1 {
   padding: 5rem 0;
 }
 
-.featured_in_container h2 {
+.featured__wrap h2 {
   padding: 0.9rem 0;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -221,7 +220,7 @@ h1 {
   border-bottom: 0.5px solid #dcdad5;
 }
 
-.featured_in_magazines {
+.featured__magazines {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -230,22 +229,23 @@ h1 {
   padding: 0 3rem 3rem 3rem;
 }
 
-.featured_in_magazines img {
+.featured__magazines img {
   height: 8rem;
   width: 17rem;
   padding: 1.6rem;
 }
 
 /* Testimonials */
-.testimonials_container {
+.testimonials__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position:relative;
 }
 
-.testimonials_container h2 {
+.testimonials__container h2 {
   padding: 0.9rem 0 1rem 0;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -255,17 +255,17 @@ h1 {
   margin-bottom: 3.7rem;
 }
 
-.testimonials_wrap {
+.testimonials__wrap {
   height: 74%;
   width: 60%;
   display: grid;
   grid-template-columns: repeat(35, 1fr);
-  grid-template-rows: repeat(16, 1fr);
+  grid-template-rows: repeat(17, 1fr);
 }
 
-.testimonials_text {
-  grid-column: 1 / span 19;
-  grid-row: 1 / span 16;
+.testimonials__text {
+  grid-column: 1 / span 20;
+  grid-row: 1 / span 17;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -273,45 +273,46 @@ h1 {
   align-items: center;
   text-align: left;
   background-color: var(--primary-color);
-  padding: 5rem;
+  padding: 4rem;
 }
 
-.testimonials_img-1 {
-  grid-column: 19 / span 10;
-  grid-row: 3 / span 11;
+.testimonials__img--1 {
+  grid-column: 20 / span 10;
+  grid-row: 4 / span 11;
   background: url("") #414040;
   z-index: 2;
 }
 
-.testimonials_img-2 {
-  grid-column: 28 / span 6;
-  grid-row: 5 / span 7;
+.testimonials__img--2 {
+  grid-column: 29 / span 6;
+  grid-row: 6 / span 7;
   background: url("") #5c5a5a;
   z-index: 3;
 }
 
-.testimonials_text h3 {
+.testimonials__text h3 {
   font-size: 2rem;
 }
 
-.testimonials_text p {
+.testimonials__text p {
   padding-top: 3rem;
 }
 
+#arrow-back{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+#arrow-forward{
+  position: absolute;
+  top: 50%;
+  right: 15%;
+}
+
 /* Call to Action */
-.call_to_action {
+.cta {
   background: url("/images/dummy-wallpaper3.jpg") #dddcdc;
   color: #dddddd;
   height: 80vh;
-}
-
-.call_to_action_wrap h2 span{
-  font-style: italic;
-}
-
-.contact_us_button {
-  margin: 1.1rem 0;
-  color: #414040;
-  padding: 1rem;
-  background-color: #bebab1;
 }

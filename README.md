@@ -113,6 +113,8 @@ Version 1.9.2 - 18-01-2025
 - Redesigned Homepage so that all main sections have the same max-width for better UI/UX.
 - Deleted unnecessary images.
 
-Version 1.9.2 - 18-01-2025
+Version 1.9.2 - 19-01-2025
 - Redesigned the rest of the pages to have the same max-width.
 - Added Clients Section on Services Pages and made adjustments to the design.
+- Fixed bugs.
+- Started correcting BEM methodology on the code.
