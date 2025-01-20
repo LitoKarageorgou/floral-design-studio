@@ -111,13 +111,12 @@ Version 1.9.1 - 17-01-2025
 Version 1.9.2 - 18-01-2025
 - Created `links.txt` and added links to GitHub and Netlify.
 - Redesigned Homepage so that all main sections have the same max-width for better UI/UX.
-- Deleted unnecessary images.
 
 Version 1.9.3 - 19-01-2025
 - Redesigned the rest of the pages to have the same max-width.
-- Added Clients Section on Services Pages and made adjustments to the design.
+- Added Clients Section to Services Pages and made adjustments to the design.
 - Fixed bugs.
-- Started correcting BEM methodology and Single Source of Truth (SSOT) on the code.
+- Started correcting BEM methodology and Single Source of Truth (SSOT) in the code.
 
 Version 1.9.4 - 19-01-2025
 - Finished correcting BEM methodology across all pages.
