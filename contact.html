@@ -15,7 +15,7 @@
 
 <body>
   <div class="container">
-    <!-- Navbar -->
+    <!-- Navigation Bar -->
     <header class="navbar">
       <nav class="navbar__menu">
         <a href="index.html">Home</a>
@@ -50,63 +50,67 @@
       <!-- Hero Section-->
       <div class="hero__container">
         <div class="hero__text">
-          <h2>About</h2>
+          <h2>Contact us</h2>
         </div>
       </div>
 
-      <!-- Contact Form -->
-      <div class="contact_form_container">
-        <div class="contact_form_wrap">
+      <!-- Contact Form Section-->
+      <div class="contact-form__container">
+        <div class="contact-form__wrap">
           <h2>Send us a Message</h2>
-          <div class="contact_form_text">
+          <div class="contact-form__text">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur harum officiis ad dolor aut
               quasi architecto placeat officia perspiciatis sapiente voluptate nobis velit quo fuga quia omnis nihil!
             </p>
           </div>
-          <form class="contact_form">
+          <!-- Contact Form -->
+          <form class="contact-form">
             <input type="text" id="fullname" placeholder="Full name" name="name">
             <input type="email" name="email" id="email" placeholder="Email adress">
             <input type="tel" name="phone" id="phone" placeholder="Phone number">
-            <input type="date" id=date name="date" placeholder="Date of the event">
+            <!-- Temporarily added inline JavaScript - will move to the JavaScript file once created -->
+            <input type="text" id=date name="date" placeholder="Date of the event" onfocus="(this.type='date')" onblur="(this.type='text')">
             <input type="text" name="address" id="address" placeholder="Location of event">
             <select name="referral-source" id="referral-source">
               How did you hear about us?
-              <option value="internet">Web Browser</option>
+              <option value="" disabled selected>How did you hear about us?</option>
+              <option value="web-browser">Web Browser</option>
               <option value="social-media">Social Media</option>
-              <option value="friend">Friend or Relative</option>
+              <option value="ad">Advertisement</option>
+              <option value="friend">Friend / Relative</option>
             </select>
-            <!-- <input type="text" name="referral_source" id="referral_source" placeholder="How did you hear about us?"> -->
             <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-            <button type="submit" class="contact_form_button">Send message</a>
+            <button type="submit" class="contact-form__button" onclick="alert('Thank you for your message!')">Send message</a>
           </form>
         </div>
-        <div class="contact_form_img"></div>
+        <!-- Contact Form Section Image -->
+        <div class="contact-form__image"></div>
       </div>
 
-      <!-- Contact Info -->
-      <div class="contact_info_container">
-        <div class="contact_info_wrap">
-          <div class="contact_info_text">
+      <!-- Contact Information -->
+      <div class="contact-info__container">
+        <div class="contact-info__wrap">
+          <div class="contact-info__text">
             <h2>Contact Information</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum cum nostrum totam esse molestiae
               perspiciatis similique neque aut animi.</p>
           </div>
 
-          <div class="contact_info_boxes">
-            <div class="contact_info_box">
+          <div class="contact-info__boxes">
+            <div class="contact-info__box">
               <img src="images/icons/phone-brown.svg" alt="Phone Number">
               <h3>Phone Number</h3>
               <p>+1(949)345-2574</p>
             </div>
 
-            <div class="contact_info_box">
+            <div class="contact-info__box">
               <img src="images/icons/mail-brown.svg" alt="Email">
               <h3>Email Address</h3>
               <p>email@email.com</p>
             </div>
 
-            <div class="contact_info_box">
+            <div class="contact-info__box">
               <img src="images/icons/location-brown.svg" alt="Address">
               <h3>Address</h3>
               <p>4 Privet Drive, Little Whinging, Surrey</p>
@@ -128,12 +132,12 @@
         <div class="instagram__wrap">
           <a href="#">Join us on instagram @instagram</a>
           <div class="instagram__images">
-            <div class="instagram__img"></div>
-            <div class="instagram__img"></div>
-            <div class="instagram__img"></div>
-            <div class="instagram__img"></div>
-            <div class="instagram__img"></div>
-            <div class="instagram__img"></div>
+            <div class="instagram__image"></div>
+            <div class="instagram__image"></div>
+            <div class="instagram__image"></div>
+            <div class="instagram__image"></div>
+            <div class="instagram__image"></div>
+            <div class="instagram__image"></div>
           </div>
         </div>
       </div>

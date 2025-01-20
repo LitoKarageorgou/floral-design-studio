@@ -4,7 +4,7 @@
 }
 
 /* Weddings */
-.weddings_wrap {
+.weddings__wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,48 +12,35 @@
   margin: auto;
 }
 
-.weddings_text {
+.weddings__text {
   width: 45%;
   padding: 2.5rem 3.5rem;
   background-color: white;
 }
 
-.weddings_text p {
+.weddings__text p {
   line-height: 1.6;
   padding: 2rem 2rem 0 0;
 }
 
-.weddings_text h2 {
+.weddings__text h2 {
   padding: 2rem 0;
   font-size: 2.9rem;
   font-weight: 200;
 }
 
-#weddings_dream {
+.weddings__text h2 span {
   font-style: italic;
 }
 
-.contact_us_button {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
-  margin: 1.5rem 0;
-  padding: 1rem 0;
-  color: #414040;
-  border-bottom: 0.5px solid beige;
-  text-align: center;
-  text-decoration: none;
-}
-
-.weddings_img {
+.weddings__image {
   height: 40rem;
   width: 32rem;
   background: url("") #414040;
 }
 
 /* Process */
-.process_container {
+.process__container {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -61,17 +48,17 @@
   align-items: center;
   padding: 10rem 0 8rem 0;
 }
-.process_description {
+.process__description {
   width: 50%;
 }
 
-.process_description h2{
+.process__description h2{
   font-size: 2.6rem;
   font-weight: 200;
   padding-bottom: 2rem;
 }
 
-.process_description p{
+.process__description p{
   column-count: 2;
   column-gap: 5rem;
   line-height: 1.8;
@@ -79,130 +66,86 @@
   text-align: justify;
 }
 
-.process_steps_wrap{
+.process__steps{
   width: 60%;
   display: flex;
   justify-content: center;
   gap: 5rem;
 }
 
-.process_steps_img {
+.process__steps-image {
   height: 50rem;
   width: 35rem;
   background: url("/images/final-images/img2.png") no-repeat center center/cover #414040;
 }
 
-.process_steps_text{
+.process__steps-text{
   width: 30%;
   padding-top: 3rem;
 }
 
-.process_steps_text p{
+.process__steps-text p{
   padding-bottom: 3rem;
   line-height: 1.8;
 }
 
 /* Testimonials */
-.testimonians_container {
+.testimonians__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.testimonials_wrap {
+.testimonials__wrap {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.testimonials_content {
+.testimonials__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 35%;
   text-align: center;
-  /* background-color: white; */
-  /* padding: 3rem; */
 }
 
-.testimonials_content h2 {
+.testimonials__content h2 {
   padding-bottom: 3rem;
 }
 
-.testimonials_content p {
+.testimonials__content p {
   line-height: 1.8;
 }
 
 /* Sections */
-.section_container {
+.section__container {
   margin: 4rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section_img {
+.section__image {
   min-height: 40rem;
   min-width: 32rem;
   background: url("") #414040;
 }
 
-.section_text {
+.section__text {
   width: 30%;
   padding: 2.5rem 4.5rem;
   background-color: white;
 }
 
-.section_text p {
+.section__text p {
   line-height: 1.6;
 }
 
-.section_text h2 {
+.section__text h2 {
   font-size: 2.5rem;
   font-weight: 200;
   padding: 2rem 0;
-}
-
-/* Our Clients */
-.featured_in_container {
-  height: 45vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.featured_in_wrap {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.featured_in_container h2 {
-  padding: 0.9rem 0;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  border-bottom: 0.5px solid #dcdad5;
-}
-
-.featured_in_magazines {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0 3rem 3rem 3rem;
-}
-
-.featured_in_magazines img {
-  height: 8rem;
-  width: 17rem;
-  padding: 1.6rem;
 }

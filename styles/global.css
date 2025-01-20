@@ -16,7 +16,6 @@
   grid-template-columns: 1fr;
   min-height: 100vh;
   color: var(--primary-font-color);
-  /* background-color: #a79999; */
 }
 
 ul {
@@ -27,7 +26,7 @@ a {
   text-decoration: none;
 }
 
-/* Navbar */
+/* Navigation Bar */
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -35,7 +34,7 @@ a {
   font-size: 0.8em;
   font-family: Lato, Roboto, serif;
   letter-spacing: 2px;
-  padding: 0.7rem;
+  padding: 0.3rem;
 }
 
 .navbar a {
@@ -71,7 +70,7 @@ a {
 
 .navbar__social img {
   height: 1.1rem;
-  filter: invert(30%);
+  filter: invert(29%);
 }
 
 /* Main */
@@ -80,7 +79,7 @@ a {
   flex-direction: column;
   gap: 8rem;
   padding-bottom: 8rem;
-  /* font-family: "Times New Roman", Times, serif, sans-serif; */
+  font-family: "Times New Roman", Times, serif, sans-serif;
 }
 
 /* Hero Section*/
@@ -110,27 +109,70 @@ a {
   text-align: center;
   text-decoration: none;
   color: #414040;
+  font-family: Lato, Roboto, serif;
+  font-size: 0.7rem;
 }
 
 .button--primary {
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   padding: 1rem;
   margin-top: 2.5rem;
   background-color: #bebab1;
 }
 
 .button--secondary {
-  margin: 1.5rem 0;
+  letter-spacing: 0.1rem;
   padding: 1rem 0;
+  margin: 1.5rem 0;
   border-bottom: 0.5px solid #dcdad5;
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
+}
+
+/* Featured */
+.featured__container {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.featured__wrap {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.featured__wrap h2 {
+  padding: 0.9rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.5px solid #dcdad5;
+}
+
+.featured__logos {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem 3rem 3rem;
+}
+
+.featured__logos img {
+  height: 8rem;
+  width: 17rem;
+  padding: 1.6rem;
 }
 
 /* Call to Action */
 .cta {
-  background: url("") #dddcdc;
+  background: url("") var(--secondary-color);
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -171,7 +213,7 @@ a {
   gap: 1rem;
 }
 
-.instagram__img {
+.instagram__image {
   width: 11rem;
   height: 11rem;
   background-color: #414040;
@@ -213,13 +255,13 @@ a {
   width: 90%;
   display: flex;
   flex-direction: column;
+  gap: 1.6rem;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
 }
 
 .footer__text {
-  padding: 1.5rem 0;
   text-align: left;
 }
 
@@ -252,7 +294,6 @@ a {
 }
 
 .footer__contact p {
-  padding: 1.2rem 0;
   text-align: left;
 }
 

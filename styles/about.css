@@ -1,9 +1,9 @@
 /* Story & Designer */
-.section_container {
+.section__container {
   height: 80vh;
 }
 
-.section_wrap {
+.section__wrap {
   width: 60%;
   height: 100%;
   display: flex;
@@ -13,32 +13,32 @@
   margin: auto;
 }
 
-.section_img {
+.section__image {
   height: 90%;
   width: 46%;
   background: url("") #414040;
 }
 
-.section_text {
+.section__text {
   width: 33%;
 }
 
-.section_text h2 {
+.section__text h2 {
   font-size: 2.2rem;
   padding-bottom: 2.2rem;
   font-weight: 200;
 }
 
-.section_text p {
+.section__text p {
   line-height: 1.6;
 }
 
 /* Values */
-.values_container {
+.values__container {
   height: 50vh;
 }
 
-.values_container h2 {
+.values__container h2 {
   text-transform: uppercase;
   opacity: 0.5;
   margin-bottom: 2.5rem;
@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-.values_wrap {
+.values__wrap {
   padding: 2rem;
   background-color: #dddcdc;
   width: 60%;
@@ -57,17 +57,17 @@
   margin: auto;
 }
 
-.value {
+.values__value {
   padding: 2rem 2.5rem;
 }
 
-.value h3 {
+.values__value h3 {
   padding-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: 200;
 }
 
-.value p {
+.values__value p {
   font-size: 0.8rem;
   line-height: 1.6;
   letter-spacing: 0.1rem;
