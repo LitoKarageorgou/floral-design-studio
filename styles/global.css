@@ -16,7 +16,7 @@
   grid-template-columns: 1fr;
   min-height: 100vh;
   color: var(--primary-font-color);
-  background-color: #a79999;
+  /* background-color: #a79999; */
 }
 
 ul {
