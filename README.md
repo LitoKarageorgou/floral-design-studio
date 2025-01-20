@@ -118,7 +118,7 @@ Version 1.9.3 - 19-01-2025
 - Fixed bugs.
 - Started correcting BEM methodology and Single Source of Truth (SSOT) in the code.
 
-Version 1.9.4 - 19-01-2025
+Version 1.9.4 - 20-01-2025
 - Finished correcting BEM methodology across all pages.
 - Continued correcting SSOT. 
 - Edited Contact Form.
