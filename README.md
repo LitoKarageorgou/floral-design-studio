@@ -122,3 +122,6 @@ Version 1.9.4 - 20-01-2025
 - Finished correcting BEM methodology across all pages.
 - Continued correcting SSOT. 
 - Edited Contact Form.
+
+Version 1.9.5 - 21-01-2025
+- Added link to homepage on logo.
