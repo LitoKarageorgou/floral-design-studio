@@ -126,3 +126,4 @@ Version 1.9.4 - 20-01-2025
 Version 1.9.5 - 21-01-2025
 - Added logo.
 - Added link to homepage on logo.
+- Added studio name to the title.
