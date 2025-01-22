@@ -58,9 +58,9 @@ a {
 }
 
 .navbar__logo img {
-  padding: 0.3rem 0;
-  width: 16.5rem;
-  filter: brightness(0.5);
+  padding: 1rem 0;
+  width: 13.7rem;
+  filter: brightness(0.4);
 }
 
 .navbar__social {
@@ -241,7 +241,7 @@ a {
 }
 
 .footer__wrap {
-  padding: 4rem 10rem 3rem 10rem;
+  padding: 3.7rem 10rem 3rem 10rem;
 }
 
 /* Row 1 */
@@ -253,19 +253,19 @@ a {
 }
 
 /* Logo & Text */
-.footer__logo img{
-  filter: brightness(0) invert(1);
-  width: 15.6rem;
-}
-
 .footer__brand-wrap {
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.6rem;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
+}
+
+.footer__logo img{
+  filter: brightness(0) invert(1);
+  width: 15.6rem;
 }
 
 .footer__text {
@@ -276,7 +276,7 @@ a {
   display: flex;
   justify-content: start;
   gap: 0.7em;
-  padding-bottom: 2rem;
+  padding: 1.2rem 0;
 }
 
 .footer__social img {
