@@ -58,9 +58,9 @@ a {
 }
 
 .navbar__logo img {
-  padding: 1rem 0;
-  width: 13.7rem;
-  filter: brightness(0.4);
+  padding: 1.1rem 0;
+  width: 15.6rem;
+  filter: brightness(0.3) invert(20%);
 }
 
 .navbar__social {
