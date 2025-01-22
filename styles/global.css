@@ -34,7 +34,6 @@ a {
   font-size: 0.8em;
   font-family: Lato, Roboto, serif;
   letter-spacing: 2px;
-  padding: 0.3rem;
 }
 
 .navbar a {
@@ -59,18 +58,20 @@ a {
 }
 
 .navbar__logo img {
-  padding: 2em 0;
+  padding: 1.5rem 0;
+  width: 17.5rem;
 }
 
 .navbar__social {
   display: flex;
   justify-content: center;
   gap: 0.7em;
+  padding-left: 2.8rem;
 }
 
 .navbar__social img {
   height: 1.1rem;
-  filter: invert(29%);
+  filter: invert(23%);
 }
 
 /* Main */
@@ -185,11 +186,11 @@ a {
   left: 30%;
 }
 
-.cta__wrap h2{
+.cta__wrap h2 {
   font-size: 2.5rem;
 }
 
-.cta__wrap h2 span{
+.cta__wrap h2 span {
   font-style: italic;
 }
 
@@ -251,11 +252,16 @@ a {
 }
 
 /* Logo & Text */
+.footer__logo img{
+  filter: brightness(0) invert(1);
+  width: 15.6rem;
+}
+
 .footer__brand-wrap {
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.5rem;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
