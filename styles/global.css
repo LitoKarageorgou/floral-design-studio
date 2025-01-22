@@ -58,15 +58,16 @@ a {
 }
 
 .navbar__logo img {
-  padding: 1.5rem 0;
-  width: 17.5rem;
+  padding: 0.3rem 0;
+  width: 16.5rem;
+  filter: brightness(0.5);
 }
 
 .navbar__social {
   display: flex;
   justify-content: center;
   gap: 0.7em;
-  padding-left: 2.8rem;
+  padding-left: 2.5rem;
 }
 
 .navbar__social img {
