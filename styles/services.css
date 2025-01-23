@@ -1,6 +1,12 @@
 /* Main */
 .main {
-  background-color: #fbfaf7;
+  background-color: var(--primary-color);
+}
+
+/* Hero Section */ 
+.hero__container {
+  background: url("") no-repeat center
+    center/cover #414040;
 }
 
 /* Weddings */

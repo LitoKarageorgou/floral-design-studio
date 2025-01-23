@@ -1,5 +1,11 @@
+/* Hero Section */ 
+.hero__container {
+  background: url("/images/cta/flower-line.avif") no-repeat center
+    center/cover #414040;
+}
+
 /* Portfolio */
-.portfolio__select{
+.portfolio__select {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,19 +16,19 @@
   color: #acacab;
 }
 
-.portfolio__select a:active{
+.portfolio__select a:active {
   border-bottom: 0.1rem solid var(--primary-font-color);
 }
 
-.portfolio__select h3{
+.portfolio__select h3 {
   text-transform: uppercase;
 }
 
-.portfolio__select a{
+.portfolio__select a {
   color: var(--primary-font-color);
 }
 
-.portfolio__cards{
+.portfolio__cards {
   width: 60%;
   margin: auto;
   display: flex;
@@ -33,48 +39,48 @@
   margin-top: 5rem;
 }
 
-.portfolio__image{
+.portfolio__image {
   min-height: 28rem;
   min-width: 19rem;
 }
 
-.portfolio__image--1{
+.portfolio__image--1 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--2{
+.portfolio__image--2 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--3{
+.portfolio__image--3 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--4{
+.portfolio__image--4 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--5{
+.portfolio__image--5 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--6{
+.portfolio__image--6 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--7{
+.portfolio__image--7 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--8{
+.portfolio__image--8 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__image--9{
+.portfolio__image--9 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.portfolio__card p{
+.portfolio__card p {
   width: 80%;
   text-align: center;
   margin: auto;

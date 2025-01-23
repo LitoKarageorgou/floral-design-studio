@@ -127,3 +127,9 @@ Version 1.9.5 - 21-01-2025
 - Added logo.
 - Added link to homepage on logo.
 - Added studio name to the title.
+
+Version 1.9.6 - 23-01-2025
+- Added images to: About Page, Homepage, Contact Page, Instagram Grid.
+NOTE: Images are used temporarily without a licence (with trademarks) until the layout is final. 
+- Added final colors to: Footer, Contact Page, About Page. 
+- Added final font-family to Footer. 

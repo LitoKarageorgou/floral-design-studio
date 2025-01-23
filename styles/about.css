@@ -1,3 +1,14 @@
+/* Main */
+.main {
+  background-color: var(--primary-color);
+}
+
+/* Hero Section */ 
+.hero__container {
+  background: url("/images/cta/flower-line.avif") no-repeat center
+    center/cover #414040;
+}
+
 /* Story & Designer */
 .section__container {
   height: 80vh;
@@ -16,11 +27,10 @@
 .section__image {
   height: 90%;
   width: 46%;
-  background: url("") #414040;
 }
 
 .section__text {
-  width: 33%;
+  width: 40%;
 }
 
 .section__text h2 {
@@ -33,23 +43,28 @@
   line-height: 1.6;
 }
 
-/* Values */
-.values__container {
-  height: 50vh;
+.section__image--story{
+  background: url("/images/about/about-page-story.avif") no-repeat center center/cover #414040;
 }
 
+.section__image--designer{
+  background: url("/images/about/about-page-designer.avif") no-repeat center center/cover #414040;
+}
+
+/* Values */
 .values__container h2 {
   text-transform: uppercase;
   opacity: 0.5;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   font-weight: 300;
   font-size: 4rem;
   text-align: center;
+  color: #e2e0da;
 }
 
 .values__wrap {
   padding: 2rem;
-  background-color: #dddcdc;
+  background-color: var(--secondary-font-color);
   width: 60%;
   display: flex;
   justify-content: center;
@@ -73,3 +88,7 @@
   letter-spacing: 0.1rem;
 }
 
+.cta {
+  background: url("/images/cta/about-cta.avif") no-repeat center center/cover#dddcdc;
+  color: var(--secondary-font-color);
+}

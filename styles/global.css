@@ -8,6 +8,7 @@
   --primary-color: #fbfaf7;
   --secondary-color: #f1eeea;
   --primary-font-color: #636260;
+  --secondary-font-color: white; 
 }
 
 .container {
@@ -117,7 +118,7 @@ a {
 .button--primary {
   letter-spacing: 0.2rem;
   padding: 1rem;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   background-color: #bebab1;
 }
 
@@ -217,26 +218,51 @@ a {
 .instagram__image {
   width: 11rem;
   height: 11rem;
-  background-color: #414040;
+}
+
+.instagram__image--1{
+  background: url("") no-repeat center center/cover #414040;
+}
+
+.instagram__image--2{
+  background: url("/images/weddings/instagram-2.avif") no-repeat center center/cover #414040;
+}
+ 
+.instagram__image--3{
+  background: url("") no-repeat center center/cover #414040;
+}
+
+.instagram__image--4{
+  background: url("/images/portfolio/instagram.png") no-repeat center center/cover #414040;
+}
+
+.instagram__image--5{
+  background: url("") no-repeat center center/cover #414040;
+}
+
+.instagram__image--6{
+  background: url("/images/final-images/img1.png") no-repeat center center/cover #414040;
 }
 
 /* Footer */
 .footer {
-  background-color: #414040;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--primary-font-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Lato, Roboto, serif;
+  font-size: 0.8rem;
 }
 
 .footer a {
-  color: white;
+  color: var(--primary-font-color);
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .footer h3 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.3rem;
 }
 
 .footer__wrap {
@@ -263,25 +289,26 @@ a {
 }
 
 .footer__logo img{
-  filter: brightness(0.2) invert(1);
   width: 15rem;
 }
 
 .footer__text {
   text-align: left;
   line-height: 1.4;
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
 .footer__social {
   display: flex;
   justify-content: start;
-  gap: 0.7em;
+  gap: 0.8em;
   padding: 0.8rem 0;
 }
 
 .footer__social img {
   height: 1.1rem;
-  filter: invert(1);
+  filter: invert(30%);
 }
 
 /* Navigation */
@@ -305,6 +332,11 @@ a {
 }
 
 /*Newsletter*/
+.footer__newsletter p{
+  font-style: italic;
+
+}
+
 .footer__newsletter form {
   display: flex;
   flex-direction: column;
@@ -315,16 +347,17 @@ a {
 .footer__newsletter input[type="email"] {
   padding: 0.3rem;
   height: 1.8rem;
-  border: 0.1rem solid #a2845e;
+  border: none;
 }
 
 .footer__newsletter button {
-  padding: 0.3rem;
+  padding: 0.4rem;
   color: white;
-  background-color: #a2845e;
+  background-color: var(--primary-font-color);
   border: none;
   cursor: pointer;
   height: 1.8rem;
+  font-family: Lato, Roboto, serif;
 }
 
 /* Row 2 */
@@ -334,6 +367,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer__row--2 a, .footer__row--2 p{
+  font-size: 0.8rem;
 }
 
 .footer__legal {

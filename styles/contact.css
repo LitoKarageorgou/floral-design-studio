@@ -1,3 +1,9 @@
+/* Hero Section */ 
+.hero__container {
+  background: url("/images/cta/flower-line.avif") no-repeat center
+    center/cover #414040;
+}
+
 /* Contact Form */
 .contact-form__container {
   display: flex;
@@ -11,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   width: 34%;
-  background-color: #dddcdc;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 3rem;
 }
@@ -34,7 +40,7 @@
   padding: 0.8rem;
   border: none;
   border-bottom: 0.5px solid white;
-  background-color: #dddcdc;
+  background-color: var(--secondary-color);
 }
 
 #date{
@@ -61,7 +67,7 @@
 .contact-form__image {
   width: 15%;
   height: 55%;
-  background: url("/images/final-images/img4.jpeg") no-repeat center center/cover
+  background: url("/images/contact/contact-image.avif") no-repeat center center/cover
     #414040;
 }
 
@@ -81,7 +87,7 @@
 .contact-info__text h2{
   margin-bottom: 1rem;
   font-size: 2rem;
-  color: #535252;
+  color: var(--primary-font-color);
 }
 
 .contact-info__text p {
@@ -97,7 +103,7 @@
 }
 
 .contact-info__box h3 {
-  color: white;
+  color: var(--primary-font-color);
 }
 
 .contact-info__box {
@@ -106,14 +112,13 @@
   align-items: center;
   width: 16rem;
   height: 12rem;
-  background-color: #dddcdc;
+  background-color: var(--secondary-color);
   padding: 2rem 2rem;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .contact-info__box img {
-  height: 2.2rem;
-  color: #a2845e;
+  width: 2.3rem;
 }
 
 /* Map */
