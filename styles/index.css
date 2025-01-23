@@ -282,4 +282,5 @@ h1 {
 /* Call to Action */
 .cta {
   background: url("/images/cta/home3.png") no-repeat center center/cover#dddcdc;
+  height: 70vh;
 }
