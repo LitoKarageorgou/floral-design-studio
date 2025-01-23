@@ -59,7 +59,7 @@
 
 .values__wrap {
   padding: 2rem;
-  background-color: var(--secondary-font-color);
+  background-color: var(--primary-color);
   width: 60%;
   display: flex;
   justify-content: center;
@@ -84,5 +84,5 @@
 }
 
 .cta {
-  background: url("") no-repeat center center/cover var(--tetriary-color);
+  background: url("") no-repeat center center/cover;
 }

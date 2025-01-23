@@ -83,7 +83,7 @@ a {
   gap: 8rem;
   padding-bottom: 8rem;
   font-family: "Times New Roman", Times, serif, sans-serif;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 /* Hero Section*/
@@ -175,7 +175,7 @@ a {
 
 /* Call to Action */
 .cta {
-  background: url("") #dcdad5;
+  background: url("") var(--tetriary-color);
   height: 60vh;
   display: flex;
   flex-direction: column;
