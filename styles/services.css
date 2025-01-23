@@ -3,9 +3,8 @@
   background-color: var(--primary-color);
 }
 
-/* Hero Section */ 
 .hero__container {
-  background: url("") no-repeat center
+  background: url("/images/cta/flower-line.avif") no-repeat center
     center/cover #414040;
 }
 
