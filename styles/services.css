@@ -4,7 +4,7 @@
 }
 
 .hero__container {
-  background: url("/images/cta/flower-line.avif") no-repeat center
+  background: url("") no-repeat center
     center/cover #414040;
 }
 
@@ -153,4 +153,9 @@
   font-size: 2.5rem;
   font-weight: 200;
   padding: 2rem 0;
+}
+
+.cta {
+  background: url("/images/about/about-page-cta.avif") no-repeat center center/cover#dddcdc;
+  color: var(--secondary-font-color);
 }

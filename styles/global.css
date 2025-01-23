@@ -6,9 +6,10 @@
 
 :root {
   --primary-color: #fbfaf7;
-  --secondary-color: #f1eeea;
-  --primary-font-color: #636260;
-  --secondary-font-color: white; 
+  --secondary-color: white;
+  --tetriary-color: #f1eeea;
+  --primary-font-color: #636260; 
+  --secondary-font-family: Lato, Roboto, serif;
 }
 
 .container {
@@ -33,7 +34,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   font-size: 0.8em;
-  font-family: Lato, Roboto, serif;
+  font-family: var(--secondary-font-family);
   letter-spacing: 2px;
 }
 
@@ -82,6 +83,7 @@ a {
   gap: 8rem;
   padding-bottom: 8rem;
   font-family: "Times New Roman", Times, serif, sans-serif;
+  background-color: var(--primary-color);
 }
 
 /* Hero Section*/
@@ -110,20 +112,19 @@ a {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  color: #414040;
-  font-family: Lato, Roboto, serif;
+  color: var(--primary-font-color);
+  font-family: var(--secondary-font-family);
   font-size: 0.7rem;
+  letter-spacing: 0.1rem;
 }
 
 .button--primary {
-  letter-spacing: 0.2rem;
   padding: 1rem;
   margin-top: 1rem;
-  background-color: #bebab1;
+  background-color: var(--tetriary-color);
 }
 
 .button--secondary {
-  letter-spacing: 0.1rem;
   padding: 1rem 0;
   margin: 1.5rem 0;
   border-bottom: 0.5px solid #dcdad5;
@@ -174,21 +175,25 @@ a {
 
 /* Call to Action */
 .cta {
-  background: url("") var(--secondary-color);
+  background: url("") #dcdad5;
   height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  color: var(--secondary-color);
 }
 
 .cta__wrap {
   position: absolute;
-  left: 30%;
+  left: 27%;
+  bottom: 25%;
 }
 
 .cta__wrap h2 {
   font-size: 2.5rem;
+  font-weight: 200;
+  color: var(--secondary-color);
 }
 
 .cta__wrap h2 span {
@@ -246,12 +251,12 @@ a {
 
 /* Footer */
 .footer {
-  background-color: var(--secondary-color);
+  background-color: var(--tetriary-color);
   color: var(--primary-font-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Lato, Roboto, serif;
+  font-family: var(--secondary-font-family);
   font-size: 0.8rem;
 }
 
@@ -357,7 +362,7 @@ a {
   border: none;
   cursor: pointer;
   height: 1.8rem;
-  font-family: Lato, Roboto, serif;
+  font-family: var(--secondary-font-family);
 }
 
 /* Row 2 */

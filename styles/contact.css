@@ -1,7 +1,12 @@
-/* Hero Section */ 
+/* Main */
+.main{
+  background-color: var(--secondary-color);
+}
+
+/* Hero Section */
 .hero__container {
-  background: url("/images/cta/flower-line.avif") no-repeat center
-    center/cover #414040;
+  background: url("") no-repeat center center/cover
+    #414040;
 }
 
 /* Contact Form */
@@ -17,15 +22,15 @@
   flex-direction: column;
   justify-content: center;
   width: 34%;
-  background-color: var(--secondary-color);
+  background-color: var(--tetriary-color);
   text-align: center;
   padding: 3rem;
 }
 
 .contact-form__text {
- text-align: left;
- padding: 1rem 0 2rem 0;
- line-height: 1.6;
+  text-align: left;
+  padding: 1rem 0 2rem 0;
+  line-height: 1.6;
 }
 
 .contact-form {
@@ -36,22 +41,23 @@
 }
 
 .contact-form input,
-.contact-form textarea, select {
+.contact-form textarea,
+select {
   padding: 0.8rem;
   border: none;
   border-bottom: 0.5px solid white;
-  background-color: var(--secondary-color);
+  background-color: var(--tetriary-color);
 }
 
-#date{
+#date {
   color: var(--primary-font-color);
 }
 
-#referral-source{
+#referral-source {
   color: var(--primary-font-color);
 }
 
-#referral-source option:hover{
+#referral-source option:hover {
   background-color: var(--primary-font-color);
 }
 
@@ -67,8 +73,8 @@
 .contact-form__image {
   width: 15%;
   height: 55%;
-  background: url("/images/contact/contact-image.avif") no-repeat center center/cover
-    #414040;
+  background: url("/images/final-images/img4.jpeg") no-repeat center
+    center/cover #414040;
 }
 
 /* Contact Information */
@@ -80,11 +86,11 @@
   text-align: center;
 }
 
-.contact-info__text{
+.contact-info__text {
   width: 60%;
   margin: auto;
 }
-.contact-info__text h2{
+.contact-info__text h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
   color: var(--primary-font-color);
@@ -112,7 +118,7 @@
   align-items: center;
   width: 16rem;
   height: 12rem;
-  background-color: var(--secondary-color);
+  background-color: var(--tetriary-color);
   padding: 2rem 2rem;
   gap: 1.2rem;
 }
@@ -122,6 +128,6 @@
 }
 
 /* Map */
-#map iframe{
-  width:100%;
+#map iframe {
+  width: 100%;
 }
