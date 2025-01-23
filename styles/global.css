@@ -175,7 +175,7 @@ a {
 
 /* Call to Action */
 .cta {
-  background: url("") var(--tetriary-color);
+  background: var(--tetriary-color);
   height: 60vh;
   display: flex;
   flex-direction: column;
