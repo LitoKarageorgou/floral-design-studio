@@ -57,6 +57,8 @@ select {
 }
 
 .contact-form__button {
+  /* Problem fixed, it can now take any width */
+  display: inline-block;
   text-transform: uppercase;
   padding: 1rem;
   color: white;

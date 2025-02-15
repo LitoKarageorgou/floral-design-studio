@@ -133,3 +133,9 @@ Version 1.9.6 - 23-01-2025
 NOTE: Images are used temporarily without a licence (with trademarks) until the layout is final. 
 - Added final colors to: Footer, Contact Page, About Page. 
 - Added final font-family to Footer. 
+
+Version 1.9.7 - 25-01-2025
+- Changed 'disable' attribute to 'hidden' on Contact Form select input
+
+Version 1.9.8 - 15-02-2025
+- Fixed submit button display bug
