@@ -5,26 +5,28 @@
 
 /* Hero Section */
 .hero__container {
-  background: url("/images/cta/flower-line.avif") no-repeat center center/cover
-    #414040;
-  height: 80vh;
+  background: url("../images/hero-sections/blue-flower-fullsize.jpg") no-repeat
+    center/cover #414040;
+  background-position: center 65%;
+  height: 75vh;
 }
 
-h1 {
-  color: white;
-  font-size: 3rem;
+h1 span {
   font-style: italic;
-  font-weight: 200;
+}
+
+.hero__container .button {
+  color: white;
 }
 
 /* Website Introduction */
 .intro__text {
-  width: 45%;
+  width: 38%;
   margin: auto;
   text-align: center;
   line-height: 2rem;
   font-family: Lato, Roboto, serif;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }

@@ -8,7 +8,7 @@
   --primary-color: #fbfaf7;
   --secondary-color: white;
   --tetriary-color: #f1eeea;
-  --primary-font-color: #636260; 
+  --primary-font-color: rgba(99, 98, 96, 1);
   --secondary-font-family: Lato, Roboto, serif;
 }
 
@@ -26,6 +26,19 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1;
+  /* text-shadow: #414040 0.1rem 0.1rem 0.1rem; */
+}
+
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* Navigation Bar */
@@ -60,28 +73,29 @@ a {
 }
 
 .navbar__logo img {
-  padding: 1.1rem 0;
-  width: 15.5rem;
+  padding: 1.6rem 0;
+  width: 14rem;
+  filter: invert(40%);
 }
 
 .navbar__social {
   display: flex;
   justify-content: center;
-  gap: 0.7em;
+  gap: 1.1em;
   padding-left: 2rem;
 }
 
 .navbar__social img {
-  height: 1.1rem;
-  filter: invert(23%);
+  height: 1rem;
+  filter: invert(40%);
 }
 
 /* Main */
 .main {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
-  padding-bottom: 8rem;
+  gap: 6.8rem;
+  padding-bottom: 6.8rem;
   font-family: "Times New Roman", Times, serif, sans-serif;
   background-color: var(--secondary-color);
 }
@@ -114,21 +128,31 @@ a {
   text-decoration: none;
   color: var(--primary-font-color);
   font-family: var(--secondary-font-family);
-  font-size: 0.7rem;
-  letter-spacing: 0.1rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.25rem;
+  font-weight: 500;
 }
 
 .button--primary {
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   background-color: var(--tetriary-color);
 }
 
 .button--secondary {
   padding: 1rem 0;
   margin: 1.5rem 0;
-  border-bottom: 0.5px solid #dcdad5;
+  border-bottom: 0.3px solid #dcdad5;
 }
+
+/* .button--secondary::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background-color: var(--primary-font-color);
+  margin: 1.2rem auto 0;
+} */
 
 /* Featured */
 .featured__container {
@@ -225,28 +249,31 @@ a {
   height: 11rem;
 }
 
-.instagram__image--1{
+.instagram__image--1 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.instagram__image--2{
-  background: url("/images/weddings/instagram-2.avif") no-repeat center center/cover #414040;
+.instagram__image--2 {
+  background: url("/images/weddings/instagram-2.avif") no-repeat center
+    center/cover #414040;
 }
- 
-.instagram__image--3{
+
+.instagram__image--3 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.instagram__image--4{
-  background: url("/images/portfolio/instagram.png") no-repeat center center/cover #414040;
+.instagram__image--4 {
+  background: url("/images/portfolio/instagram.png") no-repeat center
+    center/cover #414040;
 }
 
-.instagram__image--5{
+.instagram__image--5 {
   background: url("") no-repeat center center/cover #414040;
 }
 
-.instagram__image--6{
-  background: url("/images/final-images/img1.png") no-repeat center center/cover #414040;
+.instagram__image--6 {
+  background: url("/images/final-images/img1.png") no-repeat center center/cover
+    #414040;
 }
 
 /* Footer */
@@ -293,7 +320,7 @@ a {
   text-align: left;
 }
 
-.footer__logo img{
+.footer__logo img {
   width: 15rem;
 }
 
@@ -337,9 +364,8 @@ a {
 }
 
 /*Newsletter*/
-.footer__newsletter p{
+.footer__newsletter p {
   font-style: italic;
-
 }
 
 .footer__newsletter form {
@@ -374,7 +400,8 @@ a {
   align-items: center;
 }
 
-.footer__row--2 a, .footer__row--2 p{
+.footer__row--2 a,
+.footer__row--2 p {
   font-size: 0.8rem;
 }
 
