@@ -1,11 +1,6 @@
-/* Main */
-.main h2 {
-  font-size: 2.7rem;
-}
-
 /* Hero Section */
 .hero__container {
-  background: url("../images/hero-sections/blue-flower-fullsize.jpg") no-repeat
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat
     center/cover #414040;
   background-position: center 65%;
   height: 75vh;
@@ -37,12 +32,12 @@ h1 span {
   flex-direction: column;
   justify-self: center;
   align-items: center;
-  height: 80vh;
+  height: 83vh;
 }
 
 .portfolio__container h2 {
   text-align: center;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   text-transform: uppercase;
 }
 
@@ -59,19 +54,19 @@ h1 span {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .portfolio__image--1 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../images/homepage-portfolio/anita-austvika-8DfZJXNvFlA-unsplash.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--2 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../images/homepage-portfolio/anita-austvika-NVsI8KJDsSY-unsplash.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--3 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../images/homepage-portfolio/anita-austvika-wZ_q5-SvmGM-unsplash.jpg") no-repeat center center/cover #414040;
 }
 
 /* Weddings & Events*/
@@ -112,7 +107,7 @@ h1 span {
 
 /* Weddings */
 .services__image--weddings {
-  background: url("") #414040;
+  background: url("") no-repeat center center/cover #414040;
 }
 
 /* Events */
@@ -279,9 +274,15 @@ h1 span {
 
 /* Call to Action */
 .cta {
-  background: url("/images/cta/painting.avif") #dddcdc;
+  background: url("") #dddcdc;
   height: 60vh;
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
 }
+
+/* a:focus,
+button:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+} */

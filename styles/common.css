@@ -28,20 +28,32 @@ a {
   text-decoration: none;
 }
 
+/* a:focus,
+button:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+} */
+
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem;
+}
+
 h1 {
   color: white;
-  font-size: 3.5rem;
   font-weight: 500;
   line-height: 1;
   /* text-shadow: #414040 0.1rem 0.1rem 0.1rem; */
 }
 
-h1,
-h2 {
-  font-family: "Cormorant Garamond", serif;
+h2{
+  /* font-size: 3.5rem; */
+  font-weight: 500;
+  padding-bottom: 2.5rem;
 }
 
-/* Navigation Bar */
+/* Navbar */
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -73,9 +85,9 @@ h2 {
 }
 
 .navbar__logo img {
-  padding: 1.6rem 0;
-  width: 14rem;
-  filter: invert(40%);
+  padding: 1.5rem 0;
+  height: 6.2rem;
+  filter: invert(45%);
 }
 
 .navbar__social {
@@ -254,7 +266,7 @@ h2 {
 }
 
 .instagram__image--2 {
-  background: url("/images/weddings/instagram-2.avif") no-repeat center
+  background: url("../images/weddings/instagram-2.avif") no-repeat center
     center/cover #414040;
 }
 
@@ -263,7 +275,7 @@ h2 {
 }
 
 .instagram__image--4 {
-  background: url("/images/portfolio/instagram.png") no-repeat center
+  background: url("../images/portfolio/instagram.png") no-repeat center
     center/cover #414040;
 }
 
@@ -272,7 +284,7 @@ h2 {
 }
 
 .instagram__image--6 {
-  background: url("/images/final-images/img1.png") no-repeat center center/cover
+  background: url("../images/portfolio/img1.png") no-repeat center center/cover
     #414040;
 }
 
@@ -322,6 +334,7 @@ h2 {
 
 .footer__logo img {
   width: 15rem;
+  filter: 
 }
 
 .footer__text {

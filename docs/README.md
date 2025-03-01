@@ -135,7 +135,15 @@ NOTE: Images are used temporarily without a licence (with trademarks) until the 
 - Added final font-family to Footer. 
 
 Version 1.9.7 - 25-01-2025
-- Changed 'disable' attribute to 'hidden' on Contact Form select input
+- Changed 'disable' attribute to 'hidden' on Contact Form select input.
 
 Version 1.9.8 - 15-02-2025
-- Fixed submit button display bug
+- Fixed submit button display bug.
+
+Version 1.10.0 - 28-02-2025
+- Redesigned logo
+- Added button to homepage hero section
+- Added font-family to headings
+
+Version 1.11.0 - 29-02-2025
+- Added dynamic header and footer components by creating `header.html`, `footer.html`, and `common.js` to load them on every page.
