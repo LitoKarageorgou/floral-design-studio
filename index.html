@@ -7,7 +7,7 @@
   <title>Home | Florience | Floral Design Studio</title>
   <link rel="stylesheet" href="styles/common.css">
   <link rel="stylesheet" href="styles/index.css" />
-  <link rel="icon" href="images/icons/favicon.png" />
+  <link rel="icon" href="assets/icons/favicon.png" />
   <!-- Lato Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
-    <!-- Common JavaScript -->
-  <script src="scripts/common.js"></script>
+  <!-- JavaScript -->
+  <script src="scripts/header-footer.js" defer></script>
+  <script src="scripts/portfolio-carousel.js" defer></script>
 
 
 </head>
@@ -53,21 +54,23 @@
       </div>
 
       <!-- Portfolio Overview -->
-      <div class="portfolio__container">
-        <h2>Portfolio</h2>
-        <div class="portfolio__wrap">
-          <img src="images/icons/arrow_back.png" />
-          <div class="portfolio__images">
-            <div class="portfolio__image--1"></div>
-            <div class="portfolio__image--2"></div>
-            <div class="portfolio__image--3"></div>
-          </div>
-          <img src="images/icons/arrow_forward.png" />
-        </div>
-        <div>
-          <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
-        </div>
+  <div class="portfolio">
+    <h2>Portfolio</h2>
+    <!-- Portfolio Carousel -->
+    <div class="portfolio-carousel__wrapper">
+      <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img src="./assets/icons/arrow-back.png" alt="Previous image"></a>
+      <div class="portfolio-carousel__viewport">
+        <div class="portfolio-carousel__images"></div>
       </div>
+      <a class="portfolio-carousel__button portfolio-carousel__button--next"><img src="./assets/icons/arrow-forward.png" alt="Next image"></a>
+      <!-- Control buttons -->
+      <div class="portfolio-carousel__controls">
+        <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
+        <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+      </div>
+    </div>
+    <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
+  </div>
 
       <!-- Weddings Overview -->
       <div class="services__container">

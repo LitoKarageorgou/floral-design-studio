@@ -44,11 +44,9 @@ h1 {
   color: white;
   font-weight: 500;
   line-height: 1;
-  /* text-shadow: #414040 0.1rem 0.1rem 0.1rem; */
 }
 
 h2{
-  /* font-size: 3.5rem; */
   font-weight: 500;
   padding-bottom: 2.5rem;
 }
@@ -140,9 +138,9 @@ h2{
   text-decoration: none;
   color: var(--primary-font-color);
   font-family: var(--secondary-font-family);
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   letter-spacing: 0.25rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button--primary {
@@ -326,7 +324,7 @@ h2{
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 1rem;
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
@@ -334,7 +332,7 @@ h2{
 
 .footer__logo img {
   width: 15rem;
-  filter: 
+  filter: invert(40%);
 }
 
 .footer__text {
@@ -353,7 +351,7 @@ h2{
 
 .footer__social img {
   height: 1.1rem;
-  filter: invert(30%);
+  filter: invert(40%);
 }
 
 /* Navigation */

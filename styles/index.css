@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero__container {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat
-    center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center/cover #414040;
   background-position: center 65%;
   height: 75vh;
 }
@@ -27,52 +27,124 @@ h1 span {
 }
 
 /* Portfolio Overview */
-.portfolio__container {
+.portfolio {
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
-  height: 83vh;
+  height: 85vh;
+  /* position: relative; */
 }
 
-.portfolio__container h2 {
+.portfolio h2 {
   text-align: center;
-  /* padding-bottom: 3rem; */
   text-transform: uppercase;
+  /* position: absolute;
+  bottom: 5%; */
 }
 
-.portfolio__wrap {
-  width: 100%;
-  height: 100%;
+/* Carousel Wrapper */
+.portfolio-carousel__wrapper{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
-.portfolio__images {
+/* Carousel viewport */
+.portfolio-carousel__viewport {
+  overflow: hidden;
   width: 60%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 0.7rem;
+  /* max-width: 900px; Adjust as needed */
+  margin: auto;
 }
 
-.portfolio__image--1 {
-  background: url("../images/homepage-portfolio/anita-austvika-8DfZJXNvFlA-unsplash.jpg") no-repeat center center/cover #414040;
+/* Carousel images container */
+.portfolio-carousel__images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
-.portfolio__image--2 {
-  background: url("../images/homepage-portfolio/anita-austvika-NVsI8KJDsSY-unsplash.jpg") no-repeat center center/cover #414040;
+/* Each carousel item */
+.portfolio-carousel__slide {
+  min-width: calc(100% / 3);
 }
 
-.portfolio__image--3 {
-  background: url("../images/homepage-portfolio/anita-austvika-wZ_q5-SvmGM-unsplash.jpg") no-repeat center center/cover #414040;
+.portfolio-carousel__slide img {
+  height: 35rem;
+  width: 100%;
+  max-width: 23.3rem;
+  display: block;
+  margin: 0 auto; /* added to center the image horizontally */
+}
+
+/* Navigation Buttons */
+.portfolio-carousel__button {
+  cursor: pointer;
+}
+
+.portfolio-carousel__button--previous {
+  position: absolute;
+  top: 50%;
+  left: 18.4%;
+  transform: translateY(-50%);
+}
+
+.portfolio-carousel__button--next {
+  position: absolute;
+  top: 50%;
+  right: 18.4%;
+  transform: translateY(-50%);
+}
+
+.portfolio-carousel__button img{
+  width: 1.6rem;
+  filter: invert(75%);
+}
+
+/* Slideshow controls positioned over the carousel */
+.portfolio-carousel__controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: none; /* Added to hide controls by default */
+}
+
+.portfolio-carousel__controls a img {
+  width: 3rem;
+  cursor: pointer;
+}
+
+/* Added rule to show controls on hover */
+.portfolio-carousel__wrapper:hover .portfolio-carousel__controls {
+  display: block;
+}
+
+/* Navigation Buttons */
+.carousel-button {
+  transform: translate(0, 50%);
+  cursor: pointer;
+}
+
+.carousel-button.prev {
+  position: absolute;
+  left: 18%;
+}
+
+.carousel-button.next {
+  position: absolute;
+  right: 18%;
+}
+
+.carousel-button img{
+  width: 1.6rem;
+  filter: invert(80%);
 }
 
 /* Weddings & Events*/
 .services__container {
   height: 80vh;
-}
+} 
 
 .services__wrap {
   width: 60%;
