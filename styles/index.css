@@ -43,27 +43,23 @@ h1 span {
   bottom: 5%; */
 }
 
-/* Carousel Wrapper */
+/* Portfolio Carousel */
 .portfolio-carousel__wrapper{
   display: flex;
   position: relative;
 }
 
-/* Carousel viewport */
 .portfolio-carousel__viewport {
   overflow: hidden;
   width: 60%;
-  /* max-width: 900px; Adjust as needed */
   margin: auto;
 }
 
-/* Carousel images container */
 .portfolio-carousel__images {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
-/* Each carousel item */
 .portfolio-carousel__slide {
   min-width: calc(100% / 3);
 }
@@ -71,136 +67,151 @@ h1 span {
 .portfolio-carousel__slide img {
   height: 35rem;
   width: 100%;
-  max-width: 23.3rem;
+  max-width: 23rem;
   display: block;
-  margin: 0 auto; /* added to center the image horizontally */
+  margin: 0 auto;
 }
 
-/* Navigation Buttons */
+/* Buttons */
 .portfolio-carousel__button {
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .portfolio-carousel__button--previous {
-  position: absolute;
-  top: 50%;
-  left: 18.4%;
-  transform: translateY(-50%);
+  left: 18%;
 }
 
 .portfolio-carousel__button--next {
-  position: absolute;
-  top: 50%;
-  right: 18.4%;
-  transform: translateY(-50%);
+  right: 18%;
 }
 
 .portfolio-carousel__button img{
   width: 1.6rem;
-  filter: invert(75%);
+  filter: invert(80%);
 }
 
-/* Slideshow controls positioned over the carousel */
+/* Controls */
 .portfolio-carousel__controls {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  display: none; /* Added to hide controls by default */
+  display: none; 
 }
 
 .portfolio-carousel__controls a img {
   width: 3rem;
   cursor: pointer;
+  /* filter: invert(5%); */
 }
 
-/* Added rule to show controls on hover */
 .portfolio-carousel__wrapper:hover .portfolio-carousel__controls {
   display: block;
 }
 
-/* Navigation Buttons */
-.carousel-button {
-  transform: translate(0, 50%);
-  cursor: pointer;
+/* Services*/
+.services{
+  background-color: var(--primary-color);
+  padding: 6.5rem 0;
 }
 
-.carousel-button.prev {
-  position: absolute;
-  left: 18%;
-}
-
-.carousel-button.next {
-  position: absolute;
-  right: 18%;
-}
-
-.carousel-button img{
-  width: 1.6rem;
-  filter: invert(80%);
-}
-
-/* Weddings & Events*/
 .services__container {
   height: 80vh;
+  position: relative;
 } 
+
+.services__container h2{
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 6.4rem;
+  color: #e2e0da;
+  position: absolute;
+}
 
 .services__wrap {
   width: 60%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
 .services__image {
-  height: 89%;
-  width: 89%;
-  background: url("") #414040;
+  height: 92%;
+  width: 92%;
 }
 
 .services__text {
   width: 85%;
+  justify-self: center;
 }
 
-.services__text h2 {
-  padding-bottom: 2.2rem;
-  line-height: 1.2;
-  font-weight: 200;
+.services__text h3 {
+  font-size: 3rem;
+  padding-bottom: 2.4rem;
+  line-height: 1;
+  font-family: var(--font-heading); 
+  font-weight: 500;
 }
 
 .services__text p {
-  line-height: 1.8;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  width: 90%;
+  font-weight: 300;
 }
 
 /* Weddings */
-.services__image--weddings {
-  background: url("") no-repeat center center/cover #414040;
+.services__container--weddings h2{
+  transform: rotate(-90deg);
+  top: 19%;
+  left: 5.5%;
 }
 
+.services__image.services__image--weddings{
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040 no-repeat center center/cover;
+  justify-self: left;
+}
+
+
 /* Events */
-.services__text-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  text-align: right;
+.services__container--events h2{
+  transform: rotate(90deg);
+  top: 10%;
+  right: 9.5%;
 }
 
 .services__image-wrap--events {
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
 }
 
-.services__image--events {
-  background: url("") #414040;
+.services__image.services__image--events{
+  background: url("../assets/images/homepage-portfolio/line.jpg") #414040 no-repeat center center/cover;
+  justify-self: end;
+}
+
+.services__text-wrap--events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.services__text.services__text--events p{
+  justify-self: end;
 }
 
 /* About */
@@ -215,7 +226,7 @@ h1 span {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   margin: auto;
 }
 
@@ -223,34 +234,34 @@ h1 span {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(17, 1fr);
-  grid-template-rows: repeat(15, 1fr);
+  grid-template-columns: repeat(auto-fit,minmax(16, 1fr));
+  grid-template-rows: repeat(auto-fit,minmax(17, 1fr));;
 }
 
 .about__image--1 {
-  grid-column: 2 / span 9;
-  grid-row: 1 / span 6;
+  grid-column: 2 / span 10;
+  grid-row: 1 / span 7;
   z-index: 1;
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center center/cover #414040;
 }
 
 .about__image--2 {
-  grid-column: 8 / span 9;
-  grid-row: 6 / span 6;
+  grid-column: 8 / span 10;
+  grid-row: 6 / span 7;
   z-index: 2;
-  background: url("") no-repeat center center/cover #4e4d4d;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #4e4d4d;
 }
 
 .about__image--3 {
-  grid-column: 4 / span 6;
-  grid-row: 11 / span 4;
+  grid-column: 4 / span 7;
+  grid-row: 12 / span 5;
   z-index: 3;
-  background: url("") no-repeat center center/cover #5a5858;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #5a5858;
 }
 
 .about__text {
   width: 70%;
-  line-height: 1.6;
+  line-height: 1.8;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -259,14 +270,18 @@ h1 span {
 .about__text h2 {
   padding: 2rem 0;
   text-transform: uppercase;
-  line-height: 1.2;
-  letter-spacing: 0.1rem;
+  line-height: 1.1;
+}
+
+.about__text p {
+  font-size: 0.9rem;
   font-weight: 300;
 }
 
 /* Featured In */
 .featured__wrap h2 {
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 /* Testimonials */

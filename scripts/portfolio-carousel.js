@@ -10,11 +10,10 @@ const stopButton = document.querySelector('#stop-slideshow');
 
 // Image URLs
 const imageURLs = [
-    '../assets/images/homepage-portfolio/line.jpg',
     '../assets/images/homepage-portfolio/bouquet2.jpg',
-    '../assets/images/homepage-portfolio/purple.jpg',
     '../assets/images/homepage-portfolio/wreath.jpg',
     '../assets/images/hero-sections/blue-flower-fullsize.jpg',
+    '../assets/images/homepage-portfolio/line.jpg',
 ];
 
 // Create carousel slides for each image

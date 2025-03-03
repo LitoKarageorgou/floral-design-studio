@@ -5,9 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Florience | Floral Design Studio</title>
-  <link rel="stylesheet" href="styles/common.css">
-  <link rel="stylesheet" href="styles/index.css" />
-  <link rel="icon" href="assets/icons/favicon.png" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/common.css">
+  <link rel="stylesheet" href="./styles/index.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/icons/favicon-white.png" />
   <!-- Lato Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,8 +25,7 @@
   <!-- JavaScript -->
   <script src="scripts/header-footer.js" defer></script>
   <script src="scripts/portfolio-carousel.js" defer></script>
-
-
+  <script src="scripts/scroll-trigger.js" defer></script>
 </head>
 
 <body>
@@ -54,62 +55,64 @@
       </div>
 
       <!-- Portfolio Overview -->
-  <div class="portfolio">
-    <h2>Portfolio</h2>
-    <!-- Portfolio Carousel -->
-    <div class="portfolio-carousel__wrapper">
-      <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img src="./assets/icons/arrow-back.png" alt="Previous image"></a>
-      <div class="portfolio-carousel__viewport">
-        <div class="portfolio-carousel__images"></div>
-      </div>
-      <a class="portfolio-carousel__button portfolio-carousel__button--next"><img src="./assets/icons/arrow-forward.png" alt="Next image"></a>
-      <!-- Control buttons -->
-      <div class="portfolio-carousel__controls">
-        <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
-        <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
-      </div>
-    </div>
-    <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
-  </div>
-
-      <!-- Weddings Overview -->
-      <div class="services__container">
-        <div class="services__wrap">
-          <div class="services__image services__image--weddings"></div>
-          <div class="services__text">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, vitae tenetur iure atque labore repellat tempora, ab
-              aliquid odit inventore dolor eos? Quo quae accusamus cum ipsa illo
-              tempore non, enim, at facere molestias reiciendis debitis aliquid
-              iste maiores. Qui omnis tempore dolor. Quaerat corporis eaque at
-              quis officia porro.
-            </p>
-            <a href="services.html" class="button button--secondary">More on weddings</a>
+      <div class="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Portfolio Carousel -->
+        <div class="portfolio-carousel__wrapper">
+          <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img
+              src="./assets/icons/arrow-back.png" alt="Previous image"></a>
+          <div class="portfolio-carousel__viewport">
+            <div class="portfolio-carousel__images"></div>
+          </div>
+          <a class="portfolio-carousel__button portfolio-carousel__button--next"><img
+              src="./assets/icons/arrow-forward.png" alt="Next image"></a>
+          <!-- Control buttons -->
+          <div class="portfolio-carousel__controls">
+            <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
+            <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
           </div>
         </div>
+        <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
       </div>
 
-      <!-- Events Overview -->
-      <div class="services__container">
-        <div class="services__wrap">
-          <div class="services__text-wrap">
-            <div class="services__text services__text--events">
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing</h2>
+      <!-- Services Overview-->
+      <div class="services">
+        <!-- Weddings -->
+        <div class="services__container services__container--weddings">
+          <h2>Weddings</h2>
+          <div class="services__wrap">
+            <div class="services__image services__image--weddings"></div>
+            <div class="services__text services-text--weddings">
+              <h3>Exquisite floral designs for your special day </h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, vitae tenetur iure atque labore repellat tempora, ab
-                aliquid odit inventore dolor eos? Quo quae accusamus cum ipsa illo
-                tempore non, enim, at facere molestias reiciendis debitis aliquid
-                iste maiores. Qui omnis tempore dolor. Quaerat corporis eaque at
-                quis officia porro.
+                We are passionate about creating breathtaking floral designs that bring romance and elegance to your
+                wedding day. From lush bouquets to stunning centerpieces, every detail is thoughtfully crafted to
+                reflect your vision and style. Let us transform your special day into a floral masterpiece, making every
+                moment unforgettable.
               </p>
-              <a href="services.html" class="button button--secondary">More on events</a>
+              <a href="services.html" class="button button--secondary">Read more about our wedding services</a>
             </div>
           </div>
-          <div class="services__image-wrap--events">
-            <div class="services__image"></div>
+        </div>
+
+        <!-- Events -->
+        <div class="services__container services__container--events">
+          <h2>Events</h2>
+          <div class="services__wrap">
+            <div class="services__text-wrap--events">
+              <div class="services__text services__text--events">
+                <h3>Elegant floral designs for every occasion</h3>
+                <p>
+                  We design exquisite floral arrangements that elevate any event, from intimate gatherings to grand
+                  celebrations. Our unique creations bring elegance and charm to every occasion. Whether a corporate
+                  event, gala, or private party, we tailor each design to suit the setting.
+                </p>
+                <a href="services.html" class="button button--secondary">Read more about our event services</a>
+              </div>
+            </div>
+            <div class="services__image-wrap--events">
+              <div class="services__image services__image--events"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -125,19 +128,15 @@
           <div class="about__text">
             <h2>About our studio</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur, vitae tenetur iure atque labore repellat tempora, ab
-              aliquid odit inventore dolor eos? Quo quae accusamus cum ipsa illo
-              tempore non, enim, at facere molestias reiciendis debitis aliquid
-              iste maiores. Qui omnis tempore dolor. Quaerat corporis eaque at
-              quis officia porro.
+              Founded in 2009, Florience is a boutique floral design studio based in Surrey, London, known for its
+              exquisite, handcrafted arrangements. Led by Isabelle Laurent, a passionate floral artist with years of
+              experience, our studio blends creativity with nature's beauty to create unique floral designs.
 
               <br><br><br>
 
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque perferendis aspernatur culpa,
-              eveniet
-              sequi veritatis facere explicabo soluta accusamus maxime at consequuntur dicta architecto, rerum qui iure
-              molestiae dolorum.
+              What began as a small passion project has grown into a sought-after destination for elegant wedding and
+              event florals. With a deep appreciation for artistry and attention to detail, Florience continues to bring
+              breathtaking floral visions to life for clients across the UK and beyond.
             </p>
             <a href="about.html" class="button button--secondary">About Us</a>
           </div>
@@ -149,12 +148,12 @@
         <div class="featured__wrap">
           <h2>Featured in</h2>
           <div class="featured__logos">
-            <img src="images/logos/logoipsum-232.svg" alt="Magazine 1" />
-            <img src="images/logos/logoipsum-288.svg" alt="Magazine 2" />
-            <img src="images/logos/logoipsum-317.svg" alt="Magazine 3" />
-            <img src="images/logos/logoipsum-323.svg" alt="Magazine 4" />
-            <img src="images/logos/logoipsum-214.svg" alt="Magazine 5" />
-            <img src="images/logos/logoipsum-215.svg" alt="Magazine 6" />
+            <h3>Vogue</h3>
+            <h3>Town & Country</h3>
+            <h3>Elle</h3>
+            <h3>Martha Steward</h3>
+            <h3>Bazaar</h3>
+            <h3>Luxury London</h3>
           </div>
         </div>
       </div>
