@@ -7,6 +7,7 @@ const prevButton = document.querySelector('.portfolio-carousel__button--previous
 const slides = [];
 const startButton = document.querySelector('#start-slideshow'); 
 const stopButton = document.querySelector('#stop-slideshow');
+const carousel = document.querySelector('.portfolio__carousel'); 
 
 // Image URLs
 const imageURLs = [

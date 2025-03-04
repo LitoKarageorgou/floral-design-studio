@@ -26,6 +26,7 @@
   <script src="scripts/header-footer.js" defer></script>
   <script src="scripts/portfolio-carousel.js" defer></script>
   <script src="scripts/scroll-trigger.js" defer></script>
+  <script src="scripts/testimonials-carousel.js" defer></script>
 </head>
 
 <body>
@@ -58,18 +59,19 @@
       <div class="portfolio">
         <h2>Portfolio</h2>
         <!-- Portfolio Carousel -->
-        <div class="portfolio-carousel__wrapper">
-          <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img
-              src="./assets/icons/arrow-back.png" alt="Previous image"></a>
+        <div class="portfolio__carousel">
           <div class="portfolio-carousel__viewport">
             <div class="portfolio-carousel__images"></div>
           </div>
+          <!-- Navigation Arrows -->
+          <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img
+            src="./assets/icons/arrow-back.png" alt="Previous image"></a>
           <a class="portfolio-carousel__button portfolio-carousel__button--next"><img
               src="./assets/icons/arrow-forward.png" alt="Next image"></a>
           <!-- Control buttons -->
           <div class="portfolio-carousel__controls">
-            <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
             <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+            <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
           </div>
         </div>
         <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
@@ -159,40 +161,29 @@
       </div>
 
       <!-- Testimonials -->
-      <div class="testimonials__container">
-        <h2>Testimonials</h2>
-        <img src="images/icons/arrow_back.png" id="arrow-back" />
-        <div class="testimonials__wrap">
-          <div class="testimonials__text">
-            <h3>
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Laudantium iste expedita, quisquam labore vero
-              ipsam aspernatur repudiandae voluptatibus."
-            </h3>
-
-            <p>
-              "Sunt sit ab dolores sed delectus, similique nulla voluptatibus porro molestias
-              consequatur iusto error quam dignissimos praesentium.
-              exercitationem dolorum libero laborum corrupti est doloremque
-              neque perferendis obcaecati quae quia asperiores deleniti
-              quis.
-              <br /><br /><br />
-              Deleniti excepturi amet doloremque officiis qui
-              quibusdam, aut totam ipsum, aspernatur ea voluptatum dolorum
-              asperiores quia odit numquam.ipsam aspernatur repudiandae voluptatibus, porro molestias consequatur
-              iusto
-              error quam dignissimos praesentium."
-
-              <br /><br /><br />
-
-              Lorem, ipsum dolor.
-            </p>
-          </div>
-          <div class="testimonials__image--1"></div>
-          <div class="testimonials__image--2"></div>
-        </div>
-        <img src="images/icons/arrow_forward.png" id="arrow-forward" />
+  <div class="testimonials">
+    <h2>Testimonials</h2>
+    <!-- Testimonials Carousel -->
+    <div class="testimonials__carousel">
+      <div class="testimonials__text">
+        <h3></h3>
+        <p></p>
       </div>
+      <!-- Images -->
+      <div class="testimonials__image--1"></div>
+      <div class="testimonials__image--2"></div>
+      <!-- Control buttons -->
+      <div class="testimolias-carousel__controls">
+        <a id="pause-button"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+        <a id="play-button"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
+      </div>
+    </div>
+    <!-- Navigation Arrows -->
+    <img src="./assets/icons/arrow-back.png" id="arrow-back" />
+    <img src="./assets/icons/arrow-forward.png" id="arrow-forward" />
+    <!-- Dot container -->
+    <div class="testimonials__dots"></div>
+  </div>
 
       <!-- Call to Action -->
       <div class="cta">
