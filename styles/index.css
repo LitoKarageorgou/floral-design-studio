@@ -44,7 +44,7 @@ h1 span {
 }
 
 /* Portfolio Carousel */
-.portfolio__carousel {  /* renamed from .portfolio-carousel__wrapper */
+.portfolio__carousel { 
   display: flex;
   position: relative;
 }
@@ -74,7 +74,6 @@ h1 span {
 
 /* Navigation Arrows */
 .portfolio-carousel__button {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -105,11 +104,9 @@ h1 span {
 
 .portfolio-carousel__controls a img {
   width: 3rem;
-  cursor: pointer;
-  /* filter: invert(5%); */
 }
 
-.portfolio__carousel:hover .portfolio-carousel__controls {  /* updated hover selector */
+.portfolio__carousel:hover .portfolio-carousel__controls {
   display: block;
 }
 
@@ -180,7 +177,6 @@ h1 span {
   background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040 no-repeat center center/cover;
   justify-self: left;
 }
-
 
 /* Events */
 .services__container--events h2{
@@ -322,10 +318,22 @@ h1 span {
   justify-content: center;
   align-items: center;
   text-align: left;
-  background-color:  #fbfaf7;
-  padding: 4rem;
+  background-color:  var(--primary-color);
+  padding: 5rem;
 }
 
+.testimonials__text h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.testimonials__text p {
+  font-size: 0.9rem;
+  padding-top: 3rem;
+  line-height: 1.7;
+}
+
+/* Images */
 .testimonials__image--1 {
   grid-column: 20 / span 10;
   grid-row: 4 / span 11;
@@ -340,13 +348,6 @@ h1 span {
   z-index: 3;
 }
 
-.testimonials__text h3 {
-  font-size: 2rem;
-}
-
-.testimonials__text p {
-  padding-top: 3rem;
-}
 
 /* Navigation Arrows */
 #arrow-back {
@@ -369,14 +370,14 @@ h1 span {
 
 /* Controls */
 .testimolias-carousel__controls img{
-  cursor: pointer;
   width: 2.5rem;
+  filter: invert(10%);
 }
 
 .testimolias-carousel__controls {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 54.4%;
   transform: translate(-50%, -50%);
   z-index: 4;
   display: none;
@@ -420,3 +421,12 @@ button:focus {
   outline: 2px solid #000;
   outline-offset: 2px;
 } */
+
+/* Call to Action */
+.cta {
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #dddcdc;
+  height: 60vh;
+
+  /* Parallax Scroll Effect */
+  background-attachment: fixed;
+}

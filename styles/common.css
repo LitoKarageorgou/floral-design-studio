@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #fbfaf7;
-  --secondary-color: white;
+  --primary-color: #f8f6f1;
+  --secondary-color: #fbfaf7;
   --tetriary-color: #f1eeea;
   --primary-font-color: #636260;
   --font-heading: "Cormorant Garamond", serif;
@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+a,
+button {
+  cursor: pointer;
+}
+
 /* a:focus,
 button:focus {
   outline: 2px solid #000;
@@ -47,12 +52,12 @@ h1 {
   line-height: 1;
 }
 
-h2{
+h2 {
   font-weight: 500;
   padding-bottom: 3.5rem;
 }
 
-p{
+p {
   font-family: var(--font-body);
 }
 
@@ -112,7 +117,6 @@ p{
   gap: 6.8rem;
   padding-bottom: 6.8rem;
   font-family: "Times New Roman", Times, serif, sans-serif;
-  background-color: var(--secondary-color);
 }
 
 /* Hero Section*/
@@ -143,21 +147,21 @@ p{
   text-decoration: none;
   color: var(--primary-font-color);
   font-family: var(--font-body);
-  font-size: 0.7rem;
   letter-spacing: 0.25rem;
   font-weight: 600;
 }
 
 .button--primary {
-  padding: 1rem;
-  margin-top: 1rem;
+  padding: 1rem 1.3rem;
   background-color: var(--tetriary-color);
+  font-size: 0.6rem;
 }
 
 .button--secondary {
   padding: 1rem 0;
   margin-top: 2rem;
   border-bottom: 0.3px solid #dcdad5;
+  font-size: 0.7rem;
 }
 
 /* .button--secondary::after {
@@ -180,17 +184,18 @@ p{
 }
 
 .featured__wrap {
-  width: 55%;
+  width: 53%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  /* border: white 0.5rem solid; */
 }
 
 .featured__wrap h2 {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -204,7 +209,7 @@ p{
   justify-content: space-between;
   align-items: center;
   padding: 0 3rem 3rem 3rem;
-  min-height: 8em;  
+  min-height: 15rem;
 }
 
 .featured__logos h3 {
@@ -212,7 +217,7 @@ p{
   font-size: 4em;
   color: #94928d;
   text-transform: uppercase;
-  padding: 1.3rem 1.8rem;
+  padding: 1.6rem 1.6rem;
   opacity: 0;
   flex: 1;
   text-align: center;
@@ -222,13 +227,30 @@ p{
   animation: fadeInUp 0.5s forwards;
 }
 
-.featured__logos h3:nth-child(1).animate { animation-delay: 0.3s; }
-.featured__logos h3:nth-child(2).animate { animation-delay: 0.6s; color: #888585; font-size: 2.8rem; }
-.featured__logos h3:nth-child(3).animate { animation-delay: 0.9s; color: #726d6d; }
-.featured__logos h3:nth-child(4).animate { animation-delay: 1.2s; color: #757171; font-size: 2.8rem; }
-.featured__logos h3:nth-child(5).animate { animation-delay: 1.8s; color: #837d7d;}
-.featured__logos h3:nth-child(6).animate { animation-delay: 1.5s; font-size: 2.8rem;}
-
+.featured__logos h3:nth-child(1).animate {
+  animation-delay: 0.3s;
+}
+.featured__logos h3:nth-child(2).animate {
+  animation-delay: 0.6s;
+  color: #888585;
+}
+.featured__logos h3:nth-child(3).animate {
+  animation-delay: 0.9s;
+  color: #726d6d;
+}
+.featured__logos h3:nth-child(4).animate {
+  animation-delay: 1.2s;
+  color: #8b8585;
+  font-size: 2.6rem;
+}
+.featured__logos h3:nth-child(5).animate {
+  animation-delay: 1.8s;
+  color: #837d7d;
+}
+.featured__logos h3:nth-child(6).animate {
+  animation-delay: 1.5s;
+  font-size: 2.2rem;
+}
 
 @keyframes fadeInUp {
   from {
@@ -243,7 +265,8 @@ p{
 
 /* Call to Action */
 .cta {
-  background: var(--tetriary-color);
+  background: url("../assets/images/homepage-portfolio/line.jpg")
+    var(--tetriary-color) no-repeat center center/cover;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -254,14 +277,16 @@ p{
 
 .cta__wrap {
   position: absolute;
-  left: 27%;
-  bottom: 25%;
+  left: 21%;
+  top: 35%;
 }
 
 .cta__wrap h2 {
-  font-size: 2.5rem;
-  font-weight: 200;
+  font-style: italic;
+  font-size: 2.7rem;
+  font-weight: 600;
   color: var(--secondary-color);
+  padding: 0.7rem 0;
 }
 
 .cta__wrap h2 span {
@@ -294,30 +319,33 @@ p{
 }
 
 .instagram__image--1 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
+    bottom center/cover #414040;
 }
 
 .instagram__image--2 {
-  background: url("../images/weddings/instagram-2.avif") no-repeat center
-    center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center center/cover #414040;
 }
 
 .instagram__image--3 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+    bottom center/cover #414040;
 }
 
 .instagram__image--4 {
-  background: url("../images/portfolio/instagram.png") no-repeat center
-    center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+    center center/cover #414040;
 }
 
 .instagram__image--5 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat bottom center/cover #414040;
 }
 
 .instagram__image--6 {
-  background: url("../images/portfolio/img1.png") no-repeat center center/cover
-    #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+    center center/cover #414040;
 }
 
 /* Footer */
@@ -376,6 +404,7 @@ p{
   font-size: 0.8rem;
 }
 
+/* Social */
 .footer__social {
   display: flex;
   justify-content: start;
@@ -394,8 +423,19 @@ p{
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  gap: 0.8rem;
+  gap: 1rem;
+  text-transform: uppercase;
 }
+
+.footer__nav-list li a {
+  font-size: 0.67rem;
+  letter-spacing: 0.1rem;
+
+}
+/* 
+.footer__nav-list li a:hover {
+  color: #acacab;
+} */
 
 /* Contact */
 .footer__contact li {
@@ -431,7 +471,6 @@ p{
   color: white;
   background-color: var(--primary-font-color);
   border: none;
-  cursor: pointer;
   height: 1.8rem;
   font-family: var(--font-body);
 }
@@ -450,6 +489,11 @@ p{
   font-size: 0.8rem;
 }
 
+.footer__credits p, .footer__credits a{
+  font-size: 0.7rem;
+}
+
+/* Legal */
 .footer__legal {
   display: flex;
   gap: 2rem;

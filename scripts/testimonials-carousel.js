@@ -9,51 +9,43 @@ let autoSlideInterval = setInterval(nextSlide, 5000);
 
 const testimonials = [
     {
-        title: `"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Laudantium iste expedita, quisquam labore vero
-          ipsam aspernatur repudiandae voluptatibus."`,
-        text: `"Sunt sit ab dolores sed delectus, similique nulla voluptatibus porro molestias
-          consequatur iusto error quam dignissimos praesentium.
-          exercitationem dolorum libero laborum corrupti est doloremque
-          neque perferendis obcaecati quae quia asperiores deleniti
-          quis.
+        title: `"Florience transformed our wedding into an absolute dream. The floral arrangements were breathtaking, and every detail was thoughtfully designed to perfection."`,
+        text: `"From the moment we met with Florience, we knew we were in the best hands. The flowers were beyond stunning—soft, romantic, and exactly what we envisioned. The attention to detail and artistry was remarkable, making our special day even more magical. Guests couldn’t stop complimenting the beauty of the arrangements, and we couldn’t have been happier.
 
           <br /><br /><br />
 
-          Deleniti excepturi amet doloremque officiis qui
-          quibusdam, aut totam ipsum, aspernatur ea voluptatum dolorum
-          asperiores quia odit numquam.ipsam aspernatur repudiandae voluptatibus, porro molestias consequatur
-          iusto
-          error quam dignissimos praesentium."
+          Every bouquet, table piece, and floral installation told a story, bringing warmth and elegance to our venue. Thank you for making our day so unforgettable!"
 
           <br /><br /><br />
 
-          Slide 1`,
+        — James & Eleanor Whitmore`,
         image1: "../assets/images/hero-sections/blue-flower-fullsize.jpg",
         image2: "../assets/images/homepage-portfolio/bouquet2.jpg"
     },
     {
-        title: `"Laudantium iste expedita, quisquam labore vero 
-        ipsam aspernatur repudiandae voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit."`,
-        text: `"Deleniti excepturi amet doloremque officiis qui
-          quibusdam, aut totam ipsum, aspernatur ea voluptatum dolorum
-          asperiores quia odit numquam.ipsam aspernatur repudiandae voluptatibus, porro molestias consequatur iusto error quam dignissimos praesentium."
-
-          <br /><br /><br />
-
-          Sunt sit ab dolores sed delectus, similique nulla voluptatibus porro molestias
-          consequatur iusto error quam dignissimos praesentium.
-          exercitationem dolorum libero laborum corrupti est doloremque
-          neque perferendis obcaecati quae quia asperiores deleniti
-          quis.
-
-          <br /><br /><br />
-
-          Slide 2`,
+        title: `"Florience brought our vision to life with unmatched elegance. Their florals set the perfect tone for our celebration."`,
+        text: `""From our very first consultation, the Florience team understood exactly what we wanted. They created arrangements that felt natural yet luxurious, elegant yet effortless. Every floral element, from the bridal bouquet to the reception centerpieces, was crafted with such care and precision."
+        
+        <br /><br /><br />
+        
+        "Seeing the final setup took my breath away. It was as if they had stepped into my imagination and made it real. I couldn’t have asked for a more magical experience!"
+        
+        <br /><br /><br />
+        
+        — Olivia Bennett`,
         image1: "../assets/images/homepage-portfolio/line.jpg",
         image2: "../assets/images/homepage-portfolio/wreath.jpg"
+    },
+    {
+        title: `"Astonishingly creative floral designs that brought joy to our celebration."`,
+        text: `"From our first encounter to the final arrangement, every detail was crafted with passion. The floral displays transformed our event into a vibrant and memorable experience. We were truly impressed by the artistry and vision behind each design.
+        
+        <br /><br /><br />
+        
+        — Martin & Sophia Ramirez"`,
+        image1: "../assets/images/hero-sections/blue-flower-fullsize.jpg",
+        image2: "../assets/images/homepage-portfolio/wreath.jpg"
     }
-    // Add more testimonials here
 ];
 
 // Create dots based on testimonials length
