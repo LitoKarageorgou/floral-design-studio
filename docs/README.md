@@ -151,3 +151,10 @@ Version 1.11.0 - 29-02-2025
 
 Version 1.12.0 - 02-02-2025
 - Added carousel functionality to Homepage Portfolio Overview Section.
+
+Version 1.13.0 - 03-02-2025
+- Finished styling and added final text to Homepage Portfolio Overview, Services, About Overview and Featured in sections.
+
+Version 1.14.0 - 04-02-2025
+- Added carousel functionality to Homepage Testimonials.
+- Finished styling and added final text to Homepage Testimonials, CTA and Footer.
