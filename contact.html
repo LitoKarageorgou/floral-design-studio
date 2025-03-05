@@ -24,6 +24,8 @@
     rel="stylesheet">
   <!-- JavaScript -->
   <script src="scripts/header-footer.js"></script>
+  <script src="scripts/scroll-animation.js" defer></script>
+  <script src="scripts/scroll-effects.js" defer></script>
 </head>
 
 <body>
@@ -36,18 +38,17 @@
       <!-- Hero Section-->
       <div class="hero__container">
         <div class="hero__text">
-          <h2>Contact us</h2>
+          <h1>Contact us</h1>
         </div>
       </div>
 
       <!-- Contact Form Section-->
       <div class="contact-form__container">
         <div class="contact-form__wrap">
-          <h2>Send us a Message</h2>
+          <h2  class="large-heading">Request</h2>
           <div class="contact-form__text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur harum officiis ad dolor aut
-              quasi architecto placeat officia perspiciatis sapiente voluptate nobis velit quo fuga quia omnis nihil!
+              We specialize in creating elegant floral designs for weddings and events, ensuring every detail reflects your vision. To get started, fill out the form below or contact us at contact@florience.com. We look forward to bringing your floral dreams to life!
             </p>
           </div>
           <!-- Contact Form -->
@@ -58,16 +59,9 @@
             <input type="text" id=date name="date" placeholder="Date of the event" onfocus="(this.type='date')"
               onblur="(this.type='text')">
             <input type="text" name="address" id="address" placeholder="Location of event">
-            <select name="referral-source" id="referral-source">
-              How did you hear about us?
-              <option value="" hidden selected>How did you hear about us?</option>
-              <option value="web-browser">Web Browser</option>
-              <option value="social-media">Social Media</option>
-              <option value="ad">Advertisement</option>
-              <option value="friend">Friend / Relative</option>
-            </select>
+            <input type="text" name="referral" id="referral" placeholder="How did you hear about us?">
             <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-            <button type="submit" class="contact-form__button" onclick="alert('Thank you for your message!')">Send
+            <button type="submit" class="contact-form__button " onclick="alert('Thank you for your message!')">Send
               message</button>
           </form>
         </div>
@@ -80,25 +74,24 @@
         <div class="contact-info__wrap">
           <div class="contact-info__text">
             <h2>Contact Information</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum cum nostrum totam esse molestiae
-              perspiciatis similique neque aut animi.</p>
+            <p>For inquiries, collaborations, or simply to say hello, feel free to reach out. We’d love to hear from you!</p>
           </div>
 
           <div class="contact-info__boxes">
             <div class="contact-info__box">
-              <img src="images/icons/phone.svg" alt="Phone Number">
+              <img src="./assets/icons/phone.svg" alt="Phone Number">
               <h3>Phone Number</h3>
               <p>+1(949)345-2574</p>
             </div>
 
             <div class="contact-info__box">
-              <img src="images/icons/mail.svg" alt="Email">
+              <img src="./assets/icons/mail.svg" alt="Email">
               <h3>Email Address</h3>
-              <p>email@email.com</p>
+              <p>contact@florience.com</p>
             </div>
 
             <div class="contact-info__box">
-              <img src="images/icons/location.svg" alt="Address">
+              <img src="./assets/icons/location.svg" alt="Address">
               <h3>Address</h3>
               <p>4 Privet Drive, Little Whinging, Surrey</p>
             </div>

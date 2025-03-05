@@ -1,7 +1,8 @@
 /* Hero Section */
 .hero__container {
-  background: url("") no-repeat center center/cover
+  background: url("../assets/images/hero-sections/blue-flower.png") no-repeat center center/cover
     #414040;
+    background-attachment: fixed;
 }
 
 /* Contact Form */
@@ -16,16 +17,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 34%;
+  width: 33%;
   background-color: var(--tetriary-color);
   text-align: center;
   padding: 3rem;
+  position: relative;
 }
 
-.contact-form__text {
+.contact-form__wrap h2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 25%;
+  left: -38%;
+}
+
+.contact-form__text p {
   text-align: left;
   padding: 1rem 0 2rem 0;
-  line-height: 1.6;
+  line-height: 2;
+  font-family: var(--header-font);
 }
 
 .contact-form {
@@ -44,33 +54,32 @@ select {
   background-color: var(--tetriary-color);
 }
 
-#date {
-  color: var(--primary-font-color);
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+  color: #a7a6a6;
+  font-size: 0.75rem;
 }
 
-#referral-source {
+.contact-form input,
+.contact-form textarea{
   color: var(--primary-font-color);
-}
-
-#referral-source option:hover {
-  background-color: var(--primary-font-color);
 }
 
 .contact-form__button {
-  /* Problem fixed, it can now take any width */
   display: inline-block;
   text-transform: uppercase;
   padding: 1rem;
   color: white;
-  background-color: #a2845e;
+  background-color: var(--primary-font-color);
+  letter-spacing: 0.2rem;
+  font-size: 0.75rem;
   border: none;
-  cursor: pointer;
 }
 
 .contact-form__image {
   width: 15%;
   height: 55%;
-  background: url("/images/final-images/img4.jpeg") no-repeat center
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center
     center/cover #414040;
 }
 
@@ -88,8 +97,10 @@ select {
   margin: auto;
 }
 .contact-info__text h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  padding: 0;
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  font-weight: 900;
   color: var(--primary-font-color);
 }
 
@@ -105,19 +116,43 @@ select {
   margin-top: 3rem;
 }
 
-.contact-info__box h3 {
-  color: var(--primary-font-color);
-}
-
 .contact-info__box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 16rem;
-  height: 12rem;
+  width: 17rem;
+  height: 13rem;
   background-color: var(--tetriary-color);
   padding: 2rem 2rem;
   gap: 1.2rem;
+  opacity: 0; /* initially hidden */
+}
+
+/* When the element is in view, trigger animation */
+.contact-info__box.in-view {
+  animation: fadeInUp 0.5s forwards;
+}
+
+/* Contact Information Boxes - Staggered Animation */
+.contact-info__boxes .contact-info__box:nth-child(1).in-view {
+  animation-delay: 0.2s;
+}
+.contact-info__boxes .contact-info__box:nth-child(2).in-view {
+  animation-delay: 0.4s;
+}
+.contact-info__boxes .contact-info__box:nth-child(3).in-view {
+  animation-delay: 0.6s;
+}
+
+.contact-info__box h3 {
+  color: var(--primary-font-color);
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.contact-info__box p {
+  font-weight: 400;
+  line-height: 1.3;
 }
 
 .contact-info__box img {
@@ -127,4 +162,5 @@ select {
 /* Map */
 #map iframe {
   width: 100%;
+  filter: saturate(50%) brightness(110%) contrast(90%);
 }

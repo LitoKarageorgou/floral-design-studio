@@ -5,7 +5,11 @@
   background-position: center 65%;
   height: 75vh;
 }
-
+h1{
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-transform: none;
+}
 h1 span {
   font-style: italic;
 }
@@ -19,11 +23,14 @@ h1 span {
   width: 38%;
   margin: auto;
   text-align: center;
-  line-height: 2rem;
-  font-family: Lato, Roboto, serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.1rem;
+  line-height: 2.1;
   text-transform: uppercase;
+}
+
+.intro__text p{
+  font-size: 0.75rem;
+  letter-spacing: 0.18rem;
+  font-weight: 400;
 }
 
 /* Portfolio Overview */
@@ -121,16 +128,6 @@ h1 span {
   position: relative;
 } 
 
-.services__container h2{
-  padding: 0;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 6.4rem;
-  color: #e2e0da;
-  position: absolute;
-}
-
 .services__wrap {
   width: 60%;
   height: 100%;
@@ -160,16 +157,14 @@ h1 span {
 }
 
 .services__text p {
-  font-size: 0.9rem;
   line-height: 1.9;
   width: 90%;
-  font-weight: 300;
 }
 
 /* Weddings */
 .services__container--weddings h2{
   transform: rotate(-90deg);
-  top: 19%;
+  top: 20%;
   left: 5.5%;
 }
 
@@ -182,7 +177,7 @@ h1 span {
 .services__container--events h2{
   transform: rotate(90deg);
   top: 10%;
-  right: 9.5%;
+  right: 9.6%;
 }
 
 .services__image-wrap--events {
@@ -269,11 +264,6 @@ h1 span {
   line-height: 1.1;
 }
 
-.about__text p {
-  font-size: 0.9rem;
-  font-weight: 300;
-}
-
 /* Featured In */
 .featured__wrap h2 {
   font-size: 0.9rem;
@@ -328,7 +318,6 @@ h1 span {
 }
 
 .testimonials__text p {
-  font-size: 0.9rem;
   padding-top: 3rem;
   line-height: 1.7;
 }
@@ -424,7 +413,7 @@ button:focus {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #dddcdc;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center 60%/cover #dddcdc;
   height: 60vh;
 
   /* Parallax Scroll Effect */

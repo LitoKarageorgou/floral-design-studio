@@ -1,7 +1,6 @@
 /* Hero Section */ 
 .hero__container {
-  background: url("") no-repeat center
-    center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center 75%/cover #414040;
 }
 
 /* Story & Designer */
@@ -29,9 +28,10 @@
 }
 
 .section__text h2 {
-  font-size: 2.2rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
   padding-bottom: 2.2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .section__text p {
@@ -39,11 +39,11 @@
 }
 
 .section__image--story{
-  background: url("/images/about/about-page-story.avif") no-repeat center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #414040;
 }
 
 .section__image--designer{
-  background: url("/images/about/about-page-designer.avif") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 /* Values */
@@ -85,5 +85,8 @@
 
 /* Call to Action */
 .cta {
-  background: url("") no-repeat center center/cover var(--tetriary-color);
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center 70%/cover var(--tetriary-color);
+
+  /* Parallax Scroll Effect */
+  background-attachment: fixed;
 }

@@ -46,10 +46,13 @@ h2 {
   font-size: 3.5rem;
 }
 
+
+
 h1 {
   color: white;
-  font-weight: 500;
+  font-size: 2.5rem;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -57,8 +60,20 @@ h2 {
   padding-bottom: 3.5rem;
 }
 
+.large-heading {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 6.4rem;
+  color: #dcdad5;
+  position: absolute;
+}
+
 p {
   font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 /* Navbar */
@@ -164,15 +179,6 @@ p {
   font-size: 0.7rem;
 }
 
-/* .button--secondary::after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 1px;
-  background-color: var(--primary-font-color);
-  margin: 1.2rem auto 0;
-} */
-
 /* Featured */
 .featured__container {
   height: 60vh;
@@ -265,8 +271,7 @@ p {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/homepage-portfolio/line.jpg")
-    var(--tetriary-color) no-repeat center center/cover;
+  background: var(--tetriary-color);
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -302,7 +307,7 @@ p {
 }
 
 .instagram__wrap a {
-  padding: 2.5rem;
+  padding-bottom: 2.5rem;
   color: #414040;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -366,7 +371,9 @@ p {
 }
 
 .footer h3 {
-  padding-bottom: 1.3rem;
+  padding-bottom: 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .footer__wrap {
@@ -397,7 +404,7 @@ p {
   filter: invert(40%);
 }
 
-.footer__text {
+.footer__text p {
   text-align: left;
   line-height: 1.4;
   font-style: italic;
@@ -430,12 +437,7 @@ p {
 .footer__nav-list li a {
   font-size: 0.67rem;
   letter-spacing: 0.1rem;
-
 }
-/* 
-.footer__nav-list li a:hover {
-  color: #acacab;
-} */
 
 /* Contact */
 .footer__contact li {
@@ -489,8 +491,9 @@ p {
   font-size: 0.8rem;
 }
 
-.footer__credits p, .footer__credits a{
-  font-size: 0.7rem;
+.footer__credits p,
+.footer__credits a {
+  font-size: 0.8rem;
 }
 
 /* Legal */
