@@ -128,19 +128,14 @@ select {
   opacity: 0; /* initially hidden */
 }
 
-/* When the element is in view, trigger animation */
-.contact-info__box.in-view {
-  animation: fadeInUp 0.5s forwards;
-}
-
-/* Contact Information Boxes - Staggered Animation */
-.contact-info__boxes .contact-info__box:nth-child(1).in-view {
+/*  Animation */
+.contact-info__boxes .contact-info__box:nth-child(1).animate {
   animation-delay: 0.2s;
 }
-.contact-info__boxes .contact-info__box:nth-child(2).in-view {
+.contact-info__boxes .contact-info__box:nth-child(2).animate {
   animation-delay: 0.4s;
 }
-.contact-info__boxes .contact-info__box:nth-child(3).in-view {
+.contact-info__boxes .contact-info__box:nth-child(3).animate {
   animation-delay: 0.6s;
 }
 
