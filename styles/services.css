@@ -1,11 +1,14 @@
+span {
+  font-style: italic;
+}
+
 /* Main */
 .main {
   background-color: var(--primary-color);
 }
 
 .hero__container {
-  background: url("") no-repeat center
-    center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 /* Weddings */
@@ -24,24 +27,20 @@
 }
 
 .weddings__text p {
-  line-height: 1.6;
+  line-height: 2;
   padding: 2rem 2rem 0 0;
 }
 
 .weddings__text h2 {
-  padding: 2rem 0;
-  font-size: 2.9rem;
-  font-weight: 200;
+  padding-top: 2rem;
 }
 
-.weddings__text h2 span {
-  font-style: italic;
-}
+
 
 .weddings__image {
   height: 40rem;
   width: 32rem;
-  background: url("") #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 /* Process */
@@ -57,17 +56,11 @@
   width: 50%;
 }
 
-.process__description h2{
-  font-size: 2.6rem;
-  font-weight: 200;
-  padding-bottom: 2rem;
-}
-
 .process__description p{
   column-count: 2;
   column-gap: 5rem;
-  line-height: 1.8;
-  padding: 1rem 0 8rem 5rem;
+  line-height: 2;
+  padding: 1rem 0 9rem 5rem;
   text-align: justify;
 }
 
@@ -81,7 +74,7 @@
 .process__steps-image {
   height: 50rem;
   width: 35rem;
-  background: url("/images/final-images/img2.png") no-repeat center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #414040;
 }
 
 .process__steps-text{
@@ -156,7 +149,7 @@
 }
 
 .cta {
-  background: url("/images/about/about-page-cta.avif") no-repeat center center/cover#dddcdc;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover#dddcdc;
   color: var(--secondary-font-color);
     /* Parallax Scroll Effect */
     background-attachment: fixed;
