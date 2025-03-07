@@ -91,7 +91,7 @@ span.large-heading::after {
   vertical-align: middle;
   width: 3rem; 
   border-bottom: 0.1rem solid;
-  margin-left: 0.5rem; /* spacing between text and line */
+  margin-left: 0.5rem; 
 }
 
 .process__steps-text p{
@@ -100,35 +100,140 @@ span.large-heading::after {
 }
 
 /* Testimonials */
-.testimonians__container {
+.testimonials {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.testimonials__wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.testimonials__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 35%;
+.testimonials h2 {
+  padding: 0.9rem 0 1rem 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   text-align: center;
+  border-bottom: 0.5px solid #dcdad5;
 }
 
-.testimonials__content h2 {
-  padding-bottom: 3rem;
+.testimonials__carousel {
+  width: 50%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.testimonials__content p {
-  line-height: 1.8;
+.testimonials__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
 }
+
+.testimonials__text h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.testimonials__text p {
+  padding-top: 3rem;
+}
+
+/* Navigation Arrows */
+#arrow-back {
+  width: 2rem;
+  filter: invert(80%);
+  cursor: pointer;
+}
+
+#arrow-forward {
+  width: 2rem;
+  filter: invert(80%);
+  cursor: pointer;
+}
+
+/* Controls */
+.testimolias-carousel__controls img{
+  cursor: pointer;
+  width: 2.5rem;
+}
+
+.testimolias-carousel__controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  display: none;
+}
+
+.testimonials__carousel:hover .testimolias-carousel__controls { 
+  display: block;
+}
+
+/* Dots */
+.testimonials__dots {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+
+/* Controls */
+.testimolias-carousel__controls img{
+  cursor: pointer;
+  width: 2.5rem;
+}
+
+.testimolias-carousel__controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  display: none;
+}
+
+.testimonials__carousel:hover .testimolias-carousel__controls { 
+  display: block;
+}
+
+/* Dots */
+.testimonials__dots {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
 
 /* Sections */
 .section__container {

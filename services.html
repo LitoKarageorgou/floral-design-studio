@@ -24,6 +24,7 @@
     rel="stylesheet">
   <!-- JavaScript -->
   <script src="scripts/header-footer.js"></script>
+  <script src="scripts/services-testimonials-carousel.js"></script>
 </head>
 
 <body>
@@ -95,28 +96,37 @@
         </div>
       </div>
 
-      <!-- Testimonials -->
-      <div class="testimonians__container">
-        <!-- Added icons in the future place of the carousel -->
-        <div class="testimonials__wrap">
-          <img src="images/icons/arrow_back.png" />
-          <div class="testimonials__content">
-            <h2>Kind Words</h2>
-            <p>
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Laudantium iste expedita, quisquam labore vero incidunt minima
-              ipsam aspernatur repudiandae voluptatibus, porro. Deleniti excepturi amet doloremque officiis qui
-              quibusdam, aut totam ipsum, aspernatur ea voluptatum dolorum
-              asperiores quia odit numquam."
+        <!-- Testimonials -->
+  <div class="testimonials">
+    <h2>Testimonials</h2>
+    <!-- Testimonials Carousel -->
+    <div class="testimonials__carousel">
+      <img src="./assets/icons/arrow-back.png" id="arrow-back" />
+      <div class="testimonials__text">
+        <h3>
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Laudantium iste expedita, quisquam labore vero
+          ipsam aspernatur repudiandae voluptatibus."
+        </h3>
 
-              <br /><br /><br />
-
-              Lorem dolor
-            </p>
-          </div>
-          <img src="images/icons/arrow_forward.png" />
-        </div>
+        <p>
+          "Sunt sit ab dolores sed delectus, similique nulla voluptatibus porro molestias
+          consequatur iusto error quam dignissimos praesentium.
+          exercitationem dolorum libero laborum corrupti est doloremque
+          neque perferendis obcaecati quae quia asperiores deleniti
+          quis.
+        </p>
       </div>
+      <img src="./assets/icons/arrow-forward.png" id="arrow-forward" />
+      <!-- Control buttons -->
+      <div class="testimolias-carousel__controls">
+        <a id="pause-button"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+        <a id="play-button"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
+      </div>
+    </div>
+    <!-- Dot container -->
+    <div class="testimonials__dots"></div>
+  </div>
 
       <!-- Events & Galas -->
       <div class="section__container">
