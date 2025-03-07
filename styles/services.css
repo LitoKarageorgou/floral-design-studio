@@ -32,10 +32,8 @@ span {
 }
 
 .weddings__text h2 {
-  padding-top: 2rem;
+  padding: 2rem 0 0 0;
 }
-
-
 
 .weddings__image {
   height: 40rem;
@@ -60,12 +58,12 @@ span {
   column-count: 2;
   column-gap: 5rem;
   line-height: 2;
-  padding: 1rem 0 9rem 5rem;
+  padding: 1rem 0 5rem 5rem;
   text-align: justify;
 }
 
 .process__steps{
-  width: 60%;
+  width: 65%;
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -79,7 +77,21 @@ span {
 
 .process__steps-text{
   width: 30%;
-  padding-top: 3rem;
+}
+
+span.large-heading{
+  transform: translate(-150%, -15%);
+  font-weight: 300;
+  font-size: 5rem;
+}
+
+span.large-heading::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 3rem; 
+  border-bottom: 0.1rem solid;
+  margin-left: 0.5rem; /* spacing between text and line */
 }
 
 .process__steps-text p{
