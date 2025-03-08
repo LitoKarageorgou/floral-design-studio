@@ -5,6 +5,7 @@ span {
 /* Main */
 .main {
   background-color: var(--primary-color);
+  padding-bottom: 0;
 }
 
 .hero__container {
@@ -210,7 +211,7 @@ span.large-heading::after {
 .section__image {
   min-height: 40rem;
   min-width: 32rem;
-  background: url("") #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center center/cover #414040;
 }
 
 .section__text {
@@ -229,10 +230,55 @@ span.large-heading::after {
   padding: 2rem 0;
 }
 
+/* Featured */
+.featured__container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured__wrap {
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.featured__logos {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem 3rem 3rem;
+  min-height: 15rem;
+}
+
+.featured__logos h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #94928d;
+  text-transform: uppercase;
+  padding: 1.6rem 1.6rem;
+  flex: 1;
+  text-align: center;
+}
+
+/* CTA */
 .cta {
   background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
     center center/cover#dddcdc;
   color: var(--secondary-font-color);
   /* Parallax Scroll Effect */
   background-attachment: fixed;
+}
+
+/* Instagram */
+.instagram__container{
+  padding-bottom: 6.8rem;
 }

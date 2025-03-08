@@ -263,10 +263,94 @@ h1 span {
   line-height: 1.1;
 }
 
-/* Featured In */
+/* Featured */
+.featured__container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.featured__wrap {
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .featured__wrap h2 {
+  padding: 1rem 0;
   font-size: 0.9rem;
-  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.5px solid #dcdad5;
+}
+
+/* Featured In */
+.featured__logos {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem 3rem 3rem;
+  min-height: 15rem;
+}
+
+.featured__logos h3 {
+  font-weight: 500;
+  font-size: 4em;
+  color: #94928d;
+  text-transform: uppercase;
+  padding: 1.6rem 1.6rem;
+  opacity: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.animate {
+  animation: fadeInUp 0.5s forwards;
+}
+
+.featured__logos h3:nth-child(1).animate {
+  animation-delay: 0.3s;
+}
+.featured__logos h3:nth-child(2).animate {
+  animation-delay: 0.6s;
+  color: #888585;
+}
+.featured__logos h3:nth-child(3).animate {
+  animation-delay: 0.9s;
+  color: #726d6d;
+}
+.featured__logos h3:nth-child(4).animate {
+  animation-delay: 1.2s;
+  color: #8b8585;
+  font-size: 2.6rem;
+}
+.featured__logos h3:nth-child(5).animate {
+  animation-delay: 1.5s;
+  color: #837d7d;
+}
+.featured__logos h3:nth-child(6).animate {
+  animation-delay: 1.8s;
+  font-size: 2.2rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Testimonials */
@@ -280,13 +364,7 @@ h1 span {
 }
 
 .testimonials h2 {
-  padding: 0.9rem 0 1rem 0;
-  margin: 0 0 2.5rem 0;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  border-bottom: 0.5px solid #dcdad5;
+  margin-bottom: 2.5rem;
 }
 
 .testimonials__carousel {
@@ -403,12 +481,6 @@ h1 span {
   /* Parallax Scroll Effect */
   background-attachment: fixed;
 }
-
-/* a:focus,
-button:focus {
-  outline: 2px solid #000;
-  outline-offset: 2px;
-} */
 
 /* Call to Action */
 .cta {
