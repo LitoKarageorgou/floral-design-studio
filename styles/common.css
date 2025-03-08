@@ -54,7 +54,7 @@ p {
 }
 
 /* Heading classes */
-.large-heading {
+.extra-large-heading {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
@@ -62,6 +62,12 @@ p {
   font-size: 6.4rem;
   color: #dcdad5;
   position: absolute;
+}
+
+.large-heading{
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
 }
 
 .medium-heading {
@@ -102,7 +108,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  font-size: 0.8em;
   font-family: var(--font-body);
   letter-spacing: 2px;
 }
@@ -111,7 +116,7 @@ p {
   text-decoration: none;
   color: var(--primary-font-color);
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 
 .navbar a:hover {
@@ -137,12 +142,12 @@ p {
 .navbar__social {
   display: flex;
   justify-content: center;
-  gap: 1.1em;
+  gap: 1.2rem;
   padding-left: 2rem;
 }
 
 .navbar__social img {
-  height: 1rem;
+  height: 1.1rem;
   filter: invert(40%);
 }
 

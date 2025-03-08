@@ -9,8 +9,8 @@ span {
 }
 
 .hero__container {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat
+    center 68%/cover #414040;
 }
 
 /* Weddings */
@@ -83,13 +83,13 @@ span {
   width: 30%;
 }
 
-span.large-heading {
+span.extra-large-heading {
   transform: translate(-150%, -15%);
   font-weight: 300;
   font-size: 5rem;
 }
 
-span.large-heading::after {
+span.extra-large-heading::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -188,11 +188,11 @@ span.large-heading::after {
 
 .dot {
   display: inline-block;
-  height: 10px;
-  width: 10px;
+  height: 11px;
+  width: 11px;
   background-color: #bbb;
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 0 0.5rem;
   cursor: pointer;
 }
 
