@@ -1,10 +1,9 @@
 /* Hero Section */
 .hero__container {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center/cover #414040;
-  background-position: center 65%;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center 65%/cover #414040;
   height: 75vh;
 }
+
 h1{
   font-size: 3.5rem;
   font-weight: 500;

@@ -8,7 +8,8 @@ span {
 }
 
 .hero__container {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+    center center/cover #414040;
 }
 
 /* Weddings */
@@ -38,7 +39,8 @@ span {
 .weddings__image {
   height: 40rem;
   width: 32rem;
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
+    center center/cover #414040;
 }
 
 /* Process */
@@ -54,7 +56,7 @@ span {
   width: 50%;
 }
 
-.process__description p{
+.process__description p {
   column-count: 2;
   column-gap: 5rem;
   line-height: 2;
@@ -62,7 +64,7 @@ span {
   text-align: justify;
 }
 
-.process__steps{
+.process__steps {
   width: 65%;
   display: flex;
   justify-content: center;
@@ -72,14 +74,15 @@ span {
 .process__steps-image {
   height: 50rem;
   width: 35rem;
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center center/cover #414040;
 }
 
-.process__steps-text{
+.process__steps-text {
   width: 30%;
 }
 
-span.large-heading{
+span.large-heading {
   transform: translate(-150%, -15%);
   font-weight: 300;
   font-size: 5rem;
@@ -89,12 +92,12 @@ span.large-heading::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
-  width: 3rem; 
+  width: 3rem;
   border-bottom: 0.1rem solid;
-  margin-left: 0.5rem; 
+  margin-left: 0.5rem;
 }
 
-.process__steps-text p{
+.process__steps-text p {
   padding-bottom: 3rem;
   line-height: 1.8;
 }
@@ -118,10 +121,11 @@ span.large-heading::after {
 
 .testimonials__carousel {
   width: 50%;
-  display: flex ;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  position: relative;
 }
 
 .testimonials__text {
@@ -156,21 +160,22 @@ span.large-heading::after {
 }
 
 /* Controls */
-.testimolias-carousel__controls img{
+.testimonials-carousel__controls img {
   cursor: pointer;
   width: 2.5rem;
 }
 
-.testimolias-carousel__controls {
+.testimonials-carousel__controls {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
   display: none;
+  filter: invert(30%);
 }
 
-.testimonials__carousel:hover .testimolias-carousel__controls { 
+.testimonials__carousel:hover .testimonials-carousel__controls {
   display: block;
 }
 
@@ -193,47 +198,6 @@ span.large-heading::after {
 .dot.active {
   background-color: #717171;
 }
-
-
-/* Controls */
-.testimolias-carousel__controls img{
-  cursor: pointer;
-  width: 2.5rem;
-}
-
-.testimolias-carousel__controls {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 4;
-  display: none;
-}
-
-.testimonials__carousel:hover .testimolias-carousel__controls { 
-  display: block;
-}
-
-/* Dots */
-.testimonials__dots {
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.dot {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.dot.active {
-  background-color: #717171;
-}
-
 
 /* Sections */
 .section__container {
@@ -266,8 +230,9 @@ span.large-heading::after {
 }
 
 .cta {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover#dddcdc;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+    center center/cover#dddcdc;
   color: var(--secondary-font-color);
-    /* Parallax Scroll Effect */
-    background-attachment: fixed;
+  /* Parallax Scroll Effect */
+  background-attachment: fixed;
 }
