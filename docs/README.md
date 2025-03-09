@@ -157,7 +157,21 @@ Version 1.13.0 - 03-03-2025
 
 Version 1.14.0 - 04-03-2025
 - Added carousel functionality to Homepage Testimonials.
-- Finished styling and added final text to Homepage Testimonials, CTA and Footer.
+- Finished styling and added final text to Footer and to Homepage Testimonials, Instagram Grid and CTA Sections.
 
 Version 1.15.0 - 05-03-2025
-- Finished styling and added final text to About and Contact pages.
+- Finished styling and added final text to About and Contact Pages.
+
+Version 1.16.0 - 06-03-2025
+- Started styling and added final text to Services Page.
+
+Version 1.17.0 - 07-03-2025
+- Added carousel functionality to Services Testimononials Section.
+- Finished styling Weddings and Process Sections of Services Page.
+
+Version 1.17.1 - 08-03-2025
+- Made accessibility adjustments in fonts, spacing, and sizes for better readability across all pages.
+- Fixed Services Testimonials carousel bug: added defer to script tag.
+
+Version 1.18.1 - 09-03-2025
+- Finished styling and adding final text to the remaining sections of Services Page.
