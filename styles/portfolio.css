@@ -1,7 +1,6 @@
 /* Hero Section */ 
 .hero__container {
-  background: url("") no-repeat center
-    center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center 55%/cover #414040;
 }
 
 /* Portfolio */
@@ -45,39 +44,51 @@
 }
 
 .portfolio__image--1 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--2 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--3 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--4 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--5 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--6 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--7 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--8 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__image--9 {
-  background: url("") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
+}
+
+.portfolio__image--10 {
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
+}
+
+.portfolio__image--11 {
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
+}
+
+.portfolio__image--12 {
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
 }
 
 .portfolio__card p {
@@ -93,6 +104,6 @@
 
 /* Call to Action */
 .cta {
-  background: url("/images/cta/blue-flowers.avif") no-repeat center center/cover#dddcdc;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover#dddcdc;
   background-attachment: fixed;
 }

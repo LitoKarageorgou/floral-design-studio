@@ -2,11 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Variables
     const arrowForward = document.getElementById("arrow-forward");
     const arrowBack = document.getElementById("arrow-back");
-    const playButton = document.getElementById("play-button");
-    const pauseButton = document.getElementById("pause-button");
     const dotsContainer = document.querySelector(".testimonials__dots");
     let currentSlide = 0;
-    let autoSlideInterval = setInterval(nextSlide, 5000);
 
     const testimonials = [
         {
@@ -74,27 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
         showSlide(currentSlide);
     });
 
-    // Initial button visibility
-    playButton.style.display = "none";
-    pauseButton.style.display = "inline-block";
-
-    // Pause autoplay
-    pauseButton.addEventListener("click", () => {
-        clearInterval(autoSlideInterval);
-        autoSlideInterval = null;
-        pauseButton.style.display = "none";
-        playButton.style.display = "inline-block";
-    });
-
-    // Resume autoplay
-    playButton.addEventListener("click", () => {
-        if (!autoSlideInterval) {
-            autoSlideInterval = setInterval(nextSlide, 5000);
-            playButton.style.display = "none";
-            pauseButton.style.display = "inline-block";
-        }
-    });
-
-    // Initialize slider
+    // Initialize slider without autoplay
     showSlide(currentSlide);
 });

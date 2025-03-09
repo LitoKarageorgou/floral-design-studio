@@ -126,11 +126,11 @@ select {
   background-color: var(--tetriary-color);
   padding: 2rem 2rem;
   gap: 1.2rem;
-  opacity: 0; /* initially hidden */
+  opacity: 1;
 }
 
 /*  Animation */
-.contact-info__boxes .contact-info__box:nth-child(1).animate {
+/* .contact-info__boxes .contact-info__box:nth-child(1).animate {
   animation-delay: 0.2s;
 }
 .contact-info__boxes .contact-info__box:nth-child(2).animate {
@@ -138,7 +138,7 @@ select {
 }
 .contact-info__boxes .contact-info__box:nth-child(3).animate {
   animation-delay: 0.6s;
-}
+} */
 
 .contact-info__box h3 {
   color: var(--primary-font-color);

@@ -9,8 +9,8 @@ span {
 }
 
 .hero__container {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat
-    center 68%/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center 68% / cover #414040;
 }
 
 /* Weddings */
@@ -85,8 +85,8 @@ span {
 
 span.extra-large-heading {
   transform: translate(-150%, -15%);
-  font-weight: 300;
-  font-size: 5rem;
+  font-weight: 400;
+  font-size: 4.5rem;
 }
 
 span.extra-large-heading::after {
@@ -94,7 +94,7 @@ span.extra-large-heading::after {
   display: inline-block;
   vertical-align: middle;
   width: 3rem;
-  border-bottom: 0.1rem solid;
+  border-bottom: 0.11rem solid;
   margin-left: 0.5rem;
 }
 
@@ -149,35 +149,15 @@ span.extra-large-heading::after {
 
 /* Navigation Arrows */
 #arrow-back {
-  width: 2rem;
+  width: 1.9rem;
   filter: invert(80%);
   cursor: pointer;
 }
 
 #arrow-forward {
-  width: 2rem;
+  width: 1.9rem;
   filter: invert(80%);
   cursor: pointer;
-}
-
-/* Controls */
-.testimonials-carousel__controls img {
-  cursor: pointer;
-  width: 2.5rem;
-}
-
-.testimonials-carousel__controls {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 4;
-  display: none;
-  filter: invert(30%);
-}
-
-.testimonials__carousel:hover .testimonials-carousel__controls {
-  display: block;
 }
 
 /* Dots */
@@ -209,38 +189,60 @@ span.extra-large-heading::after {
 }
 
 .section__image {
-  min-height: 40rem;
+  min-height: 42rem;
   min-width: 32rem;
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center center/cover #414040;
+ 
 }
 
 .section__text {
   width: 30%;
-  padding: 2.5rem 4.5rem;
+  padding: 4rem 3.6rem;
   background-color: white;
 }
 
-.section__text p {
-  line-height: 1.6;
-}
-
 .section__text h2 {
-  font-size: 2.5rem;
-  font-weight: 200;
-  padding: 2rem 0;
+  line-height: 1.2;
 }
 
-/* Featured */
+.section__text p {
+  line-height: 1.9;
+}
+
+/* Corpotate Events & Galas */
+.section__image-galas{
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+  center center/cover #414040;
+}
+
+/* PR Events */
+.section__image-pr {
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
+  center center/cover #414040;
+}
+
+/* Private dinners */
+.section__image-dinners {
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+  center center/cover #414040;
+}
+
+
+/* Clients */
 .featured__container {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+}
+
+.featured__container h2 {
+  margin-top: 2rem;
 }
 
 .featured__wrap {
-  width: 53%;
+  width: 52%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -255,16 +257,14 @@ span.extra-large-heading::after {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem 3rem 3rem;
-  min-height: 15rem;
 }
 
 .featured__logos h3 {
   font-weight: 500;
-  font-size: 2rem;
-  color: #94928d;
+  font-size: 1.9rem;
+  color: #7a7975;
   text-transform: uppercase;
-  padding: 1.6rem 1.6rem;
+  padding: 1.6rem 1.4rem;
   flex: 1;
   text-align: center;
 }
@@ -279,6 +279,6 @@ span.extra-large-heading::after {
 }
 
 /* Instagram */
-.instagram__container{
+.instagram__container {
   padding-bottom: 6.8rem;
 }
