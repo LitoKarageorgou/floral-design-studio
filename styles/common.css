@@ -36,7 +36,7 @@ button {
 
 h1,
 h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--font-heading);
   font-size: 3.5rem;
 }
 
@@ -101,6 +101,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 6.8rem;
+  padding: 6.8rem 0;
 }
 
 /* Navbar */

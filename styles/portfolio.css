@@ -11,12 +11,20 @@
   gap: 2rem;
 }
 
+.portfolio__select a{
+font-family: var(--font-heading);
+font-size: 1.15rem;
+font-weight: 400;
+}
+
 .portfolio__select a:hover {
   color: #acacab;
 }
 
 .portfolio__select a:active {
-  border-bottom: 0.1rem solid var(--primary-font-color);
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #575756;
 }
 
 .portfolio__select h3 {
@@ -27,7 +35,7 @@
   color: var(--primary-font-color);
 }
 
-.portfolio__cards {
+#portfolio__gallery {
   width: 60%;
   margin: auto;
   display: flex;
@@ -38,57 +46,18 @@
   margin-top: 5rem;
 }
 
+.portfolio__card {
+  height: 31rem;
+  width: 19.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio__image {
-  min-height: 28rem;
-  min-width: 19rem;
-}
-
-.portfolio__image--1 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--2 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--3 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--4 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--5 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--6 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--7 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--8 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--9 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--10 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--11 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center center/cover #414040;
-}
-
-.portfolio__image--12 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #414040;
+  width: 100%;
+  height: 90%;
 }
 
 .portfolio__card p {

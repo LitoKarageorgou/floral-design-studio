@@ -1,0 +1,62 @@
+[
+  {
+    "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "A magical garden wedding with lush floral arrangements.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Elegant decor for a high-profile corporate event.",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "A serene seaside wedding set against a pastel sunset.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "event"
+  },
+  {
+   "image": "./assets/images/homepage-portfolio/bouquet2.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "wedding"
+  },
+  {
+    "image": "./assets/images/homepage-portfolio/wreath.jpg",
+    "description": "Dynamic atmosphere for a product launch event.",
+    "label": "event"
+  }
+]
