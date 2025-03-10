@@ -1,2 +1,2 @@
 GitHub link: https://github.com/Litosae/floral-design-studio
-Netlify link: https://floraldesignstudiolito.netlify.app/
+Netlify link: https://florience.netlify.app/

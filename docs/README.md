@@ -175,3 +175,6 @@ Version 1.17.1 - 08-03-2025
 
 Version 1.18.1 - 09-03-2025
 - Finished styling and adding final text to the remaining sections of Services Page.
+
+Version 1.19.0 - 10-03-2025
+- Add filter functionality to Portfolio Page Gallery.
