@@ -1,9 +1,9 @@
+const gallery = document.getElementById('portfolio__gallery');
 let portfolioData = [];
 
-const gallery = document.getElementById('portfolio__gallery');
-
+// Function to render the gallery
 function renderGallery(data) {
-    gallery.innerHTML = ''; // clear existing cards
+    gallery.innerHTML = ''; 
     data.forEach(item => {
         // Create a new card for each item in the portfolio
         const card = document.createElement('div');
@@ -20,6 +20,7 @@ function renderGallery(data) {
     });
 }
 
+// Fetch portfolio data from JSON file
 fetch('../data/portfolio.json')
     .then(response => response.json())
     .then(data => {
