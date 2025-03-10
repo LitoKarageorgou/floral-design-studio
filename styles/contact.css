@@ -100,9 +100,7 @@ select {
 .contact-info__text h2 {
   padding: 0;
   margin-bottom: 1.2rem;
-  font-size: 2.4rem;
   font-weight: 900;
-  color: var(--primary-font-color);
 }
 
 .contact-info__text p {

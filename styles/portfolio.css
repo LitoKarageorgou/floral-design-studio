@@ -1,6 +1,7 @@
-/* Hero Section */ 
+/* Hero Section */
 .hero__container {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat center 55%/cover #414040;
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
+    center 55% / cover #414040;
 }
 
 /* Portfolio */
@@ -11,18 +12,18 @@
   gap: 2rem;
 }
 
-.portfolio__select a{
-font-family: var(--font-heading);
-font-size: 1.15rem;
-font-weight: 400;
+.portfolio__select a {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .portfolio__select a:hover {
-  color: #acacab;
+  color: var(--hover-color);
 }
 
-.portfolio__select a:active {
-  font-size: 1.2rem;
+.portfolio__select a.active {
+  font-size: 1.3rem;
   font-weight: 900;
   color: #575756;
 }
@@ -73,6 +74,7 @@ font-weight: 400;
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover#dddcdc;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center center/cover#dddcdc;
   background-attachment: fixed;
 }

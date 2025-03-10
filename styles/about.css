@@ -27,13 +27,6 @@
   width: 40%;
 }
 
-.section__text h2 {
-  font-size: 3.5rem;
-  text-transform: capitalize;
-  padding-bottom: 2.2rem;
-  font-weight: 400;
-}
-
 .section__text p {
   line-height: 1.6;
 }

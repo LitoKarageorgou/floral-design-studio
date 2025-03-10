@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-color: #f8f6f1;
   --secondary-color: #fbfaf7;
   --tetriary-color: #f1eeea;
+  --hover-color: #acacab;
   --primary-font-color: #636260;
   --font-heading: "Cormorant Garamond", serif;
   --font-body: Lato, Roboto, serif;
@@ -27,6 +32,7 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: var(--font-body);
 }
 
 a,
@@ -100,7 +106,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 6.8rem;
-  padding: 6.8rem 0;
 }
 
 /* Navbar */
@@ -108,7 +113,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  font-family: var(--font-body);
   letter-spacing: 2px;
 }
 
@@ -120,7 +124,7 @@ p {
 }
 
 .navbar a:hover {
-  color: #acacab;
+  color: var(--hover-color);
 }
 
 .navbar__menu {
@@ -128,6 +132,7 @@ p {
   justify-content: center;
   gap: 1.5rem;
 }
+
 .navbar__logo {
   display: flex;
   justify-content: center;
@@ -388,7 +393,7 @@ p {
 .footer__social {
   display: flex;
   justify-content: start;
-  gap: 0.8em;
+  gap: 1rem;
   padding: 0.8rem 0;
 }
 
@@ -410,6 +415,10 @@ p {
 .footer__nav-list li a {
   font-size: 0.67rem;
   letter-spacing: 0.1rem;
+}
+
+.footer__nav-list li a:hover {
+  color: var(--hover-color);
 }
 
 /* Contact */
@@ -478,7 +487,7 @@ p {
 /* Back to Top Button*/
 #back-to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 45px;
   right: 20px;
   padding: 0.8rem 1.2rem;
   background-color: var(--primary-font-color);
@@ -488,7 +497,7 @@ p {
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
   opacity: 0.7;
-  display: none; 
+  display: none;
 }
 
 #back-to-top:hover {

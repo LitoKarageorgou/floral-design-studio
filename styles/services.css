@@ -46,12 +46,12 @@ span {
 
 /* Process */
 .process__container {
+  padding-top: 6.8rem;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 7rem 0 8rem 0; */
 }
 .process__description {
   width: 50%;
@@ -109,6 +109,7 @@ span.extra-large-heading::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 6.8rem;
 }
 
 .testimonials h2 {
