@@ -47,7 +47,7 @@
 
 .contact-form input,
 .contact-form textarea {
-  padding: 0.3rem;
+  padding: 0.5rem;
   border: none;
   border-bottom: 0.5px solid white;
   background-color: var(--tetriary-color);
