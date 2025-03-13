@@ -5,18 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Florience | Floral Design Studio</title>
+  <meta name="description"
+    content="Florience is a floral design studio dedicated to creating elegant, bespoke arrangements for weddings and events.">
   <!-- CSS -->
   <link rel="stylesheet" href="./styles/common.css">
   <link rel="stylesheet" href="./styles/index.css" />
   <!-- Favicon -->
   <link rel="icon" href="./assets/icons/favicon-white.png" />
-  <!-- Lato Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Cormorant Garamond Font-->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -32,21 +28,21 @@
 
 <body>
   <div class="container">
-    <!-- Navbar -->
-    <div id="header"></div>
+    <!-- Header -->
+    <header id="header"></header>
 
     <!-- Main -->
     <main class="main">
       <!-- Hero Section -->
-      <div class="hero__container">
+      <section class="hero">
         <div class="hero__text">
           <h1><span>Exquisite</span> floral designs to elevate every occasion</h1>
           <a href="services.html" class="button button--primary">View our services</a>
         </div>
-      </div>
+      </section>
 
       <!-- Website Introduction -->
-      <div class="intro">
+      <section class="intro">
         <div class="intro__text">
           <p>
             Florience is a floral design studio dedicated to creating elegant, bespoke arrangements that capture the
@@ -54,32 +50,32 @@
             life, making every moment truly special and unforgettable.
           </p>
         </div>
-      </div>
+      </section>
 
       <!-- Portfolio Overview -->
-      <div class="portfolio">
+      <section class="portfolio">
         <h2 class="large-heading">Portfolio</h2>
         <!-- Portfolio Carousel -->
         <div class="portfolio__carousel">
-          <div class="portfolio-carousel__viewport">
-            <div class="portfolio-carousel__images"></div>
+          <div class="portfolio__carousel__viewport">
+            <div class="portfolio__carousel__images"></div>
           </div>
           <!-- Navigation Arrows -->
-          <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img
+          <a class="portfolio__carousel__button portfolio__carousel__button--previous"><img
               src="./assets/icons/arrow-back.png" alt="Previous image"></a>
-          <a class="portfolio-carousel__button portfolio-carousel__button--next"><img
+          <a class="portfolio__carousel__button portfolio__carousel__button--next"><img
               src="./assets/icons/arrow-forward.png" alt="Next image"></a>
           <!-- Control buttons -->
-          <div class="portfolio-carousel__controls">
+          <div class="portfolio__carousel__controls">
             <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
             <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
           </div>
         </div>
         <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
-      </div>
+      </section>
 
       <!-- Services Overview-->
-      <div class="services">
+      <section class="services">
         <!-- Weddings -->
         <div class="services__container services__container--weddings">
           <h2 class="extra-large-heading">Weddings</h2>
@@ -114,10 +110,10 @@
             <div class="services__image services__image--events"></div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- About Overview -->
-      <div class="about__container">
+      <section class="about">
         <div class="about__wrap">
           <div class="about__images">
             <div class="about__image--1"></div>
@@ -139,10 +135,10 @@
             <a href="about.html" class="button button--secondary">About Us</a>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Featured in -->
-      <div class="featured__container">
+      <section class="featured">
         <div class="featured__wrap">
           <h2 class="small-heading">Featured in</h2>
           <div class="featured__logos">
@@ -154,10 +150,10 @@
             <h3>Luxury London</h3>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Testimonials -->
-      <div class="testimonials">
+      <section class="testimonials">
         <h2 class="small-heading">Testimonials</h2>
         <!-- Testimonials Carousel -->
         <div class="testimonials__carousel">
@@ -169,28 +165,28 @@
           <div class="testimonials__image--1"></div>
           <div class="testimonials__image--2"></div>
           <!-- Control buttons -->
-          <div class="testimolias-carousel__controls">
+          <div class="testimonials__carousel__controls">
             <a id="pause-button"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
             <a id="play-button"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
           </div>
         </div>
         <!-- Navigation Arrows -->
-        <img src="./assets/icons/arrow-back.png" id="arrow-back" />
-        <img src="./assets/icons/arrow-forward.png" id="arrow-forward" />
+        <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
+        <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
         <!-- Dot container -->
         <div class="testimonials__dots"></div>
-      </div>
+      </section>
 
       <!-- Call to Action -->
-      <div class="cta">
+      <section class="cta">
         <div class="cta__wrap">
           <h2>Begin your journey <span>today</span></h2>
           <a href="contact.html" class="button button--primary">Contact us now</a>
         </div>
-      </div>
+      </section>
 
       <!-- Instagram Grid -->
-      <div class="instagram__container">
+      <section class="instagram">
         <div class="instagram__wrap">
           <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
           <div class="instagram__images">
@@ -202,12 +198,11 @@
             <div class="instagram__image instagram__image--6"></div>
           </div>
         </div>
-      </div>
-
+      </section>
     </main>
 
     <!-- Footer -->
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 
     <!-- Back to top button -->
     <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>

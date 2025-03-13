@@ -164,7 +164,7 @@ p {
 }
 
 /* Hero Section*/
-.hero__container {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;

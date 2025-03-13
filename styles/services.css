@@ -8,7 +8,7 @@ span {
   padding-bottom: 0;
 }
 
-.hero__container {
+.hero {
   background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
     no-repeat center 68% / cover #414040;
 }
@@ -45,7 +45,7 @@ span {
 }
 
 /* Process */
-.process__container {
+.process {
   padding-top: 6.8rem;
   background-color: white;
   display: flex;
@@ -173,7 +173,7 @@ span.extra-large-heading::after {
 }
 
 /* Sections */
-.section__container {
+.section {
   margin: 4rem 0;
   display: flex;
   justify-content: center;
@@ -220,7 +220,7 @@ span.extra-large-heading::after {
 
 
 /* Clients */
-.featured__container {
+.featured {
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -229,7 +229,7 @@ span.extra-large-heading::after {
   background-color: white;
 }
 
-.featured__container h2 {
+.featured h2 {
   margin-top: 2rem;
 }
 

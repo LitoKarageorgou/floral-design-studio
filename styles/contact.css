@@ -1,5 +1,5 @@
 /* Hero Section */
-.hero__container {
+.hero {
   background: url("../assets/images/hero-sections/blue-flower.png") no-repeat
     center center/cover #414040;
   background-attachment: fixed;
@@ -139,7 +139,7 @@
 }
 
 /* Contact Information */
-.contact-info__container {
+.contact-info {
   display: flex;
   flex-direction: column;
   justify-content: center;

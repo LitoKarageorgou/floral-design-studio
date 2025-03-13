@@ -1,10 +1,11 @@
 /* Hero Section */
-.hero__container {
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center 60%/cover #414040;
+.hero{
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+    center 60% / cover #414040;
   height: 75vh;
 }
 
-h1{
+h1 {
   font-size: 3.5rem;
   font-weight: 500;
   text-transform: none;
@@ -14,7 +15,7 @@ h1 span {
   font-style: italic;
 }
 
-.hero__container .button {
+.hero .button {
   margin-top: 2rem;
 }
 
@@ -27,7 +28,7 @@ h1 span {
   text-transform: uppercase;
 }
 
-.intro__text p{
+.intro__text p {
   font-size: 0.75rem;
   letter-spacing: 0.18rem;
   font-weight: 400;
@@ -40,30 +41,30 @@ h1 span {
   justify-self: center;
   align-items: center;
   height: 85vh;
- }
+}
 
 /* Portfolio Carousel */
-.portfolio__carousel { 
+.portfolio__carousel {
   display: flex;
   position: relative;
 }
 
-.portfolio-carousel__viewport {
+.portfolio__carousel__viewport {
   overflow: hidden;
   width: 60%;
   margin: auto;
 }
 
-.portfolio-carousel__images {
+.portfolio__carousel__images {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
-.portfolio-carousel__slide {
+.portfolio__carousel__slide {
   min-width: calc(100% / 3);
 }
 
-.portfolio-carousel__slide img {
+.portfolio__carousel__slide img {
   height: 35rem;
   width: 100%;
   max-width: 23rem;
@@ -72,45 +73,45 @@ h1 span {
 }
 
 /* Navigation Arrows */
-.portfolio-carousel__button {
+.portfolio__carousel__button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.portfolio-carousel__button--previous {
+.portfolio__carousel__button--previous {
   left: 17%;
 }
 
-.portfolio-carousel__button--next {
+.portfolio__carousel__button--next {
   right: 17%;
 }
 
-.portfolio-carousel__button img{
+.portfolio__carousel__button img {
   width: 2rem;
   filter: invert(80%);
 }
 
 /* Controls */
-.portfolio-carousel__controls {
+.portfolio__carousel__controls {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  display: none; 
+  display: none;
 }
 
-.portfolio-carousel__controls a img {
+.portfolio__carousel__controls a img {
   width: 3rem;
 }
 
-.portfolio__carousel:hover .portfolio-carousel__controls {
+.portfolio__carousel:hover .portfolio__carousel__controls {
   display: block;
 }
 
 /* Services*/
-.services{
+.services {
   background-color: var(--primary-color);
   padding: 6.5rem 0;
 }
@@ -118,7 +119,7 @@ h1 span {
 .services__container {
   height: 80vh;
   position: relative;
-} 
+}
 
 .services__wrap {
   width: 60%;
@@ -145,7 +146,7 @@ h1 span {
   font-size: 3rem;
   padding-bottom: 2.4rem;
   line-height: 1.1;
-  font-family: var(--font-heading); 
+  font-family: var(--font-heading);
   font-weight: 500;
 }
 
@@ -155,36 +156,38 @@ h1 span {
 }
 
 /* Weddings */
-.services__container--weddings h2{
+.services__container--weddings h2 {
   transform: rotate(-90deg);
   top: 20%;
   left: 5.5%;
 }
 
-.services__image.services__image--weddings{
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040 no-repeat center center/cover;
+.services__image.services__image--weddings {
+  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040
+    no-repeat center center/cover;
   justify-self: start;
 }
 
 /* Events */
-.services__container--events h2{
+.services__container--events h2 {
   transform: rotate(90deg);
   top: 10%;
   right: 9.6%;
 }
 
-.services__image.services__image--events{
-  background: url("../assets/images/homepage-portfolio/line.jpg") #414040 no-repeat center center/cover;
+.services__image.services__image--events {
+  background: url("../assets/images/homepage-portfolio/line.jpg") #414040
+    no-repeat center center/cover;
   justify-self: end;
 }
 
-.services__text--events{
+.services__text--events {
   justify-self: start;
   padding-left: 2rem;
 }
 
 /* About */
-.about__container {
+.about {
   min-height: 105vh;
 }
 
@@ -203,29 +206,32 @@ h1 span {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(16, 1fr));
-  grid-template-rows: repeat(auto-fit,minmax(17, 1fr));;
+  grid-template-columns: repeat(auto-fit, minmax(16, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(17, 1fr));
 }
 
 .about__image--1 {
   grid-column: 2 / span 10;
   grid-row: 1 / span 7;
   z-index: 1;
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center center/cover #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+    center center/cover #414040;
 }
 
 .about__image--2 {
   grid-column: 8 / span 10;
   grid-row: 6 / span 7;
   z-index: 2;
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center center/cover #4e4d4d;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center center/cover #4e4d4d;
 }
 
 .about__image--3 {
   grid-column: 4 / span 7;
   grid-row: 12 / span 5;
   z-index: 3;
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center center/cover #5a5858;
+  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+    center center/cover #5a5858;
 }
 
 .about__text {
@@ -243,7 +249,7 @@ h1 span {
 }
 
 /* Featured In */
-.featured__container {
+.featured {
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -355,7 +361,7 @@ h1 span {
   justify-content: center;
   align-items: center;
   text-align: left;
-  background-color:  var(--primary-color);
+  background-color: var(--primary-color);
   padding: 5rem;
 }
 
@@ -384,7 +390,6 @@ h1 span {
   z-index: 3;
 }
 
-
 /* Navigation Arrows */
 
 /* UNIFY WITH ABOVE BUTTONS?  */
@@ -407,12 +412,12 @@ h1 span {
 }
 
 /* Controls */
-.testimolias-carousel__controls img{
+.testimonials__carousel__controls img {
   width: 2.5rem;
   filter: invert(10%);
 }
 
-.testimolias-carousel__controls {
+.testimonials__carousel__controls {
   position: absolute;
   top: 50%;
   left: 54.4%;
@@ -421,7 +426,7 @@ h1 span {
   display: none;
 }
 
-.testimonials__carousel:hover .testimolias-carousel__controls { 
+.testimonials__carousel:hover .testimonials__carousel__controls {
   display: block;
 }
 
@@ -456,7 +461,8 @@ h1 span {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat center 60%/cover #dddcdc;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center 60% / cover #dddcdc;
   height: 60vh;
 
   /* Parallax Scroll Effect */

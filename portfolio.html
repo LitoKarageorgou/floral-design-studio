@@ -4,19 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Explore our porfolio showcasing selected floral designs from weddings and events.">
   <title>Portfolio | Florience | Floral Design Studio</title>
   <!-- CSS -->
   <link rel="stylesheet" href="./styles/common.css">
   <link rel="stylesheet" href="./styles/portfolio.css">
   <!-- Favicon -->
   <link rel="icon" href="./assets/icons/favicon-white.png" />
-  <!-- Lato Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Cormorant Garamond Font-->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -31,37 +27,37 @@
 <body>
   <div class="container">
     <!--  Header -->
-    <div id="header"></div>
+    <header id="header"></header>
 
     <!-- Main -->
     <main class="main">
       <!-- Hero Section-->
-      <div class="hero__container">
+      <section class="hero">
         <div class="hero__text">
           <h1>Portfolio</h1>
         </div>
-      </div>
+      </section>
 
-      <!-- Portfolio -->
-      <div class="portfolio__container">
-        <div class="portfolio__select">
+      <!-- Portfolio Section -->
+      <section class="portfolio">
+        <nav class="portfolio__select">
           <a href="#" data-filter="all" class="active">All</a>
           <a href="#" data-filter="wedding">Weddings</a>
           <a href="#" data-filter="event">Events</a>
-        </div>
+        </nav>
         <div id="portfolio__gallery"></div>
-      </div>
+      </section>
 
       <!-- Call to Action -->
-      <div class="cta">
+      <section class="cta">
         <div class="cta__wrap">
           <h2><span>Start</span> your Journey Now</h2>
           <a href="contact.html" class="button button--primary">Contact us now</a>
         </div>
-      </div>
+      </section>
 
       <!-- Instagram Grid -->
-      <div class="instagram__container">
+      <section class="instagram">
         <div class="instagram__wrap">
           <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
           <div class="instagram__images">
@@ -73,16 +69,14 @@
             <div class="instagram__image instagram__image--6"></div>
           </div>
         </div>
-      </div>
-
+      </section>
     </main>
 
     <!-- Footer -->
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 
     <!-- Back to top button -->
     <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
-  </div>
   </div>
 </body>
 

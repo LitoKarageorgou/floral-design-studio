@@ -1,5 +1,5 @@
 /* Hero Section */
-.hero__container {
+.hero {
   background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
     center 55% / cover #414040;
 }

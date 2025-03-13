@@ -5,18 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Florience | Floral Design Studio</title>
+  <meta name="description"
+    content="Discover our floral design services including weddings, events, and custom arrangements." />
   <!-- CSS -->
   <link rel="stylesheet" href="./styles/common.css">
   <link rel="stylesheet" href="./styles/services.css">
   <!-- Favicon -->
   <link rel="icon" href="./assets/icons/favicon-white.png" />
-  <!-- Lato Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Cormorant Garamond Font-->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -30,20 +26,20 @@
 
 <body>
   <div class="container">
-    <!-- Navigation Bar -->
-    <div id="header"></div>
+    <!-- Header -->
+    <header id="header"></header>
 
     <!-- Main -->
     <main class="main">
       <!-- Hero Section-->
-      <div class="hero__container">
+      <div class="hero">
         <div class="hero__text">
           <h1>Services</h1>
         </div>
       </div>
 
       <!-- Weddings -->
-      <div class="weddings__container" id="weddings">
+      <section class="weddings" id="weddings">
         <div class="weddings__wrap">
           <div class="weddings__text">
             <p>
@@ -56,12 +52,12 @@
           </div>
           <div class="weddings__image"></div>
         </div>
-      </div>
+      </section>
 
-      <!-- White container -->
+      <!-- White Color Container -->
       <div class="white-color-container">
         <!-- Process -->
-        <div class="process__container">
+        <section class="process">
           <div class="process__description">
             <h2 class="medium-heading">Our <span>process</span></h2>
             <p>Our approach is deeply personal, ensuring that every floral design is a true reflection of you. We take
@@ -102,27 +98,27 @@
                 and perfecting every bouquet. Afterward, we handle the dismantling.</p>
             </div>
           </div>
-        </div>
+        </section>
 
         <!-- Testimonials -->
-        <div class="testimonials">
+        <section class="testimonials">
           <h2 class="small-heading">Testimonials</h2>
           <!-- Testimonials Carousel -->
           <div class="testimonials__carousel">
-            <img src="./assets/icons/arrow-back.png" id="arrow-back" />
+            <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
             <div class="testimonials__text">
               <h3></h3>
               <p></p>
             </div>
-            <img src="./assets/icons/arrow-forward.png" id="arrow-forward" />
+            <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
           </div>
           <!-- Dot container -->
           <div class="testimonials__dots"></div>
-        </div>
+        </section>
       </div>
 
       <!-- Events & Galas -->
-      <div class="section__container" id="events">
+      <section class="section" id="events">
         <div class="section__text">
           <h2 class="medium-heading">Elevate your corporate gatherings with <span>timeless</span> florals</h2>
           <p>
@@ -136,10 +132,10 @@
           <a href="contact.html" class="button button--secondary">Contact us now</a>
         </div>
         <div class="section__image section__image-galas"></div>
-      </div>
+      </section>
 
       <!-- PR Events -->
-      <div class="section__container">
+      <section class="section">
         <div class="section__image section__image-pr"></div>
         <div class="section__text">
           <h2 class="medium-heading">Unlock your brand's potential with our <span>transformative</span> decor</h2>
@@ -152,10 +148,10 @@
           </p>
           <a href="contact.html" class="button button--secondary">Contact us now</a>
         </div>
-      </div>
+      </section>
 
       <!-- Clients -->
-      <div class="featured__container">
+      <section class="featured">
         <div class="featured__wrap">
           <h2 class="small-heading">Our Clients</h2>
           <div class="featured__logos">
@@ -176,10 +172,10 @@
             <h3>Bentley</h3>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Private Dinners -->
-      <div class="section__container">
+      <section class="section">
         <div class="section__text">
           <h2 class="medium-heading">Set the stage for an <span>exclusive</span> dining experience</h2>
           <p>
@@ -191,22 +187,20 @@
           <a href="contact.html" class="button button--secondary">Contact us now</a>
         </div>
         <div class="section__image section__image-dinners"></div>
-      </div>
+      </section>
 
       <!-- White container -->
       <div class="white-color-container">
-
-
         <!-- Call to Action -->
-        <div class="cta">
+        <section class="cta">
           <div class="cta__wrap">
             <h2><span>Start</span> your Journey Now</h2>
             <a href="contact.html" class="button button--primary">Contact us now</a>
           </div>
-        </div>
+        </section>
 
         <!-- Instagram Grid -->
-        <div class="instagram__container">
+        <section class="instagram">
           <div class="instagram__wrap">
             <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
             <div class="instagram__images">
@@ -218,7 +212,7 @@
               <div class="instagram__image instagram__image--6"></div>
             </div>
           </div>
-        </div>
+        </section>
 
       </div>
 
