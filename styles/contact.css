@@ -133,7 +133,8 @@
 }
 
 .error-message {
-  color: rgb(199, 73, 73);
+  color: var(--primary-font-color);
+  font-weight: 900;
   font-size: 0.8rem;
 }
 

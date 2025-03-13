@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero__container {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat center 49%/cover #414040;
+  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat center 60%/cover #414040;
   height: 75vh;
 }
 
@@ -15,13 +15,12 @@ h1 span {
 }
 
 .hero__container .button {
-  color: white;
-  /* font-size: 0.9rem; */
+  margin-top: 2rem;
 }
 
 /* Website Introduction */
 .intro__text {
-  width: 38%;
+  width: 45.5%; /* 35% or 45.5-46% */
   margin: auto;
   text-align: center;
   line-height: 2.1;
@@ -137,14 +136,15 @@ h1 span {
 }
 
 .services__text {
-  width: 85%;
-  justify-self: center;
+  width: 90%;
+  justify-self: start;
+  padding-left: 4rem;
 }
 
 .services__text h3 {
   font-size: 3rem;
   padding-bottom: 2.4rem;
-  line-height: 1;
+  line-height: 1.1;
   font-family: var(--font-heading); 
   font-weight: 500;
 }
@@ -163,7 +163,7 @@ h1 span {
 
 .services__image.services__image--weddings{
   background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040 no-repeat center center/cover;
-  justify-self: left;
+  justify-self: start;
 }
 
 /* Events */
@@ -173,29 +173,14 @@ h1 span {
   right: 9.6%;
 }
 
-.services__image-wrap--events {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
 .services__image.services__image--events{
   background: url("../assets/images/homepage-portfolio/line.jpg") #414040 no-repeat center center/cover;
   justify-self: end;
 }
 
-.services__text-wrap--events {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: right;
-}
-
-.services__text.services__text--events p{
-  justify-self: end;
+.services__text--events{
+  justify-self: start;
+  padding-left: 2rem;
 }
 
 /* About */

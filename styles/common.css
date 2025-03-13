@@ -94,13 +94,6 @@ p {
 }
 
 /* Container color classes */
-.primary-color-container {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  gap: 6.8rem;
-}
-
 .white-color-container {
   background-color: white;
   display: flex;
@@ -109,11 +102,17 @@ p {
 }
 
 /* Navbar */
-.navbar {
+.navbar{
+  width: 100%;
+}
+
+.navbar__wrap {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   letter-spacing: 2px;
+  width: 88.6%;
+  margin: auto;
 }
 
 .navbar a {
@@ -129,7 +128,7 @@ p {
 
 .navbar__menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.5rem;
 }
 
@@ -146,9 +145,9 @@ p {
 
 .navbar__social {
   display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-  padding-left: 2rem;
+  justify-content: flex-end;
+  gap: 1.7rem;
+  padding-right: 6rem;
 }
 
 .navbar__social img {
@@ -199,6 +198,7 @@ p {
   padding: 1rem 1.3rem;
   background-color: var(--tetriary-color);
   font-size: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .button--secondary {
@@ -355,7 +355,9 @@ p {
 }
 
 .footer__wrap {
-  padding: 4rem 10rem 3rem 10rem;
+  width: 83.2%;
+  margin: auto;
+  padding: 4rem 0 3rem 0;
 }
 
 /* Row 1 */

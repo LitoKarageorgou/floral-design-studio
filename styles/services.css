@@ -112,15 +112,6 @@ span.extra-large-heading::after {
   padding-bottom: 6.8rem;
 }
 
-.testimonials h2 {
-  padding: 0.9rem 0 1rem 0;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  border-bottom: 0.5px solid #dcdad5;
-}
-
 .testimonials__carousel {
   width: 50%;
   display: flex;
@@ -135,7 +126,7 @@ span.extra-large-heading::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 4rem;
 }
 
