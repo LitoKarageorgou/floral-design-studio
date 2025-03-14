@@ -183,7 +183,7 @@ Version 1.20.0 - 11-03-2025
 - Add validation to contact form.
 
 Version 1.21.0 - 12-03-2025
-- Make code adjustments, semantic tags, alt attributes and BEM.
+- Make code adjustments for SEO, semantic tags, alt attributes and BEM.
 - Start loader SVG animation.
 
 Version 1.22.0 - 13-03-2025
