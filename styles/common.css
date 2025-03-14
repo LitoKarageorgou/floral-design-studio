@@ -102,7 +102,7 @@ p {
 }
 
 /* Navbar */
-.navbar{
+.navbar {
   width: 100%;
 }
 
@@ -146,7 +146,7 @@ p {
 .navbar__social {
   display: flex;
   justify-content: flex-end;
-  gap: 1.7rem;
+  gap: 1.4rem;
   padding-right: 6rem;
 }
 

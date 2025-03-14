@@ -1,8 +1,9 @@
 /* Hero Section */
 .hero {
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-    center 60% / cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+    no-repeat center 65% / cover #414040;
   height: 75vh;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 span {
   text-align: center;
   line-height: 2.1;
   text-transform: uppercase;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 .intro__text p {
@@ -41,6 +43,7 @@ h1 span {
   justify-self: center;
   align-items: center;
   height: 85vh;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 /* Portfolio Carousel */
@@ -114,6 +117,7 @@ h1 span {
 .services {
   background-color: var(--primary-color);
   padding: 6.5rem 0;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 .services__container {
@@ -189,6 +193,7 @@ h1 span {
 /* About */
 .about {
   min-height: 105vh;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 .about__wrap {
@@ -256,6 +261,7 @@ h1 span {
   justify-content: center;
   align-items: center;
   background-color: var(--primary-color);
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 .featured__wrap {
@@ -337,6 +343,7 @@ h1 span {
   align-items: center;
   height: 100vh;
   position: relative;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 .testimonials h2 {
@@ -457,6 +464,7 @@ h1 span {
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 /* Call to Action */
@@ -467,6 +475,7 @@ h1 span {
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
+  animation: initialFadeIn 1s ease-in-out;
 }
 
 /* Loader Styles */
@@ -476,7 +485,7 @@ h1 span {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff; /* Or your preferred background */
+  background-color: var(--secondary-color); /* Or your preferred background */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,31 +494,35 @@ h1 span {
 
 /* Center and resize the loader SVG */
 .loader svg {
-  width: 250px;
+  width: 400px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-polygon.bee {
-  animation: beeMovement 3s ease-in-out infinite;
-  transform-origin: center; /* Adjust if needed */
-}
-
-@keyframes beeMovement {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  25% {
-    transform: translate(5px, -5px) rotate(5deg);
+/* Flower Animation */
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
   }
   50% {
-    transform: translate(0, -10px) rotate(0deg);
-  }
-  75% {
-    transform: translate(-5px, -5px) rotate(-5deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(0deg);
+    opacity: 1;
   }
 }
+
+#Flower_1 {
+  animation: fadeInOut 3s infinite;
+  animation-delay: 0s;
+}
+
+#Flower_2 {
+  animation: fadeInOut 3s infinite;
+  animation-delay: 0.5s;
+}
+
+#Flower_3 {
+  animation: fadeInOut 3s infinite;
+  animation-delay: 1s;
+}
+
