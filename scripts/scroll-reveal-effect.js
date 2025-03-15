@@ -8,9 +8,9 @@ const revealOnScroll = () => {
         const revealTop = reveal.getBoundingClientRect().top;
 
         if (revealTop < windowHeight - revealPoint) {
-            reveal.classList.add("visible");
+            reveal.classList.add("active");
         } else {
-            reveal.classList.remove("visible");
+            reveal.classList.remove("active");
         }
     });
 };
