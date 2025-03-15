@@ -25,6 +25,7 @@
   <script src="./scripts/homepage-testimonials-carousel.js" defer></script>
   <script src="./scripts/back-to-top.js" defer></script>
   <script src="./scripts/loader.js" defer></script>
+  <script src="./scripts/scroll-reveal-effect.js" defer></script>
 </head>
 
 <body>
@@ -488,184 +489,184 @@
 
   <!-- Hide main container until loader is done -->
   <div id="main-container" class="container" style="display: none;">
-    <!-- Header -->
-    <header id="header"></header>
+  <!-- Header -->
+  <header id="header"></header>
 
-    <!-- Main -->
-    <main class="main">
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero__text">
-          <h1><span>Exquisite</span> floral designs to elevate every occasion</h1>
-          <a href="services.html" class="button button--primary">View our services</a>
-        </div>
-      </section>
+  <!-- Main -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__text">
+        <h1><span>Exquisite</span> floral designs to elevate every occasion</h1>
+        <a href="services.html" class="button button--primary">View our services</a>
+      </div>
+    </section>
 
-      <!-- Website Introduction -->
-      <section class="intro">
-        <div class="intro__text">
-          <p>
-            Florience is a floral design studio dedicated to creating elegant, bespoke arrangements that capture the
-            essence of every occasion. With artistry, passion, and attention to detail, we bring your floral vision to
-            life, making every moment truly special and unforgettable.
-          </p>
-        </div>
-      </section>
+    <!-- Website Introduction -->
+    <section class="intro" >
+      <div class="intro__text ">
+        <p>
+          Florience is a floral design studio dedicated to creating elegant, bespoke arrangements that capture the
+          essence of every occasion. With artistry, passion, and attention to detail, we bring your floral vision to
+          life, making every moment truly special and unforgettable.
+        </p>
+      </div>
+    </section>
 
-      <!-- Portfolio Overview -->
-      <section class="portfolio">
-        <h2 class="large-heading">Portfolio</h2>
-        <!-- Portfolio Carousel -->
-        <div class="portfolio__carousel">
-          <div class="portfolio__carousel__viewport">
-            <div class="portfolio__carousel__images"></div>
-          </div>
-          <!-- Navigation Arrows -->
-          <a class="portfolio__carousel__button portfolio__carousel__button--previous"><img
-              src="./assets/icons/arrow-back.png" alt="Previous image"></a>
-          <a class="portfolio__carousel__button portfolio__carousel__button--next"><img
-              src="./assets/icons/arrow-forward.png" alt="Next image"></a>
-          <!-- Control buttons -->
-          <div class="portfolio__carousel__controls">
-            <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
-            <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
-          </div>
-        </div>
-        <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
-      </section>
-
-      <!-- Services Overview-->
-      <section class="services">
-        <!-- Weddings -->
-        <div class="services__container services__container--weddings">
-          <h2 class="extra-large-heading">Weddings</h2>
-          <div class="services__wrap">
-            <div class="services__image services__image--weddings"></div>
-            <div class="services__text">
-              <h3>Exquisite floral designs for your special day </h3>
-              <p>
-                We are passionate about creating breathtaking floral designs that bring romance and elegance to your
-                wedding day. From lush bouquets to stunning centerpieces, every detail is thoughtfully crafted to
-                reflect your vision and style. Let us transform your special day into a floral masterpiece, making every
-                moment unforgettable.
-              </p>
-              <a href="services.html#weddings" class="button button--secondary">Read more about our wedding services</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Events -->
-        <div class="services__container services__container--events">
-          <h2 class="extra-large-heading">Events</h2>
-          <div class="services__wrap">
-            <div class="services__text services__text--events">
-              <h3>Elegant florals for unforgettable events</h3>
-              <p>
-                We design exquisite floral arrangements that elevate any event, from intimate gatherings to grand
-                celebrations. Our unique creations bring elegance and charm to every occasion. Whether a corporate
-                event, gala, or private party, we tailor each design to suit the setting.
-              </p>
-              <a href="services.html#events" class="button button--secondary">Read more about our event services</a>
-            </div>
-            <div class="services__image services__image--events"></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- About Overview -->
-      <section class="about">
-        <div class="about__wrap">
-          <div class="about__images">
-            <div class="about__image--1"></div>
-            <div class="about__image--2"></div>
-            <div class="about__image--3"></div>
-          </div>
-          <div class="about__text">
-            <h2 class="large-heading">About our studio</h2>
-            <p>
-              Founded in 2009, Florience is a boutique floral design studio in Surrey, London, creating exquisite,
-              handcrafted arrangements for weddings and events. Led by Isabelle Laurent, our studio blends creativity
-              with nature's beauty to craft elegant and timeless designs.
-
-              <br><br>
-
-              What began as a passion project has flourished into a sought-after destination for floral artistry,
-              bringing breathtaking visions to life for clients across the UK and beyond
-            </p>
-            <a href="about.html" class="button button--secondary">About Us</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Featured in -->
-      <section class="featured">
-        <div class="featured__wrap">
-          <h2 class="small-heading">Featured in</h2>
-          <div class="featured__logos">
-            <h3>Vogue</h3>
-            <h3>Brides</h3>
-            <h3>Elle</h3>
-            <h3>The knot</h3>
-            <h3>Bazaar</h3>
-            <h3>Luxury London</h3>
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonials -->
-      <section class="testimonials">
-        <h2 class="small-heading">Testimonials</h2>
-        <!-- Testimonials Carousel -->
-        <div class="testimonials__carousel">
-          <div class="testimonials__text">
-            <h3></h3>
-            <p></p>
-          </div>
-          <!-- Images -->
-          <div class="testimonials__image--1"></div>
-          <div class="testimonials__image--2"></div>
-          <!-- Control buttons -->
-          <div class="testimonials__carousel__controls">
-            <a id="pause-button"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
-            <a id="play-button"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
-          </div>
+    <!-- Portfolio Overview -->
+    <section class="portfolio reveal">
+      <h2 class="large-heading">Portfolio</h2>
+      <!-- Portfolio Carousel -->
+      <div class="portfolio__carousel">
+        <div class="portfolio__carousel__viewport">
+          <div class="portfolio__carousel__images"></div>
         </div>
         <!-- Navigation Arrows -->
-        <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
-        <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
-        <!-- Dot container -->
-        <div class="testimonials__dots"></div>
-      </section>
-
-      <!-- Call to Action -->
-      <section class="cta">
-        <div class="cta__wrap">
-          <h2>Begin your journey <span>today</span></h2>
-          <a href="contact.html" class="button button--primary">Contact us now</a>
+        <a class="portfolio__carousel__button portfolio__carousel__button--previous"><img
+            src="./assets/icons/arrow-back.png" alt="Previous image"></a>
+        <a class="portfolio__carousel__button portfolio__carousel__button--next"><img
+            src="./assets/icons/arrow-forward.png" alt="Next image"></a>
+        <!-- Control buttons -->
+        <div class="portfolio__carousel__controls">
+          <a id="stop-slideshow"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+          <a id="start-slideshow"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
         </div>
-      </section>
+        <a href="portfolio.html" class="button button--secondary">Browse Selected Projects</a>
+      </div>
+    </section>
 
-      <!-- Instagram Grid -->
-      <section class="instagram">
-        <div class="instagram__wrap">
-          <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
-          <div class="instagram__images">
-            <div class="instagram__image instagram__image--1"></div>
-            <div class="instagram__image instagram__image--2"></div>
-            <div class="instagram__image instagram__image--3"></div>
-            <div class="instagram__image instagram__image--4"></div>
-            <div class="instagram__image instagram__image--5"></div>
-            <div class="instagram__image instagram__image--6"></div>
+    <!-- Services Overview-->
+    <section class="services">
+      <!-- Weddings -->
+      <div class="services__container services__container--weddings">
+        <h2 class="extra-large-heading">Weddings</h2>
+        <div class="services__wrap">
+          <div class="services__image services__image--weddings"></div>
+          <div class="services__text">
+            <h3>Exquisite floral designs for your special day </h3>
+            <p>
+              We are passionate about creating breathtaking floral designs that bring romance and elegance to your
+              wedding day. From lush bouquets to stunning centerpieces, every detail is thoughtfully crafted to
+              reflect your vision and style. Let us transform your special day into a floral masterpiece, making every
+              moment unforgettable.
+            </p>
+            <a href="services.html#weddings" class="button button--secondary">Read more about our wedding services</a>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
 
-    <!-- Footer -->
-    <footer id="footer"></footer>
+      <!-- Events -->
+      <div class="services__container services__container--events">
+        <h2 class="extra-large-heading">Events</h2>
+        <div class="services__wrap">
+          <div class="services__text services__text--events">
+            <h3>Elegant florals for unforgettable events</h3>
+            <p>
+              We design exquisite floral arrangements that elevate any event, from intimate gatherings to grand
+              celebrations. Our unique creations bring elegance and charm to every occasion. Whether a corporate
+              event, gala, or private party, we tailor each design to suit the setting.
+            </p>
+            <a href="services.html#events" class="button button--secondary">Read more about our event services</a>
+          </div>
+          <div class="services__image services__image--events"></div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Back to top button -->
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
+    <!-- About Overview -->
+    <section class="about">
+      <div class="about__wrap">
+        <div class="about__images">
+          <div class="about__image--1"></div>
+          <div class="about__image--2"></div>
+          <div class="about__image--3"></div>
+        </div>
+        <div class="about__text">
+          <h2 class="large-heading">About our studio</h2>
+          <p>
+            Founded in 2009, Florience is a boutique floral design studio in Surrey, London, creating exquisite,
+            handcrafted arrangements for weddings and events. Led by Isabelle Laurent, our studio blends creativity
+            with nature's beauty to craft elegant and timeless designs.
+
+            <br><br>
+
+            What began as a passion project has flourished into a sought-after destination for floral artistry,
+            bringing breathtaking visions to life for clients across the UK and beyond
+          </p>
+          <a href="about.html" class="button button--secondary">About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured in -->
+    <section class="featured">
+      <div class="featured__wrap">
+        <h2 class="small-heading">Featured in</h2>
+        <div class="featured__logos">
+          <h3>Vogue</h3>
+          <h3>Brides</h3>
+          <h3>Elle</h3>
+          <h3>The knot</h3>
+          <h3>Bazaar</h3>
+          <h3>Luxury London</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2 class="small-heading">Testimonials</h2>
+      <!-- Testimonials Carousel -->
+      <div class="testimonials__carousel">
+        <div class="testimonials__text">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- Images -->
+        <div class="testimonials__image--1"></div>
+        <div class="testimonials__image--2"></div>
+        <!-- Control buttons -->
+        <div class="testimonials__carousel__controls">
+          <a id="pause-button"><img src="./assets/icons/pause.svg" alt="Stop autoplay"></a>
+          <a id="play-button"><img src="./assets/icons/play.svg" alt="Start autoplay"></a>
+        </div>
+      </div>
+      <!-- Navigation Arrows -->
+      <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
+      <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
+      <!-- Dot container -->
+      <div class="testimonials__dots"></div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <div class="cta__wrap">
+        <h2>Begin your journey <span>today</span></h2>
+        <a href="contact.html" class="button button--primary">Contact us now</a>
+      </div>
+    </section>
+
+    <!-- Instagram Grid -->
+    <section class="instagram">
+      <div class="instagram__wrap">
+        <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
+        <div class="instagram__images">
+          <div class="instagram__image instagram__image--1"></div>
+          <div class="instagram__image instagram__image--2"></div>
+          <div class="instagram__image instagram__image--3"></div>
+          <div class="instagram__image instagram__image--4"></div>
+          <div class="instagram__image instagram__image--5"></div>
+          <div class="instagram__image instagram__image--6"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer"></footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
   </div>
 </body>
 
