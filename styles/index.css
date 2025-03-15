@@ -459,48 +459,36 @@ h1 span {
 
 /* Call to Action */
 .cta {
-  background: url("") #dddcdc;
-  height: 60vh;
-
-  /* Parallax Scroll Effect */
-  background-attachment: fixed;
-  animation: initialFadeIn 1s ease-in-out;
-}
-
-/* Call to Action */
-.cta {
   background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center 60% / cover #dddcdc;
+    no-repeat center 50% / cover #dddcdc;
   height: 60vh;
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
-/* Loader Styles */
+/* Loader */
 .loader {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--secondary-color); /* Or your preferred background */
+  background-color: #fff;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   z-index: 9999;
 }
 
-/* Center and resize the loader SVG */
-.loader svg {
+/* Center and resize the SVG */
+#loader-svg {
   width: 400px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  padding-left: 5.9rem;
 }
 
-/* Flower Animation */
+/* Keyframes for fading */
 @keyframes fadeInOut {
   0%,
   100% {
@@ -511,18 +499,104 @@ h1 span {
   }
 }
 
+/* Indivual flowers */
 #Flower_1 {
   animation: fadeInOut 3s infinite;
   animation-delay: 0s;
+  animation-fill-mode: both;
+  transform: translateY(16px);
 }
 
 #Flower_2 {
   animation: fadeInOut 3s infinite;
   animation-delay: 0.5s;
+  animation-fill-mode: both;
 }
 
 #Flower_3 {
   animation: fadeInOut 3s infinite;
   animation-delay: 1s;
+  animation-fill-mode: both;
+  transform: translate(-75px, -30px) scale(1.3);
 }
 
+/* SVG colors*/
+.st0 {
+  fill: #f1d5da;
+}
+
+.st1 {
+  fill: #e2c0cb;
+}
+
+.st2 {
+  fill: #944866;
+}
+
+.st3 {
+  fill: #c1777f;
+}
+
+.st4 {
+  fill: #fcfafb;
+}
+
+.st5 {
+  fill: #cfa9a2;
+}
+
+.st6 {
+  fill: #f6e2e3;
+}
+
+.st7 {
+  fill: #dab8ae;
+}
+
+.st8 {
+  fill: #faefed;
+}
+
+.st9 {
+  fill: #e1bcb8;
+}
+
+.st10 {
+  fill: #e8cebe;
+}
+
+.st11 {
+  fill: #dbba9d;
+}
+
+.st12 {
+  fill: #e5c8a8;
+}
+
+.st13 {
+  fill: #dfc0b2;
+}
+
+.st14 {
+  fill: #d6afaa;
+}
+
+.st15 {
+  fill: #e9ccc4;
+}
+
+.st16 {
+  fill: #ddb49e;
+}
+
+.st17 {
+  fill: #ae5c74;
+}
+
+.loader p{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-weight: 500;
+  color: #bebbbb;
+  position: absolute;
+  top: 55%;
+}
