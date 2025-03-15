@@ -3,7 +3,6 @@
   background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
     no-repeat center 65% / cover #414040;
   height: 75vh;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 h1 {
@@ -27,7 +26,6 @@ h1 span {
   text-align: center;
   line-height: 2.1;
   text-transform: uppercase;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 .intro__text p {
@@ -43,12 +41,14 @@ h1 span {
   justify-self: center;
   align-items: center;
   height: 85vh;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 /* Portfolio Carousel */
 .portfolio__carousel {
   display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
   position: relative;
 }
 
@@ -117,7 +117,6 @@ h1 span {
 .services {
   background-color: var(--primary-color);
   padding: 6.5rem 0;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 .services__container {
@@ -192,8 +191,7 @@ h1 span {
 
 /* About */
 .about {
-  min-height: 105vh;
-  animation: initialFadeIn 1s ease-in-out;
+  height: 105vh;
 }
 
 .about__wrap {
@@ -211,8 +209,8 @@ h1 span {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(17, 1fr));
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(17, 1fr);
 }
 
 .about__image--1 {
@@ -261,7 +259,6 @@ h1 span {
   justify-content: center;
   align-items: center;
   background-color: var(--primary-color);
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 .featured__wrap {
@@ -343,7 +340,6 @@ h1 span {
   align-items: center;
   height: 100vh;
   position: relative;
-  animation: initialFadeIn 1s ease-in-out;
 }
 
 .testimonials h2 {

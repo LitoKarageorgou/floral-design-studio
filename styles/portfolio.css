@@ -56,9 +56,23 @@
   align-items: center;
 }
 
+/* Portfolio Image Click Animation */
 .portfolio__image {
   width: 100%;
   height: 90%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio__image:hover {
+  cursor: pointer;
+}
+
+.portfolio__image:hover {
+  transform: scale(1.05);
+}
+
+.portfolio__image:active {
+  transform: scale(1);
 }
 
 .portfolio__card p {
