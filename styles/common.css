@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* body{
+  font-size: 16px;
+} */
+
 :root {
   --primary-color: #f8f6f1;
   --secondary-color: #fbfaf7;
