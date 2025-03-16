@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero {
   background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
-    center 55% / cover #414040;
+    center 56% / cover #414040;
 }
 
 /* Portfolio */
@@ -23,7 +23,7 @@
 }
 
 .portfolio__select a.active {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: #575756;
 }
@@ -125,9 +125,16 @@
 
 /* Caption below the image */
 #caption {
+  width: auto;
   text-align: center;
+  margin: 1rem auto 0;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  letter-spacing: 0.05em;
   color: #ccc;
-  padding: 0;
 }
 
 /* Call to Action */

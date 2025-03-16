@@ -127,7 +127,7 @@
 .loader p {
   font-family: "Edu AU VIC WA NT Pre", cursive;
   font-weight: 500;
-  color: #bebbbb;
+  color: #a8a5a5;
   position: absolute;
   top: 55%;
 }
@@ -143,7 +143,6 @@ h1 {
   font-size: 3.5rem;
   font-weight: 500;
   text-transform: none;
-  /* text-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.5); */
 }
 
 h1 span {
@@ -151,20 +150,17 @@ h1 span {
 }
 
 .hero__text {
-  /* background-color: #a8a8a896; */
   padding: 2rem 3rem;
   width: 40%;
 }
 
 .hero .button {
   margin-top: 2rem;
-  /* opacity: 0.9; */
   color: var(--primary-font-color);
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 /* Horizontal lines */
-.hero .button::before {
+/* .hero .button::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -184,7 +180,7 @@ h1 span {
   transform: translate(60%, 500%);
   background-color: var(--tetriary-color);
   vertical-align: middle;
-}
+} */
 
 /* Website Introduction */
 .intro__text {
@@ -666,7 +662,7 @@ label{
 }
 
 /* Tablet styles */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #loader-svg {
     width: 350px;
     padding-left: 5.4rem;
@@ -674,19 +670,9 @@ label{
 }
 
 /* Phone styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   #loader-svg {
     width: 300px;
     padding-left: 4.9rem;
-  }
-
-  .navbar_wrap {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .navbar__menu,
-  .navbar__social-and-language {
-    display: none;
   }
 }

@@ -9,13 +9,14 @@ lightboxGallery.addEventListener('click', (e) => {
     if (e.target && e.target.classList.contains('portfolio__image')) {
         modal.classList.add('show');
         modalImg.src = e.target.src;
-        captionText.textContent = e.target.alt;
+        const description = e.target.parentElement.querySelector('p')?.textContent || '';
+        captionText.textContent = description;
     }
 });
 
 // Close modal when user clicks on close button
 closeBtn.addEventListener('click', () => {
-    modal.classList.remove('show'); 
+    modal.classList.remove('show');
 });
 
 // Close modal if user clicks outside the image
