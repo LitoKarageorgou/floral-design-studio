@@ -15,13 +15,46 @@ h1 span {
   font-style: italic;
 }
 
+.hero__text{
+  /* background-color: #a8a8a896; */
+  padding: 2rem 3rem;
+  width: 40%;
+}
+
 .hero .button {
   margin-top: 2rem;
+  /* opacity: 0.9; */
+  color: var(--primary-font-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Horizontal lines */
+.hero .button::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10rem;
+  height: 1px;
+  transform: translate(-160%, 500%);
+  background-color: white;
+  vertical-align: middle;
+}
+
+.hero .button::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10rem;
+  height: 1px;
+  transform: translate(60%, 500%);
+  background-color: white;
+  vertical-align: middle;
+}
+
 
 /* Website Introduction */
 .intro__text {
-  width: 45.5%; /* 35% or 45.5-46% */
+  width: 45.5%;
   margin: auto;
   text-align: center;
   line-height: 2.1;
@@ -480,7 +513,7 @@ h1 span {
 
 /* Center and resize the SVG */
 #loader-svg {
-  width: 400px;
+  width: 450px;
   padding-left: 5.9rem;
 }
 
@@ -592,7 +625,7 @@ h1 span {
 .loader p{
   font-family: "Edu AU VIC WA NT Pre", cursive;
   font-weight: 500;
-  color: #bebbbb;
+  color: #bebbbbbd;
   position: absolute;
   top: 55%;
 }
