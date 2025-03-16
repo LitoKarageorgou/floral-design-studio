@@ -5,12 +5,11 @@ const playButton = document.getElementById("play-button");
 const pauseButton = document.getElementById("pause-button");
 const dotsContainer = document.querySelector(".testimonials__dots");
 let currentSlide = 0;
-let autoSlideInterval = setInterval(nextSlide, 5000);
 
 const testimonials = [
     {
-        title: `"Florience transformed our wedding into an absolute dream. The floral arrangements were breathtaking, and every detail was thoughtfully designed to perfection."`,
-        text: `"From the moment we met with Florience, we knew we were in the best hands. The flowers were beyond stunning—soft, romantic, and exactly what we envisioned. The attention to detail and artistry was remarkable, making our special day even more magical. Guests couldn’t stop complimenting the beauty of the arrangements, and we couldn’t have been happier.
+        title: `"Florience brought our vision to life with unmatched elegance. Their florals set the perfect tone for our celebration."`,
+        text: `"From the moment we met with Florience, we knew we were in the best hands. The flowers were beyond stunning—soft, romantic, and exactly what we envisioned. The attention to detail and artistry was remarkable, making our special day even more magical.
 
           <br /><br /><br />
 
@@ -23,8 +22,8 @@ const testimonials = [
         image2: "../assets/images/homepage-portfolio/bouquet2.jpg"
     },
     {
-        title: `"Florience brought our vision to life with unmatched elegance. Their florals set the perfect tone for our celebration."`,
-        text: `""From our very first consultation, the Florience team understood exactly what we wanted. They created arrangements that felt natural yet luxurious, elegant yet effortless. Every floral element, from the bridal bouquet to the reception centerpieces, was crafted with such care and precision."
+        title: `"Florience transformed our wedding into an absolute dream. The floral arrangements were breathtaking, and every detail was thoughtfully designed to perfection."`,
+        text: `"From our very first consultation, the Florience team understood exactly what we wanted. They created arrangements that felt natural yet luxurious, elegant yet effortless. Every floral element, from the bridal bouquet to the reception centerpieces, was crafted with such care and precision."
         
         <br /><br /><br />
         
@@ -87,27 +86,6 @@ arrowForward.addEventListener("click", nextSlide);
 arrowBack.addEventListener("click", () => {
     currentSlide = (currentSlide - 1 + testimonials.length) % testimonials.length;
     showSlide(currentSlide);
-});
-
-// Initial button visibility
-playButton.style.display = "none";
-pauseButton.style.display = "inline-block";
-
-// Pause autoplay
-pauseButton.addEventListener("click", () => {
-    clearInterval(autoSlideInterval);
-    autoSlideInterval = null;
-    pauseButton.style.display = "none";
-    playButton.style.display = "inline-block";
-});
-
-// Resume autoplay
-playButton.addEventListener("click", () => {
-    if (!autoSlideInterval) {
-        autoSlideInterval = setInterval(nextSlide, 5000);
-        playButton.style.display = "none";
-        pauseButton.style.display = "inline-block";
-    }
 });
 
 // Initialize slider

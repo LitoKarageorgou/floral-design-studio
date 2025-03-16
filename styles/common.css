@@ -37,6 +37,7 @@ ul {
 a {
   text-decoration: none;
   font-family: var(--font-body);
+  color: var(--primary-font-color)
 }
 
 a,
@@ -54,7 +55,6 @@ h1 {
   color: white;
   font-size: 2.5rem;
   line-height: 1.1;
-  text-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
 
@@ -149,7 +149,7 @@ p {
   filter: invert(45%);
 }
 
-.navbar__social-and-language select{
+.navbar__social-and-language select {
   border: none;
   color: var(--primary-font-color);
   font-family: var(--font-heading);
@@ -192,18 +192,11 @@ p {
   width: 30%;
 }
 
-.hero__text h2 {
-  color: white;
-  font-size: 3rem;
-}
-
 /* Buttons */
 .button {
   display: inline-block;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: none;
-  color: var(--primary-font-color);
   font-family: var(--font-body);
   letter-spacing: 0.24rem;
   font-weight: 600;
@@ -214,13 +207,40 @@ p {
   background-color: var(--tetriary-color);
   font-size: 0.7rem;
   margin-top: 0.7rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button--primary:hover {
+  transform: scale(1.04);
+  background-color: var(--primary-color); /* adjust to a slightly lighter shade */
 }
 
 .button--secondary {
-  padding: 1rem 0;
+  padding: 1rem 0.3rem;
   margin-top: 2rem;
   border-bottom: 0.3px solid #dcdad5;
+  position: relative;
+  transition: color 0.3s ease;
   font-size: 0.75rem;
+  z-index: 1;
+}
+
+.button--secondary::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #dcdad54b;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform  0.3s ease-in-out;
+  z-index: -1;
+}
+
+.button--secondary:hover::before {
+  transform: scaleY(1);;
 }
 
 /* Featured */
@@ -301,11 +321,11 @@ p {
 
 .instagram__wrap a {
   padding-bottom: 2.5rem;
-  color: #414040;
   font-size: 0.9rem;
   text-transform: uppercase;
   text-align: center;
 }
+
 .instagram__images {
   display: flex;
   gap: 1rem;
@@ -521,7 +541,7 @@ p {
   opacity: 1;
 }
 
-/* Animations */
+/* Scroll-reveal-effect */
 /* .reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -531,4 +551,3 @@ p {
   opacity: 1;
   transform: translateY(0);
 } */
-

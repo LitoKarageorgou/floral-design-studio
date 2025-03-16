@@ -40,9 +40,15 @@
 }
 
 /* Values */
-.values__container {
+.values {
   position: relative;
   margin-top: 2rem;
+}
+
+.values h2 {
+  top: -19%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .values__wrap {
@@ -54,13 +60,6 @@
   align-items: center;
   margin: auto;
 
-}
-
-.values__container h2 {
-  position: absolute;
-  top: -19%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .values__value {

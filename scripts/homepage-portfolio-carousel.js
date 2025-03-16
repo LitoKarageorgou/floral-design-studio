@@ -1,6 +1,6 @@
 // Variables
 const itemsPerView = 3;
-const intervalDuration = 3000;
+let intervalDuration = 3000;
 const images = document.querySelector('.portfolio__carousel__images');
 const nextButton = document.querySelector('.portfolio__carousel__button--next');
 const prevButton = document.querySelector('.portfolio__carousel__button--previous');
@@ -8,6 +8,8 @@ const slides = [];
 const startButton = document.querySelector('#start-slideshow');
 const stopButton = document.querySelector('#stop-slideshow');
 const carousel = document.querySelector('.portfolio__carousel');
+const timerInput = document.getElementById('timer');
+const currentDurationDisplay = document.getElementById('currentDuration');
 
 // Image URLs
 const imageURLs = [
@@ -121,4 +123,22 @@ prevButton.addEventListener('click', () => {
     autoSlide = null;
     stopButton.style.display = 'none';
     startButton.style.display = 'block';
+});
+
+// User input timer
+function updateDurationDisplay(value) {
+    currentDurationDisplay.textContent = `${value} second${value === "1" ? "" : "s"}`;
+}
+
+// Input timer event listener
+timerInput.addEventListener('change', () => {
+    intervalDuration = timerInput.value * 1000;
+    updateDurationDisplay(timerInput.value);
+    if (autoSlide) { 
+        clearInterval(autoSlide); 
+        autoSlide = setInterval(() => 
+            { index++; images.style.transition = "transform 0.5s ease-in-out"; 
+                updateSlidePosition(); 
+            }, intervalDuration); 
+        }
 });
