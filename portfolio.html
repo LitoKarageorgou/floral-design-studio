@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Explore our porfolio showcasing selected floral designs from weddings and events.">
+  <meta name="description" content="Explore our porfolio showcasing selected floral designs from weddings and events.">
   <title>Portfolio | Florience | Floral Design Studio</title>
   <!-- CSS -->
   <link rel="stylesheet" href="./styles/common.css">
@@ -23,6 +22,7 @@
   <script src="./scripts/portfolio.js" defer></script>
   <script src="./scripts/back-to-top.js" defer></script>
   <script src="./scripts/scroll-reveal-effect.js" defer></script>
+  <script src="scripts/portfolio-lightbox.js" defer></script>
 </head>
 
 <body>
@@ -47,6 +47,13 @@
           <a href="#" data-filter="event">Events</a>
         </nav>
         <div id="portfolio__gallery"></div>
+
+        <!-- Modal -->
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="expandedImg">
+          <div id="caption"></div>
+        </div>
       </section>
 
       <!-- Call to Action -->
@@ -79,6 +86,7 @@
     <!-- Back to top button -->
     <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
   </div>
+
 </body>
 
 </html>

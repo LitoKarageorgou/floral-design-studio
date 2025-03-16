@@ -71,10 +71,6 @@
   transform: scale(1.05);
 }
 
-.portfolio__image:active {
-  transform: scale(1);
-}
-
 .portfolio__card p {
   width: 80%;
   text-align: left;
@@ -84,6 +80,54 @@
   font-size: 0.7rem;
   line-height: 1.6;
   letter-spacing: 0.05em;
+}
+
+/* Modal backdrop */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Modal content */
+.modal-content {
+  display: block;
+  margin: 4% auto;
+  max-width: 95%;
+  max-height: 75vh;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #bbb;
+}
+
+/* Caption below the image */
+#caption {
+  text-align: center;
+  color: #ccc;
+  padding: 0;
 }
 
 /* Call to Action */
