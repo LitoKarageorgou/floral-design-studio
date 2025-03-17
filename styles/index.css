@@ -285,6 +285,7 @@ h1 span {
   align-items: center;
   padding: 2rem;
 }
+
 .slider {
   -webkit-appearance: none;
   appearance: none;
@@ -659,6 +660,68 @@ label{
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
+}
+
+
+
+/* Add media queries for laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  /* Navbar */
+  .navbar__wrap {
+    width: 95%;
+  }
+
+  /* .main {
+    gap: 4.8rem;
+    padding-bottom: 4.8rem;
+  } */
+
+  .hero__text {
+    width: 50%;
+    line-height: 1;
+  }
+
+  /* Website Introduction */
+.intro__text {
+  width: 57%;
+  text-align: center;
+  line-height: 2.1;
+}
+
+/* Portfolio Overview */
+.portfolio {
+  height: 90vh;
+}
+
+/* Portfolio Carousel */
+.portfolio__carousel__viewport {
+  width: 87%;
+}
+
+.portfolio__carousel__slide img {
+  height: 39rem;
+  max-width: 26.9rem;
+}
+
+/* Navigation Arrows */
+.portfolio__carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.portfolio__carousel__button--previous {
+  left: 4%;
+}
+
+.portfolio__carousel__button--next {
+  right: 4%;
+}
+
+
 }
 
 /* Tablet styles */
