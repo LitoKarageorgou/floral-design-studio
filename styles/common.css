@@ -107,7 +107,7 @@ p {
 
 /* Hidden class for toggling */
 .hidden {
-  display: none;
+  display: none !important; /* Ensure it hides the element */
 }
 
 /* Navbar */
@@ -195,7 +195,8 @@ p {
 
 /* Responsive Menu */
 .responsive-menu {
-  display: none;
+  display: flex; /* Ensure it displays as a flex container when not hidden */
+  flex-direction: column;
   position: absolute;
   top: 100%;
   left: 0;

@@ -1,9 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   const burgerToggle = document.querySelector("#burger-menu-toggle");
-  const mobileMenu = document.querySelector("#mobile-menu");
+  const respoMenu = document.querySelector("#responsive-menu");
+
+  if (!burgerToggle || !respoMenu) {
+    console.error("Burger menu toggle or responsive menu element not found.");
+    return;
+  }
 
   burgerToggle.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
+    respoMenu.classList.toggle("hidden");
     burgerToggle.classList.toggle("active");
   });
 });
