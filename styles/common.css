@@ -179,23 +179,26 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 2rem;
+  width: 2.8rem;
   height: 1.5rem;
-  padding: 0;
 }
 
 .navbar__burger-menu button span {
   display: block;
-  height: 0.2rem;
+  height: 2px;
   width: 100%;
   background-color: var(--primary-font-color);
-  border-radius: 0.1rem;
+  border-radius: 1px; 
   transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar__burger-menu button span:not(:last-child) {
+  margin-bottom: 2px;
 }
 
 /* Responsive Menu */
 .responsive-menu {
-  display: flex; /* Ensure it displays as a flex container when not hidden */
+  display: flex;
   flex-direction: column;
   position: absolute;
   top: 100%;
@@ -642,6 +645,18 @@ p {
   .navbar__burger-menu {
     display: flex;
   }
+
+  /* Move burger menu to the right side on mobile devices */
+  .navbar {
+    position: relative;
+  }
+  .navbar__burger-menu {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   /* Hero Section */
   .hero__text {
     width: 100%;
