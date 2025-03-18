@@ -194,10 +194,6 @@ p {
   height: 60vh;
 }
 
-.hero__text {
-  width: 30%;
-}
-
 /* Buttons */
 .button {
   display: inline-block;
@@ -673,9 +669,7 @@ p {
   }
 
   /* Hero Section */
-  .hero__text {
-    width: 100%;
-  }
+
 
   /* Instagram */
   .instagram__wrap {

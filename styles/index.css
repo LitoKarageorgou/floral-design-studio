@@ -134,9 +134,13 @@
 
 /* Hero Section */
 .hero {
-  background: url("../assets/images/hero-sections/edit-3.png")
+  background: url("../assets/images/hero-sections/blue-flower-photoshoped.jpg")
     no-repeat center 64.6% / cover #414040;
   height: 75vh;
+}
+
+.hero__text {
+  width: 30%;
 }
 
 h1 {
@@ -679,10 +683,6 @@ label{
     padding-bottom: 4.8rem;
   } */
 
-  .hero__text {
-    width: 50%;
-    line-height: 1;
-  }
 
   /* Website Introduction */
 .intro__text {
@@ -724,18 +724,42 @@ label{
 
 }
 
+/* Common styles for Tablets and phones */
+@media screen and (max-width: 768px) {
+  #loader-svg {
+    padding-left: 5.4rem;
+  }
+
+  /* Hero Section */
+  .hero__text {
+    line-height: 1;
+  }
+}
+
+
+
 /* Tablet styles */
 @media screen and (max-width: 768px) {
   #loader-svg {
     width: 350px;
-    padding-left: 5.4rem;
   }
+
+  /* Hero Section */
+  .hero__text {
+    width: 70%;
+  }
+
 }
 
 /* Phone styles */
 @media screen and (max-width: 480px) {
   #loader-svg {
     width: 300px;
-    padding-left: 4.9rem;
+
+  }
+
+   /* Hero Section */
+   .hero__text {
+    width: 90%;
   }
 }
