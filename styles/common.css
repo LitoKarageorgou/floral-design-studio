@@ -107,7 +107,7 @@ p {
 
 /* Hidden class for toggling */
 .hidden {
-  display: none !important; 
+  display: none !important;
 }
 
 /* Navbar */
@@ -584,6 +584,8 @@ p {
 
   .navbar__burger-menu {
     display: flex;
+    position: relative; /* added */
+    z-index: 100; /* added */
   }
 
   .navbar__burger-menu {
@@ -603,6 +605,8 @@ p {
     justify-content: space-between;
     width: 2.8rem;
     height: 1.5rem;
+    position: relative;
+    z-index: 101; /* increased from 20 */
   }
 
   /* Burger Menu Icon */
@@ -613,6 +617,7 @@ p {
     background-color: var(--primary-font-color);
     border-radius: 1px;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center; /* added for symmetry */
   }
 
   .navbar__burger-menu button span:not(:last-child) {
@@ -653,16 +658,15 @@ p {
     color: var(--hover-color);
   }
 
-  /* Transform burger icon into an "X" when active */
+  /* Transform burger icon into an "X" when active - adjusted further */
   .navbar__burger-menu button.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: translateY(8.5px) rotate(45deg);
   }
   .navbar__burger-menu button.active span:nth-child(2) {
     opacity: 0;
   }
   .navbar__burger-menu button.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
-  }
+    transform: translateY(-8.5px) rotate(-45deg);
 }
 
 /* Tablet styles */
