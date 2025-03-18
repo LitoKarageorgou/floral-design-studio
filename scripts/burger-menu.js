@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('load', () => {
   const burgerToggle = document.querySelector("#burger-menu-toggle");
   const respoMenu = document.querySelector("#responsive-menu");
 

@@ -584,14 +584,14 @@ p {
 
   .navbar__burger-menu {
     display: flex;
-    position: relative; /* added */
-    z-index: 100; /* added */
+    position: relative; 
+    z-index: 100; 
   }
 
   .navbar__burger-menu {
     position: absolute;
-    right: 1rem;
-    top: 50%;
+    right: 1.7rem;
+    top: 2.7rem;
     transform: translateY(-50%);
   }
 
@@ -606,7 +606,7 @@ p {
     width: 2.8rem;
     height: 1.5rem;
     position: relative;
-    z-index: 101; /* increased from 20 */
+    z-index: 101;
   }
 
   /* Burger Menu Icon */
@@ -617,11 +617,7 @@ p {
     background-color: var(--primary-font-color);
     border-radius: 1px;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    transform-origin: center; /* added for symmetry */
-  }
-
-  .navbar__burger-menu button span:not(:last-child) {
-    margin-bottom: 2px;
+    transform-origin: center;
   }
 
   /* Responsive Menu */
@@ -658,15 +654,16 @@ p {
     color: var(--hover-color);
   }
 
-  /* Transform burger icon into an "X" when active - adjusted further */
+  /* Transform burger icon into an "X" when active */
   .navbar__burger-menu button.active span:nth-child(1) {
-    transform: translateY(8.5px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
   }
   .navbar__burger-menu button.active span:nth-child(2) {
     opacity: 0;
   }
   .navbar__burger-menu button.active span:nth-child(3) {
-    transform: translateY(-8.5px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+  }
 }
 
 /* Tablet styles */

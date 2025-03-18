@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero {
-  background: url("../assets/images/hero-sections/blue-flower.png") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg") no-repeat
+    center 60%/cover #414040;
   background-attachment: fixed;
 }
 
