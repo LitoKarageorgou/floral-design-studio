@@ -11,26 +11,6 @@
       </ul>
     </nav>
 
-    <!-- Burger menu for tablets and phones -->
-    <div class="navbar__burger-menu">
-      <!-- Button -->
-      <button id="burger-menu-toggle" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <!-- Menu -->
-      <nav id="responsive-menu" class="responsive-menu hidden">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-
     <!-- Logo -->
     <div class="navbar__logo">
       <a href="index.html">
@@ -57,5 +37,25 @@
         <option value="gr">Greek</option>
       </select>
     </div>
+  </div>
+
+  <!-- Responsive Menu moved outside of .navbar__burger-menu -->
+  <nav id="responsive-menu" class="responsive-menu hidden">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Burger menu for tablets and phones moved below -->
+  <div class="navbar__burger-menu">
+    <button id="burger-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </header>
