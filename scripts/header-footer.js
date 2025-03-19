@@ -1,4 +1,3 @@
-// Fetch header from partials/header.html and insert it into the header element
 fetch('partials/header.html')
   .then(response => {
     return response.text();
@@ -8,7 +7,6 @@ fetch('partials/header.html')
   });
 
   
-// Fetch footer from partials/footer.html and insert it into the footer element
 fetch('partials/footer.html')
   .then(response => {
     return response.text();

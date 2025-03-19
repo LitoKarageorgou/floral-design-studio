@@ -437,11 +437,11 @@ label {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(17, 1fr);
+  grid-template-rows: repeat(16, 1fr);
 }
 
 .about__image--1 {
-  grid-column: 2 / span 10;
+  grid-column: 2 / span 9;
   grid-row: 1 / span 7;
   z-index: 1;
   background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
@@ -449,7 +449,7 @@ label {
 }
 
 .about__image--2 {
-  grid-column: 8 / span 10;
+  grid-column: 8 / span 9;
   grid-row: 6 / span 7;
   z-index: 2;
   background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
@@ -473,7 +473,7 @@ label {
 }
 
 .about__text h2 {
-  padding: 2rem 0;
+  padding: 3rem 0;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -741,7 +741,7 @@ label {
   .intro__text p {
     font-family: var(--font-heading);
     font-size: 1.4rem;
-    line-height: 2.8;
+    line-height: 2.7;
     font-style: italic;
     letter-spacing: 0.1rem;
     font-weight: 500;
@@ -837,44 +837,7 @@ label {
   .about__wrap {
     height: 100%;
     width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
     gap: 5rem;
-    margin: auto;
-  }
-
-  .about__images {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(17, 1fr);
-  }
-
-  .about__image--1 {
-    grid-column: 2 / span 10;
-    grid-row: 1 / span 7;
-    z-index: 1;
-    background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-      center center/cover #414040;
-  }
-
-  .about__image--2 {
-    grid-column: 8 / span 10;
-    grid-row: 6 / span 7;
-    z-index: 2;
-    background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-      no-repeat center center/cover #4e4d4d;
-  }
-
-  .about__image--3 {
-    grid-column: 4 / span 7;
-    grid-row: 12 / span 5;
-    z-index: 3;
-    background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-      center center/cover #5a5858;
   }
 
   .about__text {
@@ -894,12 +857,6 @@ label {
   /* Featured In */
   .featured__wrap {
     width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
   }
 
   .featured__logos {
@@ -913,52 +870,74 @@ label {
   }
 
   .featured__logos h3 {
-    font-weight: 500;
     font-size: 2rem;
-    color: #94928d;
-    text-transform: uppercase;
-    padding: 1.6rem 1.6rem;
-    opacity: 0;
-    flex: 1;
-    text-align: center;
+  }
+
+  .featured__logos h3:nth-child(4).animate {
+    font-size: 2rem;
+  }
+
+  .featured__logos h3:nth-child(6).animate {
+    font-size: 2rem;
   }
 
   /* Testimonials */
-.testimonials {
-  height: auto;
-}
+  .testimonials {
+    height: auto;
+  }
 
-.testimonials__carousel {
-  height: 50%;
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(35, 1fr);
-  grid-template-rows: repeat(17, 1fr);
-  position: relative;
-}
+  .testimonials__carousel {
+    height: 50%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(35, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    position: relative;
+  }
 
-.testimonials__text {
-  grid-column: 1 / span 20;
-  grid-row: 1 / span 17;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-  background-color: var(--primary-color);
-  padding: 4rem;
-}
+  .testimonials__text {
+    grid-column: 1 / span 24;
+    grid-row: 1 / span 17;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: var(--primary-color);
+    padding: 5rem;
+  }
 
-.testimonials__text h3 {
-  font-size: 1.8rem;
-  font-weight: 500;
-}
+  .testimonials__text h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
 
-.testimonials__text p {
-  padding-top: 2rem;
-  line-height: 1.7;
-}
+  .testimonials__text p {
+    padding-top: 2rem;
+    line-height: 1.7;
+  }
+
+  /* Images */
+  .testimonials__image--1 {
+    grid-column: 23 / span 14;
+    grid-row: 4 / span 11;
+    background: no-repeat center center/cover #414040;
+    z-index: 2;
+  }
+
+  .testimonials__image--2 {
+    display: none;
+  }
+
+  /* Navigation Arrows */
+  #arrow-back {
+    left: 1%;
+  }
+
+  #arrow-forward {
+    right: 1%;
+  }
 }
 
 /* Phone styles */
@@ -1036,6 +1015,7 @@ label {
 
   .services__text p {
     width: 95%;
+    line-height: 2.8;
   }
 
   /* Weddings */
@@ -1045,13 +1025,13 @@ label {
 
   .services__container--weddings h2 {
     top: 7%;
-    left: -36%;
+    left: -34%;
   }
 
   /* Events */
   .services__container--events h2 {
     top: 4%;
-    right: -23%;
+    right: -21.8%;
   }
 
   .services__text--events {
@@ -1061,6 +1041,7 @@ label {
 
   /* About */
   .about {
+    margin-top: 2rem;
     height: auto;
     position: relative;
   }
@@ -1102,17 +1083,19 @@ label {
   }
 
   .about__text {
+    margin-top: 1.5rem;
     width: 90%;
     line-height: 1.8;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    line-height: 2.8;
   }
 
   .about__text h2 {
     position: absolute;
-    top: 13%;
-    left: -20%;
+    top: 5%;
+    left: -18%;
     transform: rotate(-90deg);
     line-height: 1;
     z-index: 4;

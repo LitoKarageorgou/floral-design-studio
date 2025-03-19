@@ -3,10 +3,9 @@ const contactForm = document.forms['contact-form'];
 const fullname = contactForm.fullname;
 const email = contactForm.email;
 const phone = contactForm.phone;
-const userLocation = contactForm.location; // Renamed variable
+const userLocation = contactForm.location;
 const message = contactForm.message;
-const referral = contactForm.referral; // New variable
-const date = contactForm.date; // New variable
+const referral = contactForm.referral;
 const modal = document.getElementById('thankYouModal');
 const closeButton = modal.querySelector('.close-button');
 
@@ -31,7 +30,7 @@ function validateFullname() {
         return false;
     }
 
-    // Check if fullname contains only letters and spaces (including Greek alphabet)
+    // Check if fullname contains only letters and spaces
     const lettersAndSpacesPattern = /^[a-zA-Z\u0370-\u03FF\s]+$/;
     if (!lettersAndSpacesPattern.test(fullname)) {
         errorMessage.textContent = "Full name must contain only letters and spaces.";
