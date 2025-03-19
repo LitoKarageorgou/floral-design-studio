@@ -77,6 +77,7 @@ p {
   text-align: left;
   text-transform: uppercase;
   padding-bottom: 3rem;
+  font-weight: 400;
 }
 
 .medium-heading {
@@ -215,7 +216,7 @@ p {
 }
 
 .button--primary {
-  padding: 1.1rem 1.3rem;
+  padding: 1rem 1.4rem;
   background-color: var(--tetriary-color);
   margin-top: 0.7rem;
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -560,6 +561,19 @@ p {
   transform: translateY(0);
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive desing */
 
 /* Common styles for Tablets and phones */
@@ -608,7 +622,7 @@ p {
     z-index: 101;
     transition: background-color 0.3s ease;
   }
-  
+
   .navbar__burger-menu button::before,
   .navbar__burger-menu button::after {
     content: "";
@@ -640,7 +654,7 @@ p {
     bottom: 0;
     transform: rotate(-45deg);
   }
-  
+
   /* Responsive Menu */
   .responsive-menu {
     display: flex;
@@ -664,7 +678,7 @@ p {
   }
 
   .responsive-menu ul li a {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 500;
     color: var(--primary-font-color);
     font-family: var(--font-heading);
@@ -677,23 +691,25 @@ p {
 
   /* Main */
   .main {
-    gap: 7.5rem;
-    padding-bottom: 7.5rem;
+    gap: 8rem;
+    padding-bottom: 8rem;
   }
 
   .hero__text {
     transform: translateY(-11%);
+  }
+
+  .button--primary {
+    background-color: var(--primary-color);
+    margin-top: 0.8rem;
+    padding: 1.1rem 1.5rem;
   }
 }
 
 /* Tablet styles */
 @media screen and (max-width: 768px) {
   html {
-    font-size: 17px;
-  }
-
-  .button--primary {
-    transition: none;
+    font-size: 15px;
   }
 
   /* Instagram */
@@ -735,10 +751,10 @@ p {
   }
 }
 
-/* Phone styles */
-@media screen and (max-width: 480px) {
+/* Larger Phone styles */
+@media screen and (max-width: 567px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .footer__wrap {

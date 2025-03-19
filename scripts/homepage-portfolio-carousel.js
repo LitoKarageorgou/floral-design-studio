@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Variables
     const itemsPerView = 3;
     let intervalDuration = 3000;
-    const images = document.querySelector('.portfolio__carousel__images');
-    const nextButton = document.querySelector('.portfolio__carousel__button--next');
-    const prevButton = document.querySelector('.portfolio__carousel__button--previous');
+    const images = document.querySelector('.portfolio-carousel__images');
+    const nextButton = document.querySelector('.portfolio-carousel__button--next');
+    const prevButton = document.querySelector('.portfolio-carousel__button--previous');
     const slides = [];
     const startButton = document.querySelector('#start-slideshow');
     const stopButton = document.querySelector('#stop-slideshow');
-    const carousel = document.querySelector('.portfolio__carousel');
+    const carousel = document.querySelector('.portfolio-carousel');
     // const timerInput = document.getElementById('timer'); 
     // const currentDurationDisplay = document.getElementById('currentDuration');
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create carousel slides for each image
     imageURLs.forEach(src => {
         const slide = document.createElement('div');
-        slide.classList.add('portfolio__carousel__slide');
+        slide.classList.add('portfolio-carousel__slide');
         const img = document.createElement('img');
         img.src = src;
         slide.appendChild(img);

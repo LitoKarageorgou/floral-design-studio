@@ -15,8 +15,13 @@
 
 /* Center and resize the SVG */
 #loader-svg {
-  width: 450px;
-  padding-left: 5.9rem;
+  width: 360px;
+}
+
+svg g {
+  transform: translate(130%, 0);
+  transform-box: fill-box;
+  transform-origin: 0 0;
 }
 
 /* Keyframes for fading */
@@ -35,20 +40,21 @@
   animation: fadeInOut 3s infinite;
   animation-delay: 0s;
   animation-fill-mode: both;
-  transform: translateY(16px);
+  transform: translate(125%, 16px);
 }
 
 #Flower_2 {
   animation: fadeInOut 3s infinite;
   animation-delay: 0.5s;
   animation-fill-mode: both;
+  transform: translate(130%, 0);
 }
 
 #Flower_3 {
   animation: fadeInOut 3s infinite;
   animation-delay: 1s;
   animation-fill-mode: both;
-  transform: translate(-75px, -30px) scale(1.3);
+  transform: translate(184%, 19%) scale(1.27);
 }
 
 /* SVG colors*/
@@ -203,34 +209,33 @@ h1 span {
   flex-direction: column;
   justify-self: center;
   align-items: center;
-  height: 85vh;
-}
-
-/* Portfolio Carousel */
-.portfolio__carousel {
-  display: flex;
-  justify-self: center;
-  align-items: center;
-  flex-direction: column;
   position: relative;
 }
 
-.portfolio__carousel__viewport {
+/* Portfolio Carousel */
+.portfolio-carousel {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.portfolio-carousel__viewport {
   overflow: hidden;
   width: 60%;
   margin: auto;
 }
 
-.portfolio__carousel__images {
+.portfolio-carousel__images {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
-.portfolio__carousel__slide {
+.portfolio-carousel__slide {
   min-width: calc(100% / 3);
 }
 
-.portfolio__carousel__slide img {
+.portfolio-carousel__slide img {
   height: 35rem;
   width: 100%;
   max-width: 23rem;
@@ -239,40 +244,40 @@ h1 span {
 }
 
 /* Navigation Arrows */
-.portfolio__carousel__button {
+.portfolio-carousel__button {
   position: absolute;
-  top: 50%;
+  top: 53%;
   transform: translateY(-50%);
 }
 
-.portfolio__carousel__button--previous {
+.portfolio-carousel__button--previous {
   left: 17%;
 }
 
-.portfolio__carousel__button--next {
+.portfolio-carousel__button--next {
   right: 17%;
 }
 
-.portfolio__carousel__button img {
+.portfolio-carousel__button img {
   width: 2rem;
   filter: invert(80%);
 }
 
 /* Controls */
-.portfolio__carousel__controls {
+.portfolio-carousel__controls {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
   display: none;
 }
 
-.portfolio__carousel__controls a img {
+.portfolio-carousel__controls a img {
   width: 3rem;
 }
 
-.portfolio__carousel:hover .portfolio__carousel__controls {
+.portfolio-carousel:hover .portfolio-carousel__controls {
   display: block;
 }
 
@@ -517,23 +522,28 @@ label {
 .featured__logos h3:nth-child(1).animate {
   animation-delay: 0.3s;
 }
+
 .featured__logos h3:nth-child(2).animate {
   animation-delay: 0.6s;
   color: #888585;
 }
+
 .featured__logos h3:nth-child(3).animate {
   animation-delay: 0.9s;
   color: #726d6d;
 }
+
 .featured__logos h3:nth-child(4).animate {
   animation-delay: 1.2s;
   color: #8b8585;
   font-size: 2.6rem;
 }
+
 .featured__logos h3:nth-child(5).animate {
   animation-delay: 1.5s;
   color: #837d7d;
 }
+
 .featured__logos h3:nth-child(6).animate {
   animation-delay: 1.8s;
   font-size: 2.2rem;
@@ -662,74 +672,63 @@ label {
   background-attachment: fixed;
 }
 
-/* Add media queries for laptop */
+/* Laptop Design */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  html {
-    font-size: 14px;
-  }
-  /* Navbar */
-  .navbar__wrap {
-    width: 95%;
-  }
-
-  /* .main {
-    gap: 4.8rem;
-    padding-bottom: 4.8rem;
+  /* html {
+    font-size: 15px;
   } */
 
+  /* Navbar */
+  /* .navbar__wrap {
+    width: 95%;
+  } */
 
   /* Website Introduction */
-.intro__text {
+  /* .intro__text {
   width: 57%;
   text-align: center;
   line-height: 2.1;
-}
+} */
 
-/* Portfolio Overview */
-.portfolio {
+  /* Portfolio Overview */
+  /* .portfolio {
   height: 90vh;
-}
+} */
 
-/* Portfolio Carousel */
-.portfolio__carousel__viewport {
+  /* Portfolio Carousel */
+  /* .portfolio-carousel__viewport {
   width: 87%;
-}
+} */
 
-.portfolio__carousel__slide img {
+  /* .portfolio-carousel__slide img {
   height: 39rem;
   max-width: 26.9rem;
-}
+} */
 
-/* Navigation Arrows */
-.portfolio__carousel__button {
+  /* Navigation Arrows */
+  /* .portfolio-carousel__button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.portfolio__carousel__button--previous {
+.portfolio-carousel__button--previous {
   left: 4%;
 }
 
-.portfolio__carousel__button--next {
+.portfolio-carousel__button--next {
   right: 4%;
-}
-
-
+} */
 }
 
 /* Common styles for Tablets and phones */
 @media screen and (max-width: 768px) {
-  #loader-svg {
-    padding-left: 5.4rem;
-  }
-
   /* Hero Section */
   .hero__text {
     line-height: 1;
   }
 
-   /* Website Introduction */
+  /* Website Introduction */
   .intro__text {
     text-align: left;
     text-transform: none;
@@ -748,24 +747,43 @@ label {
 /* Tablet styles */
 @media screen and (max-width: 768px) {
   #loader-svg {
-    width: 350px;
+    width: 310px;
   }
 
   /* Hero Section */
   .hero__text {
-    width: 70%;
+    width: 79%;
   }
 
   /* Website Introduction */
   .intro__text {
     width: 82%;
   }
+
+  /* Portfolio Carousel */
+  .portfolio-carousel__viewport {
+    width: 90%;
+  }
+
+  .portfolio-carousel__slide img {
+    height: 24.5rem;
+    max-width: 15rem;
+  }
+
+  /* Navigation Arrows */
+  .portfolio-carousel__button--previous {
+    left: 0.5%;
+  }
+
+  .portfolio-carousel__button--next {
+    right: 0.5%;
+  }
 }
 
 /* Phone styles */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   #loader-svg {
-    width: 300px;
+    width: 260px;
   }
 
   /* Hero Section */
@@ -781,5 +799,13 @@ label {
     /* text-transform: none; */
     font-family: var(--font-heading);
     font-size: 2rem;
+  }
+}
+
+/* Smaller Phone styles */
+@media screen and (max-width: 390px) {
+  /* Hero Section */
+  .hero__text {
+    width: 100%;
   }
 }
