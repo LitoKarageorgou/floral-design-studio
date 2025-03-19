@@ -357,6 +357,10 @@ label {
   margin: auto;
 }
 
+.mobile {
+  display: none;
+}
+
 .services__image {
   height: 92%;
   width: 92%;
@@ -742,6 +746,11 @@ label {
     letter-spacing: 0.1rem;
     font-weight: 500;
   }
+
+  /* Services */
+  .services__text a span {
+    display: none;
+  }
 }
 
 /* Tablet styles */
@@ -802,46 +811,22 @@ label {
     width: 95%;
   }
 
-  .services__text a span {
-    display: none;
-  }
-
   /* Weddings */
   .services__container--weddings {
     padding-bottom: 7rem;
   }
 
   .services__container--weddings h2 {
-    top: 20%;
     left: -26.5%;
-  }
-
-  .services__image.services__image--weddings {
-    background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040
-      no-repeat center center/cover;
-    justify-self: start;
-  }
-
-  .services__text--weddings {
-    padding-right: 2rem;
   }
 
   /* Events */
   .services__container--events h2 {
-    transform: rotate(90deg);
-    top: 10%;
     right: -17%;
   }
 
-  .services__image.services__image--events {
-    background: url("../assets/images/homepage-portfolio/line.jpg") #414040
-      no-repeat center center/cover;
-    justify-self: end;
-  }
-
   .services__text--events {
-    justify-self: start;
-    padding-left: 2rem;
+    padding-left: 0;
   }
 }
 
@@ -861,49 +846,87 @@ label {
     width: 85%;
   }
 
-/* Portfolio Carousel */
-.portfolio-carousel__viewport {
-  width: 100%;
-}
+  /* Portfolio Carousel */
+  .portfolio-carousel__viewport {
+    width: 100%;
+  }
 
+  .portfolio-carousel__slide {
+    min-width: calc(100% / 1);
+  }
 
-.portfolio-carousel__slide {
-  min-width: calc(100% / 1);
-}
+  .portfolio-carousel__slide img {
+    height: 37rem;
+    max-width: 30rem;
+  }
 
-.portfolio-carousel__slide img {
-  height: 36rem;
-  width: 100%;
-  max-width: 28rem;
-}
+  /* Navigation Arrows */
+  .portfolio-carousel__button--previous {
+    left: 2.5%;
+  }
 
-/* Navigation Arrows */
-.portfolio-carousel__button--previous {
-  left: 3%;
-}
+  .portfolio-carousel__button--next {
+    right: 2.5%;
+  }
 
-.portfolio-carousel__button--next {
-  right: 3%;
-}
+  /* Services */
+  .services__container {
+    height: auto;
+  }
 
+  .services__wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    width: 88%;
+    align-items: start;
+    gap: 4rem;
+  }
 
-/* Controls */
-.portfolio-carousel__controls {
-  position: absolute;
-  top: 53%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-  display: none;
-}
+  .mobile {
+    display: block;
+  }
 
-.portfolio-carousel__controls a img {
-  width: 3rem;
-}
+  .desktop {
+    display: none;
+  }
 
-.portfolio-carousel:hover .portfolio-carousel__controls {
-  display: block;
-}
+  .services__image {
+    height: 45rem;
+    width: 100%;
+  }
+
+  .services__text {
+    width: 100%;
+    height: auto;
+    justify-self: start;
+    padding-right: 2rem;
+  }
+
+  .services__text p {
+    width: 95%;
+  }
+
+  /* Weddings */
+  .services__container--weddings {
+    padding-bottom: 5rem;
+  }
+
+  .services__container--weddings h2 {
+    top: 7%;
+    left: -36%;
+  }
+
+  /* Events */
+  .services__container--events h2 {
+    top: 4%;
+    right: -23%;
+  }
+
+  .services__text--events {
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
 }
 
 /* Smaller Phone styles */
