@@ -59,7 +59,7 @@ h2 {
 p {
   font-family: var(--font-body);
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* Heading classes */
@@ -340,6 +340,8 @@ p {
 .instagram__images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -691,8 +693,9 @@ p {
 
   /* Main */
   .main {
-    gap: 8rem;
-    padding-bottom: 8rem;
+    gap: 7.5rem;
+    padding-bottom: 7.5rem;
+    overflow: hidden;
   }
 
   .hero__text {
@@ -704,7 +707,7 @@ p {
     margin-top: 0.8rem;
     padding: 1.1rem 1.5rem;
   }
-}
+
 
 /* Tablet styles */
 @media screen and (max-width: 768px) {
