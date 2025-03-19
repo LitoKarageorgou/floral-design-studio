@@ -737,7 +737,7 @@ label {
   .intro__text p {
     font-family: var(--font-heading);
     font-size: 1.4rem;
-    line-height: 3;
+    line-height: 2.8;
     font-style: italic;
     letter-spacing: 0.1rem;
     font-weight: 500;
@@ -859,12 +859,51 @@ label {
   /* Website Introduction */
   .intro__text {
     width: 85%;
-    text-align: left;
-    line-height: 4;
-    /* text-transform: none; */
-    font-family: var(--font-heading);
-    font-size: 2rem;
   }
+
+/* Portfolio Carousel */
+.portfolio-carousel__viewport {
+  width: 100%;
+}
+
+
+.portfolio-carousel__slide {
+  min-width: calc(100% / 1);
+}
+
+.portfolio-carousel__slide img {
+  height: 36rem;
+  width: 100%;
+  max-width: 28rem;
+}
+
+/* Navigation Arrows */
+.portfolio-carousel__button--previous {
+  left: 3%;
+}
+
+.portfolio-carousel__button--next {
+  right: 3%;
+}
+
+
+/* Controls */
+.portfolio-carousel__controls {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: none;
+}
+
+.portfolio-carousel__controls a img {
+  width: 3rem;
+}
+
+.portfolio-carousel:hover .portfolio-carousel__controls {
+  display: block;
+}
 }
 
 /* Smaller Phone styles */
