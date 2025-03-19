@@ -510,7 +510,7 @@ label {
 
 .featured__logos h3 {
   font-weight: 500;
-  font-size: 4em;
+  font-size: 4rem;
   color: #94928d;
   text-transform: uppercase;
   padding: 1.6rem 1.6rem;
@@ -828,6 +828,137 @@ label {
   .services__text--events {
     padding-left: 0;
   }
+
+  /* About */
+  .about {
+    height: auto;
+  }
+
+  .about__wrap {
+    height: 100%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: auto;
+  }
+
+  .about__images {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+  }
+
+  .about__image--1 {
+    grid-column: 2 / span 10;
+    grid-row: 1 / span 7;
+    z-index: 1;
+    background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
+      center center/cover #414040;
+  }
+
+  .about__image--2 {
+    grid-column: 8 / span 10;
+    grid-row: 6 / span 7;
+    z-index: 2;
+    background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
+      no-repeat center center/cover #4e4d4d;
+  }
+
+  .about__image--3 {
+    grid-column: 4 / span 7;
+    grid-row: 12 / span 5;
+    z-index: 3;
+    background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
+      center center/cover #5a5858;
+  }
+
+  .about__text {
+    width: 90%;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about__text h2 {
+    padding: 2rem 0;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  /* Featured In */
+  .featured__wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .featured__logos {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 3rem 3rem;
+    min-height: 15rem;
+  }
+
+  .featured__logos h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #94928d;
+    text-transform: uppercase;
+    padding: 1.6rem 1.6rem;
+    opacity: 0;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* Testimonials */
+.testimonials {
+  height: auto;
+}
+
+.testimonials__carousel {
+  height: 50%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(35, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  position: relative;
+}
+
+.testimonials__text {
+  grid-column: 1 / span 20;
+  grid-row: 1 / span 17;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: var(--primary-color);
+  padding: 4rem;
+}
+
+.testimonials__text h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.testimonials__text p {
+  padding-top: 2rem;
+  line-height: 1.7;
+}
 }
 
 /* Phone styles */
@@ -926,6 +1057,65 @@ label {
   .services__text--events {
     padding-top: 4rem;
     padding-left: 1rem;
+  }
+
+  /* About */
+  .about {
+    height: auto;
+    position: relative;
+  }
+
+  .about__wrap {
+    height: 100%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: auto;
+  }
+
+  .about__images {
+    height: 50rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+
+  .about__image--1 {
+    grid-column: 5 / span 12;
+    grid-row: 1 / span 7;
+    z-index: 2;
+  }
+
+  .about__image--2 {
+    grid-column: 1 / span 8;
+    grid-row: 6 / span 6;
+    z-index: 1;
+  }
+
+  .about__image--3 {
+    display: none;
+  }
+
+  .about__text {
+    width: 90%;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about__text h2 {
+    position: absolute;
+    top: 13%;
+    left: -20%;
+    transform: rotate(-90deg);
+    line-height: 1;
+    z-index: 4;
   }
 }
 

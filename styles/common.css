@@ -562,19 +562,6 @@ p {
   transform: translateY(0);
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive desing */
 
 /* Common styles for Tablets and phones */
@@ -706,8 +693,7 @@ p {
     margin-top: 0.8rem;
     padding: 1.1rem 1.5rem;
   }
-
-
+}
 /* Tablet styles */
 @media screen and (max-width: 768px) {
   html {
@@ -726,40 +712,86 @@ p {
   }
 
   /* Footer */
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-
   .footer__wrap {
-    width: 70%;
+    width: 80%;
   }
 
   .footer__row--1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    padding-bottom: 1.5rem;
   }
 
   .footer__brand-wrap {
-    width: 60%;
-    margin: auto;
+    width: 95%;
   }
 
-  .footer__row--2 {
-    gap: 1rem;
+  /* Navigation */
+  .footer__nav-list {
+    gap: 1.3rem;
+  }
+
+  .footer__nav-list li a {
+    font-size: 0.8rem;
   }
 }
 
 /* Larger Phone styles */
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 576px) {
   html {
     font-size: 14px;
   }
 
-  .footer__wrap {
-    width: 100%;
-  }
+ /* Footer */
+ .footer__wrap {
+  width: 60%;
+}
+
+.footer__row--1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer__brand-wrap {
+  width: 95%;
+  padding-bottom: 1.5rem; 
+  border-bottom: 0.1rem solid white;
+}
+
+ /* Navigation */
+ .footer__nav-list {
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid white;
+}
+
+/* Navigation */
+.footer__nav-list {
+  gap: 1.3rem;
+}
+
+.footer__nav-list li a {
+  font-size: 0.8rem;
+}
+
+/* Contact */
+.footer__contact {
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1rem solid white;
+}
+
+/* Row 2 */
+.footer__row--2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 }
