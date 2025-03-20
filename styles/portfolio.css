@@ -83,7 +83,7 @@
 }
 
 /* Modal backdrop */
-.modal {
+.lightbox {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out;
@@ -93,15 +93,15 @@
   z-index: 1000;
 }
 
-.modal.show {
+.lightbox.show {
   opacity: 1;
   visibility: visible;
 }
 
 /* Modal content */
-.modal-content {
+.lightbox__content {
   position: fixed;
-  top: 10%; 
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   max-height: 75vh;
@@ -109,7 +109,7 @@
 }
 
 /* Close button */
-.close {
+.lightbox__close {
   position: absolute;
   top: 20px;
   right: 35px;
@@ -118,12 +118,12 @@
   cursor: pointer;
 }
 
-.close:hover {
+.lightbox__close:hover {
   color: var(--hover-color);
 }
 
 /* Caption below the image */
-#caption {
+.lightbox__caption {
   position: fixed;
   bottom: 8%;
   left: 50%;
