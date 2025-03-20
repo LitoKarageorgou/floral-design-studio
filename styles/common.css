@@ -77,16 +77,16 @@ p {
 }
 
 .large-heading {
-  text-align: left;
   text-transform: uppercase;
   padding-bottom: 3rem;
   font-weight: 400;
+  text-align: left;
 }
 
 .medium-heading {
   padding-bottom: 1.7rem;
   font-size: 2.95rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
 }
 

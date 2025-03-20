@@ -27,6 +27,10 @@
   width: 40%;
 }
 
+.section__text h2 {
+  text-transform: capitalize;
+}
+
 .section__text p {
   line-height: 1.6;
 }
