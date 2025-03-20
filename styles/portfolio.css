@@ -88,12 +88,9 @@
   visibility: hidden;
   transition: opacity 0.3s ease-in-out;
   position: fixed;
-  z-index: 9999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  inset: 0;
+  background-color: var(--backdrop-color);
+  z-index: 1000;
 }
 
 .modal.show {
@@ -103,10 +100,12 @@
 
 /* Modal content */
 .modal-content {
-  display: block;
-  margin: 4% auto;
-  max-width: 95%;
+  position: fixed;
+  top: 10%; 
+  left: 50%;
+  transform: translateX(-50%);
   max-height: 75vh;
+  display: block;
 }
 
 /* Close button */
@@ -114,27 +113,31 @@
   position: absolute;
   top: 20px;
   right: 35px;
-  color: #fff;
-  font-size: 2rem;
+  color: var(--primary-font-color);
+  font-size: 2.7rem;
   cursor: pointer;
 }
 
 .close:hover {
-  color: #bbb;
+  color: var(--hover-color);
 }
 
 /* Caption below the image */
 #caption {
+  position: fixed;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
   width: auto;
   text-align: center;
-  margin: 1rem auto 0;
+  margin: 0;
   text-transform: uppercase;
   font-size: 0.78rem;
   font-weight: 700;
   line-height: 1.6;
   font-family: var(--font-body);
   letter-spacing: 0.05em;
-  color: #ccc;
+  color: var(--primary-font-color);
 }
 
 /* Call to Action */
