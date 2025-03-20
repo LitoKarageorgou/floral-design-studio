@@ -8,15 +8,16 @@ const slides = [];
 const startButton = document.querySelector('#start-slideshow');
 const stopButton = document.querySelector('#stop-slideshow');
 const carousel = document.querySelector('.portfolio-carousel');
+//INTENIONALLY COMMENTED OUT
 // const timerInput = document.getElementById('timer'); 
 // const currentDurationDisplay = document.getElementById('currentDuration');
 
 // Image URLs
 const imageURLs = [
-    '../assets/images/homepage-portfolio/bouquet2.jpg',
-    '../assets/images/homepage-portfolio/wreath.jpg',
-    '../assets/images/hero-sections/blue-flower-fullsize.jpg',
-    '../assets/images/homepage-portfolio/line.jpg',
+    '../assets/images/index/bouquet2.jpg',
+    '../assets/images/index/wreath.jpg',
+    '../assets/images/index/blue-flower-fullsize.jpg',
+    '../assets/images/index/line.jpg',
 ];
 
 // Create carousel slides for each image
@@ -127,20 +128,22 @@ prevButton.addEventListener('click', () => {
     startButton.style.display = 'block';
 });
 
-    // User input timer
-    // function updateDurationDisplay(value) {
-    //     currentDurationDisplay.textContent = `${value} second${value === "1" ? "" : "s"}`;
-    // }
+//INTENIONALLY COMMENTED OUT
 
-    // Input timer event listener
-    // timerInput.addEventListener('change', () => {
-    //     intervalDuration = timerInput.value * 1000;
-    //     updateDurationDisplay(timerInput.value);
-    //     if (autoSlide) { 
-    //         clearInterval(autoSlide); 
-    //         autoSlide = setInterval(() => 
-    //             { index++; images.style.transition = "transform 0.5s ease-in-out"; 
-    //                 updateSlidePosition(); 
-    //             }, intervalDuration); 
-    //         }
-    // });
+// // User input timer
+// function updateDurationDisplay(value) {
+//     currentDurationDisplay.textContent = `${value} second${value === "1" ? "" : "s"}`;
+// }
+
+// // Input timer event listener
+// timerInput.addEventListener('change', () => {
+//     intervalDuration = timerInput.value * 1000;
+//     updateDurationDisplay(timerInput.value);
+//     if (autoSlide) {
+//         clearInterval(autoSlide);
+//         autoSlide = setInterval(() => {
+//             index++; images.style.transition = "transform 0.5s ease-in-out";
+//             updateSlidePosition();
+//         }, intervalDuration);
+//     }
+// });

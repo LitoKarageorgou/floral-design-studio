@@ -140,8 +140,8 @@ svg g {
 
 /* Hero Section */
 .hero {
-  background: url("../assets/images/hero-sections/blue-flower-photoshoped.jpg")
-    no-repeat center 64.6% / cover #414040;
+  background: url("../assets/images/index/blue-flower-photoshoped.jpg")
+    no-repeat center 64.6% / cover var(--image-placeholder);
   height: 75vh;
 }
 
@@ -281,8 +281,10 @@ h1 span {
   display: block;
 }
 
+/* INTENIONALLY COMMENTED OUT */
+
 /* User Input Timer */
-.slider__container {
+/* .slider__container {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -334,7 +336,7 @@ label {
 #currentDuration {
   padding: 1rem;
   color: #929090;
-}
+} */
 
 /* Services*/
 .services {
@@ -393,8 +395,8 @@ label {
 }
 
 .services__image.services__image--weddings {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") #414040
-    no-repeat center center/cover;
+  background: url("../assets/images/index/bouquet2.jpg")
+    var(--image-placeholder) no-repeat center center/cover;
   justify-self: start;
 }
 
@@ -406,7 +408,7 @@ label {
 }
 
 .services__image.services__image--events {
-  background: url("../assets/images/homepage-portfolio/line.jpg") #414040
+  background: url("../assets/images/index/line.jpg") var(--image-placeholder)
     no-repeat center center/cover;
   justify-self: end;
 }
@@ -444,24 +446,24 @@ label {
   grid-column: 2 / span 9;
   grid-row: 1 / span 7;
   z-index: 1;
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/index/line.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 .about__image--2 {
   grid-column: 8 / span 9;
   grid-row: 6 / span 7;
   z-index: 2;
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center center/cover #4e4d4d;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    center center/cover #4e4d4d;
 }
 
 .about__image--3 {
   grid-column: 4 / span 7;
   grid-row: 12 / span 5;
   z-index: 3;
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-    center center/cover #5a5858;
+  background: url("../assets/images/index/wreath.jpg") no-repeat center
+    center/cover #5a5858;
 }
 
 .about__text {
@@ -473,7 +475,7 @@ label {
 }
 
 .about__text h2 {
-  padding: 3rem 0;
+  padding-bottom: 2rem;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -481,42 +483,13 @@ label {
 /* Featured In */
 .featured {
   height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--primary-color);
 }
 
-.featured__wrap {
-  width: 53%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.featured__logos {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 3rem 3rem 3rem;
-  min-height: 15rem;
-}
-
 .featured__logos h3 {
-  font-weight: 500;
   font-size: 4rem;
-  color: #94928d;
-  text-transform: uppercase;
-  padding: 1.6rem 1.6rem;
+  padding: 1.6rem 1.5rem;
   opacity: 0;
-  flex: 1;
-  text-align: center;
 }
 
 .animate {
@@ -525,6 +498,7 @@ label {
 
 .featured__logos h3:nth-child(1).animate {
   animation-delay: 0.3s;
+  color: #9b9995;
 }
 
 .featured__logos h3:nth-child(2).animate {
@@ -534,23 +508,24 @@ label {
 
 .featured__logos h3:nth-child(3).animate {
   animation-delay: 0.9s;
-  color: #726d6d;
+  color: #928c8c;
 }
 
 .featured__logos h3:nth-child(4).animate {
   animation-delay: 1.2s;
   color: #8b8585;
-  font-size: 2.6rem;
+  font-size: 3.1rem;
 }
 
 .featured__logos h3:nth-child(5).animate {
   animation-delay: 1.5s;
-  color: #837d7d;
+  color: #8f8c8c;
 }
 
 .featured__logos h3:nth-child(6).animate {
   animation-delay: 1.8s;
-  font-size: 2.2rem;
+  color: #8b8686;
+  font-size: 3.1rem;
 }
 
 @keyframes fadeInUp {
@@ -614,7 +589,7 @@ label {
 .testimonials__image--1 {
   grid-column: 20 / span 10;
   grid-row: 4 / span 11;
-  background: no-repeat center center/cover #414040;
+  background: no-repeat center center/cover var(--image-placeholder);
   z-index: 2;
 }
 
@@ -668,8 +643,8 @@ label {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center 50% / cover #dddcdc;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    center 50% / cover var(--image-placeholder);
   height: 60vh;
 
   /* Parallax Scroll Effect */
@@ -922,7 +897,7 @@ label {
   .testimonials__image--1 {
     grid-column: 23 / span 14;
     grid-row: 4 / span 11;
-    background: no-repeat center center/cover #414040;
+    background: no-repeat center center/cover var(--image-placeholder);
     z-index: 2;
   }
 

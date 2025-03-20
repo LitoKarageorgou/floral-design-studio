@@ -18,8 +18,8 @@ const testimonials = [
           <br /><br /><br />
 
         — James & Eleanor Whitmore`,
-        image1: "../assets/images/hero-sections/blue-flower-fullsize.jpg",
-        image2: "../assets/images/homepage-portfolio/bouquet2.jpg"
+        image1: "../assets/images/index/blue-flower-fullsize.jpg",
+        image2: "../assets/images/index/bouquet2.jpg"
     },
     {
         title: `"Florience transformed our wedding into an absolute dream. The floral arrangements were breathtaking, and every detail was thoughtfully designed to perfection."`,
@@ -27,7 +27,7 @@ const testimonials = [
         
         <br /><br /> <span> <br /> </span>
         
-        "Seeing the final setup took my breath away. It was as if they had stepped into my imagination and made it real. I couldn’t have asked for a more magical experience!"
+        "Seeing the final setup took my breath away. It was as if they had stepped into my imagination and made it real. I couldn't have asked for a more magical experience!"
         
         <br /><br /><br />
         

@@ -13,8 +13,10 @@ html {
   --primary-color: #f8f6f1;
   --secondary-color: #fbfaf7;
   --tetriary-color: #f1eeea;
+  --accent-color: #dcdad5;
   --hover-color: #acacab;
   --backdrop-color: #f9f7f2ea;
+  --image-placeholder:  #7a7975;
   --primary-font-color: #636260;
   --font-heading: "Cormorant Garamond", serif;
   --font-body: Lato, Roboto, serif;
@@ -72,7 +74,7 @@ p {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 6.4rem;
-  color: #dcdad5;
+  color: var( --accent-color);
   position: absolute;
 }
 
@@ -97,7 +99,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-align: center;
-  border-bottom: 0.5px solid #dcdad5;
+  border-bottom: 0.5px solid var( --accent-color);
 }
 
 /* Colored container */
@@ -233,7 +235,7 @@ p {
 .button--secondary {
   padding: 1rem 0.3rem;
   margin-top: 2rem;
-  border-bottom: 0.3px solid #dcdad5;
+  border-bottom: 0.3px solid var( --accent-color);
   position: relative;
   transition: color 0.3s ease;
   z-index: 1;
@@ -258,8 +260,7 @@ p {
 }
 
 /* Featured */
-.featured__container {
-  height: 60vh;
+.featured {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -267,7 +268,7 @@ p {
 }
 
 .featured__wrap {
-  width: 53%;
+  width: 52%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -288,10 +289,8 @@ p {
 
 .featured__logos h3 {
   font-weight: 500;
-  font-size: 2rem;
-  color: #94928d;
+  color: #7a7975;
   text-transform: uppercase;
-  padding: 1.6rem 1.6rem;
   flex: 1;
   text-align: center;
 }
@@ -314,9 +313,8 @@ p {
 }
 
 .cta__wrap h2 {
-  font-style: italic;
-  font-size: 2.7rem;
-  font-weight: 600;
+  font-size: 3.2rem;
+  font-weight: 400;
   color: var(--secondary-color);
   padding: 0.7rem 0;
 }
@@ -354,33 +352,33 @@ p {
 }
 
 .instagram__image--1 {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
-    bottom center/cover #414040;
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat
+    bottom center/cover var( --image-placeholder);
 }
 
 .instagram__image--2 {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center center/cover #414040;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg")
+    no-repeat center center/cover var( --image-placeholder);
 }
 
 .instagram__image--3 {
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-    bottom center/cover #414040;
+  background: url("../assets/images/index/line.jpg") no-repeat
+    bottom center/cover var( --image-placeholder);
 }
 
 .instagram__image--4 {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/index/wreath.jpg") no-repeat
+    center center/cover var( --image-placeholder);
 }
 
 .instagram__image--5 {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat bottom center/cover #414040;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg")
+    no-repeat bottom center/cover var( --image-placeholder);
 }
 
 .instagram__image--6 {
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/index/line.jpg") no-repeat
+    center center/cover var( --image-placeholder);
 }
 
 /* Footer */

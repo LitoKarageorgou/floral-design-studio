@@ -9,8 +9,8 @@ span {
 }
 
 .hero {
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center 68% / cover #414040;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg")
+    no-repeat center 68% / cover var( --image-placeholder);
 }
 
 /* Weddings */
@@ -40,8 +40,8 @@ span {
 .weddings__image {
   height: 40rem;
   width: 32rem;
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
-    center center/cover #414040;
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat
+    center center/cover var( --image-placeholder);
 }
 
 /* Process */
@@ -75,8 +75,8 @@ span {
 .process__steps-image {
   height: 50rem;
   width: 35rem;
-  background: url("../assets/images/hero-sections/blue-flower-fullsize.jpg")
-    no-repeat center center/cover #414040;
+  background: url("../assets/images/index/blue-flower-fullsize.jpg")
+    no-repeat center center/cover var( --image-placeholder);
 }
 
 .process__steps-text {
@@ -202,69 +202,42 @@ span.extra-large-heading::after {
 
 /* Corpotate Events & Galas */
 .section__image-galas{
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-  center center/cover #414040;
+  background: url("../assets/images/index/wreath.jpg") no-repeat
+  center center/cover var( --image-placeholder);
 }
 
 /* PR Events */
 .section__image-pr {
-  background: url("../assets/images/homepage-portfolio/bouquet2.jpg") no-repeat
-  center center/cover #414040;
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat
+  center center/cover var( --image-placeholder);
 }
 
 /* Private dinners */
 .section__image-dinners {
-  background: url("../assets/images/homepage-portfolio/line.jpg") no-repeat
-  center center/cover #414040;
+  background: url("../assets/images/index/line.jpg") no-repeat
+  center center/cover var( --image-placeholder);
 }
 
 
 /* Clients */
 .featured {
   height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: white;
 }
 
 .featured h2 {
-  margin-top: 2rem;
-}
-
-.featured__wrap {
-  width: 52%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.featured__logos {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  margin-top: 1rem;
 }
 
 .featured__logos h3 {
-  font-weight: 500;
   font-size: 1.9rem;
-  color: #7a7975;
-  text-transform: uppercase;
   padding: 1.6rem 1.4rem;
-  flex: 1;
-  text-align: center;
 }
 
 /* CTA */
 .cta {
-  background: url("../assets/images/homepage-portfolio/wreath.jpg") no-repeat
-    center center/cover#dddcdc;
+  background: url("../assets/images/index/wreath.jpg") no-repeat
+    center center/cover var( --image-placeholder);
   color: var(--secondary-font-color);
   /* Parallax Scroll Effect */
   background-attachment: fixed;
