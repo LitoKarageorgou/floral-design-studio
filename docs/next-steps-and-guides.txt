@@ -17,10 +17,11 @@ Supplementary Pages:
 
 Key Functionalities
 
--Responsive Design: Ensures a seamless experience across desktops, tablets, and phones.
+- Responsive Design: Ensures a seamless experience across desktops, tablets, and phones.
+- CSS & SVG Animations: Implements various CSS transitions and animations alongside an SVG loader animation. 
 -JavaScript Features:
     -Three carousel components for dynamic content display.
-    -Form validation for accurate user input.
+    -Form validation to ensure accurate user input.
     -Data retrieval from a JSON file, with filtering functionality triggered by button clicks.
 
 Future Enhancements

@@ -16,7 +16,7 @@ html {
   --accent-color: #dcdad5;
   --hover-color: #acacab;
   --backdrop-color: #f9f7f2ea;
-  --image-placeholder:  #7a7975;
+  --image-placeholder: #7a7975;
   --primary-font-color: #636260;
   --font-heading: "Cormorant Garamond", serif;
   --font-body: Lato, Roboto, serif;
@@ -68,6 +68,11 @@ p {
   /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
 }
 
+/* Hidden class for toggling */
+.hidden {
+  display: none;
+}
+
 /* Heading classes */
 .extra-large-heading {
   padding: 0;
@@ -75,7 +80,7 @@ p {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 6.4rem;
-  color: var( --accent-color);
+  color: var(--accent-color);
   position: absolute;
 }
 
@@ -100,7 +105,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-align: center;
-  border-bottom: 0.5px solid var( --accent-color);
+  border-bottom: 0.5px solid var(--accent-color);
 }
 
 /* Colored container */
@@ -110,11 +115,6 @@ p {
   flex-direction: column;
   gap: 6.8rem;
   padding-bottom: 6.8rem;
-}
-
-/* Hidden class for toggling */
-.hidden {
-  display: none !important;
 }
 
 /* Navbar */
@@ -236,7 +236,7 @@ p {
 .button--secondary {
   padding: 1rem 0.3rem;
   margin-top: 2rem;
-  border-bottom: 0.3px solid var( --accent-color);
+  border-bottom: 0.3px solid var(--accent-color);
   position: relative;
   transition: color 0.3s ease;
   z-index: 1;
@@ -352,33 +352,33 @@ p {
 }
 
 .instagram__image--1 {
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat
-    bottom center/cover var( --image-placeholder);
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat bottom
+    center/cover var(--image-placeholder);
 }
 
 .instagram__image--2 {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg")
-    no-repeat center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 .instagram__image--3 {
-  background: url("../assets/images/index/line.jpg") no-repeat
-    bottom center/cover var( --image-placeholder);
+  background: url("../assets/images/index/line.jpg") no-repeat bottom
+    center/cover var(--image-placeholder);
 }
 
 .instagram__image--4 {
-  background: url("../assets/images/index/wreath.jpg") no-repeat
-    center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/wreath.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 .instagram__image--5 {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg")
-    no-repeat bottom center/cover var( --image-placeholder);
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    bottom center/cover var(--image-placeholder);
 }
 
 .instagram__image--6 {
-  background: url("../assets/images/index/line.jpg") no-repeat
-    center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/line.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 /* Footer */
@@ -520,7 +520,8 @@ p {
   align-items: center;
 }
 
-.footer__row--2 a, .footer__row--2 p {
+.footer__row--2 a,
+.footer__row--2 p {
   font-size: 0.9rem;
 }
 
@@ -543,11 +544,6 @@ p {
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
   opacity: 0.7;
-  display: none;
-}
-
-#back-to-top:hover {
-  opacity: 1;
 }
 
 /* Scroll-reveal-effect */
