@@ -225,6 +225,10 @@ span.extra-large-heading::after {
   background-color: white;
 }
 
+.featured__wrap {
+  width: 52%;
+}
+
 .featured h2 {
   margin-top: 1rem;
 }

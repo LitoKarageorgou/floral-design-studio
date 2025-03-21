@@ -65,6 +65,7 @@ p {
   font-family: var(--font-body);
   font-size: 0.9rem;
   font-weight: 300;
+  /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
 }
 
 /* Heading classes */
@@ -268,7 +269,6 @@ p {
 }
 
 .featured__wrap {
-  width: 52%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -520,10 +520,7 @@ p {
   align-items: center;
 }
 
-.footer__row--2 a,
-.footer__row--2 p,
-.footer__credits p,
-.footer__credits a {
+.footer__row--2 a, .footer__row--2 p {
   font-size: 0.9rem;
 }
 
