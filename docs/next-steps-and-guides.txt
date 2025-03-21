@@ -12,14 +12,14 @@ Site Structure:
 
 Supplementary Pages:
 
-- Privacy Policy Page: Details how user data is collected, used, and protected.
 - FAQ: Answers common user questions.
+- Privacy Policy Page: Details how user data is collected, used, and protected.
 
 Key Functionalities
 
 - Responsive Design: Ensures a seamless experience across desktops, tablets, and phones.
 - CSS & SVG Animations: Implements various CSS transitions and animations alongside an SVG loader animation. 
--JavaScript Features:
+- JavaScript Features:
     -Three carousel components for dynamic content display.
     -Form validation to ensure accurate user input.
     -Data retrieval from a JSON file, with filtering functionality triggered by button clicks.

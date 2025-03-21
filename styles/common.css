@@ -442,7 +442,8 @@ p {
   text-align: left;
   line-height: 1.4;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 300;
 }
 
 /* Social */
@@ -469,7 +470,7 @@ p {
 }
 
 .footer__nav-list li a {
-  font-size: 0.75rem;
+  font-size: 0.77rem;
   letter-spacing: 0.1rem;
 }
 
@@ -491,7 +492,8 @@ p {
 /*Newsletter*/
 .footer__newsletter p {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 300;
 }
 
 .footer__newsletter form {
@@ -528,6 +530,11 @@ p {
 .footer__row--2 a,
 .footer__row--2 p {
   font-size: 0.8rem;
+}
+
+/* Credits */
+.footer__credits p {
+  letter-spacing: 0.01rem;
 }
 
 /* Legal */
