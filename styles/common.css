@@ -392,6 +392,10 @@ p {
   font-size: 0.8rem;
 }
 
+.footer p{
+  font-weight: 400;
+}
+
 .footer a {
   color: var(--primary-font-color);
   text-decoration: none;
@@ -465,7 +469,7 @@ p {
 }
 
 .footer__nav-list li a {
-  font-size: 0.67rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1rem;
 }
 
@@ -487,6 +491,7 @@ p {
 /*Newsletter*/
 .footer__newsletter p {
   font-style: italic;
+  font-size: 0.8rem;
 }
 
 .footer__newsletter form {
@@ -522,7 +527,7 @@ p {
 
 .footer__row--2 a,
 .footer__row--2 p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* Legal */
@@ -530,6 +535,10 @@ p {
   display: flex;
   gap: 2rem;
 }
+
+.footer__legal a:hover {
+    color: var(--hover-color);
+  }
 
 /* Back to Top Button */
 #back-to-top {
