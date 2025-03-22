@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero {
   background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
-    center 60%/cover var( --image-placeholder);
+    center 60% / cover var(--image-placeholder);
   background-attachment: fixed;
 }
 
@@ -78,8 +78,8 @@
 .contact-form__image {
   width: 15%;
   height: 25.5rem;
-  background: url("../assets/images/index/wreath.jpg") no-repeat
-    center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/wreath.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 /* Modal  */
@@ -181,13 +181,13 @@
 
 /*  Animation */
 /* .contact-info__boxes .contact-info__box:nth-child(1).animate {
-  animation-delay: 0.2s;
+    animation-delay: 0.2s;
 }
 .contact-info__boxes .contact-info__box:nth-child(2).animate {
-  animation-delay: 0.4s;
+    animation-delay: 0.4s;
 }
 .contact-info__boxes .contact-info__box:nth-child(3).animate {
-  animation-delay: 0.6s;
+    animation-delay: 0.6s;
 } */
 
 .contact-info__box h3 {
