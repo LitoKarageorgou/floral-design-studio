@@ -68,11 +68,6 @@ p {
   /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
 }
 
-/* Hidden class for toggling */
-.hidden {
-  display: none;
-}
-
 /* Heading classes */
 .extra-large-heading {
   padding: 0;
@@ -108,7 +103,7 @@ p {
   border-bottom: 0.5px solid var(--accent-color);
 }
 
-/* Colored container */
+/* Colored Container */
 .white-color-container {
   background-color: white;
   display: flex;
@@ -175,17 +170,12 @@ p {
 
 .navbar__social-and-language img {
   height: 1.1rem;
-  filter: invert(46%);
+  filter: invert(48%);
 }
 
-/* Hide burger menu by default */
+/* Keep burger menu from breaking desktop layout */
 .navbar__burger-menu {
-  display: flex;
   position: absolute;
-  right: 1.7rem;
-  top: 2.7rem;
-  transform: translateY(-50%);
-  z-index: 100;
 }
 
 /* Main */
@@ -215,10 +205,6 @@ p {
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.24rem;
-  /* Prevent pixelising */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
 }
 
 .button--primary {
@@ -392,7 +378,7 @@ p {
   font-size: 0.8rem;
 }
 
-.footer p{
+.footer p {
   font-weight: 400;
 }
 
@@ -544,8 +530,25 @@ p {
 }
 
 .footer__legal a:hover {
-    color: var(--hover-color);
-  }
+  color: var(--hover-color);
+}
+
+/* JS Helper Classes */
+.hidden {
+  display: none !important;
+}
+
+/* Scroll-reveal-effect */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* Back to Top Button */
 #back-to-top {
@@ -562,21 +565,9 @@ p {
   opacity: 0.7;
 }
 
-/* Scroll-reveal-effect */
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* Responsive design */
-
-/* Common styles for tablets and phones */
 @media screen and (max-width: 768px) {
+  /* Common for tablets and phones */
   .navbar {
     position: relative;
   }
@@ -597,7 +588,7 @@ p {
     display: none;
   }
 
-  /* Burger-menu Button */
+  /* Burger-Menu Button */
   .navbar__burger-menu {
     display: flex;
     position: absolute;
@@ -704,10 +695,7 @@ p {
     margin-top: 0.8rem;
     padding: 1.1rem 1.5rem;
   }
-}
 
-/* Tablet styles */
-@media screen and (max-width: 768px) {
   html {
     font-size: 15px;
   }
