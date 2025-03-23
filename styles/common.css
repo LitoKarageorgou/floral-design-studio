@@ -409,7 +409,6 @@ ul {
   font-weight: 400;
   letter-spacing: 0.1rem;
   color: var(--primary-font-color);
-  text-decoration: none;
 }
 
 .footer__wrap a:hover {
@@ -791,15 +790,15 @@ ul {
   }
 
   .footer__brand-wrap {
-    width: 85%;
+    width: 84%;
     padding-bottom: 1.5rem;
     border-bottom: 0.1rem solid white;
   }
 
   /* Navigation */
   .footer__nav-list {
-    padding-bottom: 1.5rem;
     border-bottom: 0.1rem solid white;
+    padding-bottom: 2rem;
   }
 
   /* Navigation */
