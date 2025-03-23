@@ -10,7 +10,7 @@
 }
 
 .section__wrap {
-  width: 60%;
+  width: 55%;
   height: 100%;
   display: flex;
   gap: 5rem;
@@ -25,15 +25,12 @@
 }
 
 .section__text {
-  width: 40%;
+  width: 35%;
 }
 
 .section__text h2 {
   text-transform: capitalize;
-}
-
-.section__text p {
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .section__image--story {
@@ -56,6 +53,7 @@
   top: -19%;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
 
 .values__wrap {
@@ -69,19 +67,14 @@
 }
 
 .values__value {
-  padding: 2rem 2.5rem;
+  padding: 2rem 2rem;
 }
 
 .values__value h3 {
   padding: 1.7rem 0;
-  font-size: 2rem;
-  font-weight: 100;
 }
 
 .values__value p {
-  font-size: 0.8rem;
-  line-height: 1.9;
-  letter-spacing: 0.1rem;
   text-align: left;
 }
 
@@ -92,4 +85,94 @@
 
   /* Parallax Scroll Effect */
   background-attachment: fixed;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  /* Story & Designer */
+  .section {
+    height: auto;
+  }
+  
+  .section__wrap {
+    width: 90%;
+    gap: 2.5rem;
+  }
+  
+  .section__image {
+    height: 32rem;
+    width: 25rem;
+  }
+  
+  .section__text {
+    width: 50%;
+  }
+
+  /* Values */
+.values h2 {
+  font-size: 5.5rem;
+  top: -8.5%;
+  width: 80%;
+}
+
+.values__wrap {
+  width: 90%;
+  flex-direction: column;
+}
+
+.values__value {
+  padding: 1.3rem 1rem;
+}
+
+.values__value h3 {
+  padding: 1.5rem 0;
+}
+}
+
+/* Larger Phone styles */
+@media screen and (max-width: 576px) {
+   /* Story & Designer */
+  .section {
+    height: auto;
+    width: 100%;
+  }
+  
+  .section__wrap {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .section__image {
+    height: 32rem;
+    width: 50rem;
+  }
+  
+  .section__text {
+    width: 50%;
+  }
+
+  /* Values */
+.values h2 {
+  font-size: 5.5rem;
+  top: -8.5%;
+  width: 80%;
+}
+
+.values__wrap {
+  width: 90%;
+  flex-direction: column;
+}
+
+.values__value {
+  padding: 1.3rem 1rem;
+}
+
+.values__value h3 {
+  padding: 1.5rem 0;
+}
 }

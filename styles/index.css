@@ -369,8 +369,6 @@ label {
   font-size: 3rem;
   margin-bottom: 2.4rem;
   line-height: 1.1;
-  font-family: var(--font-heading);
-  font-weight: 500;
 }
 
 .services__text p {
