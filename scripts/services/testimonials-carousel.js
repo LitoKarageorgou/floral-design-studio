@@ -1,12 +1,16 @@
 // Variables
-const arrowForward = document.getElementById("arrow-forward");
-const arrowBack = document.getElementById("arrow-back");
+const arrowBack = document.getElementById("testimonials-arrow-back");
+const arrowForward = document.getElementById("testimonials-arrow-forward");
 const dotsContainer = document.querySelector(".testimonials__dots");
 let currentSlide = 0;
 
 const testimonials = [
     {
-        title: `"The flowers were beyond anything we could have imagined—elegant, romantic, and breathtaking. Every detail felt intentional, from the delicate boutonnieres to the stunning floral arch that framed our vows so perfectly."`,
+        title: `"Walking into our reception and seeing the floral arrangements took my breath away. The tablescapes, the entrance, the floral runners—it was all beyond perfect. Florience truly made our wedding feel like a dream."`,
+        text: ` Charlotte & Henry Lawson`
+    },
+    {
+        title: `"The flowers were beyond anything we could have imagined—elegant, romantic, and breathtaking. Every detail felt intentional, from the delicate boutonnieres to the stunning floral arch that framed us perfectly."`,
         text: `Sophie & James Carter`
     },
     {
@@ -14,19 +18,15 @@ const testimonials = [
         text: `Olivia Bennett`
     },
     {
-        title: `"The moment I saw my bouquet, I knew we had chosen the right florist. Every arrangement felt natural yet refined, with the perfect balance of colors and textures. Our guests couldn’t stop talking about how beautiful everything looked!"`,
+        title: `"The moment I saw my bouquet, I knew we had chosen right. Every arrangement felt natural yet refined, with the perfect balance of colors and textures. Our guests couldn't stop talking about how beautiful everything looked!"`,
         text: `Emily & Daniel Whitmore`
-    },
-    {
-        title: `"Walking into our reception and seeing the floral arrangements took my breath away. The tablescapes, the entrance, the floral runners—it was all beyond perfect. Florience truly made our wedding feel like a dream."`,
-        text: ` Charlotte & Henry Lawson`
     },
     {
         title: `"From the very first consultation, I knew Florience understood our vision. The florals set the most romantic and elegant tone for the entire day. The lush arrangements, the candlelit tables—it was pure magic."`,
         text: `Amelia & Thomas Sinclair`
     },
     {
-        title: `"Florience created the most stunning floral arrangements, elevating every corner of our venue. The cascading blooms, the soft pastels, the natural movement of each arrangement—it was everything we could have hoped for and more."`,
+        title: `"Florience created the most stunning floral arrangements, elevating every corner of our venue. The cascading blooms, the soft pastels, the natural movements—it was everything we could have hoped for and more."`,
         text: ` Victoria & Edward Hastings`
     }
 

@@ -15,7 +15,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <!-- JavaScript -->
   <script src="./scripts/common/header-footer.js"></script>
   <script src="./scripts/common/burger-menu.js" defer></script>
@@ -106,12 +108,14 @@
           <h2 class="small-heading">Testimonials</h2>
           <!-- Testimonials Carousel -->
           <div class="testimonials__carousel">
-            <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
+            <a class="arrow-button arrow-button--previous" id="testimonials-arrow-back"><img
+                src="./assets/icons/arrow-back.png" alt="Previous testimonial" /></a>
             <div class="testimonials__text">
               <h3></h3>
               <p></p>
             </div>
-            <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
+            <a class="arrow-button arrow-button--next" id="testimonials-arrow-forward"><img
+                src="./assets/icons/arrow-forward.png" alt="Next testimonial" /></a>
           </div>
           <!-- Dot container -->
           <div class="testimonials__dots"></div>
@@ -223,7 +227,7 @@
     <footer id="footer"></footer>
 
     <!-- Back to top button -->
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
   </div>
 </body>
 

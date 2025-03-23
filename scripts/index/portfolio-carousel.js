@@ -2,15 +2,15 @@
 const itemsPerView = 3;
 let intervalDuration = 3000;
 const images = document.querySelector('.portfolio-carousel__images');
-const nextButton = document.querySelector('.portfolio-carousel__button--next');
-const prevButton = document.querySelector('.portfolio-carousel__button--previous');
+const previousButton = document.getElementById('portfolio-previous-button');
+const nextButton = document.getElementById('portfolio-next-button');
 const slides = [];
 const startButton = document.querySelector('#start-slideshow');
 const stopButton = document.querySelector('#stop-slideshow');
 const carousel = document.querySelector('.portfolio-carousel');
 //INTENIONALLY COMMENTED OUT
 // const timerInput = document.getElementById('timer'); 
-// const currentDurationDisplay = document.getElementById('currentDuration');
+// const currentDurationDisplay = document.getElementById('current-duration');
 
 // Image URLs
 const imageURLs = [
@@ -51,7 +51,7 @@ clonesAfter.forEach(slide => {
 let index = itemsPerView;
 
 // Reposition the carousel to the current slide index
-function updateSlidePosition() { // Function to reposition the carousel
+function updateSlidePosition() { // Function to reposition the carousel using a transition
     const slideWidth = images.children[index]?.getBoundingClientRect().width;
     if (slideWidth) {
         images.style.transform = `translateX(${-slideWidth * index}px)`;
@@ -70,7 +70,7 @@ images.addEventListener('transitionend', () => {
         void images.offsetWidth;
         images.style.transition = 'transform 0.5s ease-in-out';
     } else if (index < itemsPerView) {
-        index = imageURLs.length;
+        index = imageURLs.length + index;
         images.style.transition = 'none';
         updateSlidePosition();
         void images.offsetWidth;
@@ -107,9 +107,9 @@ startButton.addEventListener('click', () => {
     stopButton.style.display = 'block';
 });
 
-// Next and Previous button event listeners
-nextButton.addEventListener('click', () => {
-    index++;
+// Previous and next button event listeners
+previousButton.addEventListener('click', () => {
+    index--;
     images.style.transition = 'transform 0.5s ease-in-out';
     updateSlidePosition();
     clearInterval(autoSlide);
@@ -118,8 +118,8 @@ nextButton.addEventListener('click', () => {
     startButton.style.display = 'block';
 });
 
-prevButton.addEventListener('click', () => {
-    index--;
+nextButton.addEventListener('click', () => {
+    index++;
     images.style.transition = 'transform 0.5s ease-in-out';
     updateSlidePosition();
     clearInterval(autoSlide);

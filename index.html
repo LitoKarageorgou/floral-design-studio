@@ -523,9 +523,9 @@
             <div class="portfolio-carousel__images"></div>
           </div>
           <!-- Navigation Arrows -->
-          <a class="portfolio-carousel__button portfolio-carousel__button--previous"><img
+          <a class="arrow-button arrow-button--previous" id="portfolio-previous-button"><img
               src="./assets/icons/arrow-back.png" alt="Previous image"></a>
-          <a class="portfolio-carousel__button portfolio-carousel__button--next"><img
+          <a class="arrow-button arrow-button--next" id="portfolio-next-button"><img
               src="./assets/icons/arrow-forward.png" alt="Next image"></a>
           <!-- Control buttons -->
           <div class="portfolio-carousel__controls">
@@ -540,7 +540,7 @@
         <!-- <form class="slider__container">
         <label for="timer">Slideshow duration </label> <br>
         <input type="range" id="timer" class="slider" min="1" max="9" value="5">
-        <span id="currentDuration">5 seconds</span>
+        <span id="current-duration">5 seconds</span>
       </form> -->
       </section>
 
@@ -581,7 +581,7 @@
             </div>
             <div class="services__image services__image--events"></div>
           </div>
-          
+
           <!-- Mobile Design -->
           <div class="services__wrap mobile">
             <div class="services__image services__image--events"></div>
@@ -671,8 +671,10 @@
           <div class="testimonials__image--2"></div>
         </div>
         <!-- Navigation Arrows -->
-        <img src="./assets/icons/arrow-back.png" id="arrow-back" alt="Previous testimonial" />
-        <img src="./assets/icons/arrow-forward.png" id="arrow-forward" alt="Next testimonial" />
+        <a class="arrow-button arrow-button--previous" id="testimonials-arrow-back"><img
+            src="./assets/icons/arrow-back.png" alt="Previous testimonial" /></a>
+        <a class="arrow-button arrow-button--next" id="testimonials-arrow-forward"><img
+            src="./assets/icons/arrow-forward.png" alt="Next testimonial" /></a>
         <!-- Dot container -->
         <div class="testimonials__dots"></div>
       </section>
@@ -705,7 +707,7 @@
     <footer id="footer"></footer>
 
     <!-- Back to top button -->
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑</button>
   </div>
 </body>
 

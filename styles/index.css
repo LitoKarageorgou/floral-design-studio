@@ -242,23 +242,16 @@ h1 span {
 }
 
 /* Navigation Arrows */
-.portfolio-carousel__button {
-  position: absolute;
+.portfolio .arrow-button {
   top: 53%;
-  transform: translateY(-50%);
 }
 
-.portfolio-carousel__button--previous {
+.portfolio .arrow-button--previous {
   left: 17%;
 }
 
-.portfolio-carousel__button--next {
+.portfolio .arrow-button--next {
   right: 17%;
-}
-
-.portfolio-carousel__button img {
-  width: 2rem;
-  filter: invert(80%);
 }
 
 /* Controls */
@@ -294,7 +287,7 @@ h1 span {
 .slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 40%;
+    width: 70%;
     height: 0.2rem;
     background: #a3a2a2;
     outline: none;
@@ -327,13 +320,13 @@ h1 span {
 
 label {
     font-style: italic;
-    color: #929090;
+    color: var(--primary-font-color);
     text-align: center;
 }
 
-#currentDuration {
+#current-duration {
     padding: 1rem;
-    color: #929090;
+    color: var(--primary-font-color);
 } */
 
 /* Services*/
@@ -418,7 +411,7 @@ label {
 
 /* About */
 .about {
-  height: 105vh;
+  height: 100vh;
 }
 
 .about__wrap {
@@ -428,7 +421,7 @@ label {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
   margin: auto;
 }
 
@@ -445,7 +438,7 @@ label {
 }
 
 .about__image--1 {
-  grid-column: 2 / span 9;
+  grid-column: 2 / span 8;
   grid-row: 1 / span 7;
   z-index: 1;
   background: url("../assets/images/index/line.jpg") no-repeat center
@@ -453,7 +446,7 @@ label {
 }
 
 .about__image--2 {
-  grid-column: 8 / span 9;
+  grid-column: 8 / span 8;
   grid-row: 6 / span 7;
   z-index: 2;
   background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
@@ -461,7 +454,7 @@ label {
 }
 
 .about__image--3 {
-  grid-column: 4 / span 7;
+  grid-column: 4 / span 6;
   grid-row: 12 / span 5;
   z-index: 3;
   background: url("../assets/images/index/wreath.jpg") no-repeat center
@@ -469,7 +462,7 @@ label {
 }
 
 .about__text {
-  width: 65%;
+  width: 62%;
   line-height: 1.8;
   display: flex;
   flex-direction: column;
@@ -477,7 +470,7 @@ label {
 }
 
 .about__text h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -605,24 +598,12 @@ label {
 }
 
 /* Navigation Arrows */
-
-/* UNIFY WITH ABOVE BUTTONS?  */
-#arrow-back {
-  position: absolute;
-  top: 50%;
+.testimonials .arrow-button--previous {
   left: 18%;
-  width: 1.9rem;
-  filter: invert(80%);
-  cursor: pointer;
 }
 
-#arrow-forward {
-  position: absolute;
-  top: 50%;
+.testimonials .arrow-button--next {
   right: 18%;
-  width: 2rem;
-  filter: invert(80%);
-  cursor: pointer;
 }
 
 /* Dots */
@@ -745,11 +726,11 @@ label {
   }
 
   /* Navigation Arrows */
-  .portfolio-carousel__button--previous {
+  .portfolio .arrow-button--previous {
     left: 0.5%;
   }
 
-  .portfolio-carousel__button--next {
+  .portfolio .arrow-button--next {
     right: 0.5%;
   }
 
@@ -804,22 +785,15 @@ label {
   }
 
   .about__wrap {
-    height: 100%;
-    width: 90%;
-    gap: 5rem;
+    width: 92%;
+    gap: 2.8rem;
   }
 
   .about__text {
     width: 90%;
-    line-height: 1.8;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .about__text h2 {
-    margin: 2rem 0;
-    text-transform: uppercase;
     line-height: 1;
   }
 
@@ -840,7 +814,7 @@ label {
 
   .testimonials__carousel {
     height: 43rem;
-    width: 89%;
+    width: 88%;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(17, 1fr);
   }
@@ -872,12 +846,12 @@ label {
   }
 
   /* Navigation Arrows */
-  #arrow-back {
-    left: 0.8%;
+  .testimonials .arrow-button--previous {
+    left: 1%;
   }
 
-  #arrow-forward {
-    right: 0.8%;
+  .testimonials .arrow-button--next {
+    right: 1%;
   }
 }
 
@@ -1044,7 +1018,7 @@ label {
   }
 
   .featured__logos h3 {
-    margin: 1.6rem 1rem;
+    margin: 1.6rem 1.2rem;
   }
 
   .featured__logos h3:nth-child(3).animate {
@@ -1057,6 +1031,48 @@ label {
 
   .featured__logos h3:nth-child(5).animate {
     color: #7c7b78;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    height: auto;
+  }
+
+  .testimonials__carousel {
+    height: 43rem;
+    width: 88%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+  }
+
+  .testimonials__text {
+    padding: 4.2rem 4.3rem 4.1rem 3.9rem;
+  }
+
+  .testimonials__text p {
+    line-height: 1.7;
+  }
+
+  .testimonials__text p span {
+    display: none;
+  }
+
+  /* Images */
+  .testimonials__image--1 {
+    display: none;
+  }
+
+  .testimonials__image--2 {
+    display: none;
+  }
+
+  /* Navigation Arrows */
+  #arrow-back {
+    left: 1%;
+  }
+
+  #arrow-forward {
+    right: 1%;
   }
 }
 

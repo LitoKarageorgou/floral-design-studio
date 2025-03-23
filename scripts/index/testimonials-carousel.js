@@ -1,6 +1,6 @@
 // Variables
-const arrowForward = document.getElementById("arrow-forward");
-const arrowBack = document.getElementById("arrow-back");
+const arrowBack = document.getElementById("testimonials-arrow-back");
+const arrowForward = document.getElementById("testimonials-arrow-forward");
 const playButton = document.getElementById("play-button");
 const pauseButton = document.getElementById("pause-button");
 const dotsContainer = document.querySelector(".testimonials__dots");

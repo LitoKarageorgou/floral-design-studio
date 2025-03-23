@@ -113,7 +113,7 @@ span.extra-large-heading::after {
 }
 
 .testimonials__carousel {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,16 +140,12 @@ span.extra-large-heading::after {
 }
 
 /* Navigation Arrows */
-#arrow-back {
-  width: 1.9rem;
-  filter: invert(80%);
-  cursor: pointer;
+.testimonials .arrow-button--previous {
+  left: -6%;
 }
 
-#arrow-forward {
-  width: 1.9rem;
-  filter: invert(80%);
-  cursor: pointer;
+.testimonials .arrow-button--next {
+  right: -6%;
 }
 
 /* Dots */
