@@ -968,13 +968,13 @@ label {
 
   .about__wrap {
     height: 100%;
-    width: 90%;
+    width: 89%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     margin: auto;
   }
 
@@ -1005,6 +1005,7 @@ label {
 
   .about__text {
     width: 95%;
+    /* margin: auto; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1042,10 +1043,10 @@ label {
     height: 43rem;
     width: 88%;
     grid-template-columns: 1fr;
-    grid-template-rows: 1;
   }
 
   .testimonials__text {
+    /* background-color: var(--secondary-color); */
     padding: 4.2rem 4.3rem 4.1rem 3.9rem;
   }
 
@@ -1077,7 +1078,7 @@ label {
 }
 
 /* Smaller Phone Styles */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
   /* Hero Section */
   .hero__text {
     width: 100%;

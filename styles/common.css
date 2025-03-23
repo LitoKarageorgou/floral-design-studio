@@ -418,7 +418,7 @@ ul {
 
 .footer h3 {
   margin-bottom: 1.1rem;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-weight: 900;
 }
 
@@ -830,5 +830,17 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+  }
+}
+
+/* Smaller Phone Styles */
+@media screen and (max-width: 430px) {
+  html {
+    font-size: 13px;
+  }
+
+  /* Hero Section */
+  .hero__text {
+    width: 100%;
   }
 }
