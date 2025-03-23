@@ -1,0 +1,23 @@
+/* Default layout */
+.section__wrap {
+  display: flex;
+  flex-direction: row;
+  /* ...existing code... */
+}
+
+.section__image {
+  order: 1;
+  /* ...existing code... */
+}
+
+.section__text {
+  order: 2;
+  /* ...existing code... */
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .section__wrap {
+    flex-direction: column-reverse;
+  }
+}

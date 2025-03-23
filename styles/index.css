@@ -372,7 +372,6 @@ label {
 }
 
 .services__text p {
-  line-height: 1.9;
   width: 90%;
 }
 
@@ -461,7 +460,6 @@ label {
 
 .about__text {
   width: 62%;
-  line-height: 1.8;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -576,10 +574,6 @@ label {
   font-weight: 500;
 }
 
-.testimonials__text p {
-  line-height: 1.7;
-}
-
 /* Images */
 .testimonials__image--1 {
   grid-column: 20 / span 11;
@@ -636,51 +630,6 @@ label {
 
 /* Respinsive Design */
 
-/* Laptop Styles */
-/* @media screen and (min-width: 769px) and (max-width: 1024px) { */
-/* Navbar */
-/* .navbar__wrap {
-    width: 95%;
-  } */
-
-/* Website Introduction */
-/* .intro__text {
-    width: 57%;
-    text-align: center;
-    line-height: 2.1;
-  } */
-
-/* Portfolio Overview */
-/* .portfolio {
-    height: 90vh;
-  } */
-
-/* Portfolio Carousel */
-/* .portfolio-carousel__viewport {
-    width: 87%;
-  } */
-
-/* .portfolio-carousel__slide img {
-    height: 39rem;
-    max-width: 26.9rem;
-  } */
-
-/* Navigation Arrows */
-/* .portfolio-carousel__button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  } */
-
-/* .portfolio-carousel__button--previous {
-    left: 4%;
-  } */
-
-/* .portfolio-carousel__button--next {
-    right: 4%;
-  }
-} */
-
 @media screen and (max-width: 768px) {
   /* Loader */
   #loader-svg {
@@ -725,11 +674,11 @@ label {
 
   /* Navigation Arrows */
   .portfolio .arrow-button--previous {
-    left: 0.5%;
+    left: 2.5%;
   }
 
   .portfolio .arrow-button--next {
-    right: 0.5%;
+    right: 2.5%;
   }
 
   /* Services */
@@ -789,6 +738,7 @@ label {
 
   .about__text {
     width: 90%;
+    margin: auto;
   }
 
   .about__text h2 {
@@ -823,10 +773,6 @@ label {
     padding: 4.2rem 4.3rem 4.1rem 3.9rem;
   }
 
-  .testimonials__text p {
-    line-height: 1.7;
-  }
-
   .testimonials__text p span {
     display: none;
   }
@@ -845,11 +791,11 @@ label {
 
   /* Navigation Arrows */
   .testimonials .arrow-button--previous {
-    left: 1%;
+    left: 0.5%;
   }
 
   .testimonials .arrow-button--next {
-    right: 1%;
+    right: 0.5%;
   }
 }
 
@@ -890,7 +836,7 @@ label {
 
   /* Navigation Arrows */
   .portfolio-carousel__button--previous {
-    left: 2.5%;
+    left: 3%;
   }
 
   .portfolio-carousel__button--next {
@@ -910,17 +856,10 @@ label {
     gap: 2.5rem;
   }
 
-  .mobile {
-    display: grid;
-  }
-
-  .desktop {
-    display: none;
-  }
-
   .services__image {
     height: 45rem;
     width: 100%;
+    order: 1;
   }
 
   .services__text {
@@ -928,6 +867,7 @@ label {
     height: auto;
     justify-self: start;
     padding-left: 1rem;
+    order: 2;
   }
 
   .services__text h3 {
@@ -936,7 +876,6 @@ label {
 
   .services__text p {
     width: 95%;
-    line-height: 2.8;
   }
 
   /* Weddings */
@@ -1038,22 +977,14 @@ label {
   }
 
   .testimonials__carousel {
-    height: 43rem;
-    width: 88%;
-    grid-template-columns: 1fr;
+    height: 39rem;
+    width: 95%;
+    display: block;
   }
 
   .testimonials__text {
-    /* background-color: var(--secondary-color); */
-    padding: 4.2rem 4.3rem 4.1rem 3.9rem;
-  }
-
-  .testimonials__text p {
-    line-height: 1.7;
-  }
-
-  .testimonials__text p span {
-    display: none;
+    background-color: white;
+    padding: 0rem 3.8rem;
   }
 
   /* Images */
@@ -1066,12 +997,28 @@ label {
   }
 
   /* Navigation Arrows */
-  #arrow-back {
-    left: 1%;
+  .testimonials .arrow-button {
+    background-color: var(--primary-color);
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  #arrow-forward {
-    right: 1%;
+  .testimonials .arrow-button--previous {
+    left: -1%;
+    z-index: 2;
+  }
+
+  .testimonials .arrow-button--next {
+    right: -1%;
+    z-index: 2;
+  }
+
+  /* Dots */
+  .testimonials__dots {
+    display: none;
   }
 }
 

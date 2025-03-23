@@ -188,6 +188,7 @@ ul {
 /* Keep burger menu from breaking desktop layout */
 .navbar__burger-menu {
   position: absolute;
+  display: none;
 }
 
 /* Main */
@@ -591,10 +592,6 @@ ul {
     font-size: 15px;
   }
 
-  p {
-    line-height: 1.9;
-  }
-
   .navbar {
     position: relative;
   }
@@ -770,9 +767,9 @@ ul {
 
 /* Larger Phone styles */
 @media screen and (max-width: 576px) {
-  /* html {
-    font-size: 14px;
-  } */
+  p {
+    line-height: 2.6;
+  }
 
   .medium-heading {
     font-size: 3rem;
