@@ -5,7 +5,7 @@ This website is a digital platform for the Florience floral design studio, desig
 Site Structure:
 
 - Home Page: Provides an overview and highlights featured content.
-- About: Shares the studio’s history, values, and designer background.
+- About: Shares the studio's history, values, and designer background.
 - Services: Outlines the range of floral design offerings.
 - Portfolio: Showcases a variety of past floral arrangement projects.
 - Contact: Includes a contact form, studio location, and other communication details.
@@ -15,7 +15,7 @@ Supplementary Pages:
 - FAQ: Answers common user questions.
 - Privacy Policy Page: Details how user data is collected, used, and protected.
 
-Key Functionalities
+Key Functionalities:
 
 - Responsive Design: Ensures a seamless experience across desktops, tablets, and phones.
 - CSS & SVG Animations: Implements various CSS transitions and animations alongside an SVG loader animation. 
@@ -23,8 +23,14 @@ Key Functionalities
     -Three carousel components for dynamic content display.
     -Form validation to ensure accurate user input.
     -Data retrieval from a JSON file, with filtering functionality triggered by button clicks.
+    -Additional enhancements: dynamic header/footer fetching, page loader, burger menu, animation effects, modals/lightboxes, and back-to-top button.
 
-Future Enhancements
+Notes:
+
+- The header and footer are maintained in separate HTML files and dynamically loaded via JavaScript. While this isn’t a common approach in static HTML projects, it was a practical choice to simplify updates and ensure consistency across pages.
+- All shared styles, including those for the header and footer, are stored in common.css.
+
+Recommented Future Enhancements:
 
 - Expanded Responsive Design: Optimize for a wider range of devices, smaller phones and laptops.
 - Accessibility Improvements: Enhance compliance with accessibility standards for greater user inclusivity.

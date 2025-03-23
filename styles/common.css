@@ -777,6 +777,21 @@ ul {
     line-height: 1.3;
   }
 
+  /* Navigation Arrows */
+  .arrow-button {
+    background-color: var(--backdrop-color);
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .arrow-button img {
+    width: 1.9rem;
+    filter: invert(70%);
+  }
+
   /* Footer */
   .footer__wrap {
     width: 80%;

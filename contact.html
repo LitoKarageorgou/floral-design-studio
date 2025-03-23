@@ -21,7 +21,7 @@
   <script src="./scripts/common/burger-menu.js" defer></script>
   <script src="./scripts/common/back-to-top.js" defer></script>
   <script src="./scripts/common/scroll-reveal-effect.js" defer></script>
-  <script src="./scripts/form.js" defer></script>
+  <script src="./scripts/contact/form.js" defer></script>
 </head>
 
 <body>
@@ -51,21 +51,49 @@
           </div>
           <!-- Contact Form -->
           <form id="contact-form" name="contact-form" class="contact-form">
-            <input type="text" id="fullname" placeholder="Full name" name="fullname">
-            <span id="full-name-error" class="error-message"></span>
-            <input type="email" name="email" id="email" placeholder="Email address">
-            <span id="email-error" class="error-message"></span>
-            <input type="tel" name="phone" id="phone" placeholder="Phone number">
-            <span id="phone-error" class="error-message"></span>
-            <input type="text" id="date" name="date" placeholder="Date of the event" onfocus="(this.type='date')"
-              onblur="(this.type='text')">
-            <span id="date-error" class="error-message"></span>
-            <input type="text" name="location" id="location" placeholder="Location of the event">
-            <span id="location-error" class="error-message"></span>
-            <input type="text" name="referral" id="referral" placeholder="How did you hear about us?">
-            <span id="referral-error" class="error-message"></span>
-            <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-            <span id="message-error" class="error-message"></span>
+            <div class="form-field">
+              <input type="text" id="fullname" placeholder="Full name" name="fullname">
+              <div class="error-container">
+                <span id="full-name-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="email" name="email" id="email" placeholder="Email address">
+              <div class="error-container">
+                <span id="email-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="tel" name="phone" id="phone" placeholder="Phone number">
+              <div class="error-container">
+                <span id="phone-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" id="date" name="date" placeholder="Date of the event" onfocus="(this.type='date')"
+                onblur="(this.type='text')">
+              <div class="error-container">
+                <span id="date-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" name="location" id="location" placeholder="Location of the event">
+              <div class="error-container">
+                <span id="location-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" name="referral" id="referral" placeholder="How did you hear about us?">
+              <div class="error-container">
+                <span id="referral-error" class="error-message"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+              <div class="error-container">
+                <span id="message-error" class="error-message"></span>
+              </div>
+            </div>
             <button type="submit" class="contact-form__button ">Send
               message</button>
           </form>
@@ -74,11 +102,11 @@
         <div class="contact-form__image"></div>
 
         <!-- Modal -->
-        <div id="thankYouModal" class="modal">
-          <div class="modal-content">
-            <div class="modal-header">
-              <p>Thank you for your message!</p>
-              <span class="close-button">&times;</span>
+        <div id="thankYouModal" class="contact-modal">
+          <div class="contact-modal__content">
+            <div class="contact-modal__header">
+              <p class="contact-modal__text">Thank you for your message!</p>
+              <span class="contact-modal__close">&times;</span>
             </div>
           </div>
         </div>
