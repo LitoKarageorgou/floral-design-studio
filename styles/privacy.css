@@ -25,3 +25,17 @@ h4 {
 h4:first-of-type {
   text-transform: none;
 }
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  .privacy-policy {
+    width: 75%;
+  }
+}
+
+/* Larger Phone styles */
+@media screen and (max-width: 576px) {
+  .privacy-policy {
+    width: 80%;
+  }
+}
