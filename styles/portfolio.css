@@ -59,7 +59,7 @@
 /* Portfolio Image Click Animation */
 .portfolio__image {
   width: 100%;
-  height: 90%;
+  height: 89%;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -77,19 +77,20 @@
   margin: auto;
   margin-top: 1rem;
   text-transform: uppercase;
+  font-weight: 400;
   font-size: 0.7rem;
   line-height: 1.6;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1rem;
 }
 
-/* Modal backdrop */
+/* Lighbox */
 .lightbox {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease-in-out;
   position: fixed;
   inset: 0;
-  background-color: var(--backdrop-color);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1000;
 }
 
@@ -98,22 +99,24 @@
   visibility: visible;
 }
 
-/* Modal content */
 .lightbox__content {
   position: fixed;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translateX(-50%);
-  max-height: 75vh;
+  max-height: 70vh;
   display: block;
+  width: 31rem;
+  height: 47rem;
+  object-fit: cover;
 }
 
 /* Close button */
 .lightbox__close {
   position: absolute;
-  top: 20px;
-  right: 35px;
-  color: var(--primary-font-color);
+  top: 1.8rem;
+  right: 3.8rem;
+  color: white;
   font-size: 2.7rem;
   cursor: pointer;
 }
@@ -122,22 +125,22 @@
   color: var(--hover-color);
 }
 
-/* Caption below the image */
+/* Caption */
 .lightbox__caption {
   position: fixed;
-  bottom: 8%;
+  bottom: 9.5%;
   left: 50%;
   transform: translateX(-50%);
   width: auto;
-  text-align: center;
+  text-align: left;
   margin: 0;
   text-transform: uppercase;
-  font-size: 0.78rem;
+  font-size: 0.77rem;
   font-weight: 700;
   line-height: 1.6;
   font-family: var(--font-body);
-  letter-spacing: 0.05em;
-  color: var(--primary-font-color);
+  letter-spacing: 0.1rem;
+  color: white;
 }
 
 /* Call to Action */
@@ -145,4 +148,33 @@
   background: url("../assets/images/index/blue-flower-fullsize.jpg")
     no-repeat center center/cover#dddcdc;
   background-attachment: fixed;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  #portfolio__gallery {
+    width: 90%;
+  }
+
+  .lightbox__content {
+    width: 28rem;
+    height: 43rem;
+  }
+
+  .lightbox__caption {
+    font-size: 0.7rem;
+  }
+}
+
+/* Larger Phone styles */
+@media screen and (max-width: 576px) {
+  .portfolio__card {
+    width: 31rem;
+    height: 47rem;
+  }
+
+  .lightbox {
+    display: none !important;
+    pointer-events: none;
+}
 }
