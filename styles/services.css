@@ -302,18 +302,18 @@ span.extra-large-heading::after {
   .process__steps-text {
     width: 100%;
     padding-left: 11rem;
-    order: 2;
+    order: 1;
   }
 
   .process__steps-image {
     height: 38rem;
     width: 80%;
     margin-left: -3rem;
-    order: 1;
+    order: 2;
   }
 
   span.extra-large-heading {
-    transform: translate(-130%, -30%);
+    transform: translate(-135%, -30%);
   }
 
   /* Testimonials */
@@ -340,11 +340,11 @@ span.extra-large-heading::after {
 
   /* Sections */
   .section {
-    width: 80%;
+    width: 82%;
     padding: 0;
     gap: 4rem;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .section__image {
@@ -415,14 +415,13 @@ span.extra-large-heading::after {
   }
 
   .process__description p {
-    padding: 0;
     margin-bottom: 4rem;
   }
 
   .process__steps {
     width: 84%;
   }
-  
+
   .process__steps-image {
     width: 100%;
     height: 38rem;
@@ -435,10 +434,6 @@ span.extra-large-heading::after {
     order: 2;
   }
 
-  span.extra-large-heading {
-    transform: translate(-130%, -30%);
-  }
-
   span.extra-large-heading::after {
     border-bottom: 0.15rem solid;
     margin-left: 1rem;
@@ -447,28 +442,22 @@ span.extra-large-heading::after {
   /* Testimonials */
   .testimonials__carousel {
     width: 90%;
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    position: relative;
   }
 
   /* Navigation Arrows */
-.testimonials .arrow-button--previous {
-  left: -6%;
-}
+  .testimonials .arrow-button--previous {
+    left: -6%;
+  }
 
-.testimonials .arrow-button--next {
-  right: -6%;
-}
+  .testimonials .arrow-button--next {
+    right: -6%;
+  }
 
   /* Sections */
   .section {
     width: 84%;
     padding: 0;
-    gap: 2rem;
+    gap: 2.rem;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -483,16 +472,6 @@ span.extra-large-heading::after {
     width: 95%;
     height: auto;
     padding: 0 1rem;
-    background-color: unset;
-    order: 3;
-  }
-
-  .section__text h2 {
-    order: 1;
-    width: 100%;
-  }
-
-  .section__text a {
-    order: 4;
+    order: 2;
   }
 }

@@ -668,17 +668,17 @@ label {
   }
 
   .portfolio-carousel__slide img {
-    height: 24.5rem;
+    height: 24.2rem;
     max-width: 15rem;
   }
 
   /* Navigation Arrows */
   .portfolio .arrow-button--previous {
-    left: 2.5%;
+    left: 1.5%;
   }
 
   .portfolio .arrow-button--next {
-    right: 2.5%;
+    right: 1.5%;
   }
 
   /* Services */
