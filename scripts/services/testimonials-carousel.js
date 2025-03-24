@@ -6,12 +6,12 @@ let currentSlide = 0;
 
 const testimonials = [
     {
-        title: `"Walking into our reception and seeing the floral arrangements took my breath away. The tablescapes, the entrance, the floral runners—it was all beyond perfect. Florience truly made our wedding feel like a dream."`,
-        text: ` Charlotte & Henry Lawson`
-    },
-    {
         title: `"The flowers were beyond anything we could have imagined—elegant, romantic, and breathtaking. Every detail felt intentional, from the delicate boutonnieres to the stunning floral arch that framed us perfectly."`,
         text: `Sophie & James Carter`
+    },
+    {
+        title: `"Walking into our reception and seeing the floral arrangements took my breath away. The tablescapes, the entrance, the floral runners—it was all beyond perfect. Florience truly made our wedding feel like a dream."`,
+        text: ` Charlotte & Henry Lawson`
     },
     {
         title: `"Florience completely transformed our venue with their floral artistry. Seeing the arrangements on the day left us speechless. It was everything we had dreamed of—soft, romantic, and effortlessly beautiful."`,

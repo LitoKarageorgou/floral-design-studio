@@ -9,8 +9,8 @@ span {
 }
 
 .hero {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg")
-    no-repeat center 68% / cover var( --image-placeholder);
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    center 68% / cover var(--image-placeholder);
 }
 
 /* Weddings */
@@ -23,8 +23,9 @@ span {
 }
 
 .weddings__text {
-  width: 45%;
-  padding: 2.5rem 3.5rem;
+  width: 43%;
+  height: 35rem;
+  padding: 3rem 3rem 3rem 4rem;
   background-color: white;
 }
 
@@ -35,13 +36,14 @@ span {
 
 .weddings__text h2 {
   padding: 2rem 0 0 0;
+  margin: 0;
 }
 
 .weddings__image {
-  height: 40rem;
+  height: 42rem;
   width: 32rem;
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat
-    center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 /* Process */
@@ -53,30 +55,33 @@ span {
   justify-content: center;
   align-items: center;
 }
+
 .process__description {
   width: 50%;
 }
 
 .process__description p {
   column-count: 2;
-  column-gap: 5rem;
+  column-gap: 4.99rem;
   line-height: 2;
   padding: 1rem 0 5rem 5rem;
-  text-align: justify;
+  text-align: left;
 }
 
+/* Steps */
 .process__steps {
   width: 65%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
 }
 
 .process__steps-image {
   height: 50rem;
   width: 35rem;
-  background: url("../assets/images/index/blue-flower-fullsize.jpg")
-    no-repeat center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 .process__steps-text {
@@ -85,8 +90,8 @@ span {
 
 span.extra-large-heading {
   transform: translate(-150%, -15%);
-  font-weight: 400;
-  font-size: 4.5rem;
+  font-weight: 300;
+  font-size: 4.8rem;
 }
 
 span.extra-large-heading::after {
@@ -99,8 +104,7 @@ span.extra-large-heading::after {
 }
 
 .process__steps-text p {
-  padding-bottom: 3rem;
-  line-height: 1.8;
+  padding-bottom: 2.9rem;
 }
 
 /* Testimonials */
@@ -113,7 +117,8 @@ span.extra-large-heading::after {
 }
 
 .testimonials__carousel {
-  width: 45%;
+  width: 42%;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +136,7 @@ span.extra-large-heading::after {
 }
 
 .testimonials__text h3 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 400;
 }
 
@@ -170,20 +175,22 @@ span.extra-large-heading::after {
 
 /* Sections */
 .section {
-  margin: 4rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  margin: auto;
+  padding: 4rem 0;
 }
 
 .section__image {
-  min-height: 42rem;
-  min-width: 32rem;
- 
+  height: 42rem;
+  width: 31rem;
 }
 
 .section__text {
-  width: 30%;
+  width: 50%;
+  height: 38rem;
   padding: 4rem 3.6rem;
   background-color: white;
 }
@@ -192,28 +199,23 @@ span.extra-large-heading::after {
   line-height: 1.2;
 }
 
-.section__text p {
-  line-height: 1.9;
-}
-
 /* Corpotate Events & Galas */
-.section__image-galas{
-  background: url("../assets/images/index/wreath.jpg") no-repeat
-  center center/cover var( --image-placeholder);
+.section__image-galas {
+  background: url("../assets/images/index/wreath.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 /* PR Events */
 .section__image-pr {
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat
-  center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/bouquet2.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 /* Private dinners */
 .section__image-dinners {
-  background: url("../assets/images/index/line.jpg") no-repeat
-  center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/line.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
-
 
 /* Clients */
 .featured {
@@ -231,13 +233,14 @@ span.extra-large-heading::after {
 
 .featured__logos h3 {
   font-size: 1.9rem;
+  font-weight: 500;
   padding: 1.6rem 1.4rem;
 }
 
 /* CTA */
 .cta {
-  background: url("../assets/images/index/wreath.jpg") no-repeat
-    center center/cover var( --image-placeholder);
+  background: url("../assets/images/index/wreath.jpg") no-repeat center
+    center/cover var(--image-placeholder);
   color: var(--secondary-font-color);
   /* Parallax Scroll Effect */
   background-attachment: fixed;
@@ -246,4 +249,160 @@ span.extra-large-heading::after {
 /* Instagram */
 .instagram__container {
   padding-bottom: 6.8rem;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  /* Weddings */
+  .weddings__wrap {
+    width: 82%;
+  }
+
+  .weddings__text {
+    width: 50%;
+    background-color: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 1.5rem 0 0;
+  }
+
+  .weddings__text h2 {
+    order: 1;
+  }
+
+  .weddings__text p {
+    order: 2;
+  }
+
+  .weddings__text a {
+    order: 3;
+  }
+
+  .weddings__image {
+    height: 30rem;
+    width: 50%;
+  }
+
+  /* Process */
+  .process__description {
+    width: 82%;
+  }
+
+  .process__description p {
+    column-count: 1;
+  }
+
+  .process__steps {
+    width: 70%;
+    flex-direction: column;
+  }
+
+  .process__steps-text {
+    width: 100%;
+    padding-left: 11rem;
+    order: 2;
+  }
+
+  .process__steps-image {
+    height: 38rem;
+    width: 80%;
+    margin-left: -3rem;
+    order: 1;
+  }
+
+  span.extra-large-heading {
+    transform: translate(-130%, -30%);
+  }
+
+  /* Testimonials */
+  .testimonials {
+    padding-bottom: 0;
+  }
+
+  .testimonials__carousel {
+    width: 82%;
+  }
+
+  .testimonials__text h3 {
+    font-size: 1.6rem;
+  }
+
+  /* Navigation Arrows */
+  .testimonials .arrow-button--previous {
+    left: -2%;
+  }
+
+  .testimonials .arrow-button--next {
+    right: -2%;
+  }
+
+  /* Sections */
+  .section {
+    width: 80%;
+    padding: 0;
+    gap: 4rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section__image {
+    height: 35rem;
+    width: 65%;
+    order: 1;
+  }
+
+  .section__text {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    background-color: unset;
+    order: 3;
+  }
+
+  .section__text h2 {
+    order: 1;
+    width: 100%;
+  }
+
+  .section__text a {
+    order: 4;
+  }
+
+  /* Clients */
+  .featured {
+    height: auto;
+  }
+
+  .featured__wrap {
+    width: 85%;
+  }
+
+  .featured h2 {
+    margin-top: 2rem;
+  }
+
+  .featured__logos h3 {
+    font-size: 1.9rem;
+    padding: 2rem 1.4rem;
+  }
+}
+
+/* Larger Phone styles */
+@media screen and (max-width: 576px) {
+  .faq__container {
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .faq__container h1 {
+    margin-top: 4rem;
+    width: 80%;
+  }
+
+  .faq {
+    width: 80%;
+    column-count: 1;
+  }
 }

@@ -62,7 +62,7 @@ p {
   font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.9;
-  /* text-shadow: 0 0 1px rgba(0, 0, 0, 0.2); */
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 a {
@@ -100,7 +100,7 @@ ul {
 
 .medium-heading {
   margin-bottom: 1.7rem;
-  font-size: 2.95rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -588,6 +588,10 @@ ul {
 
 /* Tablet Styles */
 @media screen and (max-width: 768px) {
+  p {
+    line-height: 2.2;
+  }
+
   html {
     font-size: 15px;
   }
