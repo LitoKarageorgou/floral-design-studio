@@ -384,39 +384,10 @@ ul {
   gap: 1rem;
 }
 
-.instagram__image {
+.instagram__images img {
   width: 11rem;
   height: 11rem;
-}
-
-.instagram__image--1 {
-  background: url("../assets/images/common/staircase-flowers.jpg") no-repeat
-    center center/cover var(--image-placeholder);
-}
-
-.instagram__image--2 {
-  background: url("../assets/images/common/bridesmaids-white.jpg") no-repeat
-    center center/cover var(--image-placeholder);
-}
-
-.instagram__image--3 {
-  background: url("../assets/images/common/table-setting-orange.jpg") no-repeat
-    center center/cover var(--image-placeholder);
-}
-
-.instagram__image--4 {
-  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat
-    center center/cover var(--image-placeholder);
-}
-
-.instagram__image--5 {
-  background: url("../assets/images/common/pastel-flowers-fountain.jpg")
-    no-repeat center center/cover var(--image-placeholder);
-}
-
-.instagram__image--6 {
-  background: url("../assets/images/common/colourful-flowers-chairs.jpg")
-    no-repeat center center/cover var(--image-placeholder);
+  object-fit: cover;
 }
 
 /* Footer */
