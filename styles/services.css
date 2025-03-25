@@ -110,6 +110,46 @@ span.extra-large-heading::after {
   padding-bottom: 2.9rem;
 }
 
+/* Animation */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Start hidden */
+.process__steps-image,
+.process__steps-text {
+  opacity: 0;
+}
+
+/* Animate image from left */
+.process__steps-image.animate {
+  animation: fadeInLeft 3s forwards ease;
+}
+
+/* Animate text from right */
+.process__steps-text.animate {
+  animation: fadeInRight 3s forwards ease;
+}
+
+
 /* Testimonials */
 .testimonials {
   display: flex;
@@ -297,6 +337,7 @@ span.extra-large-heading::after {
     column-count: 1;
   }
 
+  /* Steps */
   .process__steps {
     width: 70%;
     flex-direction: column;
