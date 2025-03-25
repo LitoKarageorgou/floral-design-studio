@@ -67,6 +67,29 @@
 
 .values__value {
   padding: 2rem 2rem;
+  opacity: 0;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Staggered animation for each column */
+.values__value:nth-child(1).animate {
+  animation: slideInLeft 0.5s 0s forwards ease;
+}
+.values__value:nth-child(2).animate {
+  animation: slideInLeft 0.5s 0.2s forwards ease;
+}
+.values__value:nth-child(3).animate {
+  animation: slideInLeft 0.5s 0.4s forwards ease;
 }
 
 .values__value h3 {
