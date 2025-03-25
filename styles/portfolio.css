@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  background: url("../assets/images/portfolio/hero.jpg") no-repeat center center/cover var(--image-placeholder);
+  background: url("../assets/images/portfolio/chairs-pastel-flowers.jpg") no-repeat center center/cover var(--image-placeholder);
   background-attachment: fixed;
 }
 
@@ -149,7 +149,6 @@
 .cta {
   background: url("../assets/images/portfolio/white-bouquets.png") no-repeat
     center center/cover var(--image-placeholder);
-  background-attachment: fixed;
 }
 
 /* Tablet styles */

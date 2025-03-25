@@ -32,8 +32,8 @@ const testimonials = [
           <br /><br />
 
         — James & Eleanor Whitmore`,
-        image1: "../assets/images/index/couple-kissing.jpg",
-        image2: "../assets/images/common/staircase-flowers.jpg"
+        image1: "../assets/images/common/staircase-flowers.jpg",
+        image2: "../assets/images/index/couple-kissing.jpg"
     },
     {
         title: `"Astonishingly creative floral designs that brought joy to our celebration."`,

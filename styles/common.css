@@ -333,13 +333,13 @@ ul {
 
 /* Call to Action */
 .cta {
-  background: var(--tetriary-color);
   height: 60vh;
+  background: var(--tetriary-color);
+  color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  color: var(--secondary-color);
 }
 
 .cta__wrap {
@@ -347,7 +347,7 @@ ul {
   left: 21%;
   top: 35%;
   background-color: #3d3d3d60;
-  padding: 2rem;
+  padding: 2.2rem;
 }
 
 .cta__wrap h2 {
