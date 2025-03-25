@@ -225,7 +225,8 @@ ul {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) no-repeat
+    center/cover;
   z-index: -1;
   opacity: 1;
 }
@@ -289,6 +290,14 @@ ul {
 .arrow-button img {
   width: 1.9rem;
   filter: invert(80%);
+}
+
+.form-button {
+  display: inline-block;
+  font-family: var(--font-body);
+  background-color: var(--primary-font-color);
+  border: none;
+  color: white;
 }
 
 /* Featured */
@@ -385,8 +394,8 @@ ul {
 }
 
 .instagram__image--1 {
-  background: url("../assets/images/common/staircase-flowers.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/staircase-flowers.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 .instagram__image--2 {
@@ -395,22 +404,23 @@ ul {
 }
 
 .instagram__image--3 {
-  background: url("../assets/images/common/table-setting-orange.jpg") no-repeat center center/cover var(--image-placeholder);
-}
-
-.instagram__image--4 {
-  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat center
-    center/cover var(--image-placeholder);
-}
-
-.instagram__image--5 {
-  background: url("../assets/images/common/pastel-flowers-fountain.jpg") no-repeat
+  background: url("../assets/images/common/table-setting-orange.jpg") no-repeat
     center center/cover var(--image-placeholder);
 }
 
+.instagram__image--4 {
+  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat
+    center center/cover var(--image-placeholder);
+}
+
+.instagram__image--5 {
+  background: url("../assets/images/common/pastel-flowers-fountain.jpg")
+    no-repeat center center/cover var(--image-placeholder);
+}
+
 .instagram__image--6 {
-  background: url("../assets/images/common/colourful-flowers-chairs.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/colourful-flowers-chairs.jpg")
+    no-repeat center center/cover var(--image-placeholder);
 }
 
 /* Footer */
@@ -541,12 +551,7 @@ ul {
 }
 
 .footer__newsletter button {
-  padding: 0.4rem;
-  color: white;
-  background-color: var(--primary-font-color);
-  border: none;
   height: 1.8rem;
-  font-family: var(--font-body);
 }
 
 /* Row 2 */

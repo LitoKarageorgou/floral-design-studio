@@ -13,36 +13,42 @@ const closeButton = modal.querySelector('.contact-modal__close');
 
 // Full name validation
 function validateFullname() {
-    const fullname = contactForm.fullname.value.trim();
+    const fullnameValue = contactForm.fullname.value.trim();
     const errorMessage = document.getElementById('full-name-error');
 
+    contactForm.fullname.classList.remove('error'); 
+
     // Check if fullname is empty
-    if (fullname === "") {
+    if (fullnameValue === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.fullname.classList.add('error');
         return false;
     }
 
     // Check length requirements
-    if (fullname.length < 3 || fullname.length > 50) {
+    if (fullnameValue.length < 3 || fullnameValue.length > 50) {
         errorMessage.textContent = "Full name must be between 3 and 50 characters long.";
         errorMessage.classList.add('visible');
+        contactForm.fullname.classList.add('error');
         return false;
     }
 
     // Check if fullname contains only letters and spaces
     const lettersAndSpacesPattern = /^[a-zA-Z\u0370-\u03FF\s]+$/;
-    if (!lettersAndSpacesPattern.test(fullname)) {
+    if (!lettersAndSpacesPattern.test(fullnameValue)) {
         errorMessage.textContent = "Full name must contain only letters and spaces.";
         errorMessage.classList.add('visible');
+        contactForm.fullname.classList.add('error');
         return false;
     }
 
     // Check if fullname contains at least two words
-    const words = fullname.split(' ');
+    const words = fullnameValue.split(' ');
     if (words.length < 2) {
         errorMessage.textContent = "Full name must contain at least two words.";
         errorMessage.classList.add('visible');
+        contactForm.fullname.classList.add('error');
         return false;
     }
 
@@ -53,21 +59,25 @@ function validateFullname() {
 
 // Email validation
 function validateEmail() {
-    const email = contactForm.email.value.trim();
+    const emailValue = contactForm.email.value.trim();
     const errorMessage = document.getElementById('email-error');
 
+    contactForm.email.classList.remove('error'); 
+
     // Check if email is empty
-    if (email === "") {
+    if (emailValue === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.email.classList.add('error');
         return false;
     }
 
     // Check if email is valid
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailPattern.test(email)) {
+    if (!emailPattern.test(emailValue)) {
         errorMessage.textContent = "Email address must be a valid email address (e.g., name@example.com)";
         errorMessage.classList.add('visible');
+        contactForm.email.classList.add('error');
         return false;
     }
 
@@ -78,21 +88,25 @@ function validateEmail() {
 
 // Phone number validation
 function validatePhone() {
-    const phone = contactForm.phone.value.trim();
+    const phoneValue = contactForm.phone.value.trim();
     const errorMessage = document.getElementById('phone-error');
 
+    contactForm.phone.classList.remove('error'); 
+
     // Check if phone is empty
-    if (phone === "") {
+    if (phoneValue === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.phone.classList.add('error');
         return false;
     }
 
     // Check if phone is valid
     const phonePattern = /^(0030|\+30)\s?\d{10}$/;
-    if (!phonePattern.test(phone)) {
+    if (!phonePattern.test(phoneValue)) {
         errorMessage.textContent = "Phone number must start with 0030 or +30, followed by 10 digits.";
         errorMessage.classList.add('visible');
+        contactForm.phone.classList.add('error');
         return false;
     }
 
@@ -105,10 +119,13 @@ function validateDate() {
     const date = contactForm.date.value.trim();
     const errorMessage = document.getElementById('date-error');
 
+    contactForm.date.classList.remove('error'); 
+
     // Check if date is empty
     if (date === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.date.classList.add('error');
         return false;
     }
 
@@ -117,6 +134,7 @@ function validateDate() {
     if (!datePattern.test(date)) {
         errorMessage.textContent = "Date must be between April 2025 and December 2075.";
         errorMessage.classList.add('visible');
+        contactForm.date.classList.add('error');
         return false;
     }
 
@@ -130,10 +148,13 @@ function validateLocation() {
     const location = contactForm.location.value.trim();
     const errorMessage = document.getElementById('location-error');
 
+    contactForm.location.classList.remove('error');
+
     // Check if location is empty
     if (location === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.location.classList.add('error');
         return false;
     }
 
@@ -141,6 +162,7 @@ function validateLocation() {
     if (location.length < 5 || location.length > 100) {
         errorMessage.textContent = "Location must be between 5 and 100 characters long.";
         errorMessage.classList.add('visible');
+        contactForm.location.classList.add('error');
         return false;
     }
 
@@ -154,10 +176,13 @@ function validateReferral() {
     const referral = contactForm.referral.value.trim();
     const errorMessage = document.getElementById('referral-error');
 
+    contactForm.referral.classList.remove('error'); 
+
     // Check if referral is empty
     if (referral === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.referral.classList.add('error');
         return false;
     }
 
@@ -172,10 +197,13 @@ function validateMessage() {
     const message = contactForm.message.value.trim();
     const errorMessage = document.getElementById('message-error');
 
+    contactForm.message.classList.remove('error');
+
     // Check if message is empty
     if (message === "") {
         errorMessage.textContent = "This field is required.";
         errorMessage.classList.add('visible');
+        contactForm.message.classList.add('error');
         return false;
     }
 
@@ -183,6 +211,7 @@ function validateMessage() {
     if (message.length > 500) {
         errorMessage.textContent = "Message must be at most 500 characters long.";
         errorMessage.classList.add('visible');
+        contactForm.message.classList.add('error');
         return false;
     }
 

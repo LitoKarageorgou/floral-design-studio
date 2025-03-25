@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 38.5rem;
+  width: 39rem;
   background-color: var(--tetriary-color);
   text-align: center;
   padding: 3rem;
@@ -71,15 +71,18 @@
   color: var(--primary-font-color);
 }
 
+.contact-form input.error,
+.contact-form textarea.error {
+  border: 1.9px solid #666464a4;
+  padding: 0.5rem;
+}
+
 .contact-form__button {
-  display: inline-block;
   text-transform: uppercase;
   padding: 1rem;
-  color: white;
-  background-color: var(--primary-font-color);
+  margin-top: 0.9rem;
   letter-spacing: 0.2rem;
-  font-size: 0.75rem;
-  border: none;
+  font-size: 0.8rem;
 }
 
 /* Error Message */
@@ -88,6 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.1rem;
 }
 
 .error-message {
@@ -98,7 +102,6 @@
   font-size: 0.7rem;
   letter-spacing: 0.02rem;
   opacity: 0;
-  margin-top: 0.4rem;
 }
 
 .error-message.visible {
@@ -109,8 +112,8 @@
 .contact-form__image {
   width: 17rem;
   height: 24rem;
-  background: url("../assets/images/common/table-setting-white.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/table-setting-white.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 /* Modal  */
