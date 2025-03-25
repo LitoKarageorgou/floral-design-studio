@@ -17,11 +17,6 @@
   letter-spacing: 0.1rem;
 }
 
-h4 {
-  text-transform: uppercase;
-  color: var(--primary-font-color);
-}
-
 h4:first-of-type {
   text-transform: none;
 }

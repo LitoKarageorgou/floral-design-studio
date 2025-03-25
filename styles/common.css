@@ -54,6 +54,11 @@ h3 {
   font-weight: 500;
 }
 
+h4 {
+  text-transform: uppercase;
+  color: var(--primary-font-color);
+}
+
 p,
 a {
   font-family: var(--font-body);
@@ -161,27 +166,17 @@ ul {
 
 .navbar__logo img {
   padding: 1.5rem 0;
-  height: 6.2rem;
+  height: 6.3rem;
   filter: invert(45%);
 }
 
-.navbar__social-and-language select {
-  border: none;
-  color: var(--primary-font-color);
-  font-family: var(--font-heading);
-  font-size: 1.1rem;
-  font-style: italic;
-  padding: 0 0.3rem 0.1rem 0;
-  margin-left: 1.4rem;
-}
-
-.navbar__social-and-language {
+.navbar__social {
   display: flex;
   justify-content: flex-end;
-  gap: 1.15rem;
+  gap: 1.2rem;
 }
 
-.navbar__social-and-language img {
+.navbar__social img {
   height: 1.1rem;
   filter: invert(48%);
 }
@@ -743,10 +738,6 @@ ul {
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     padding-bottom: 1.5rem;
-  }
-
-  .footer__brand-wrap {
-    width: 95%;
   }
 
   .footer__brand-wrap {

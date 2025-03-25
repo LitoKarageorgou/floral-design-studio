@@ -1,5 +1,5 @@
-const lightbox = document.getElementById('imageLightbox');
-const lightboxImg = document.getElementById('expandedImg');
+const lightbox = document.getElementById('image-lightbox');
+const lightboxImg = document.getElementById('expanded-img');
 const captionText = document.getElementById('caption');
 const closeBtn = document.querySelector('.lightbox__close');
 const lightboxGallery = document.getElementById('portfolio__gallery');

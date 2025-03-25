@@ -197,6 +197,7 @@
   opacity: 0;
 }
 
+/* Animation */
 .animate {
   animation: popIn 0.5s forwards ease;
 }

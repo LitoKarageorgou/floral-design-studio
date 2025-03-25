@@ -32,6 +32,7 @@ const testimonials = [
 
 ];
 
+// Create dots based on testimonials length
 testimonials.forEach((testimonial, index) => {
     const dot = document.createElement("span");
     dot.classList.add("dot");
@@ -44,6 +45,7 @@ testimonials.forEach((testimonial, index) => {
     dotsContainer.appendChild(dot);
 });
 
+// Functions
 function updateDots() {
     const dots = document.querySelectorAll(".dot");
     dots.forEach((dot, index) => {
@@ -63,12 +65,12 @@ function nextSlide() {
     showSlide(currentSlide);
 }
 
-// Navigation arrows
+// Navigation arrows event listeners
 arrowForward.addEventListener("click", nextSlide);
 arrowBack.addEventListener("click", () => {
     currentSlide = (currentSlide - 1 + testimonials.length) % testimonials.length;
     showSlide(currentSlide);
 });
 
-// Initialize slider without autoplay
+// Initialize slider
 showSlide(currentSlide);

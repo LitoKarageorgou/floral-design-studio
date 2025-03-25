@@ -269,3 +269,4 @@ Version 1.30.0 - 25-03-2025
 - Polished and finalise code.
 - Updated release notes and next-steps-and-guides.
 - Performed final functionality tests.
+- Verified compatibility with different browsers.

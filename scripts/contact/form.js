@@ -6,7 +6,7 @@ const phone = contactForm.phone;
 const userLocation = contactForm.location;
 const message = contactForm.message;
 const referral = contactForm.referral;
-const modal = document.getElementById('thankYouModal');
+const modal = document.getElementById('thank-you-modal');
 const closeButton = modal.querySelector('.contact-modal__close');
 
 // Functions
@@ -274,10 +274,10 @@ contactForm.addEventListener('submit', function (e) {
             Fullname: ${fullname.value},
             Email: ${email.value},
             Phone: ${phone.value},
-            Date: ${date.value},
-            Location: ${userLocation.value},
-            Message: ${message.value},
-            Referral: ${referral.value}
+            Date of event: ${date.value},
+            Location of event: ${userLocation.value},
+            Referral: ${referral.value},
+            Message: ${message.value}
         `);
 
         showModal();

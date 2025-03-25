@@ -8,6 +8,7 @@ const observerFeatured = new IntersectionObserver((entries, obs) => {
   });
 }, { threshold: 0.5 });
 
+// Observe each logo header
 document.querySelectorAll('.featured__logos h3').forEach(el => {
   observerFeatured.observe(el);
 });

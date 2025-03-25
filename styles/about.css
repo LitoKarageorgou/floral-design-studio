@@ -71,6 +71,7 @@
   opacity: 0;
 }
 
+/* Animation */
 @keyframes slideInLeft {
   0% {
     transform: translateX(-60px);
@@ -82,13 +83,14 @@
   }
 }
 
-/* Staggered animation for each column */
 .values__value:nth-child(1).animate {
   animation: slideInLeft 0.5s 0s forwards ease;
 }
+
 .values__value:nth-child(2).animate {
   animation: slideInLeft 0.5s 0.2s forwards ease;
 }
+
 .values__value:nth-child(3).animate {
   animation: slideInLeft 0.5s 0.4s forwards ease;
 }

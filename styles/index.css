@@ -30,7 +30,7 @@ svg g {
   transform-origin: 0 0;
 }
 
-/* Keyframes for fading */
+/* Animation */
 @keyframes fadeInOut {
   0%,
   100% {
@@ -466,6 +466,7 @@ label {
   opacity: 0;
 }
 
+/* Animation */
 .animate {
   animation: fadeInUp 0.5s forwards;
 }

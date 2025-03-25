@@ -14,15 +14,16 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <!-- JavaScript -->
   <script src="./scripts/common/header-footer.js"></script>
   <script src="./scripts/common/burger-menu.js" defer></script>
   <script src="./scripts/common/back-to-top.js" defer></script>
   <script src="./scripts/common/scroll-reveal-effect.js" defer></script>
-
-  <script src="./scripts/portfolio/portfolio.js" defer></script>
-  <script src="scripts/portfolio/portfolio-lightbox.js" defer></script>
+  <script src="./scripts/portfolio/gallery.js" defer></script>
+  <script src="scripts/portfolio/lightbox.js" defer></script>
 </head>
 
 <body>
@@ -62,22 +63,28 @@
         <div class="instagram__wrap">
           <a href="https://www.instagram.com/" target="_blank">Join us on instagram @instagram</a>
           <div class="instagram__images">
-            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/staircase-flowers.jpg" alt="Instagram image"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/bridesmaids-white.jpg" alt="Instagram image"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/table-setting-orange.jpg" alt="Instagram image"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="/assets/images/common/wedding-white-flowers.jpg" alt="Instagram image"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/pastel-flowers-fountain.jpg" alt="Instagram image"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/colourful-flowers-chairs.jpg" alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/staircase-flowers.jpg"
+                alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/common/bridesmaids-white.jpg"
+                alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                src="./assets/images/common/table-setting-orange.jpg" alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                src="/assets/images/common/wedding-white-flowers.jpg" alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                src="./assets/images/common/pastel-flowers-fountain.jpg" alt="Instagram image"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                src="./assets/images/common/colourful-flowers-chairs.jpg" alt="Instagram image"></a>
           </div>
         </div>
       </section>
-      
+
     </main>
 
-    <!-- Modal -->
-    <div id="imageLightbox" class="lightbox">
+    <!-- Lightbox -->
+    <div id="image-lightbox" class="lightbox">
       <span class="lightbox__close">&times;</span>
-      <img class="lightbox__content" id="expandedImg">
+      <img class="lightbox__content" id="expanded-img">
       <div class="lightbox__caption" id="caption"></div>
     </div>
 

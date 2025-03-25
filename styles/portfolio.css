@@ -14,8 +14,9 @@
 
 .portfolio__select a {
   font-family: var(--font-heading);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 400;
+  color: var(--primary-font-color);
 }
 
 .portfolio__select a:hover {
@@ -30,10 +31,6 @@
 
 .portfolio__select h3 {
   text-transform: uppercase;
-}
-
-.portfolio__select a {
-  color: var(--primary-font-color);
 }
 
 #portfolio__gallery {
@@ -56,7 +53,6 @@
   align-items: center;
 }
 
-/* Portfolio Image Click Animation */
 .portfolio__image {
   width: 100%;
   height: 89%;
@@ -67,9 +63,6 @@
 
 .portfolio__image:hover {
   cursor: pointer;
-}
-
-.portfolio__image:hover {
   transform: scale(1.05);
 }
 
@@ -138,12 +131,12 @@
   text-align: left;
   margin: 0;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 900;
   line-height: 1.6;
   font-family: var(--font-heading);
   letter-spacing: 0.1rem;
-  color: #4d4d4d;
+  color: var(--primary-font-color);
 }
 
 /* Call to Action */

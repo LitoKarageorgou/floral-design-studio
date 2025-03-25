@@ -1,11 +1,10 @@
 const gallery = document.getElementById('portfolio__gallery');
 let portfolioData = [];
 
-// Function to render the gallery
+// Render gallery with provided data
 function renderGallery(data) {
-    gallery.innerHTML = ''; 
+    gallery.innerHTML = '';
     data.forEach(item => {
-        // Create a new card for each item in the portfolio
         const card = document.createElement('div');
         card.classList.add('portfolio__card');
         const img = document.createElement('img');
@@ -20,17 +19,23 @@ function renderGallery(data) {
     });
 }
 
-// Fetch portfolio data from JSON file
-fetch('../data/portfolio.json')
-    .then(response => response.json())
-    .then(data => {
+// // Async function to fetch portfolio data
+async function fetchPortfolio() {
+    try {
+        const response = await fetch('../data/portfolio.json');
+        const data = await response.json();
         portfolioData = data.portfolio;
         renderGallery(portfolioData);
         document.querySelector('.portfolio__select a[data-filter="all"]').classList.add('active');
-    })
-    .catch(err => console.error('Error loading portfolio:', err));
+    } catch (err) {
+        console.error('Error loading portfolio:', err);
+    }
+}
 
-// Add event listeners for filtering
+// Fetch data on load
+fetchPortfolio();
+
+// Event listeners for filtering
 document.querySelectorAll('.portfolio__select a').forEach(a => {
     a.addEventListener('click', (e) => {
         e.preventDefault();

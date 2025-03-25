@@ -8,9 +8,6 @@ const slides = [];
 const startButton = document.querySelector('#start-slideshow');
 const stopButton = document.querySelector('#stop-slideshow');
 const carousel = document.querySelector('.portfolio-carousel');
-//INTENIONALLY COMMENTED OUT
-// const timerInput = document.getElementById('timer'); 
-// const currentDurationDisplay = document.getElementById('current-duration');
 
 // Image URLs
 const imageURLs = [
@@ -50,8 +47,8 @@ clonesAfter.forEach(slide => {
 // Start at the first real slide 
 let index = itemsPerView;
 
-// Reposition the carousel to the current slide index
-function updateSlidePosition() { // Function to reposition the carousel using a transition
+// Reposition the carousel to the current slide index using a transition
+function updateSlidePosition() { 
     const slideWidth = images.children[index]?.getBoundingClientRect().width;
     if (slideWidth) {
         images.style.transform = `translateX(${-slideWidth * index}px)`;
@@ -128,7 +125,10 @@ nextButton.addEventListener('click', () => {
     startButton.style.display = 'block';
 });
 
-//INTENIONALLY COMMENTED OUT
+//INTENIONALLY COMMENTED OUT 
+
+// const timerInput = document.getElementById('timer'); 
+// const currentDurationDisplay = document.getElementById('current-duration');
 
 // // User input timer
 // function updateDurationDisplay(value) {
