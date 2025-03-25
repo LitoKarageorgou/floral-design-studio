@@ -18,8 +18,8 @@ const testimonials = [
         <br /><br />
         
         — Olivia Bennett`,
-        image1: "../assets/images/index/line.jpg",
-        image2: "../assets/images/index/wreath.jpg"
+        image1: "../assets/images/index/bridesmaids-pink.jpg",
+        image2: "../assets/images/index/pink-bouquet.jpg"
     },
     {
         title: `"Florience brought our vision to life with unmatched elegance. Their florals set the perfect tone for our celebration."`,
@@ -32,8 +32,8 @@ const testimonials = [
           <br /><br />
 
         — James & Eleanor Whitmore`,
-        image1: "../assets/images/index/blue-flower-fullsize.jpg",
-        image2: "../assets/images/index/bouquet2.jpg"
+        image1: "../assets/images/index/couple-kissing.jpg",
+        image2: "../assets/images/common/staircase-flowers.jpg"
     },
     {
         title: `"Astonishingly creative floral designs that brought joy to our celebration."`,
@@ -42,8 +42,8 @@ const testimonials = [
         <br /><br />
         
         — Martin & Sophia Ramirez"`,
-        image1: "../assets/images/index/blue-flower-fullsize.jpg",
-        image2: "../assets/images/index/wreath.jpg"
+        image1: "../assets/images/index/hot-pink-arch-wedding.jpg",
+        image2: "../assets/images/index/hot-pink-arch.jpg"
     }
 ];
 

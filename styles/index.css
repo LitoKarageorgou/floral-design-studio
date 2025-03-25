@@ -138,15 +138,20 @@ svg g {
 
 /* Hero Section */
 .hero {
-  background: url("../assets/images/index/blue-flower-photoshoped.jpg")
-    no-repeat center 64.6% / cover var(--image-placeholder);
   height: 75vh;
+  background: url("../assets/images/index/colorful-arch.jpg") no-repeat center
+    center/cover var(--image-placeholder);
+}
+
+.hero::before {
+  opacity: 0;
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 500;
   text-transform: none;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 h1 span {
@@ -154,37 +159,15 @@ h1 span {
 }
 
 .hero__text {
-  padding: 2rem 3rem;
+  padding: 3rem;
   width: 40%;
+  background-color: #00000052;
 }
 
 .hero .button {
   margin-top: 2rem;
   color: var(--primary-font-color);
 }
-
-/* Horizontal lines */
-/* .hero .button::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 10rem;
-    height: 1px;
-    transform: translate(-160%, 500%);
-    background-color: var(--tetriary-color);
-    vertical-align: middle;
-}
-
-.hero .button::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 10rem;
-    height: 1px;
-    transform: translate(60%, 500%);
-    background-color: var(--tetriary-color);
-    vertical-align: middle;
-} */
 
 /* Website Introduction */
 .intro__text {
@@ -234,7 +217,7 @@ h1 span {
 }
 
 .portfolio-carousel__slide img {
-  height: 35rem;
+  height: 34rem;
   width: 100%;
   max-width: 23rem;
   display: block;
@@ -383,7 +366,7 @@ label {
 }
 
 .services__image.services__image--weddings {
-  background: url("../assets/images/index/bouquet2.jpg")
+  background: url("../assets/images/index/half-colourful-arch.jpg")
     var(--image-placeholder) no-repeat center center/cover;
   justify-self: start;
 }
@@ -396,9 +379,9 @@ label {
 }
 
 .services__image.services__image--events {
-  background: url("../assets/images/index/line.jpg") var(--image-placeholder)
+  background: url("../assets/images/index/blue-flowers-staircase.jpg") var(--image-placeholder)
     no-repeat center center/cover;
-  justify-self: end;
+    justify-self: end;
 }
 
 .services__text--events {
@@ -435,18 +418,18 @@ label {
 }
 
 .about__image--1 {
-  grid-column: 2 / span 8;
+  grid-column: 2 / span 9;
   grid-row: 1 / span 7;
-  z-index: 1;
-  background: url("../assets/images/index/line.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  z-index: 2;
+  background: url("../assets/images/common/florist.jpg")
+    no-repeat center center/cover var(--image-placeholder);
 }
 
 .about__image--2 {
-  grid-column: 8 / span 8;
+  grid-column: 8 / span 9;
   grid-row: 6 / span 7;
-  z-index: 2;
-  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+  z-index: 1;
+  background: url("../assets/images/index/flowers-blured.jpg") no-repeat
     center center/cover #4e4d4d;
 }
 
@@ -454,7 +437,7 @@ label {
   grid-column: 4 / span 6;
   grid-row: 12 / span 5;
   z-index: 3;
-  background: url("../assets/images/index/wreath.jpg") no-repeat center
+  background: url("../assets/images/common/florist-arch.jpg") no-repeat center
     center/cover #5a5858;
 }
 
@@ -620,7 +603,7 @@ label {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg") no-repeat
     center 50% / cover var(--image-placeholder);
   height: 60vh;
 
@@ -709,6 +692,11 @@ label {
   }
 
   /* Weddings */
+  .services__image--weddings {
+    background: url("../assets/images/services/bride-and-groom-arch.jpg") center
+      center/cover var(--image-placeholder);
+  }
+
   .services__container--weddings {
     padding-bottom: 7rem;
   }

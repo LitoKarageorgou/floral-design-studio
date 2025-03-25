@@ -1,72 +1,72 @@
 [
   {
-    "image": "./assets/images/index/bouquet2.jpg",
+    "image": "./assets/images/portfolio/colourful-flower-arch.jpg",
     "alt": "A bouquet of flowers",
-    "description": "A magical garden wedding with lush floral arrangements",
+    "description": "A magical colorful wedding with a flower arch",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
+    "image": "./assets/images/common/staircase-flowers.jpg",
     "alt": "A bouquet of flowers",
-    "description": "Elegant decor for a high-profile corporate event",
+    "description": "A magical garden wedding with lush floral arrangements",
     "label": "event"
   },
   {
-    "image": "./assets/images/index/bouquet2.jpg",
+    "image": "./assets/images/common/wedding-arch.jpg",
     "alt": "A bouquet of flowers",
     "description": "A serene seaside wedding set against a pastel sunset",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/index/bouquet2.jpg",
+    "image": "./assets/images/portfolio/italian-villa.png",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/index/bouquet2.jpg",
+    "image": "./assets/images/portfolio/mansion.jpg",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
+    "image": "./assets/images/common/venue-table-luxury.jpg",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "event"
   },
   {
-    "image": "./assets/images/index/bouquet2.jpg",
+    "image": "./assets/images/common/bridesmaids-white.jpg",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
+    "image": "./assets/images/portfolio/blue-flowers-vase.jpg",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "event"
   },
   {
-   "image": "./assets/images/index/bouquet2.jpg",
-   "alt": "A bouquet of flowers",
+    "image": "./assets/images/common/pastel-flowers-chairs.jpg",
+    "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "wedding"
   },
   {
-    "image": "./assets/images/index/wreath.jpg",
+    "image": "./assets/images/common/blue-flowers-staircase-sculpture.jpg",
+    "alt": "A bouquet of flowers",
+    "description": "Dynamic atmosphere for a product launch event",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/portfolio/yellow-flowers-chairs.jpg",
+    "alt": "A bouquet of flowers",
+    "description": "Dynamic atmosphere for a product launch event",
+    "label": "event"
+  },
+  {
+    "image": "./assets/images/portfolio/pink-orange-bouquet.jpg",
     "alt": "A bouquet of flowers",
     "description": "Dynamic atmosphere for a product launch event",
     "label": "event"

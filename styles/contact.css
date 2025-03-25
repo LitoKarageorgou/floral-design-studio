@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+  background: url("../assets/images/contact/white-flower-blured.jpg") no-repeat
     center 60% / cover var(--image-placeholder);
   background-attachment: fixed;
 }
@@ -109,7 +109,7 @@
 .contact-form__image {
   width: 17rem;
   height: 24rem;
-  background: url("../assets/images/index/wreath.jpg") no-repeat center
+  background: url("../assets/images/common/table-setting-white.jpg") no-repeat center
     center/cover var(--image-placeholder);
 }
 

@@ -9,7 +9,7 @@ span {
 }
 
 .hero {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg") no-repeat
     center 68% / cover var(--image-placeholder);
 }
 
@@ -42,8 +42,7 @@ span {
 .weddings__image {
   height: 42rem;
   width: 32rem;
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat center center/cover var(--image-placeholder);
 }
 
 /* Process */
@@ -80,8 +79,11 @@ span {
 .process__steps-image {
   height: 50rem;
   width: 35rem;
-  background: url("../assets/images/index/blue-flower-fullsize.jpg") no-repeat
+  background: url("../assets/images/services/flower-arch-indoors.png") no-repeat
     center center/cover var(--image-placeholder);
+  position: relative;
+  z-index: 0;
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
 }
 
 .process__steps-text {
@@ -89,9 +91,10 @@ span {
 }
 
 span.extra-large-heading {
-  transform: translate(-150%, -15%);
+  transform: translate(-150%, -10%);
   font-weight: 300;
   font-size: 4.8rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 span.extra-large-heading::after {
@@ -99,7 +102,7 @@ span.extra-large-heading::after {
   display: inline-block;
   vertical-align: middle;
   width: 3rem;
-  border-bottom: 0.11rem solid;
+  border-bottom: 0.12rem solid;
   margin-left: 0.5rem;
 }
 
@@ -201,19 +204,19 @@ span.extra-large-heading::after {
 
 /* Corpotate Events & Galas */
 .section__image-galas {
-  background: url("../assets/images/index/wreath.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/venue-table-luxury.jpg")
+    no-repeat center center/cover var(--image-placeholder);
 }
 
 /* PR Events */
 .section__image-pr {
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/common/blue-flowers-staircase-sculpture.jpg")
+    no-repeat center center/cover var(--image-placeholder);
 }
 
 /* Private dinners */
 .section__image-dinners {
-  background: url("../assets/images/index/line.jpg") no-repeat center
+  background: url("../assets/images/services/dinner-woman.png") no-repeat center
     center/cover var(--image-placeholder);
 }
 
@@ -239,7 +242,7 @@ span.extra-large-heading::after {
 
 /* CTA */
 .cta {
-  background: url("../assets/images/index/wreath.jpg") no-repeat center
+  background: url("../assets/images/services/yellow-table-setting.jpg") no-repeat center
     center/cover var(--image-placeholder);
   color: var(--secondary-font-color);
   /* Parallax Scroll Effect */
@@ -457,7 +460,7 @@ span.extra-large-heading::after {
   .section {
     width: 84%;
     padding: 0;
-    gap: 2.rem;
+    gap: 2rem;
     flex-direction: column;
     align-items: flex-start;
   }

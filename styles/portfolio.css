@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero {
-  background: url("../assets/images/index/bouquet2.jpg") no-repeat
-    center 56% / cover var( --image-placeholder);
+  background: url("../assets/images/portfolio/hero.jpg") no-repeat center center/cover var(--image-placeholder);
+  background-attachment: fixed;
 }
 
 /* Portfolio */
@@ -14,7 +14,7 @@
 
 .portfolio__select a {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: 1.4rem;
   font-weight: 400;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .portfolio__select a.active {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   color: #575756;
 }
@@ -48,8 +48,8 @@
 }
 
 .portfolio__card {
-  height: 31rem;
-  width: 19.5rem;
+  height: 29rem;
+  width: 19rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,6 +61,8 @@
   width: 100%;
   height: 89%;
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
+  object-position: center;
 }
 
 .portfolio__image:hover {
@@ -72,7 +74,7 @@
 }
 
 .portfolio__card p {
-  width: 85%;
+  width: 90%;
   text-align: left;
   margin: auto;
   margin-top: 1rem;
@@ -90,7 +92,7 @@
   transition: opacity 0.3s ease-in-out;
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ffffffe3;
   z-index: 1000;
 }
 
@@ -116,7 +118,7 @@
   position: absolute;
   top: 1.8rem;
   right: 3.8rem;
-  color: white;
+  color: var(--primary-font-color);
   font-size: 2.7rem;
   cursor: pointer;
 }
@@ -140,13 +142,13 @@
   line-height: 1.6;
   font-family: var(--font-body);
   letter-spacing: 0.1rem;
-  color: white;
+  color: var(--primary-font-color);
 }
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/index/blue-flower-fullsize.jpg")
-    no-repeat center center/cover#dddcdc;
+  background: url("../assets/images/portfolio/white-bouquets.png") no-repeat
+    center center/cover var(--image-placeholder);
   background-attachment: fixed;
 }
 
@@ -176,5 +178,5 @@
   .lightbox {
     display: none !important;
     pointer-events: none;
-}
+  }
 }

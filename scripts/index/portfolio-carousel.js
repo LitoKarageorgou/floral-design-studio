@@ -14,10 +14,10 @@ const carousel = document.querySelector('.portfolio-carousel');
 
 // Image URLs
 const imageURLs = [
-    '../assets/images/index/bouquet2.jpg',
-    '../assets/images/index/wreath.jpg',
-    '../assets/images/index/blue-flower-fullsize.jpg',
-    '../assets/images/index/line.jpg',
+    '../assets/images/common/wedding-arch.jpg',
+    '../assets/images/common/table-setting-white.jpg',
+    '../assets/images/common/pastel-flowers-chairs.jpg',
+    '../assets/images/common/table-setting-orange.jpg',
 ];
 
 // Create carousel slides for each image
