@@ -9,8 +9,8 @@ span {
 }
 
 .hero {
-  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg") no-repeat
-    center 68% / cover var(--image-placeholder);
+  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg")
+    no-repeat center 68% / cover var(--image-placeholder);
 }
 
 /* Weddings */
@@ -42,7 +42,8 @@ span {
 .weddings__image {
   height: 42rem;
   width: 32rem;
-  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat center center/cover var(--image-placeholder);
+  background: url("../assets/images/common/wedding-white-flowers.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 /* Process */
@@ -149,7 +150,6 @@ span.extra-large-heading::after {
   animation: fadeInRight 3s forwards ease;
 }
 
-
 /* Testimonials */
 .testimonials {
   display: flex;
@@ -244,8 +244,8 @@ span.extra-large-heading::after {
 
 /* Corpotate Events & Galas */
 .section__image-galas {
-  background: url("../assets/images/common/venue-table-luxury.jpg")
-    no-repeat center center/cover var(--image-placeholder);
+  background: url("../assets/images/common/venue-table-luxury.jpg") no-repeat
+    center center/cover var(--image-placeholder);
 }
 
 /* PR Events */
@@ -282,8 +282,8 @@ span.extra-large-heading::after {
 
 /* CTA */
 .cta {
-  background: url("../assets/images/services/yellow-table-setting.jpg") no-repeat center
-    center/cover var(--image-placeholder);
+  background: url("../assets/images/services/yellow-table-setting.jpg")
+    no-repeat center center/cover var(--image-placeholder);
   color: var(--secondary-font-color);
   /* Parallax Scroll Effect */
   background-attachment: fixed;
@@ -352,12 +352,12 @@ span.extra-large-heading::after {
   .process__steps-image {
     height: 38rem;
     width: 80%;
-    margin-left: -3rem;
     order: 2;
   }
 
   span.extra-large-heading {
     transform: translate(-135%, -30%);
+    text-shadow: none;
   }
 
   /* Testimonials */
@@ -392,13 +392,13 @@ span.extra-large-heading::after {
   }
 
   .section__image {
-    height: 35rem;
-    width: 65%;
+    height: 37rem;
+    width: 70%;
     order: 1;
   }
 
   .section__text {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0 1rem;
     background-color: unset;
@@ -459,7 +459,10 @@ span.extra-large-heading::after {
   }
 
   .process__description p {
-    margin-bottom: 4rem;
+    column-gap: 4.99rem;
+    line-height: 2;
+    padding: 0rem 0 5rem 0;
+    text-align: left;
   }
 
   .process__steps {

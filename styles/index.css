@@ -143,10 +143,6 @@ svg g {
     center/cover var(--image-placeholder);
 }
 
-.hero::before {
-  opacity: 0;
-}
-
 h1 {
   font-size: 3.5rem;
   font-weight: 500;
@@ -159,9 +155,9 @@ h1 span {
 }
 
 .hero__text {
+  position: relative;
   padding: 3rem;
   width: 40%;
-  background-color: #00000052;
 }
 
 .hero .button {
@@ -171,17 +167,17 @@ h1 span {
 
 /* Website Introduction */
 .intro__text {
-  width: 45.5%;
+  width: 46%;
   margin: auto;
-  text-align: center;
-  line-height: 2.1;
-  text-transform: uppercase;
+  text-align: left;
 }
 
 .intro__text p {
   font-size: 0.75rem;
-  letter-spacing: 0.18rem;
+  letter-spacing: 0.15rem;
+  font-size: 1.1rem;
   font-weight: 400;
+  font-family: var(--font-heading);
 }
 
 /* Portfolio Overview */
@@ -381,7 +377,7 @@ label {
 .services__image.services__image--events {
   background: url("../assets/images/index/blue-flowers-staircase.jpg") var(--image-placeholder)
     no-repeat center center/cover;
-    justify-self: end;
+  justify-self: end;
 }
 
 .services__text--events {
@@ -421,16 +417,16 @@ label {
   grid-column: 2 / span 9;
   grid-row: 1 / span 7;
   z-index: 2;
-  background: url("../assets/images/common/florist.jpg")
-    no-repeat center center/cover var(--image-placeholder);
+  background: url("../assets/images/common/florist.jpg") no-repeat center
+    center/cover var(--image-placeholder);
 }
 
 .about__image--2 {
   grid-column: 8 / span 9;
   grid-row: 6 / span 7;
   z-index: 1;
-  background: url("../assets/images/index/flowers-blured.jpg") no-repeat
-    center center/cover #4e4d4d;
+  background: url("../assets/images/index/flowers-blured.jpg") no-repeat center
+    center/cover #4e4d4d;
 }
 
 .about__image--3 {
@@ -603,8 +599,8 @@ label {
 
 /* Call to Action */
 .cta {
-  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg") no-repeat
-    center 50% / cover var(--image-placeholder);
+  background: url("../assets/images/common/blue-flowers-staircase-sculture-landscape.jpg")
+    no-repeat center 50% / cover var(--image-placeholder);
   height: 60vh;
 
   /* Parallax Scroll Effect */

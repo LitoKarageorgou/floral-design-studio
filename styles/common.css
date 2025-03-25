@@ -19,7 +19,7 @@ html {
   --image-placeholder: #7a7975;
   --primary-font-color: #636260;
   --font-heading: "Cormorant Garamond", serif;
-  --font-body: Lato, Roboto, serif;
+  --font-body: Lato, Roboto, sans-serif;
 }
 
 .container {
@@ -115,10 +115,6 @@ ul {
   text-align: center;
   border-bottom: 0.5px solid var(--accent-color);
 }
-/* Image Filtering */
-/* .img-filter{
-  filter: brightness(108%) contrast(90%) saturate(85%) sepia(6%) blur(0.3px);
-} */
 
 /* Colored Container */
 .white-color-container {
@@ -200,7 +196,7 @@ ul {
 .main {
   display: flex;
   flex-direction: column;
-  gap: 6.8rem;
+  gap: 6.5rem;
   padding-bottom: 6.8rem;
 }
 
@@ -225,8 +221,8 @@ ul {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) no-repeat
-    center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25))
+    no-repeat center/cover;
   z-index: -1;
   opacity: 1;
 }
@@ -350,7 +346,7 @@ ul {
   position: absolute;
   left: 21%;
   top: 35%;
-  background-color: #00000060;
+  background-color: #3d3d3d60;
   padding: 2rem;
 }
 
@@ -823,6 +819,15 @@ ul {
     filter: invert(60%);
   }
 
+  /* Call to Action */
+  .cta {
+    align-items: center;
+  }
+
+  .cta__wrap {
+    position: unset;
+  }
+
   /* Footer */
   .footer__wrap {
     width: 80%;
@@ -848,10 +853,6 @@ ul {
   .footer__nav-list {
     border-bottom: 0.1rem solid white;
     padding-bottom: 2rem;
-  }
-
-  /* Navigation */
-  .footer__nav-list {
     gap: 1.3rem;
   }
 
