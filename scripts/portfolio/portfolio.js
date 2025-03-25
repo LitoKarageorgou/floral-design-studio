@@ -24,7 +24,7 @@ function renderGallery(data) {
 fetch('../data/portfolio.json')
     .then(response => response.json())
     .then(data => {
-        portfolioData = data;
+        portfolioData = data.portfolio;
         renderGallery(portfolioData);
         document.querySelector('.portfolio__select a[data-filter="all"]').classList.add('active');
     })

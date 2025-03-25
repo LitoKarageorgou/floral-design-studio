@@ -397,7 +397,7 @@ label {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   margin: auto;
 }
 

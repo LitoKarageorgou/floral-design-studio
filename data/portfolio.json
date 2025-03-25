@@ -1,74 +1,76 @@
-[
-  {
-    "image": "./assets/images/portfolio/colourful-flower-arch.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "A magical colorful wedding with a flower arch",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/common/staircase-flowers.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "A magical garden wedding with lush floral arrangements",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/common/wedding-arch.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "A serene seaside wedding set against a pastel sunset",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/portfolio/italian-villa.png",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/portfolio/mansion.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/common/venue-table-luxury.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/common/bridesmaids-white.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/portfolio/blue-flowers-vase.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/common/pastel-flowers-chairs.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "wedding"
-  },
-  {
-    "image": "./assets/images/common/blue-flowers-staircase-sculpture.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/portfolio/yellow-flowers-chairs.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  },
-  {
-    "image": "./assets/images/portfolio/pink-orange-bouquet.jpg",
-    "alt": "A bouquet of flowers",
-    "description": "Dynamic atmosphere for a product launch event",
-    "label": "event"
-  }
-]
+{
+  "portfolio": [
+    {
+      "image": "./assets/images/portfolio/colourful-flower-arch.jpg",
+      "alt": "Colorful floral arrangements around a garden fountain.",
+      "description": "A magical outdoor wedding with vibrant florals",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/common/staircase-flowers.jpg",
+      "alt": "Ornate staircase with lush floral decorations",
+      "description": "A fairy-tale surprise anniversary party",
+      "label": "event"
+    },
+    {
+      "image": "./assets/images/common/wedding-arch.jpg",
+      "alt": "Wedding under a lush floral arch",
+      "description": "A dreamy garden wedding with pastel blooms",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/portfolio/italian-villa.png",
+      "alt": "Outdoor wedding at an Italian villa",
+      "description": "An old-world charm Italian villa ceremony",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/portfolio/mansion.jpg",
+      "alt": "Outdoor wedding at mansion",
+      "description": "A fairy-tale wedding in a historic mansion",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/common/venue-table-luxury.jpg",
+      "alt": "Ornate dining room for a corporate event",
+      "description": "A refined corporate gathering in a stately venue",
+      "label": "event"
+    },
+    {
+      "image": "./assets/images/common/bridesmaids-white.jpg",
+      "alt": "Bride and bridesmaids at a wedding",
+      "description": "A chic wedding at a romantic, historic setting",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/portfolio/blue-flowers-vase.jpg",
+      "alt": "Floral arrangement in a grand hall",
+      "description": "A sophisticated brand launch set in a neoclassical museum",
+      "label": "event"
+    },
+    {
+      "image": "./assets/images/common/pastel-flowers-chairs.jpg",
+      "alt": "Pastel floral arrangements at an outdoor wedding",
+      "description": "A romantic ceremony adorned with dreamy pastel blooms",
+      "label": "wedding"
+    },
+    {
+      "image": "./assets/images/common/blue-flowers-staircase-sculpture.jpg",
+      "alt": "Grand staircase with blue floral displays",
+      "description": "A lavish gala in a historic venue",
+      "label": "event"
+    },
+    {
+      "image": "./assets/images/portfolio/yellow-flowers-chairs.jpg",
+      "alt": "Corporate dinner in an ornate room",
+      "description": "A refined corporate event with vibrant floral accents",
+      "label": "event"
+    },
+    {
+      "image": "./assets/images/portfolio/pink-orange-bouquet.jpg",
+      "alt": "Urn with pink and orange flowers",
+      "description": "A high-profile PR event featuring eye-catching florals",
+      "label": "event"
+    }
+  ]
+}
