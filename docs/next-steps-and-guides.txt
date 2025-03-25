@@ -32,7 +32,7 @@ Notes:
 
 Recommented Future Enhancements:
 
-- Expanded Responsive Design: Optimize for a wider range of devices, smaller phones and laptops.
+- Expanded Responsive Design: Optimize for a wider range of devices, including smaller phones and laptops.
 - Accessibility Improvements: Enhance compliance with accessibility standards for greater user inclusivity.
 - Multi-language Support: Add additional language options to reach a broader audience.
 - Enhanced Interactivity: Introduce live chat or chatbot features for instant support.

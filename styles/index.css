@@ -375,8 +375,8 @@ label {
 }
 
 .services__image.services__image--events {
-  background: url("../assets/images/index/blue-flowers-staircase.jpg") var(--image-placeholder)
-    no-repeat center center/cover;
+  background: url("../assets/images/index/blue-flowers-staircase.jpg")
+    var(--image-placeholder) no-repeat center center/cover;
   justify-self: end;
 }
 
@@ -1003,13 +1003,5 @@ label {
   /* Dots */
   .testimonials__dots {
     display: none;
-  }
-}
-
-/* Smaller Phone Styles */
-@media screen and (max-width: 430px) {
-  /* Hero Section */
-  .hero__text {
-    width: 100%;
   }
 }

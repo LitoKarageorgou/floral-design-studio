@@ -9,7 +9,7 @@
     {
       "image": "./assets/images/common/staircase-flowers.jpg",
       "alt": "Ornate staircase with lush floral decorations",
-      "description": "A fairy-tale surprise anniversary party",
+      "description": "A fairytale-like surprise anniversary party",
       "label": "event"
     },
     {
@@ -69,7 +69,7 @@
     {
       "image": "./assets/images/portfolio/pink-orange-bouquet.jpg",
       "alt": "Urn with pink and orange flowers",
-      "description": "A high-profile PR event featuring eye-catching florals",
+      "description": "A high-profile PR event featuring bold florals",
       "label": "event"
     }
   ]

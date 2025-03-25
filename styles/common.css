@@ -852,15 +852,3 @@ ul {
     gap: 2rem;
   }
 }
-
-/* Smaller Phone Styles */
-@media screen and (max-width: 430px) {
-  html {
-    font-size: 13px;
-  }
-
-  /* Hero Section */
-  .hero__text {
-    width: 100%;
-  }
-}

@@ -21,11 +21,11 @@ Version 1.2.0 - 28-12-2024
 
 - Finished Hero Section of Homepage.
 - Added multiple sections to Homepage: Website Intro, Portfolio Overview, Services Overview, and About Us Overview.
-- Started Featured In Section of Homepage.
+- Started Featured Section of Homepage.
 
 Version 1.3.0 - 29-12-2024
 
-- Finished Featured In Section of Homepage.
+- Finished Featured Section of Homepage.
 - Added Testimonials and Newsletter Sections to Homepage.
 - Continued Footer Development.
 - Fixed Homepage container proportions bug.
@@ -79,7 +79,7 @@ Version 1.7.0 - 08-01-2025
 
 Version 1.7.1 - 09-01-2025
 
-- Improved Featured In Section of Homepage.
+- Improved Featured Section of Homepage.
 - Improved Social Media Section and updated it across all pages.
 
 Version 1.7.2 - 10-01-2025
@@ -90,10 +90,10 @@ Version 1.7.2 - 10-01-2025
 
 Version 1.8.0 - 11-01-2025
 
-- Redesigned sections on Homepage: About, Featured In and Testimonials.
+- Redesigned sections on Homepage: About, Featured, and Testimonials.
 - Replaced Newsletter and Social Media Sections with new Instagram Grid Section on Homepage.
 
-Version 1.8.1 - 11-01-2025
+Version 1.8.1 - 12-01-2025
 
 - Edited Portfolio Section images on Homepage.
 - Deleted commented-out sections.
@@ -106,85 +106,166 @@ Version 1.9.0 - 13-01-2025
 - Rewrote About Section on the Homepage using grid layout instead of absolute positioning for better responsiveness.
 
 Version 1.9.1 - 17-01-2025
+
 - Created `global.css` and moved all common styles to it.
 
 Version 1.9.2 - 18-01-2025
+
 - Created `links.txt` and added links to GitHub and Netlify.
 - Redesigned Homepage so that all main sections have the same max-width for better UI/UX.
 
 Version 1.9.3 - 19-01-2025
+
 - Redesigned the rest of the pages to have the same max-width.
 - Added Clients Section to Services Pages and made adjustments to the design.
 - Fixed bugs.
 - Started correcting BEM methodology and Single Source of Truth (SSOT) in the code.
 
 Version 1.9.4 - 20-01-2025
+
 - Finished correcting BEM methodology across all pages.
 - Continued correcting SSOT. 
 - Edited Contact Form.
 
 Version 1.9.5 - 21-01-2025
+
 - Added logo.
 - Added link to Homepage on logo.
 - Added studio name to the title.
 
 Version 1.9.6 - 23-01-2025
-- Added images to: About Page, Homepage, Contact Page, Instagram Grid.
-NOTE: Images are used temporarily without a licence (with trademarks) until the layout is final. 
+
+- Added images to: About Page, Homepage, Contact Page, Instagram Grid. 
 - Added final colors to: Footer, Contact Page, About Page. 
 - Added final font-family to Footer. 
 
 Version 1.9.7 - 25-01-2025
+
 - Changed 'disable' attribute to 'hidden' on Contact Form select input.
 
 Version 1.9.8 - 15-02-2025
+
 - Fixed submit button display bug.
 
 Version 1.10.0 - 28-02-2025
+
 - Redesigned logo.
 - Added button to Homepage Hero Section.
 - Added font-family to headings.
 
 Version 1.11.0 - 29-02-2025
+
 - Added dynamic header and footer components by creating `header.html`, `footer.html`, and `common.js` to load them on every page.
 - Reorganized project and fixed image paths.
 
 Version 1.12.0 - 02-03-2025
+
 - Added carousel functionality to Homepage Portfolio Overview Section.
 
 Version 1.13.0 - 03-03-2025
-- Finished styling and added final text to Homepage Portfolio Overview, Services, About Overview and Featured in sections.
+
+- Finished styling and added final text to Homepage Portfolio Overview, Services, About Overview and Featured sections.
 
 Version 1.14.0 - 04-03-2025
+
 - Added carousel functionality to Homepage Testimonials.
 - Finished styling and added final text to Footer and to Homepage Testimonials, Instagram Grid and CTA Sections.
 
 Version 1.15.0 - 05-03-2025
+
 - Finished styling and added final text to About and Contact Pages.
 
 Version 1.16.0 - 06-03-2025
+
 - Started styling and added final text to Services Page.
 
 Version 1.17.0 - 07-03-2025
+
 - Added carousel functionality to Services Testimononials Section.
 - Finished styling Weddings and Process Sections of Services Page.
 
 Version 1.17.1 - 08-03-2025
+
 - Made accessibility adjustments in fonts, spacing, and sizes for better readability across all pages.
 - Fixed Services Testimonials carousel bug: added defer to script tag.
 
 Version 1.18.1 - 09-03-2025
+
 - Finished styling and adding final text to the remaining sections of Services Page.
 
 Version 1.19.0 - 10-03-2025
-- Add filter functionality to Portfolio Page Gallery.
+
+- Added filter functionality to Portfolio Page Gallery.
 
 Version 1.20.0 - 11-03-2025
-- Add validation to contact form.
 
-Version 1.21.0 - 12-03-2025
-- Make code adjustments for SEO, semantic tags, alt attributes and BEM.
-- Start loader SVG animation.
+- Added validation to contact form.
 
-Version 1.22.0 - 13-03-2025
-- Change loader SVG animation.
+Version 1.20.1 - 13-03-2025
+
+- Made code adjustments for SEO, semantic tags, alt attributes and BEM..
+
+Version 1.21.0 - 14-03-2025
+
+- Started loader SVG animation.
+
+Version 1.22.0 - 15-03-2025
+
+- Finished SVG animation.
+- Added scroll-reveal effect.
+- Fixed layout bugs.
+
+Version 1.23.0 - 16-03-2025
+
+- Added lightbox to porfolio gallery.
+- Started responsive design.
+
+Version 1.24.0 - 17-03-2025
+
+- Added burger menu for smaller devices.
+
+Version 1.25.0 - 18-03-2025
+
+- Added responsive design to Homepage Hero and Website Introduction sections.
+- Fixed burger menu bugs.
+
+Version 1.26.0 - 19-03-2025
+
+- Added responsive design to: 
+  - Loader
+  - Homepage: Portfolio Overview, Services, About, Featured, and Testimonials sections
+  - Footer
+
+Version 1.26.1 - 20-03-2025
+
+- Fixed image paths.
+- Organised code, improved BEM and SSOT.
+
+Version 1.27.0 - 21-03-2025
+
+- Added FAQ and Privacy pages.
+- Improved existing responsive design.
+- Added `next-steps-and-guides.txt`.
+
+Version 1.27.1 - 22-03-2025
+
+- Improved existing responsive styles, standardized font families.
+- Fixed burger menu bugs: add 'important' on the hidden class and position it absolutely on desktop so that it doesn't break the desktop layout.
+- Improved code and layout.
+
+Version 1.28.0 - 23-03-2025
+
+- Made the following pages responsive: FAQ, Privacy, About, Contact, Services, and Portfolio.
+- Improved existing responsive design.
+- Fixed contact form shrinking bug: change opacity instead of display.
+
+Version 1.29.0 - 24-03-2025
+
+- Added final images.
+- Added remaining animations.
+
+Version 1.30.0 - 25-03-2025
+
+- Polished and finalise code.
+- Updated release notes and next-steps-and-guides.
+- Performed final functionality tests.
