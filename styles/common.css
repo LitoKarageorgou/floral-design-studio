@@ -187,6 +187,10 @@ ul {
   display: none;
 }
 
+.responsive-menu {
+  display: none;
+}
+
 /* Main */
 .main {
   display: flex;

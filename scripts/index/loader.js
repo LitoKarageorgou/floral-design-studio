@@ -15,5 +15,5 @@ window.addEventListener('load', () => {
     } else {
       console.warn('Container element not found');
     }
-  }, 1000);
+  }, 2000);
 });
