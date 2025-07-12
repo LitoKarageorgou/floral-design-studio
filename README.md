@@ -38,13 +38,13 @@ The goal was to build a fully-functional, responsive, and accessible multi-page 
 
   Desktop:
   
-- [`Homepage`](./screenshots/desktop/homepage)
-- [`About`](./screenshots/desktop/about)
-- [`Services`](./screenshots/desktop/services)
-- [`Portfolio`](./screenshots/desktop/portfolio)
-- [`Contact`](./screenshots/desktop/contact)
-- [`FAQ`](./screenshots/desktop/FAQ)
-- [`Privacy Policy`](./screenshots/desktop/privacy-policy)
+- [`Homepage`](./screenshots/desktop/homepage.png)
+- [`About`](./screenshots/desktop/about.png)
+- [`Services`](./screenshots/desktop/services.png)
+- [`Portfolio`](./screenshots/desktop/portfolio.png)
+- [`Contact`](./screenshots/desktop/contact.png)
+- [`FAQ`](./screenshots/desktop/FAQ.png)
+- [`Privacy Policy`](./screenshots/desktop/privacy-policy.png)
 
 ## 🚀 Live Demo
 
