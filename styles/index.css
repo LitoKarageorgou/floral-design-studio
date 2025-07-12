@@ -167,7 +167,7 @@ h1 span {
 
 /* Website Introduction */
 .intro__text {
-  width: 46%;
+  width: 45%;
   margin: auto;
   text-align: left;
 }
@@ -1004,5 +1004,20 @@ label {
   /* Dots */
   .testimonials__dots {
     display: none;
+  }
+}
+
+/* Smaller Phone Styles */
+@media screen and (max-width: 410px) {
+  /* Weddings */
+  .services__container--weddings h2 {
+    top: 9%;
+    left: -55%;
+  }
+
+  /* Events */
+  .services__container--events h2 {
+    top: 4%;
+    right: -21.8%;
   }
 }
