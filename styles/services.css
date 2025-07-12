@@ -142,12 +142,12 @@ span.extra-large-heading::after {
 
 /* Animate image from left */
 .process__steps-image.animate {
-  animation: fadeInLeft 2.5s forwards ease;
+  animation: fadeInLeft 2.3s forwards 0.3s ease;
 }
 
 /* Animate text from right */
 .process__steps-text.animate {
-  animation: fadeInRight 2.5s forwards ease;
+  animation: fadeInRight 2.3s forwards 0.3s ease;
 }
 
 /* Testimonials */

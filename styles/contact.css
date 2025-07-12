@@ -199,7 +199,7 @@
 
 /* Animation */
 .animate {
-  animation: popIn 0.5s forwards ease;
+  animation: popIn 0.5s forwards 0.3s ease;
 }
 
 @keyframes popIn {
