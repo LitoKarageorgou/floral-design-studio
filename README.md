@@ -48,7 +48,7 @@ The goal was to build a fully-functional, responsive, and accessible multi-page 
 
 ## 🚀 Live Demo
 
-[🔗 View Live Demo](https://florience.netlify.app/) (best viewed on desktop — recommended window width: 1920px)
+[🔗 View Live Demo](https://florience.netlify.app/) *(best viewed on desktop — viewport width: 1920px, tablet — viewport width: 768px or  mobile — viewport width: 576px)*
 
 ## 👩‍💻 Author
 
