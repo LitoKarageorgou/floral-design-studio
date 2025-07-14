@@ -756,6 +756,10 @@ ul {
   .footer__nav-list li a {
     font-size: 0.8rem;
   }
+
+  #back-to-top {
+  padding: 1.4rem 1.8rem;
+}
 }
 
 /* Larger Phone Styles */
