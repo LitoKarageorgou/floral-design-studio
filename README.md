@@ -34,9 +34,7 @@ The goal was to build a fully-functional, responsive, and accessible multi-page 
 
 ---
 
-## 📸 Screenshots
-
-  Desktop:
+## 📸 Screenshots (Desktop):
   
 - [`Homepage`](./screenshots/desktop/homepage.png)
 - [`About`](./screenshots/desktop/about.png)
@@ -55,4 +53,4 @@ The goal was to build a fully-functional, responsive, and accessible multi-page 
 **[Lito Karageorgou]** – Front-End Developer 
 
 📫 Contact: [lito.karageorgou@yahoo.com]  
-🔗 LinkedIn: [https://www.linkedin.com/in/lito-karageorgou/]
+💼 LinkedIn: [https://www.linkedin.com/in/lito-karageorgou/]
