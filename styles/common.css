@@ -573,10 +573,15 @@ ul {
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
   opacity: 0.5;
+  display: none;
 }
 
 #back-to-top:hover {
   opacity: 1;
+}
+
+#back-to-top.show {
+  display: block;
 }
 
 /* Tablet Styles */
