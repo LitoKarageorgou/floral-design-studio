@@ -8,7 +8,7 @@ A full-featured interactive website created as the final project of my front-end
 
  The site was designed for a fictional floral design studio and includes five main pages (Homepage, About, Services, Portfolio, Contact) and two subordinate pages (FAQ, Privacy Policy) — all custom-built with HTML, CSS, and JavaScript.
 
-The goal was to build a fully-functional, responsive, and accessible multi-page website with real-world features based on a specific technical requirements.
+The goal was to build a fully-functional, responsive, and accessible multi-page website with real-world features based on specific technical requirements.
 
 ---
 
@@ -34,15 +34,11 @@ The goal was to build a fully-functional, responsive, and accessible multi-page 
 
 ---
 
-## 📸 Screenshots (Desktop):
-  
-- [`Homepage`](./screenshots/desktop/homepage.png)
-- [`About`](./screenshots/desktop/about.png)
-- [`Services`](./screenshots/desktop/services.png)
-- [`Portfolio`](./screenshots/desktop/portfolio.png)
-- [`Contact`](./screenshots/desktop/contact.png)
-- [`FAQ`](./screenshots/desktop/FAQ.png)
-- [`Privacy Policy`](./screenshots/desktop/privacy-policy.png)
+## 🎥 Video Preview
+
+[Desktop](demos/florience-desktop-demo.mp4)
+[Tablet](demos/florience-tablet-demo.mp4)
+[Mobile](demos/florience-mobile-demo.mp4)
 
 ## 🚀 Live Demo
 
